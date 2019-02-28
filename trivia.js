@@ -988,6 +988,15 @@ const results = [
   {
     category: "Entertainment: Film",
     type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of these 'Hocus Pocus' stars is a direct descendant of an accused Salem witch?",
+    correct_answer: "Sarah Jessica Parker",
+    incorrect_answer: ["Bette Milder", "Kathy Najimy", "Doug Jones"]
+  },
+  {
+    category: "Entertainment: Film",
+    type: "multiple",
     difficulty: "easy",
     question: "In Big Hero 6, what fictional city is the Big Hero 6 from?",
     correct_answer: "San Fransokyo",
@@ -2053,7 +2062,7 @@ const results = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which student in Yandere Simulator is known for asking irritating and stupid questions?",
+      "Which student in Yandere Simulator is known for asking irritating and stupid question?",
     correct_answer: "Midori Gurin",
     incorrect_answers: ["Kokona Hruka", "Oka Ruto", "Pipi Osu"]
   },
@@ -2798,6 +2807,67 @@ const results = [
     question: "Billy Herrington is from which US state?",
     correct_answer: "New York",
     incorrect_answers: ["Arizona", "California", "Georgia"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Which popstar died like this in the given year?",
+    correct_answer: "Marvin Gaye",
+    incorrect_answers: ["Otis Redding", "Bon Scott", "Jackie Wilson"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Which one of these celebrities believes that leprechauns are real?",
+    correct_answer: "Megan Fox",
+    incorrect_answers: ["Kim Kardasian", "Jessica Simpson", "Mary J. Blige"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Which of these celebrities spent $2.2 million on a solid gold bathtub?",
+    correct_answer: "Mike Tyson",
+    incorrect_answers: ["Elton John", "Mariah Carey", "Madonna"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Chris Kirkpatrick auditioned for which band before forming 'N Sync?",
+    correct_answer: "Backstreet Boys",
+    incorrect_answers: ["New Kids on the Block", "98 Degrees", "Sugar Ray"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Rebel Wilson decided to become an actress after contracting what disease?",
+    correct_answer: "Malaria",
+    incorrect_answers: ["Syphilis", "Tuberculosis", "Emphesyma"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Which of these pop stars has two extra nipples?",
+    correct_answer: "Harry Styles",
+    incorrect_answer: ["Justin Bieber", "Shawn Mendes", "Ed Sheeran"]
+  },
+  {
+    category: "Celebrities",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Ben Stiller's brother-in-law voices which SpongeBob Squarepants character?",
+    correct_answer: "Squidward",
+    incorrect_answer: ["Plankton", "Mr.Krabs", "Patrick"]
   },
   {
     category: "Animals",
