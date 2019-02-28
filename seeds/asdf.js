@@ -17207,6 +17207,1010 @@ const questions = [
       "A chess move",
       "A geometric theorem"
     ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "The seed drill was invented by which British inventor?",
+    correct_answer: "Jethro Tull",
+    incorrect_answers: ["Charles Babbage", "Isaac Newton", "J.J Thomson"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What disease crippled President Franklin D. Roosevelt and led him to help the nation find a cure? ",
+    correct_answer: "Polio",
+    incorrect_answers: ["Cancer", "Meningitis", "HIV"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which king was killed at the Battle of Bosworth Field in 1485? ",
+    correct_answer: "Richard III",
+    incorrect_answers: ["Edward V", "Henry VII", "James I"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What historical event was Tchaikovsky&#039;s 1812 Overture referencing?",
+    correct_answer: "The Napoleonic Wars",
+    incorrect_answers: [
+      "The American War of 1812",
+      "The Russian Revolution",
+      "The Charge of the Light Brigade (Crimean War)"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What number does the Roman numeral &quot;D&quot; stand for?",
+    correct_answer: "500",
+    incorrect_answers: ["100", "1000", "50"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which one of these tanks was designed and operated by the United Kingdom?",
+    correct_answer: "Tog II",
+    incorrect_answers: ["M4 Sherman", "Tiger H1", "T-34"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "On what day did Germany invade Poland?",
+    correct_answer: "September 1, 1939",
+    incorrect_answers: ["December 7, 1941", "June 22, 1941", "July 7, 1937"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which of the following is NOT classified as a Semetic language?",
+    correct_answer: "Sumerian",
+    incorrect_answers: ["Maltese", "Akkadian", "Mandaic"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+    correct_answer: "Battle of Adrianople",
+    incorrect_answers: [
+      "Battle of Thessalonica",
+      "Battle of Pollentia",
+      "Battle of Constantinople"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "In what year was the last natural case of smallpox documented?",
+    correct_answer: "1977",
+    incorrect_answers: ["1982", "1980", "1990"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of the following ancient peoples was NOT classified as Hellenic (Greek)?",
+    correct_answer: "Illyrians",
+    incorrect_answers: ["Dorians", "Achaeans", "Ionians"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What age was King Henry V when he died?",
+    correct_answer: "36",
+    incorrect_answers: ["62", "87", "73"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What was Manfred von Richthofen&#039;s nickname?",
+    correct_answer: "The Red Baron",
+    incorrect_answers: [
+      "The High Flying Ace",
+      "The Blue Serpent ",
+      "The Germany Gunner"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+    correct_answer: "September 11, 1941",
+    incorrect_answers: [
+      "June 15, 1947",
+      "January 15, 1943",
+      "September 2, 1962"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which of these countries was NOT a part of the Soviet Union?",
+    correct_answer: "Afghanistan",
+    incorrect_answers: ["Turkmenistan", "Kazakhstan", "Uzbekistan"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What is the name of the US Navy spy ship which was attacked and captured by North Korean forces in 1968?",
+    correct_answer: "USS Pueblo",
+    incorrect_answers: [
+      "USS North Carolina",
+      "USS Constitution",
+      "USS Indianapolis"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What year did the Battle of Agincourt take place?",
+    correct_answer: "1415",
+    incorrect_answers: ["1463", "1401", "1422"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+    correct_answer: "Richard Neville",
+    incorrect_answers: ["Richard III", "Henry V", "Thomas Warwick"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "When was Adolf Hitler appointed as Chancellor of Germany?",
+    correct_answer: "January 30, 1933",
+    incorrect_answers: [
+      "September 1, 1939",
+      "February 27, 1933",
+      "October 6, 1939"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Bohdan Khmelnytsky was which of the following?",
+    correct_answer: "Leader of the Ukrainian Cossacks",
+    incorrect_answers: [
+      "General Secretary of the Communist Party of the USSR",
+      "Prince of Wallachia",
+      "Grand Prince of Novgorod"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Which one of these rulers did not belong to the Habsburg dynasty?",
+    correct_answer: "Philip V",
+    incorrect_answers: ["Charles V", "Philip II", "Francis Joseph"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Against which country did the Dutch Republic fight the Eighty Years&#039; War?",
+    correct_answer: "Spain",
+    incorrect_answers: ["France", "England", "Portugal"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Who was the Prime Minister of Japan when Japan declared war on the US?",
+    correct_answer: "Hideki Tojo",
+    incorrect_answers: [
+      "Michinomiya Hirohito",
+      "Isoroku Yamamoto",
+      "Fumimaro Konoe"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What nationality was sultan Saladin?",
+    correct_answer: "Kurdish",
+    incorrect_answers: ["Arab", "Egyptian", "Syrian"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+    correct_answer: "John Kay",
+    incorrect_answers: ["James Hargreaves", "Richard Arkwright", "John Deere"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What were the first states to break away from Yugoslavia?",
+    correct_answer: "Slovenia, Croatia",
+    incorrect_answers: [
+      "Macedonia, Montenegro",
+      "Slovenia, Macedonia",
+      "Montenegro, Slovenia"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    correct_answer: "Justinian I",
+    incorrect_answers: ["Constantine IV", "Arcadius", "Theodosius the Great"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What was found in 1946 by two young shepards near a cave?",
+    correct_answer: "Dead Sea Scrolls",
+    incorrect_answers: [
+      "The Blackbeard Chest",
+      "Sheep",
+      "The First Oaxaca Cave Sleeper"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "When did Norway become free from Sweden?",
+    correct_answer: "1905",
+    incorrect_answers: ["1925", "1814", "1834"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "When Christopher Columbus sailed to America, what was the first region he arrived in?",
+    correct_answer: "The Bahamas Archipelago",
+    incorrect_answers: ["Florida", "Isthmus of Panama", "Nicaragua"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following snipers has the highest amount of confirmed kills?",
+    correct_answer: "Simo H&auml;yh&auml;",
+    incorrect_answers: ["Chris Kyle", "Vasily Zaytsev", "Craig Harrison"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was the unofficial name for Germany between 1919 and 1933?",
+    correct_answer: "Weimar Republic",
+    incorrect_answers: [
+      "German Democratic Republic",
+      "Federal Republic of Germany",
+      "Oesterreich "
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which U.S. president took part in the Potsdam Conference, where the Allies reached a peace settlement with Germany?",
+    correct_answer: "Harry S. Truman",
+    incorrect_answers: [
+      "Dwight D. Eisenhower",
+      "Franklin D. Roosevelt",
+      "Herbert Hoover"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "What was the code name for the Allied invasion of Southern France on August 15th, 1944?",
+    correct_answer: "Operation Dragoon",
+    incorrect_answers: [
+      "Operation Overlord",
+      "Operation Market Garden",
+      "Operation Torch"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which Las Vegas casino was originally constructed and operated by mobster Bugsy Siegel?",
+    correct_answer: "The Flamingo",
+    incorrect_answers: ["The MGM Grand", "The Sands", "The Sahara"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "The &quot;Trail of Tears&quot; was a result of which United States President&#039;s Indian Removal Policy?",
+    correct_answer: "Andrew Jackson",
+    incorrect_answers: [
+      "Harry S. Truman",
+      "Martin Van Buren",
+      "John Quincy Adams"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Who was among those killed in the 2010 Smolensk, Russia plane crash tragedy?",
+    correct_answer: "The Polish President",
+    incorrect_answers: ["Pope John Paul II", "Bang-Ding Ow", "Albert Putin"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The United States Army Air Corps became the United States Air Force on what date?",
+    correct_answer: "September 18, 1947",
+    incorrect_answers: [
+      "December 14, 1946",
+      "October 27, 1945",
+      "November 08, 1944"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "In what year did the Berlin Wall fall?",
+    correct_answer: "1989",
+    incorrect_answers: ["1987", "1991", "1993"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Which of the following was not one of Joseph Stalin&#039;s ten blows during World War II?",
+    correct_answer: "Vistula-Oder Offensive",
+    incorrect_answers: [
+      "Crimean Offensive",
+      "Leningrad-Novgorod Offensive",
+      "Operation Bagration"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "When was the People&#039;s Republic of China founded?",
+    correct_answer: "October 1, 1949",
+    incorrect_answers: ["April 3, 1947", "May 7, 1945", "December 6, 1950"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which country gifted the Statue of Liberty to the United States of America?",
+    correct_answer: "France",
+    incorrect_answers: ["Spain", "England", "Germany"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "On which aircraft carrier did the Doolitte Raid launch from on April 18, 1942 during World War II?",
+    correct_answer: "USS Hornet",
+    incorrect_answers: ["USS Enterprise", "USS Lexington", "USS Saratoga"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "When did construction of the Suez Canal finish?",
+    correct_answer: "1869",
+    incorrect_answers: ["1859", "1860", "1850"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Who led the Communist Revolution of Russia?",
+    correct_answer: "Vladimir Lenin",
+    incorrect_answers: ["Joseph Stalin", "Vladimir Putin", "Mikhail Gorbachev"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which of the following was Brazil was a former colony under?",
+    correct_answer: "Portugal",
+    incorrect_answers: ["Spain", "The Netherlands", "France"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the historical name of Sri Lanka?",
+    correct_answer: "Ceylon",
+    incorrect_answers: ["Myanmar", "Colombo", "Badulla"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    correct_answer: "March 25th",
+    incorrect_answers: ["June 1st", "September 25th", "December 1st"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following Presidents of the United States was assassinated?",
+    correct_answer: "William McKinley",
+    incorrect_answers: [
+      "Lyndon Johnson",
+      "Chester Arthur",
+      "Franklin Roosevelt"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Who was the only US President to be elected four times?",
+    correct_answer: "Franklin Roosevelt",
+    incorrect_answers: [
+      "Theodore Roosevelt",
+      "George Washington",
+      "Abraham Lincoln"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which city is the capital of the United States of America?",
+    correct_answer: "Washington D.C",
+    incorrect_answers: ["Seattle", "Albany", "Los Angeles"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "In which city, is the Big Nickel located in Canada?",
+    correct_answer: "Sudbury, Ontario",
+    incorrect_answers: [
+      "Calgary, Alberta",
+      "Halifax, Nova Scotia ",
+      "Victoria, British Columbia"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What is the only country in the world with a flag that doesn&#039;t have four right angles?",
+    correct_answer: "Nepal",
+    incorrect_answers: ["Panama", "Angola", "Egypt"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The Principality of Sealand is an unrecognized micronation off the coast of what country?",
+    correct_answer: "The United Kingdom",
+    incorrect_answers: ["Japan", "Austrailia", "Argentina"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Chile?",
+    correct_answer: "Santiago",
+    incorrect_answers: ["Valpara&iacute;so", "Copiap&oacute;", "Antofagasta"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of Jamaica?",
+    correct_answer: "Kingston",
+    incorrect_answers: ["San Juan", "Port-au-Prince", "Bridgetown"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which is the largest city in Morocco?",
+    correct_answer: "Casablanca",
+    incorrect_answers: ["Rabat", "Fes", "Sale"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "In which English county is Stonehenge?",
+    correct_answer: "Wiltshire",
+    incorrect_answers: ["Somerset", "Cumbria", "Herefordshire"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What are the four corner states of the US?",
+    correct_answer: "Utah, Colorado, Arizona, New Mexico",
+    incorrect_answers: [
+      "Oregon, Idaho, Nevada, Utah",
+      "Kansas, Oklahoma, Arkansas, Louisiana",
+      "South Dakota, Minnesota, Nebraska, Iowa"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "How many federal states does Germany have?",
+    correct_answer: "16",
+    incorrect_answers: ["13", "32", "25"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Australia?",
+    correct_answer: "Canberra",
+    incorrect_answers: ["Sydney", "Melbourne", "Brisbane"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Kuala Lumpur is the capital of which country?",
+    correct_answer: "Malaysia",
+    incorrect_answers: ["Indonesia", "Singapore", "Thailand"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of Jamaica?",
+    correct_answer: "Kingston",
+    incorrect_answers: ["Rio de Janeiro", "Dar es Salaam", "Kano"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "The mountainous Khyber Pass connects which of the two following countries?",
+    correct_answer: "Afghanistan and Pakistan",
+    incorrect_answers: [
+      "India and Nepal",
+      "Pakistan and India",
+      "Tajikistan and Kyrgyzstan"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The following Spanish provinces are located in the northern area of Spain except:",
+    correct_answer: "Murcia",
+    incorrect_answers: ["Asturias", "Navarre", "Le&oacute;n"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "The land of Gotland is located in which European country?",
+    correct_answer: "Sweden",
+    incorrect_answers: ["Denmark", "Norway", "Germany"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following countries does NOT recognize Armenia as an independent country?",
+    correct_answer: "Pakistan",
+    incorrect_answers: ["Iran", "Turkey", "Azerbaijan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "On which continent is the country of Angola located?",
+    correct_answer: "Africa",
+    incorrect_answers: ["South America", "Europe", "Asia"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What African country has Portuguese as its official language?",
+    correct_answer: "Mozambique",
+    incorrect_answers: ["Botswana", "Gabon", "Togo"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of the following languages does NOT use the Latin alphabet?",
+    correct_answer: "Georgian",
+    incorrect_answers: ["Turkish", "Swahili", "Vietnamese"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which of these countries is NOT located in Africa?",
+    correct_answer: "Suriname",
+    incorrect_answers: ["Burkina Faso", "Mozambique", "Algeria"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "The Japanese district Akihabara is also known by what nickname?",
+    correct_answer: "Electric Town",
+    incorrect_answers: ["Moon Walk River", "Otaku Central ", "Big Eyes"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Gibraltar, located just south of the Iberian peninsula, is a territory of which West Europe country?",
+    correct_answer: "United Kingdom",
+    incorrect_answers: ["Spain", "Portugal", "France"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The historical city Timbuktu is located in which West African country?",
+    correct_answer: "Mali",
+    incorrect_answers: ["Senegal", "Niger", "Burkina Faso"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What year is on the flag of the US state Wisconsin?",
+    correct_answer: "1848",
+    incorrect_answers: ["1634", "1783", "1901"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "How many countries does Spain have a land border with?",
+    correct_answer: "5",
+    incorrect_answers: ["2", "3", "4"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Senegal?",
+    correct_answer: "Dakar",
+    incorrect_answers: ["Nouakchott", "Conakry", "Monrovia"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Which is the largest freshwater lake in the world?",
+    correct_answer: "Lake Superior ",
+    incorrect_answers: ["Caspian Sea", "Lake Michigan", "Lake Huron"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of these African countries list &quot;Spanish&quot; as an official language?",
+    correct_answer: "Equatorial Guinea",
+    incorrect_answers: ["Guinea", "Cameroon", "Angola"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the most populous Muslim-majority nation in 2010?",
+    correct_answer: "Indonesia",
+    incorrect_answers: ["Saudi Arabia", "Iran", "Sudan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the official language of Bhutan?",
+    correct_answer: "Dzongkha",
+    incorrect_answers: ["Ladakhi", "Karen", "Groma"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "What is the name of the peninsula containing Spain and Portugal?",
+    correct_answer: "Iberian Peninsula",
+    incorrect_answers: [
+      "European Peninsula",
+      "Peloponnesian Peninsula",
+      "Scandinavian Peninsula"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Harvard University is located in which city?",
+    correct_answer: "Cambridge",
+    incorrect_answers: ["Providence", "New York", "Washington D.C."]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which Canadian province has Charlottetown as its capital?",
+    correct_answer: "Prince Edward Island",
+    incorrect_answers: ["Saskachewan", "Northwest Terrirories", "Ontario"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the name of the Canadian national anthem?",
+    correct_answer: "O Canada",
+    incorrect_answers: [
+      "O Red Maple",
+      "Leaf-Spangled Banner",
+      "March of the Puck Drop"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is Canada&#039;s smallest province?",
+    correct_answer: "Prince Edward Island",
+    incorrect_answers: ["New Brunswick", "Nova Scotia", "Yukon"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the tallest mountain in Canada?",
+    correct_answer: "Mount Logan",
+    incorrect_answers: ["Mont Tremblant", "Whistler Mountain", "Blue Mountain"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    correct_answer: "Grand Banks",
+    incorrect_answers: ["Great Barrier Reef", "Mariana Trench", "Hudson Bay"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "When does Finland celebrate their independence day?",
+    correct_answer: "December 6th",
+    incorrect_answers: ["January 2nd", "November 12th", "February 8th"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of India?",
+    correct_answer: "New Delhi",
+    incorrect_answers: ["Bejing", "Montreal", "Tithi"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What&#039;s the first National Park designated in the United States?",
+    correct_answer: "Yellowstone",
+    incorrect_answers: ["Sequoia ", "Yosemite", "Rocky Mountain"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was the most populous city in the Americas in 2015?",
+    correct_answer: "S&atilde;o Paulo",
+    incorrect_answers: ["New York", "Mexico City", "Los Angeles"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the land connecting North America and South America?",
+    correct_answer: "Isthmus of Panama",
+    incorrect_answers: ["Isthmus of Suez", "Urals", "Australasia"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Which of these cities has a 4&deg; East longitude. ",
+    correct_answer: "Amsterdam",
+    incorrect_answers: ["Rio de Janero", "Toronto", "Hong Kong"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the capital city of Bermuda?",
+    correct_answer: "Hamilton",
+    incorrect_answers: ["Santo Dominigo", "San Juan", "Havana"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of the following countries has a flag featuring a yellow lion wielding a sword on a dark red background?",
+    correct_answer: "Sri Lanka",
+    incorrect_answers: ["Kiribati", "Scotland", "Bhutan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "How many stations does the Central Line have on the London Underground?",
+    correct_answer: "49",
+    incorrect_answers: ["51", "43", "47"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which ocean borders the west coast of the United States?",
+    correct_answer: "Pacific",
+    incorrect_answers: ["Atlantic", "Indian", "Arctic"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "In which country is Tallinn located?",
+    correct_answer: "Estonia",
+    incorrect_answers: ["Finland", "Sweden", "Poland"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "How many independent countries are there within the continent of South America?",
+    correct_answer: "12",
+    incorrect_answers: ["8", "9", "10"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "easy",
+    question:
+      "What celebrity was the victim of an infamous 'wardrobe malfunction' during the 2004 Super Bowl halftime show?",
+    correct_answer: "Janet Jackson",
+    incorrect_answers: ["Mariah Carey", "Madonna", "Lady Gaga"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "medium",
+    question: "Which celebrity is a former firefighter?",
+    correct_answer: "Steve Buscemi",
+    incorrect_answers: ["Dwayne Johnson", "Sean Penn", "Tommy Lee Jones"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "easy",
+    question:
+      "Who did Britney Spears kiss onstage at the 2003 MTV Video Music Awards?",
+    correct_answer: "Madonna",
+    incorrect_answers: ["Eminem", "Justin Bieber", "Justin Timberlake"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "medium",
+    question: "How tall is Ariana Grande?",
+    correct_answer: "5'0",
+    incorrect_answers: ["5'2", "4'10", "5'4"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "medium",
+    question:
+      "which millennial holds the current record for the most streamed song on the Spotify?",
+    correct_answer: "Ed Sheeran",
+    incorrect_answers: ["Drake", "Adele", "Taylor Swift"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "easy",
+    question:
+      "At the 2009 MTV VMA's Taylor Swift was ambushed during her award speech by which rap artist?",
+    correct_answer: "Kanye West",
+    incorrect_answers: ["Eminem", "Gucci Mane", "Jay-Z"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "easy",
+    question: "Which American actor and film maker was born Mark Sinclair?",
+    correct_answer: "Vin Diesel",
+    incorrect_answers: ["Brad Pitt", "Johnny Depp", "Tom Hanks"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "medium",
+    question: "What was the name of Michael Jackson's chimpanzee?",
+    correct_answer: "Bubbles",
+    incorrect_answers: ["Mojo", "Toto", "Guenter"]
+  },
+  {
+    category: "Celebrities",
+    difficulty: "medium",
+    question: "Where was Kanye West born?",
+    correct_answer: "Atlanta, Georgia",
+    incorrect_answers: [
+      "Chicago, Illinois",
+      "Detroit, Michigan ",
+      "Los Angeles, California"
+    ]
   }
 ];
 
