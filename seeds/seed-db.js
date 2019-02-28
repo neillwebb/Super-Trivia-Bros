@@ -5,7 +5,7 @@ const questions = [
     difficulty: "medium",
     question: "Which of the following authors was not born in England? ",
     correct_answer: "Arthur Conan Doyle",
-    incorrect_answers: "Graham Greene"
+    incorrect_answers: ["Graham Greene", "H G Wells", "Arthur C Clarke"]
   }
 ];
 
