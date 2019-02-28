@@ -4451,5 +4451,491 @@ const results = [
       "Which company&#039;s original slogan was &quot;Don&#039;t be evil&quot;?",
     correct_answer: "Google",
     incorrect_answers: ["Apple", "Yahoo", "Microsoft"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "The seed drill was invented by which British inventor?",
+    correct_answer: "Jethro Tull",
+    incorrect_answers: ["Charles Babbage", "Isaac Newton", "J.J Thomson"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "King Henry VIII was the second monarch of which European royal house?",
+    correct_answer: "Tudor",
+    incorrect_answers: ["York", "Stuart", "Lancaster"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What was William Frederick Cody better known as?",
+    correct_answer: "Buffalo Bill",
+    incorrect_answers: ["Billy the Kid", "Wild Bill Hickok", "Pawnee Bill"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What number does the Roman numeral &quot;D&quot; stand for?",
+    correct_answer: "500",
+    incorrect_answers: ["100", "1000", "50"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "In what year did the Wall Street Crash take place?",
+    correct_answer: "1929",
+    incorrect_answers: ["1932", "1930", "1925"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Who was the first explorer to sail to North America?",
+    correct_answer: "Leif Erikson",
+    incorrect_answers: [
+      "Christopher Columbus",
+      "Amerigo Vespucci",
+      "Ferdinand Magellan"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "In what year was the famous 45 foot tall Hollywood sign first erected?",
+    correct_answer: "1923",
+    incorrect_answers: ["1903", "1913", "1933"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which dictator killed the most people?",
+    correct_answer: "Mao Zedong",
+    incorrect_answers: ["Joseph Stalin", "Adolf Hitler", "Kim Il Sung"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The Battle of the Somme in World War I took place in which country?",
+    correct_answer: "France",
+    incorrect_answers: ["Germany", "Italy", "Austria"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "When did Jamaica recieve its independence from England? ",
+    correct_answer: "1962",
+    incorrect_answers: ["1492", "1963", "1987"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which of the following is NOT classified as a Semetic language?",
+    correct_answer: "Sumerian",
+    incorrect_answers: ["Maltese", "Akkadian", "Mandaic"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "The Herero genocide was perpetrated in Africa by which of the following colonial nations?",
+    correct_answer: "Germany",
+    incorrect_answers: ["Britain", "Belgium", "France"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "All of the following are names of the Seven Warring States EXCEPT:",
+    correct_answer: "Zhai (翟)",
+    incorrect_answers: ["Zhao (趙)", "Qin (秦)", "Qi (齊)"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following battles is often considered as marking the beginning of the fall of the Western Roman Empire?",
+    correct_answer: "Battle of Adrianople",
+    incorrect_answers: [
+      "Battle of Thessalonica",
+      "Battle of Pollentia",
+      "Battle of Constantinople"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+    correct_answer: "3 to 6 percent",
+    incorrect_answers: [
+      "6 to 10 percent",
+      "1 to 3 percent",
+      "less than 1 percent"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following Assyrian kings did NOT rule during the Neo-Assyrian Empire?",
+    correct_answer: "Shamshi-Adad III",
+    incorrect_answers: ["Shalmaneser V", "Esharhaddon", "Ashur-nasir-pal II"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
+    correct_answer: "Marie Antoinette",
+    incorrect_answers: ["Czar Nicholas II", "Elizabeth I", "Henry VIII"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+    correct_answer: "Guy Fawkes",
+    incorrect_answers: ["Robert Catesby", "Francis Tresham", "Everard Digby"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "On which day did ARPANET suffer a 4 hour long network crash?",
+    correct_answer: "October 27, 1980",
+    incorrect_answers: [
+      "November 21, 1969",
+      "October 29, 1969",
+      "December 9, 1991"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+    correct_answer: "September 11, 1941",
+    incorrect_answers: [
+      "June 15, 1947",
+      "January 15, 1943",
+      "September 2, 1962"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which modern day country is the region that was known as Phrygia in ancient times?",
+    correct_answer: "Turkey",
+    incorrect_answers: ["Syria", "Greece", "Egypt"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "When was Adolf Hitler appointed as Chancellor of Germany?",
+    correct_answer: "January 30, 1933",
+    incorrect_answers: [
+      "September 1, 1939",
+      "February 27, 1933",
+      "October 6, 1939"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Who tutored Alexander the Great?",
+    correct_answer: "Aristotle",
+    incorrect_answers: ["Socrates", "Plato", "King Philip"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Adolf Hitler was born on which date?",
+    correct_answer: "April 20, 1889",
+    incorrect_answers: ["June 12, 1889", "February 6, 1889", "April 16, 1889"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "When was Google founded?",
+    correct_answer: "September 4, 1998",
+    incorrect_answers: [
+      "October 9, 1997",
+      "December 12, 1989",
+      "Feburary 7th, 2000"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "In which year did the Tokyo Subway Sarin Attack occur?",
+    correct_answer: "1995",
+    incorrect_answers: ["2001", "2011", "1991"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Who was the Prime Minister of Japan when Japan declared war on the US?",
+    correct_answer: "Hideki Tojo",
+    incorrect_answers: [
+      "Michinomiya Hirohito",
+      "Isoroku Yamamoto",
+      "Fumimaro Konoe"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the oldest US state?",
+    correct_answer: "Delaware",
+    incorrect_answers: ["Rhode Island", "Maine", "Virginia"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What was Napoleon Bonaparte&#039;s name before he changed it?",
+    correct_answer: "Napoleone di Buonaparte",
+    incorrect_answers: [
+      "Naapolion van Bonijpaart",
+      "Napole&atilde;o do Boaparte",
+      "Napoleona de Buenoparte"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "The Hagia Sophia was commissioned by which emperor of the Byzantine Empire?",
+    correct_answer: "Justinian I",
+    incorrect_answers: ["Constantine IV", "Arcadius", "Theodosius the Great"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What was found in 1946 by two young shepards near a cave?",
+    correct_answer: "Dead Sea Scrolls",
+    incorrect_answers: [
+      "The Blackbeard Chest",
+      "Sheep",
+      "The First Oaxaca Cave Sleeper"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was Genghis Khan&#039;s real name?",
+    correct_answer: "Tem&uuml;jin",
+    incorrect_answers: ["M&ouml;ngke", "&Ouml;gedei", "Tem&uuml;r"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which historical conflict killed the most people?",
+    correct_answer: "World War II",
+    incorrect_answers: [
+      "Taiping Rebellion",
+      "Three Kingdoms War",
+      "Mongol conquests"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was the unofficial name for Germany between 1919 and 1933?",
+    correct_answer: "Weimar Republic",
+    incorrect_answers: [
+      "German Democratic Republic",
+      "Federal Republic of Germany",
+      "Oesterreich "
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "How long did World War II last?",
+    correct_answer: "6 years",
+    incorrect_answers: ["4 years", "5 years", "7 years"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was the total length of the Titanic?",
+    correct_answer: "882 ft | 268.8 m",
+    incorrect_answers: [
+      "759 ft | 231.3 m",
+      "1042 ft | 317.6 m",
+      "825 ft | 251.5 m"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "In which year was Constantinople conquered by the Turks?",
+    correct_answer: "1453",
+    incorrect_answers: ["1435", "1454", "1440"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "How long did the Warsaw Uprising during World War II last?",
+    correct_answer: "63 Days",
+    incorrect_answers: ["20 Days", "55 Days", "224 Days"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "When did the British hand-over sovereignty of Hong Kong back to China?",
+    correct_answer: "1997",
+    incorrect_answers: ["1999", "1841", "1900"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "These two countries held a commonwealth from the 16th to 18th century.",
+    correct_answer: "Poland and Lithuania",
+    incorrect_answers: [
+      "Hutu and Rwanda",
+      "North Korea and South Korea",
+      "Bangladesh and Bhutan"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What was the original name of New York City?",
+    correct_answer: "New Amsterdam",
+    incorrect_answers: ["New London", "New Paris", "New Rome"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "The main objective of the German operation &quot;Case Blue&quot; during World War II was originally to capture what?",
+    correct_answer: "Caucasus",
+    incorrect_answers: ["Stalingrad", "Crimea", "Voronezh"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which country gifted the Statue of Liberty to the United States of America?",
+    correct_answer: "France",
+    incorrect_answers: ["Spain", "England", "Germany"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What was the code name for the German invasion of the Soviet Union in WW2?",
+    correct_answer: "Operation Barbarossa",
+    incorrect_answers: [
+      "Operation Kaiserschlact",
+      "Operation Unthinkable",
+      "Operation Molotov"
+    ]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "What was the last colony the UK ceded marking the end of the British Empire?",
+    correct_answer: "Hong Kong",
+    incorrect_answers: ["India", "Australia", "Ireland"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which country was Josef Stalin born in?",
+    correct_answer: "Georgia",
+    incorrect_answers: ["Russia", "Germany", "Poland"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Who led the Communist Revolution of Russia?",
+    correct_answer: "Vladimir Lenin",
+    incorrect_answers: ["Joseph Stalin", "Vladimir Putin", "Mikhail Gorbachev"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What year did the Vietnam War end?",
+    correct_answer: "1975",
+    incorrect_answers: ["1978", "1967", "1969"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "Before the American colonies switched to the Gregorian calendar in 1752, on what date did their new year start?",
+    correct_answer: "March 25th",
+    incorrect_answers: ["June 1st", "September 25th", "December 1st"]
+  },
+  {
+    category: "History",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following Presidents of the United States was assassinated?",
+    correct_answer: "William McKinley",
+    incorrect_answers: [
+      "Lyndon Johnson",
+      "Chester Arthur",
+      "Franklin Roosevelt"
+    ]
   }
 ];
