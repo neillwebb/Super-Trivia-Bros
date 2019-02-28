@@ -1,0 +1,11 @@
+books: https://opentdb.com/api.php?amount=50&category=10&type=multiple
+movies: https://opentdb.com/api.php?amount=50&category=11&type=multiple
+sports: https://opentdb.com/api.php?amount=50&category=21&type=multiple
+television: https://opentdb.com/api.php?amount=50&category=14&type=multiple
+video games: https://opentdb.com/api.php?amount=50&category=15&type=multiple
+music: https://opentdb.com/api.php?amount=50&category=12&type=multiple
+science and nature: https://opentdb.com/api.php?amount=50&category=17&type=multiple
+general knowledge: https://opentdb.com/api.php?amount=50&category=9&type=multiple
+
+celebrities: https://opentdb.com/api.php?amount=40&category=26&type=multiple
+animals: https://opentdb.com/api.php?amount=30&category=27&type=multiple

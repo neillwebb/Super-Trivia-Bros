@@ -1,4 +1,5 @@
 const db = require("../models");
+<<<<<<< HEAD
 const items = [
   {
     category: "General Knowledge",
@@ -3785,3 +3786,24 @@ const items = [
     incorrect_answers: ["23", "15", "24"]
   }
 ];
+=======
+const questions = [
+  {
+    category: "Entertainment: Books",
+    difficulty: "medium",
+    question: "Which of the following authors was not born in England? ",
+    correct_answer: "Arthur Conan Doyle",
+    incorrect_answers: "Graham Greene"
+  }
+];
+
+db.sequelize.sync({ force: true }).then(function() {
+  db.Question.bulkCreate(questions)
+    .then(function(rows) {
+      console.log("Data successfully added!");
+    })
+    .catch(function(error) {
+      console.log("Error", error);
+    });
+});
+>>>>>>> c30c7790a45f90ddd0af4e42711344ae002cdf84

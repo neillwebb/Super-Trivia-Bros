@@ -1,0 +1,27 @@
+{
+  "name": "Super-Trivia-Bros",
+  "version": "1.0.0",
+  "description": "Old School Arcade-Style Trivia Game",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "seed": "node ./seeds/seed-db.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/neillwebb/Super-Trivia-Bros.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mysql2": "^1.3.6",
+    "sequelize": "^4.42.0"
+  },
+  "bugs": {
+    "url": "https://github.com/neillwebb/Super-Trivia-Bros/issues"
+  },
+  "homepage": "https://github.com/neillwebb/Super-Trivia-Bros#readme"
+}
