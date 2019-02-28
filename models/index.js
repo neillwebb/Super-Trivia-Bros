@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 "use strict";
 
 var fs = require("fs");
@@ -34,3 +35,8 @@ db.sequelize = sequelize;
 db.Sequelize = Sequelize;
 
 module.exports = db;
+=======
+module.exports = {
+  Question: require("./Question")
+};
+>>>>>>> 4eead25a77af5b14f8985a5647f97ade77fed573

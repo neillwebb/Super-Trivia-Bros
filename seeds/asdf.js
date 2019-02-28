@@ -18211,6 +18211,109 @@ const questions = [
       "Detroit, Michigan ",
       "Los Angeles, California"
     ]
+    category: "Animals",
+    difficulty: "medium",
+    question: "What kind of animal is a Komodo dragon? ",
+    correct_answer: "A lizard",
+    incorrect_answers: ["A dragon", "A fish", "A frog"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: "Which bird has the largest wingspan of any living bird? ",
+    correct_answer: "The wandering albatross",
+    incorrect_answers: ["The golden eagle", "The ostrich", "The blue heron"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: "What type of animal is a Mexican hairless? ",
+    correct_answer: "A dog",
+    incorrect_answers: ["A cat", "A mole", "A rat"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: "What kind of creature is a Portuguese man o' war? ",
+    correct_answer: "Jelly fish",
+    incorrect_answers: ["A squid", "A lizard", "A rat"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " How many legs does a lobster have? ",
+    correct_answer: "10",
+    incorrect_answers: ["6", "8", "12"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " How many legs does a lobster have? ",
+    correct_answer: "10",
+    incorrect_answers: ["6", "8", "12"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " What type of animal is a Flemish giant? ",
+    correct_answer: "Rabbit",
+    incorrect_answers: ["Rat", "Sheep", "Dog"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " Which creatures produce gossamer? ",
+    correct_answer: "Spiders",
+    incorrect_answers: ["Silk Worms", "Caterpillars", "Grasshoppers"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " What is a palmiped? ",
+    correct_answer: "A bird with webbed feet",
+    incorrect_answers: ["A mammal that lays eggs", "A flightless bird", "A snake that doesn't lay eggs"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " How many arms do most starfish have? ",
+    correct_answer: "5",
+    incorrect_answers: ["8", "4", "6"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " What is a cabbage white? ",
+    correct_answer: "A butterly",
+    incorrect_answers: ["A swallow", "A pigeon", "A hornet"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " What is the natural habitat of arboreal animals? ",
+    correct_answer: "In Trees",
+    incorrect_answers: ["Underwater", "In grasslands", "Underground"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " What are the male honey bees called that are the only members of the colony allowed to mate with the queen? ",
+    correct_answer: "Drones",
+    incorrect_answers: ["Studs", "Workers", "Adonises"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " Which adjective is used to describe a horse with two different colored patches, usually black and white? ",
+    correct_answer: "Piebald",
+    incorrect_answers: ["Mottled", "Speckled", "Two-toned"]
+  },
+  {
+    category: "Animals",
+    difficulty: "medium",
+    question: " Which is the largest mammal in the world? ",
+    correct_answer: "The Blue Whale",
+    incorrect_answers: ["The African Elephant", "The White Rhino", "The Sperm Whale"]
   }
 ];
 
