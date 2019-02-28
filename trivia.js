@@ -4937,5 +4937,435 @@ const results = [
       "Chester Arthur",
       "Franklin Roosevelt"
     ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which city is the capital of the United States of America?",
+    correct_answer: "Washington D.C",
+    incorrect_answers: ["Seattle", "Albany", "Los Angeles"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What country is not a part of Scandinavia?",
+    correct_answer: "Finland",
+    incorrect_answers: ["Norway", "Sweden", "Denmark"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Peru?",
+    correct_answer: "Lima",
+    incorrect_answers: ["Santiago", "Montevideo", "Buenos Aires"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What is the only country in the world with a flag that doesn&#039;t have four right angles?",
+    correct_answer: "Nepal",
+    incorrect_answers: ["Panama", "Angola", "Egypt"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What country is the second largest in the world by area?",
+    correct_answer: "Canada",
+    incorrect_answers: ["Russia", "China", "United States of America"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "Which of these island countries is located in the Caribbean?",
+    correct_answer: "Barbados",
+    incorrect_answers: ["Fiji", "Maldives", "Seychelles"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Which city is the capital of Switzerland?",
+    correct_answer: "Bern",
+    incorrect_answers: ["Z&uuml;rich", "Frankfurt", "Wien"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Chile?",
+    correct_answer: "Santiago",
+    incorrect_answers: ["Valpara&iacute;so", "Copiap&oacute;", "Antofagasta"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of Jamaica?",
+    correct_answer: "Kingston",
+    incorrect_answers: ["San Juan", "Port-au-Prince", "Bridgetown"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "The prefix Sino- (As in Sino-American) is used to refer to what nationality?",
+    correct_answer: "Chinese",
+    incorrect_answers: ["Japanese", "Russian", "Indian"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "How many federal states does Germany have?",
+    correct_answer: "16",
+    incorrect_answers: ["13", "32", "25"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Kuala Lumpur is the capital of which country?",
+    correct_answer: "Malaysia",
+    incorrect_answers: ["Indonesia", "Singapore", "Thailand"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "All of the following are classified as Finno-Ugric languages EXCEPT:",
+    correct_answer: "Samoyedic",
+    incorrect_answers: ["Hungarian", "Finnish", "Estonian"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following countries is within the Eurozone but outside of the Schengen Area?",
+    correct_answer: "Cyprus",
+    incorrect_answers: ["Malta", "Greece", "Portugal"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+    correct_answer: "Portugal, Ireland, Italy, Greece, Spain",
+    incorrect_answers: [
+      "Poland, Iceland, Italy, Greece, Serbia",
+      "Poland, Iceland, Italy, Greenland, Spain",
+      "Portugal, Iceland, Ireland, Greece, Serbia"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "All of the following are towns/villages in the Pacific Island nation of Kiribati EXCEPT:",
+    correct_answer: "Urutora",
+    incorrect_answers: ["Rungata", "London", "Washington"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of the following countries does NOT recognize Armenia as an independent country?",
+    correct_answer: "Pakistan",
+    incorrect_answers: ["Iran", "Turkey", "Azerbaijan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of the following languages does NOT use the Latin alphabet?",
+    correct_answer: "Georgian",
+    incorrect_answers: ["Turkish", "Swahili", "Vietnamese"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "Where is Earth&#039;s South Magnetic Pole?",
+    correct_answer: "The North Pole",
+    incorrect_answers: ["The South Pole", "The Tropic of Cancer", "The Equator"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "Which of these is NOT an island that is part of the Philippines?",
+    correct_answer: "Java",
+    incorrect_answers: ["Luzon", "Mindanao", "Palawan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which US state has the highest population?",
+    correct_answer: "California",
+    incorrect_answers: ["New York", "Texas", "Florida"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of the US state Nevada?",
+    correct_answer: "Carson City",
+    incorrect_answers: ["Las Vegas", "Henderson", "Reno"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "How many time zones does China have?",
+    correct_answer: "1",
+    incorrect_answers: ["3", "4", "2"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "How many countries are larger than Australia?",
+    correct_answer: "5",
+    incorrect_answers: ["4", "3", "6"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What year is on the flag of the US state Wisconsin?",
+    correct_answer: "1848",
+    incorrect_answers: ["1634", "1783", "1901"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the largest lake in the African continent?",
+    correct_answer: "Lake Victoria",
+    incorrect_answers: ["Lake Tanganyika", "Lake Malawi", "Lake Turkana"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "How many countries border Kyrgyzstan?",
+    correct_answer: "4",
+    incorrect_answers: ["3", "1", "6"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which of these African countries list &quot;Spanish&quot; as an official language?",
+    correct_answer: "Equatorial Guinea",
+    incorrect_answers: ["Guinea", "Cameroon", "Angola"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the nickname for the US state Delaware?",
+    correct_answer: "The First State",
+    incorrect_answers: [
+      "The Fiftieth State",
+      "The Second State",
+      "The Sixteenth State"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "The Hunua Ranges is located in...",
+    correct_answer: "New Zealand",
+    incorrect_answers: ["Nepal", "China", "Mexico"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the most populous Muslim-majority nation in 2010?",
+    correct_answer: "Indonesia",
+    incorrect_answers: ["Saudi Arabia", "Iran", "Sudan"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What tiny principality lies between Spain and France?",
+    correct_answer: "Andorra",
+    incorrect_answers: ["Liechtenstein", "Monaco", "San Marino"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the official German name of the Swiss Federal Railways?",
+    correct_answer: "Schweizerische Bundesbahnen",
+    incorrect_answers: [
+      "Schweizerische Nationalbahnen",
+      "Bundesbahnen der Schweiz",
+      "Schweizerische Staatsbahnen"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the smallest country in South America by area?",
+    correct_answer: "Suriname",
+    incorrect_answers: ["Brazil", "Uruguay", "Chile"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question: "What is the name of the Canadian national anthem?",
+    correct_answer: "O Canada",
+    incorrect_answers: [
+      "O Red Maple",
+      "Leaf-Spangled Banner",
+      "March of the Puck Drop"
+    ]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is Canada&#039;s smallest province?",
+    correct_answer: "Prince Edward Island",
+    incorrect_answers: ["New Brunswick", "Nova Scotia", "Yukon"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "What is the name of the formerly rich fishing grounds off the island of Newfoundland, Canada?",
+    correct_answer: "Grand Banks",
+    incorrect_answers: ["Great Barrier Reef", "Mariana Trench", "Hudson Bay"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the Polish city known to Germans as Danzig?",
+    correct_answer: "Gdańsk",
+    incorrect_answers: ["Warsaw", "Zakopane", "Poznań"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the capital of Seychelles?",
+    correct_answer: "Victoria",
+    incorrect_answers: ["Luanda", "N&#039;Djamena", "Tripoli"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which of the following Japanese islands is the biggest?",
+    correct_answer: "Honshu",
+    incorrect_answers: ["Hokkaido", "Shikoku", "Kyushu"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of Spain?",
+    correct_answer: "Madrid",
+    incorrect_answers: ["Barcelona", "Sevilla", "Toledo"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question:
+      "What&#039;s the first National Park designated in the United States?",
+    correct_answer: "Yellowstone",
+    incorrect_answers: ["Sequoia ", "Yosemite", "Rocky Mountain"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What was the most populous city in the Americas in 2015?",
+    correct_answer: "S&atilde;o Paulo",
+    incorrect_answers: ["New York", "Mexico City", "Los Angeles"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the largest country in the world?",
+    correct_answer: "Russia",
+    incorrect_answers: ["Canada", "China", "United States"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "hard",
+    question:
+      "How many stations does the Central Line have on the London Underground?",
+    correct_answer: "49",
+    incorrect_answers: ["51", "43", "47"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What is the fifth largest country by area?",
+    correct_answer: "Brazil",
+    incorrect_answers: ["United States", "Australia", "India"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "Which ocean borders the west coast of the United States?",
+    correct_answer: "Pacific",
+    incorrect_answers: ["Atlantic", "Indian", "Arctic"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "medium",
+    question: "What continent is the country Lesotho in?",
+    correct_answer: "Africa",
+    incorrect_answers: ["Asia", "South America", "Europe"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question: "What is the capital of South Korea?",
+    correct_answer: "Seoul",
+    incorrect_answers: ["Pyongyang", "Taegu", "Kitakyushu"]
+  },
+  {
+    category: "Geography",
+    type: "multiple",
+    difficulty: "easy",
+    question:
+      "Which small country is located between the borders of France and Spain?",
+    correct_answer: "Andorra",
+    incorrect_answers: ["San Marino", "Vatican City", "Lichtenstein"]
   }
 ];
