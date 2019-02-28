@@ -12,8 +12,11 @@ app.use(express.static(path.join(__dirname, "./public")));
 // require("./routes/api-routes.js")(app);
 // require("./routes/html-routes.js")(app);
 
-db.sequelize.sync().then(function() {
-  app.listen(PORT, function() {
-    console.log("App listening on PORT " + PORT);
-  });
+const MONGODB_URI =
+  process.env.MONGODB_URI || "mongodb://localhost/supertriviabros";
+
+mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
+
+app.listen(PORT, function() {
+  console.log("App listening on PORT " + PORT);
 });
