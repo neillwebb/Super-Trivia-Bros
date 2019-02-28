@@ -31,4 +31,34 @@ module.exports = function(app) {
         res.json(err);
       });
   });
+  app.get("/api/question", function(req, res) {
+    Question.find(req.body)
+      .then(function(data) {
+        res.json(data);
+      })
+      .catch(function(err) {
+        res.json(err);
+      });
+  });
+  app.post("/api/user/:id", function(req, res) {
+    const userId = req.body.userId;
+    const newEntry = {
+      body: req.body.body
+    };
+
+    Score.create(newEntry)
+      .then(function(scoreData) {
+        return User.findOneAndUpdate(
+          { _id: userId },
+          { $push: { scores: scoreData._id } },
+          { new: true }
+        );
+      })
+      .then(function(userData) {
+        res.json(userData);
+      })
+      .catch(function(err) {
+        res.json(err);
+      });
+  });
 };
