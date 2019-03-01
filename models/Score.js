@@ -31,6 +31,12 @@ var ScoreSchema = new Schema({
   },
   GeneralKnowledge: {
     type: Number
+  },
+  History: {
+    type: Number
+  },
+  Geography: {
+    type: Number
   }
 });
 
