@@ -14,6 +14,10 @@ var UserSchema = new Schema({
     trim: true,
     required: "Password is Required"
   },
+  easterEgg: {
+    type: Boolean,
+    default: false
+  },
   scores: [
     {
       type: Schema.Types.ObjectId,
