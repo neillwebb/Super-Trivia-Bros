@@ -7,7 +7,7 @@ mongoose.connect(
 
 const questions = [
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "Which of the following authors was not born in England? ",
@@ -15,7 +15,7 @@ const questions = [
     incorrect_answers: ["Graham Greene", "H G Wells", "Arthur C Clarke"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "Who wrote &quot;Harry Potter&quot;?",
@@ -23,7 +23,7 @@ const questions = [
     incorrect_answers: ["J.R.R. Tolkien", "Terry Pratchett", "Daniel Radcliffe"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -36,7 +36,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -49,7 +49,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -58,7 +58,7 @@ const questions = [
     incorrect_answers: ["Fox", "Frog", "Rabbit"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -71,7 +71,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "Who wrote the novel &quot;Moby-Dick&quot;?",
@@ -83,7 +83,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "How many books are in the Chronicles of Narnia series?",
@@ -91,7 +91,7 @@ const questions = [
     incorrect_answers: ["6", "8", "5"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -100,7 +100,7 @@ const questions = [
     incorrect_answers: ["765 Days", "401 Days", "324 Days"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following is the world's best-selling book?",
@@ -112,7 +112,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -121,7 +121,7 @@ const questions = [
     incorrect_answers: ["Stephen King", "Robert Bloch", "Mary Shelley"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -130,7 +130,7 @@ const questions = [
     incorrect_answers: ["James", "Harold", "Christopher"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -143,7 +143,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "In the Lord of the Rings, who is the father of the dwarf Gimli?",
@@ -151,7 +151,7 @@ const questions = [
     incorrect_answers: ["Thorin Oakenshield", "Bombur", "Dwalin"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "What position does Harry Potter play in Quidditch?",
@@ -159,7 +159,7 @@ const questions = [
     incorrect_answers: ["Beater", "Chaser", "Keeper"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -168,7 +168,7 @@ const questions = [
     incorrect_answers: ["Fagin", "Bull&rsquo;s-eye", "Mr. Fang"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "What is the fourth book of the Old Testament?",
@@ -176,7 +176,7 @@ const questions = [
     incorrect_answers: ["Genesis", "Exodus", "Leviticus"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "Who wrote the novel 'Fear And Loathing In Las Vegas'?",
@@ -188,7 +188,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "Abel Magwitch is a character from which Charles Dickens novel?",
@@ -200,7 +200,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "&quot;Green Eggs And Ham&quot; is a book by which author?",
@@ -208,7 +208,7 @@ const questions = [
     incorrect_answers: ["Beatrix Potter", "Roald Dahl", "A.A. Milne"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -221,7 +221,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "By what name was the author Eric Blair better known?",
@@ -229,7 +229,7 @@ const questions = [
     incorrect_answers: ["Aldous Huxley", "Ernest Hemingway", "Ray Bradbury"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "What was the pen name of novelist, Mary Ann Evans?",
@@ -241,7 +241,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -250,7 +250,7 @@ const questions = [
     incorrect_answers: ["Charles Dickens", "Lewis Carroll", "Oscar Wilde"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -263,7 +263,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "How many Harry Potter books are there?",
@@ -271,7 +271,7 @@ const questions = [
     incorrect_answers: ["8", "5", "6"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -280,7 +280,7 @@ const questions = [
     incorrect_answers: ["J. D. Robb", "Mark Twain", "Lewis Carroll"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "What's Harry Potter's dad's name?",
@@ -288,7 +288,7 @@ const questions = [
     incorrect_answers: ["Joey Potter", "Frank Potter", "Hairy Potter Sr."]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -297,7 +297,7 @@ const questions = [
     incorrect_answers: ["Stephenie Meyer", "Suzanne Collins", "Stephen Chbosky"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -306,7 +306,7 @@ const questions = [
     incorrect_answers: ["Hamlet", "The Great Gatsby", "Peter Pan"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -315,7 +315,7 @@ const questions = [
     incorrect_answers: ["Stephen King", "F. Scott Fitzgerald", "Hunter Fox"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -324,7 +324,7 @@ const questions = [
     incorrect_answers: ["Dracula", "The Thing", "The Invisible Man"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -333,7 +333,7 @@ const questions = [
     incorrect_answers: ["Spike", "Poofy", "Spot"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -342,7 +342,7 @@ const questions = [
     incorrect_answers: ["My Hatred", "My Sadness", "My Desire"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -355,7 +355,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -368,7 +368,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -377,7 +377,7 @@ const questions = [
     incorrect_answers: ["Dilophosaurus", "Tyrannosaurus Rex", "Velociraptor"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -390,7 +390,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "The book &quot;Fahrenheit 451&quot; was written by whom?",
@@ -402,7 +402,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -415,7 +415,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -428,7 +428,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -441,7 +441,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -450,7 +450,7 @@ const questions = [
     incorrect_answers: ["August", "April", "May"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -459,7 +459,7 @@ const questions = [
     incorrect_answers: ["Aerona", "Shiv", "Jamuraa"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -468,7 +468,7 @@ const questions = [
     incorrect_answers: ["Bant", "Llanowar", "Tazeem"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -477,7 +477,7 @@ const questions = [
     incorrect_answers: ["Oscar", "Heath", "Smokey"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -490,7 +490,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -499,7 +499,7 @@ const questions = [
     incorrect_answers: ["Catch-22", "Of Mice and Men", "A Separate Peace"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "What is the name of Eragon's dragon in &quot;Eragon&quot;?",
@@ -507,7 +507,7 @@ const questions = [
     incorrect_answers: ["Glaedr", "Thorn", "Arya"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question: "Which is NOT a book in the Harry Potter Series?",
@@ -519,7 +519,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -528,7 +528,7 @@ const questions = [
     incorrect_answers: ["George Lucas", "George Orwell", "George Eliot"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -537,7 +537,7 @@ const questions = [
     incorrect_answers: ["The Neptune", "The Poseidon ", "The Atlantis"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "What is Hermione Granger's middle name?",
@@ -545,7 +545,7 @@ const questions = [
     incorrect_answers: ["Jane", "Emma", "Jo"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "What is Ron Weasley's middle name?",
@@ -553,7 +553,7 @@ const questions = [
     incorrect_answers: ["Arthur", "John", "Dominic"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -562,7 +562,7 @@ const questions = [
     incorrect_answers: ["Joseph Conrad", "John Buchan", "Graham Greene"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "In the &quot;The Hobbit&quot;, who kills Smaug?",
@@ -570,7 +570,7 @@ const questions = [
     incorrect_answers: ["Bilbo Baggins", "Gandalf the Grey", "Frodo"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "The novel &quot;Jane Eyre&quot; was written by what author? ",
@@ -578,7 +578,7 @@ const questions = [
     incorrect_answers: ["Emily Bront&euml;", "Jane Austen", "Louisa May Alcott"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -587,7 +587,7 @@ const questions = [
     incorrect_answers: ["George Orwell", "Mark Twain ", "Harper Lee"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -600,7 +600,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -609,7 +609,7 @@ const questions = [
     incorrect_answers: ["Fletcher Christian", "Jay Gatsby", "Randall Flagg"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -622,7 +622,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -631,7 +631,7 @@ const questions = [
     incorrect_answers: ["Loving everyone around you", "Chocolate", "Death"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these book series is by James Patterson?",
@@ -643,7 +643,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -652,7 +652,7 @@ const questions = [
     incorrect_answers: ["The Outsiders", "The Mafia", "The Socs"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following is NOT a work done by Shakespeare?",
@@ -660,7 +660,7 @@ const questions = [
     incorrect_answers: ["Measure For Measure", "Titus Andronicus", "Cymbeline"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -673,7 +673,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -682,7 +682,7 @@ const questions = [
     incorrect_answers: ["Beth", "Jo", "Meg"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -691,7 +691,7 @@ const questions = [
     incorrect_answers: ["Otaria", "Terisiare", "Shiv"]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -704,7 +704,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Books",
+    category: "Books",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -714,7 +714,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -723,7 +723,7 @@ const questions = [
     incorrect_answers: ["Carrie", "Misery", "The Green Mile"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -732,7 +732,7 @@ const questions = [
     incorrect_answers: ["George Clooney", "Val Kilmer", "Adam West"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -741,7 +741,7 @@ const questions = [
     incorrect_answers: ["Kent Mansley", "Dean McCoppin", "Annie Hughes"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -754,7 +754,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -763,7 +763,7 @@ const questions = [
     incorrect_answers: ["John Elway", "Tom Brady", "Joe Montana"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -772,7 +772,7 @@ const questions = [
     incorrect_answers: ["Harrison Ford", "Harvey Keitel", "Martin Landau"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -781,7 +781,7 @@ const questions = [
     incorrect_answers: ["Dreamgirls", "Cabaret", "All That Jazz"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -790,7 +790,7 @@ const questions = [
     incorrect_answers: ["Kathy Griffin", "Pam Grier", "Bridget Fonda"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -799,7 +799,7 @@ const questions = [
     incorrect_answers: ["Reservoir Dogs", "Heat", "Goodfellas"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -808,7 +808,7 @@ const questions = [
     incorrect_answers: ["Martin Scorcese", "Steven Spielberg", "James Cameron"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -817,7 +817,7 @@ const questions = [
     incorrect_answers: ["Flash Gordon", "Labyrinth", "Howard the Duck"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -826,7 +826,7 @@ const questions = [
     incorrect_answers: ["Perkins", "Day", "Parker"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "What was the title of the first Bond movie, released in 1962?",
@@ -834,7 +834,7 @@ const questions = [
     incorrect_answers: ["From Russia with Love", "Goldfinger", "Thunderball"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -843,7 +843,7 @@ const questions = [
     incorrect_answers: ["Dr. Julius No", "Rosa Klebb", "Emilio Largo"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Who directed the 1973 film &quot;American Graffiti&quot;?",
@@ -855,7 +855,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -868,7 +868,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -877,7 +877,7 @@ const questions = [
     incorrect_answers: ["Tommy", "Teddy", "Toto"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "In what year was the first Transformers movie released?",
@@ -885,7 +885,7 @@ const questions = [
     incorrect_answers: ["2007", "1984", "2009"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -898,7 +898,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -911,7 +911,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "What was the first James Bond film?",
@@ -919,7 +919,7 @@ const questions = [
     incorrect_answers: ["Goldfinger", "From Russia With Love", "Thunderball"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -928,7 +928,7 @@ const questions = [
     incorrect_answers: ["Hop", "Rise of the Guardians", "Alice in Wonderland"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -937,7 +937,7 @@ const questions = [
     incorrect_answers: ["60 mph", "40 mph", "70 mph"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -950,7 +950,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -959,7 +959,7 @@ const questions = [
     incorrect_answers: ["Estelle", "Jimmy", "Henry"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -968,7 +968,7 @@ const questions = [
     incorrect_answers: ["Eastbourne", "Mousehole", "Bridlington"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -977,7 +977,7 @@ const questions = [
     incorrect_answers: ["Tyler Mane", "Derek Mears", "Gunnar Hansen"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -986,7 +986,7 @@ const questions = [
     incorrect_answers: ["Jules Winnfield", "Jimmie Dimmick", "Butch Coolidge"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "In the movie &quot;Scream&quot; who is Ghost Face?",
@@ -998,7 +998,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "In what year was the movie &quot;Police Academy&quot; released?",
@@ -1006,7 +1006,7 @@ const questions = [
     incorrect_answers: ["1986", "1985", "1983"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1015,7 +1015,7 @@ const questions = [
     incorrect_answers: ["Strider", "Barliman Butterbur", "Celeborn"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1028,7 +1028,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1041,7 +1041,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1050,7 +1050,7 @@ const questions = [
     incorrect_answers: ["Minions", "Expendables", "Cannon Fodder"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1063,7 +1063,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1072,7 +1072,7 @@ const questions = [
     incorrect_answers: ["Doug Jones", "Doug Savant", "Doug Benson"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1081,7 +1081,7 @@ const questions = [
     incorrect_answers: ["Stanley Kubrick", "Frank Darabont", "Michael Bay"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1090,7 +1090,7 @@ const questions = [
     incorrect_answers: ["Fast food", "Food stamps", "They weren't paid"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1103,7 +1103,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1112,7 +1112,7 @@ const questions = [
     incorrect_answers: ["Alan Wake", "Hitman", "God Of War"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1121,7 +1121,7 @@ const questions = [
     incorrect_answers: ["2007", "2015", "2020"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1130,7 +1130,7 @@ const questions = [
     incorrect_answers: ["Cray X-MP", "Cray XK7", "IBM Blue Gene/Q"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1139,7 +1139,7 @@ const questions = [
     incorrect_answers: ["Tyrannosaurus Rex", "Velociraptor", "Suchomimus"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1148,7 +1148,7 @@ const questions = [
     incorrect_answers: ["Triceratops", "Troodon", "Brachiosaurus"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Who directed the movie &quot;Alien&quot;?",
@@ -1156,7 +1156,7 @@ const questions = [
     incorrect_answers: ["Christopher Nolan", "Michael Bay", "James Cameron"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1165,7 +1165,7 @@ const questions = [
     incorrect_answers: ["Michael Caine", "Ron Dean", "Heath Ledger"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "What is Lilo's last name from Lilo and Stitch?",
@@ -1173,7 +1173,7 @@ const questions = [
     incorrect_answers: ["Anoaʻi", "Kealoha", "Kuʻulei"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "In the Friday The 13th series, what year did Jason drown in?",
@@ -1181,7 +1181,7 @@ const questions = [
     incorrect_answers: ["1955", "1953", "1959"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Where does the original Friday The 13th movie take place?",
@@ -1189,7 +1189,7 @@ const questions = [
     incorrect_answers: ["Packanack", "Higgins Haven", "Camp Forest Green"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1203,7 +1203,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1216,7 +1216,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1225,7 +1225,7 @@ const questions = [
     incorrect_answers: ["Friday", "Jones", "Billy"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "What was the last Marx Brothers film to feature Zeppo?",
@@ -1237,7 +1237,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1250,7 +1250,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1259,7 +1259,7 @@ const questions = [
     incorrect_answers: ["2", "6", "1"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1268,7 +1268,7 @@ const questions = [
     incorrect_answers: ["Jean Harlow", "Vivien Leigh", "Mae West"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1277,7 +1277,7 @@ const questions = [
     incorrect_answers: ["Honey", "Caramel", "Candy"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1286,7 +1286,7 @@ const questions = [
     incorrect_answers: ["Runaway", "Android", "The Terminators"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1295,7 +1295,7 @@ const questions = [
     incorrect_answers: ["Jackie Chan", "Jet Li", "Yun-Fat Chow"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1304,7 +1304,7 @@ const questions = [
     incorrect_answers: ["Ned Stark", "Jim Kane", "Frank Stark"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Who directed the 2015 movie &quot;The Revenant&quot;?",
@@ -1312,7 +1312,7 @@ const questions = [
     incorrect_answers: ["Christopher Nolan", "David Fincher", "Wes Anderson"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1321,7 +1321,7 @@ const questions = [
     incorrect_answers: ["Platoon", "The Deer Hunter", "Full Metal Jacket"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1330,7 +1330,7 @@ const questions = [
     incorrect_answers: ["The Right Stuff", "Capricorn One", "Marooned"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1343,7 +1343,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1356,7 +1356,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1369,7 +1369,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these movies did Jeff Bridges not star in?",
@@ -1377,7 +1377,7 @@ const questions = [
     incorrect_answers: ["Tron: Legacy", "The Giver", "True Grit"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1386,7 +1386,7 @@ const questions = [
     incorrect_answers: ["Indiana Jones", "James Bond", "Harry Potter"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1395,7 +1395,7 @@ const questions = [
     incorrect_answers: ["Shia LeBouf", "Peter Ostrum", "Johnny Depp"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Who plays Alice in the Resident Evil movies?",
@@ -1403,7 +1403,7 @@ const questions = [
     incorrect_answers: ["Madison Derpe", "Milla Johnson", "Kim Demp"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1412,7 +1412,7 @@ const questions = [
     incorrect_answers: ["Big Hero 6", "Fantasia", "Monsters, Inc."]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1421,7 +1421,7 @@ const questions = [
     incorrect_answers: ["Pete Townshend", "Franc Roddam", "Archie Bunker"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1430,7 +1430,7 @@ const questions = [
     incorrect_answers: ["Boris Karloff", "Vincent Price", "Lon Chaney Jr."]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1443,7 +1443,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1452,7 +1452,7 @@ const questions = [
     incorrect_answers: ["Carson", "Jackson", "Willy"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1465,7 +1465,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1474,7 +1474,7 @@ const questions = [
     incorrect_answers: ["Michael Cera", "Jonah Hill", "Zach Galifianakis"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1483,7 +1483,7 @@ const questions = [
     incorrect_answers: ["The Schwartz", "Princess Lonestar", "Meatballs"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1492,7 +1492,7 @@ const questions = [
     incorrect_answers: ["Edwin Neal", "John Dugan", "Joe Bill Hogan"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1501,7 +1501,7 @@ const questions = [
     incorrect_answers: ["1996", "1998", "1999"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1514,7 +1514,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1523,7 +1523,7 @@ const questions = [
     incorrect_answers: ["Ben Richards", "Douglas Quaid", "Harry Tasker"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1532,7 +1532,7 @@ const questions = [
     incorrect_answers: ["Atrayu", "Atraiyu", "Atraeyu"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1541,7 +1541,7 @@ const questions = [
     incorrect_answers: ["Bloomstick", "Blastbranch", "2-Pump Chump"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Who plays the character of Po in the Kung Fu Panda movies?",
@@ -1549,7 +1549,7 @@ const questions = [
     incorrect_answers: ["Mirana Jonnes", "McConahey Ramses", "Jim Petersson"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1558,7 +1558,7 @@ const questions = [
     incorrect_answers: ["Cylons", "Synthetics", "Skinjobs"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1567,7 +1567,7 @@ const questions = [
     incorrect_answers: ["Phil Lord", "Chris Miller", "Seth Rogan"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1576,7 +1576,7 @@ const questions = [
     incorrect_answers: ["1975", "1983", "1969"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1585,7 +1585,7 @@ const questions = [
     incorrect_answers: ["Alderaan", "Tatooine", "Naboo"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1598,7 +1598,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1611,7 +1611,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1620,7 +1620,7 @@ const questions = [
     incorrect_answers: ["Gnarly.", "Perfect.", "Nice."]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1633,7 +1633,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1642,7 +1642,7 @@ const questions = [
     incorrect_answers: ["Xenomorph", "Praetorian", "Phocrex"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "What was the first feature-length computer-animated movie?",
@@ -1650,7 +1650,7 @@ const questions = [
     incorrect_answers: ["Tron", "Lion king", "101 Dalmatians"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "In Mulan (1998), who is the leader of the Huns?",
@@ -1658,7 +1658,7 @@ const questions = [
     incorrect_answers: ["Chien-Po", "Li Shang", "Fa Zhou"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "What is the name of the queen's pet in A Bug's Life?",
@@ -1666,7 +1666,7 @@ const questions = [
     incorrect_answers: ["Flik", "Hopper", "Dot"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "In Finding Nemo, what was the name of Nemo's mom?",
@@ -1674,7 +1674,7 @@ const questions = [
     incorrect_answers: ["Sandy", "Pearl", "Shelly"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1683,7 +1683,7 @@ const questions = [
     incorrect_answers: ["Smash Mouth", "Oasis", "Air Supply"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1693,7 +1693,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1702,7 +1702,7 @@ const questions = [
     incorrect_answers: ["Golden Retriever", "Dalmatian", "Shiba Inu"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1715,7 +1715,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1724,7 +1724,7 @@ const questions = [
     incorrect_answers: ["Steve McQueen", "Charles Bronson", "Robert Vaughn"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1733,7 +1733,7 @@ const questions = [
     incorrect_answers: ["Ted", "Spy Kids", "Pirates of the Caribbean "]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
@@ -1741,7 +1741,7 @@ const questions = [
     incorrect_answers: ["Stanley Kubrick", "James Cameron", "Tim Burton"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1754,7 +1754,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "When was the movie 'Con Air' released?",
@@ -1762,7 +1762,7 @@ const questions = [
     incorrect_answers: ["1985", "1999", "1990"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1771,7 +1771,7 @@ const questions = [
     incorrect_answers: ["The Long Ships", "Prince Valiant", "Spartacus"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "Who wrote and directed the 1986 film 'Platoon'?",
@@ -1783,7 +1783,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1792,7 +1792,7 @@ const questions = [
     incorrect_answers: ["I-950", "T-888", "T-1000"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "In which 1955 film does Frank Sinatra play Nathan Detroit?",
@@ -1804,7 +1804,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1813,7 +1813,7 @@ const questions = [
     incorrect_answers: ["Robby", "Colossus", "Box"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1822,7 +1822,7 @@ const questions = [
     incorrect_answers: ["Days of Thunder", "The Color of Money", "Cocktail"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1831,7 +1831,7 @@ const questions = [
     incorrect_answers: ["Liberia", "Burkina Faso", "Central African Republic"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1840,7 +1840,7 @@ const questions = [
     incorrect_answers: ["BB-3", "AA-A", "R2-D2"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "What was the name of the planet in &quot;Aliens&quot;?",
@@ -1848,7 +1848,7 @@ const questions = [
     incorrect_answers: ["Weyland Yutani Corporation Base", "FR-838", "DI-621"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1857,7 +1857,7 @@ const questions = [
     incorrect_answers: ["Jared Leto", "Will Smith", "Margot Robbie"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "What did the first moving picture depict?",
@@ -1869,7 +1869,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1882,7 +1882,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Who plays the Nemesis in the Resident Evil movies?",
@@ -1890,7 +1890,7 @@ const questions = [
     incorrect_answers: ["Jason Dip", "Eric Mabius", "Jimmy Matts"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "What is the oldest Disney film?",
@@ -1898,7 +1898,7 @@ const questions = [
     incorrect_answers: ["Pinocchio", "Dumbo", "Fantasia"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Which one of these action movies are shot entirely in one take?",
@@ -1910,7 +1910,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1923,7 +1923,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -1936,7 +1936,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1949,7 +1949,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -1962,7 +1962,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Who played Sgt. Gordon Elias in 'Platoon' (1986)?",
@@ -1970,7 +1970,7 @@ const questions = [
     incorrect_answers: ["Charlie Sheen", "Matt Damon", "Johnny Depp"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1979,7 +1979,7 @@ const questions = [
     incorrect_answers: ["Mosasaurus", "Pteranodon", "Tyrannosaurus Rex "]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1988,7 +1988,7 @@ const questions = [
     incorrect_answers: ["France", "Italy", "Germany"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -1997,7 +1997,7 @@ const questions = [
     incorrect_answers: ["Evening", "Morning", "Afternoon"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2006,7 +2006,7 @@ const questions = [
     incorrect_answers: ["The Island", "Unthinkable", "American Pie"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
@@ -2014,7 +2014,7 @@ const questions = [
     incorrect_answers: ["Ted Wiggins", "The Once-Ler", "Grammy Norma"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2023,7 +2023,7 @@ const questions = [
     incorrect_answers: ["Bowling for Soup", "Sum 41", "Linkin Park"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2032,7 +2032,7 @@ const questions = [
     incorrect_answers: ["Old Dogs", "Jumanji", "Awakenings"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2041,7 +2041,7 @@ const questions = [
     incorrect_answers: ["Cheddar", "Moon Cheese", "Edam"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2050,7 +2050,7 @@ const questions = [
     incorrect_answers: ["Native American", "Japanese", "Nordic"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2063,7 +2063,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2076,7 +2076,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2085,7 +2085,7 @@ const questions = [
     incorrect_answers: ["Errol Morris", "Joe Berlinger", "Adam Curtis"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2094,7 +2094,7 @@ const questions = [
     incorrect_answers: ["Isla Sorna", "Isla Muerta", "Isla Pena"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2103,7 +2103,7 @@ const questions = [
     incorrect_answers: ["Isla Nublar", "Isla Pena", "Isla Muerta"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2112,7 +2112,7 @@ const questions = [
     incorrect_answers: ["1988", "1986", "1993"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2121,7 +2121,7 @@ const questions = [
     incorrect_answers: ["Jessica Chastain", "Melissa Beckett", "Alyssa Monroe "]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2130,7 +2130,7 @@ const questions = [
     incorrect_answers: ["Anemia", "Constipation", "Acid Reflux "]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2139,7 +2139,7 @@ const questions = [
     incorrect_answers: ["William Shatner", "George Takei", "James Doohan"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2148,7 +2148,7 @@ const questions = [
     incorrect_answers: ["John", "Will", "Carl"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2157,7 +2157,7 @@ const questions = [
     incorrect_answers: ["Los Angeles", "Sacramento", "San Jose"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "In Big Hero 6, what were Baymax's motions modeled after?",
@@ -2165,7 +2165,7 @@ const questions = [
     incorrect_answers: ["Baby monkeys", "Baby ostriches", "Baby bears"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question: "In Big Hero 6, what fictional city is the Big Hero 6 from?",
@@ -2173,7 +2173,7 @@ const questions = [
     incorrect_answers: ["San Tokyo", "Tokysisco", "Sankyo"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2183,7 +2183,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2192,7 +2192,7 @@ const questions = [
     incorrect_answers: ["Pam Bouvier", "Mary Goodnight", "Wai Lin"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2201,7 +2201,7 @@ const questions = [
     incorrect_answers: ["Psycho", "Vertigo", "Rebecca"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2210,7 +2210,7 @@ const questions = [
     incorrect_answers: ["Dennis Quaid", "Pete Postlethwaite", "Brian Thompson"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2219,7 +2219,7 @@ const questions = [
     incorrect_answers: ["Clint Eastwood", "Leonardo DiCaprio", "Ben Stiller"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2228,7 +2228,7 @@ const questions = [
     incorrect_answers: ["Ketchup", "Red food coloring", "Maple syrup"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question: "What was the first movie to ever use a Wilhelm Scream?",
@@ -2240,7 +2240,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2253,7 +2253,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question: "Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
@@ -2261,7 +2261,7 @@ const questions = [
     incorrect_answers: ["Liam Neeson", "Morgan Freeman", "Will Arnet"]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2275,7 +2275,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2842,7 +2842,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2851,7 +2851,7 @@ const questions = [
     incorrect_answers: ["Jim Caviezel", "Taraji P. Henson", "Kevin Chapman"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Who sang the theme song for the TV show 'Rawhide'?",
@@ -2859,7 +2859,7 @@ const questions = [
     incorrect_answers: ["Guy Mitchell", "Tennessee Ernie Ford", "Slim Whitman"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "In what year did &quot;The Big Bang Theory&quot; debut on CBS?",
@@ -2867,7 +2867,7 @@ const questions = [
     incorrect_answers: ["2008", "2006", "2009"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2876,7 +2876,7 @@ const questions = [
     incorrect_answers: ["10 Meters", "2 Meters", "5 Meters"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the star of the AMC series Breaking Bad?",
@@ -2884,7 +2884,7 @@ const questions = [
     incorrect_answers: ["Saul Goodman", "Jesse Pinkman", "Skyler White"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2893,7 +2893,7 @@ const questions = [
     incorrect_answers: ["Skids", "Sideswipe", "Ratchet"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2906,7 +2906,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -2915,7 +2915,7 @@ const questions = [
     incorrect_answers: ["Mike", "Lucas", "Karen"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2924,7 +2924,7 @@ const questions = [
     incorrect_answers: ["William Wolf", "Willy Wonka", "Wally Walrus"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "In the show, Doctor Who, what does T.A.R.D.I.S stand for?",
@@ -2936,7 +2936,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "How many seasons did &quot;Stargate SG-1&quot; have?",
@@ -2944,7 +2944,7 @@ const questions = [
     incorrect_answers: ["3", "7", "12"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the main character in the show &quot;Burn Notice&quot;?",
@@ -2952,7 +2952,7 @@ const questions = [
     incorrect_answers: ["Sam Axe", "Fiona Glenanne", "Madeline Westen"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "In the Star Trek universe, what color is Vulcan blood?",
@@ -2960,7 +2960,7 @@ const questions = [
     incorrect_answers: ["Blue", "Red", "Purple"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2969,7 +2969,7 @@ const questions = [
     incorrect_answers: ["Any Doujutsu", "Shadow Style", "Ice Style"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -2982,7 +2982,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -2991,7 +2991,7 @@ const questions = [
     incorrect_answers: ["England", "Sweden", "Germany"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3000,7 +3000,7 @@ const questions = [
     incorrect_answers: ["The Daleks", "The Aztecs", "The Edge of Destruction"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3009,7 +3009,7 @@ const questions = [
     incorrect_answers: ["Oliver Queen", "Bart Allen", "Bruce Wayne"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "In Star Trek, what is the name of Spock's father?",
@@ -3017,7 +3017,7 @@ const questions = [
     incorrect_answers: ["Tuvok", "T'Pal", "Surak"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3026,7 +3026,7 @@ const questions = [
     incorrect_answers: ["Mittens", "Tom", "Kitty"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Who won Big Brother 2014 UK?",
@@ -3038,7 +3038,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3047,7 +3047,7 @@ const questions = [
     incorrect_answers: ["2001", "2007", "2012"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "What is Meg's full name in &quot;Family Guy&quot;?",
@@ -3055,7 +3055,7 @@ const questions = [
     incorrect_answers: ["Who-Cares Griffin", "Neil Griffin", "Megan Griffin"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3064,7 +3064,7 @@ const questions = [
     incorrect_answers: ["Attorney General", "President", "Chief of Staff"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3073,7 +3073,7 @@ const questions = [
     incorrect_answers: ["Negan", "Rick Grimes", "Daryl Dixon"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3082,7 +3082,7 @@ const questions = [
     incorrect_answers: ["1", "4", "5"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3095,7 +3095,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3104,7 +3104,7 @@ const questions = [
     incorrect_answers: ["Kiddy Kong", "Diddy Kong", "King K. Rool"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these in the Star Trek series is NOT Klingon food?",
@@ -3112,7 +3112,7 @@ const questions = [
     incorrect_answers: ["Racht", "Gagh", "Bloodwine"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3125,7 +3125,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "What is the Klingon's afterlife called?",
@@ -3133,7 +3133,7 @@ const questions = [
     incorrect_answers: ["Valhalla", "Karon'gahk", "New Jersey"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "What was Nickelodeon's original name?",
@@ -3141,7 +3141,7 @@ const questions = [
     incorrect_answers: ["MTVKids", "KidsTV", "Splat!"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "In &quot;Star Trek&quot;, what is the Klingon death ritual?",
@@ -3153,7 +3153,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3162,7 +3162,7 @@ const questions = [
     incorrect_answers: ["Vulcan", "Human", "Botha"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3175,7 +3175,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3184,7 +3184,7 @@ const questions = [
     incorrect_answers: ["Earthworms", "Spaghetti noodles", "Klingworms"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3193,7 +3193,7 @@ const questions = [
     incorrect_answers: ["10", "5", "3"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3202,7 +3202,7 @@ const questions = [
     incorrect_answers: ["Matthew Perry", "Dennis Miller", "Pierce Brosnan"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3211,7 +3211,7 @@ const questions = [
     incorrect_answers: ["Eric Idle", "Graham Chapman", "John Cleese"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Alan Reed is known for providing the voice of which character?",
@@ -3219,7 +3219,7 @@ const questions = [
     incorrect_answers: ["Bugs Bunny", "Fangface", "G.I. Joe"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3228,7 +3228,7 @@ const questions = [
     incorrect_answers: ["Starbuck", "Apollo", "Crashdown"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3237,7 +3237,7 @@ const questions = [
     incorrect_answers: ["Esteban", "Carlos", "Duckster"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3246,7 +3246,7 @@ const questions = [
     incorrect_answers: ["6", "3", "0"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3259,7 +3259,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3272,7 +3272,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3281,7 +3281,7 @@ const questions = [
     incorrect_answers: ["David Tennant", "Peter Capaldi", "Tom Baker"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3290,7 +3290,7 @@ const questions = [
     incorrect_answers: ["Comic Book Guy", "Edward Stone", "Jack Richardson"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3299,7 +3299,7 @@ const questions = [
     incorrect_answers: ["Frasier", "Becker", "Friends"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3308,7 +3308,7 @@ const questions = [
     incorrect_answers: ["Justin Guarini", "Ruben Studdard", "Chris Daughtry"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "Who was the winner of &quot;Big Brother&quot; Season 10?",
@@ -3317,7 +3317,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "From what show is the character &quot;James Doakes&quot;? ",
@@ -3329,7 +3329,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3338,7 +3338,7 @@ const questions = [
     incorrect_answers: ["1948", "1932", "1955"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3351,7 +3351,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3360,7 +3360,7 @@ const questions = [
     incorrect_answers: ["Zack", "Mr. Belding", "A.C. Slater"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3369,7 +3369,7 @@ const questions = [
     incorrect_answers: ["Gillian Anderson", "Robert Patrick", "Mitch Pileggi"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3378,7 +3378,7 @@ const questions = [
     incorrect_answers: ["Trevor", "Travis", "Tyrone"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3387,7 +3387,7 @@ const questions = [
     incorrect_answers: ["The Arrow", "Black Canary", "Daredevil"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "What's Dr. Doofenshmirtz first name?",
@@ -3395,7 +3395,7 @@ const questions = [
     incorrect_answers: ["Hans", "Hank", "Heidi"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3404,7 +3404,7 @@ const questions = [
     incorrect_answers: ["Blackpool", "Bournemouth", "Great Yarmouth"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these Bojack Horseman characters is a human?",
@@ -3416,7 +3416,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Who was the star of the TV series &quot;24&quot;?",
@@ -3424,7 +3424,7 @@ const questions = [
     incorrect_answers: ["Kevin Bacon", "Hugh Laurie", "Rob Lowe"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3433,7 +3433,7 @@ const questions = [
     incorrect_answers: ["Jojo", "George", "Champ"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Which character does voice actress Tara Strong NOT voice?",
@@ -3441,7 +3441,7 @@ const questions = [
     incorrect_answers: ["Twilight Sparkle", "Timmy Turner", "Harley Quinn"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3450,7 +3450,7 @@ const questions = [
     incorrect_answers: ["Starfish", "Larry", "Dirty Dan"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Guy's Grocery Games is hosted by which presenter?",
@@ -3458,7 +3458,7 @@ const questions = [
     incorrect_answers: ["Guy Martin", "Guy Ritchie", "Ainsley Harriott"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3467,7 +3467,7 @@ const questions = [
     incorrect_answers: ["Bird of War", "Day Man", "The Maniac"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3476,7 +3476,7 @@ const questions = [
     incorrect_answers: ["Dan Bell", "Billy Familia", "VeganGainz"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3485,7 +3485,7 @@ const questions = [
     incorrect_answers: ["Pewdiepie", "Tobuscus", "Markiplier"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3494,7 +3494,7 @@ const questions = [
     incorrect_answers: ["Beth Smith", "Summer Smith", "Mr. Poopy Butthole"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3503,7 +3503,7 @@ const questions = [
     incorrect_answers: ["Easteros", "Westereast", "Esuntos"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "In Game of Thrones, what is Littlefinger's real name?",
@@ -3511,7 +3511,7 @@ const questions = [
     incorrect_answers: ["Podrick Payne", "Lancel Lannister", "Torrhen Karstark"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "When did the TV show Rick and Morty first air on Adult Swim?",
@@ -3519,7 +3519,7 @@ const questions = [
     incorrect_answers: ["2014", "2016", "2015"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "In Supernatural, what's is Sam's brothers name?",
@@ -3527,7 +3527,7 @@ const questions = [
     incorrect_answers: ["Dave", "Steve", "Mike"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3536,7 +3536,7 @@ const questions = [
     incorrect_answers: ["Duckwing", "Tailspin", "Wingford"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3545,7 +3545,7 @@ const questions = [
     incorrect_answers: ["Baby Blue", "Rock Candy", "Pure Glass"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3558,7 +3558,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3567,7 +3567,7 @@ const questions = [
     incorrect_answers: ["Jimmy Fallon", "Saturday Night Live", "Larry Rubert"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question: "Who played the sun baby in the original run of Teletubbies?",
@@ -3575,7 +3575,7 @@ const questions = [
     incorrect_answers: ["Pui Fan Lee", "Sue Monroe", "Lisa Brockwell"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3584,7 +3584,7 @@ const questions = [
     incorrect_answers: ["Kingloname", "Lord Genome", "King Loname"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3597,7 +3597,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3606,7 +3606,7 @@ const questions = [
     incorrect_answers: ["Sheldor", "Rajesh", "Priya"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3615,7 +3615,7 @@ const questions = [
     incorrect_answers: ["Grimes", "Dickinson", "Dicketson"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3624,7 +3624,7 @@ const questions = [
     incorrect_answers: ["Sofia the First", "DuckTales", "Tom and Jerry"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Which British writer wrote for both Doctor Who and Sherlock?",
@@ -3632,7 +3632,7 @@ const questions = [
     incorrect_answers: ["Phil Ford", "Russell T Davies", "Toby Whithouse"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "Who was the winner of the 2016 WWE Royal Rumble?",
@@ -3640,7 +3640,7 @@ const questions = [
     incorrect_answers: ["Roman Reigns", "AJ Styles", "Dean Ambrose"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these Disney shows is classified as an anime?",
@@ -3652,7 +3652,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3665,7 +3665,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3678,7 +3678,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "What breed of dog is &quot;Scooby Doo&quot;?",
@@ -3686,7 +3686,7 @@ const questions = [
     incorrect_answers: ["Pit bull", "Boxer", "Doberman Pinscher"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3699,7 +3699,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3712,7 +3712,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3721,7 +3721,7 @@ const questions = [
     incorrect_answers: ["David Tennant", "Matt Smith", "Tom Baker"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3730,7 +3730,7 @@ const questions = [
     incorrect_answers: ["William Adama", "Tricia Helfer", "Harry Stills"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3739,7 +3739,7 @@ const questions = [
     incorrect_answers: ["The Collective", "The Federation", "The Rebels"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3748,7 +3748,7 @@ const questions = [
     incorrect_answers: ["Andrew Lincoln", "Aaron Paul", "RJ Mitte"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3757,7 +3757,7 @@ const questions = [
     incorrect_answers: ["Boy Meets World", "The X-Files", "NYPD Blue"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3766,7 +3766,7 @@ const questions = [
     incorrect_answers: ["Jerome", "Greg", "Joe"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3775,7 +3775,7 @@ const questions = [
     incorrect_answers: ["Star Burns", "Leonard", "Senoir Chang"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question: "On the NBC show Community what was Star Burns' real name?",
@@ -3783,7 +3783,7 @@ const questions = [
     incorrect_answers: ["Todd", "Neal", "Grimus"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3793,7 +3793,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3802,7 +3802,7 @@ const questions = [
     incorrect_answers: ["11", "13", "15"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3811,7 +3811,7 @@ const questions = [
     incorrect_answers: ["Protection", "Angel", "Black Milk"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3820,7 +3820,7 @@ const questions = [
     incorrect_answers: ["Angela", "Erica", "Sandra"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3829,7 +3829,7 @@ const questions = [
     incorrect_answers: ["Murray Gold", "Delia Derbyshire", "Peter Howell"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3838,7 +3838,7 @@ const questions = [
     incorrect_answers: ["Toast", "Captain Crunch", "Bacon and Eggs"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3847,7 +3847,7 @@ const questions = [
     incorrect_answers: ["Netflix", "BBC", "CCTV"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3860,7 +3860,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3873,7 +3873,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3882,7 +3882,7 @@ const questions = [
     incorrect_answers: ["10", "2", "7"]
   },
   {
-    category: "Entertainment: Television",
+    category: "Television",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3892,7 +3892,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3901,7 +3901,7 @@ const questions = [
     incorrect_answers: ["3", "7", "6"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3914,7 +3914,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the punishment for playing Postal 2 in New Zealand?",
@@ -3926,7 +3926,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who created the digital distribution platform Steam?",
@@ -3934,7 +3934,7 @@ const questions = [
     incorrect_answers: ["Pixeltail Games", "Ubisoft", "Electronic Arts"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What year was the game Team Fortress 2 released?",
@@ -3942,7 +3942,7 @@ const questions = [
     incorrect_answers: ["2009", "2005", "2010"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3955,7 +3955,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3964,7 +3964,7 @@ const questions = [
     incorrect_answers: ["Phoenix Connection", "Elite Crew", "Guerrilla Warfare"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -3973,7 +3973,7 @@ const questions = [
     incorrect_answers: ["Sea Shells", "Leaves", "Bugs"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -3986,7 +3986,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -3995,7 +3995,7 @@ const questions = [
     incorrect_answers: ["David Hayter", "Norman Reedus", "Hideo Kojima"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who was the first female protagonist in a video game?",
@@ -4003,7 +4003,7 @@ const questions = [
     incorrect_answers: ["Lara Croft", "Alis Landale", "Chell"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of the following Pok&eacute;mon games released first?",
@@ -4015,7 +4015,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4028,7 +4028,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which Mario spin-off game did Waluigi make his debut?",
@@ -4040,7 +4040,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4049,7 +4049,7 @@ const questions = [
     incorrect_answers: ["City 18", "City 6", "City 45"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4058,7 +4058,7 @@ const questions = [
     incorrect_answers: ["53,593", "53,595", "53,596"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4067,7 +4067,7 @@ const questions = [
     incorrect_answers: ["Sledgehammer", "Fiber Wire", "Katana"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4076,7 +4076,7 @@ const questions = [
     incorrect_answers: ["World War I", "Vietnam War", "Iraq War"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4085,7 +4085,7 @@ const questions = [
     incorrect_answers: ["Earthshatter", "Rocket Barrage", "Molten Core"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Mirror's Edge Catalyst takes place in the City of...?",
@@ -4093,7 +4093,7 @@ const questions = [
     incorrect_answers: ["Mirrors", "Purity", "Diamonds"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4102,7 +4102,7 @@ const questions = [
     incorrect_answers: ["Blanche", "Spark", "Candela"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4111,7 +4111,7 @@ const questions = [
     incorrect_answers: ["Lobster", "Salmon", "Swordfish"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4120,7 +4120,7 @@ const questions = [
     incorrect_answers: ["Colt Python", "Colt M1892", "Colt 1851 Navy Revolver"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In what year was Hearthstone released?",
@@ -4128,7 +4128,7 @@ const questions = [
     incorrect_answers: ["2011", "2013", "2012"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4137,7 +4137,7 @@ const questions = [
     incorrect_answers: ["Louis", "Francis", "Zoey"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4146,7 +4146,7 @@ const questions = [
     incorrect_answers: ["n", "i", "m"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is not a default game mode in Counter-Strike (2000)?",
@@ -4154,7 +4154,7 @@ const questions = [
     incorrect_answers: ["Hostage Rescue", "Bomb Defusal", "Assassination"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4167,7 +4167,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What level do you have to be to get a service medal on CS:GO?",
@@ -4175,7 +4175,7 @@ const questions = [
     incorrect_answers: ["50", "30", "20"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of the following has Jennifer Taylor NOT voiced?",
@@ -4183,7 +4183,7 @@ const questions = [
     incorrect_answers: ["Princess Peach", "Zoey", "Cortana"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Overwatch, how old is Reinhardt Wilhelm?",
@@ -4191,7 +4191,7 @@ const questions = [
     incorrect_answers: ["59", "65", "62"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4200,7 +4200,7 @@ const questions = [
     incorrect_answers: ["A slide of Gelatin", "A poffin", "A spike"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4213,7 +4213,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4222,7 +4222,7 @@ const questions = [
     incorrect_answers: ["Sparky", "Quazar", "Chop"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4231,7 +4231,7 @@ const questions = [
     incorrect_answers: ["Velvet Shell", "Skull Rain", "Dust Line"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What video game engine does the videogame Quake 2 run in?",
@@ -4239,7 +4239,7 @@ const questions = [
     incorrect_answers: ["iD Tech 3", "iD Tech 1", "Unreal Engine"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4248,7 +4248,7 @@ const questions = [
     incorrect_answers: ["Excalibore", "Excalisnore", "Excalisore"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4261,7 +4261,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4270,7 +4270,7 @@ const questions = [
     incorrect_answers: ["Peach", "Strawberry", "Mint"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4279,7 +4279,7 @@ const questions = [
     incorrect_answers: ["Quick Revive", "Vulture Aid", "Tombstone"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4288,7 +4288,7 @@ const questions = [
     incorrect_answers: ["8", "5", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4297,7 +4297,7 @@ const questions = [
     incorrect_answers: ["Ascension", "Moon", "Die Rise"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4306,7 +4306,7 @@ const questions = [
     incorrect_answers: ["Generator 3", "Generator 4", "Excavation Site"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4315,7 +4315,7 @@ const questions = [
     incorrect_answers: ["Switch", "Candyman", "Sonata"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4324,7 +4324,7 @@ const questions = [
     incorrect_answers: ["Group Reanimate", "Group Rezurrection", "Division 9"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4333,7 +4333,7 @@ const questions = [
     incorrect_answers: ["Strife", "League of Legends", "Heroes of Newerth"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4346,7 +4346,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4359,7 +4359,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4368,7 +4368,7 @@ const questions = [
     incorrect_answers: ["Elonian", "Krytan", "Ascalonian"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4378,7 +4378,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4387,7 +4387,7 @@ const questions = [
     incorrect_answers: ["Desert", "Snow", "Rally"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4396,7 +4396,7 @@ const questions = [
     incorrect_answers: ["Duke Nukem", "Resident Evil", "Doom"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4405,7 +4405,7 @@ const questions = [
     incorrect_answers: ["10", "13", "12"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is the name of the main healing item in Dark Souls?",
@@ -4413,7 +4413,7 @@ const questions = [
     incorrect_answers: ["Health Potion", "Orange Juice", "Ashen Flask"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the original name of Final Fantasy XV?",
@@ -4425,7 +4425,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the world's first video game console?",
@@ -4437,7 +4437,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4446,7 +4446,7 @@ const questions = [
     incorrect_answers: ["Mule", "Benson", "Pony"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4455,7 +4455,7 @@ const questions = [
     incorrect_answers: ["Sasha Grey", "Burt Reynolds", "Hulk Hogan"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Where was the Sniper character in Team Fortress 2 born?",
@@ -4463,7 +4463,7 @@ const questions = [
     incorrect_answers: ["South Africa", "Antarctica", "Australia"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who composed the soundtrack for the game VVVVVV?",
@@ -4471,7 +4471,7 @@ const questions = [
     incorrect_answers: ["Terry Cavanagh", "Danny Baranowsky", "Joel Zimmerman"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4480,7 +4480,7 @@ const questions = [
     incorrect_answers: ["Grenade", "Air Strike", "Mortar"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these &quot;Worms&quot; games featured 3D gameplay?",
@@ -4492,7 +4492,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4501,7 +4501,7 @@ const questions = [
     incorrect_answers: ["The Fishmen", "The Bandits", "The Y.V.G.G"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4514,7 +4514,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4527,7 +4527,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4540,7 +4540,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4549,7 +4549,7 @@ const questions = [
     incorrect_answers: ["Tablet", "Hairdryer", "Flip Phone"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What was the original name of Crash Bandicoot?",
@@ -4557,7 +4557,7 @@ const questions = [
     incorrect_answers: ["Coco Bandicoot", "Marvelous Mole", "Wally Wombat"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4570,7 +4570,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4579,7 +4579,7 @@ const questions = [
     incorrect_answers: ["Floran", "Novakid", "Hylotl"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4588,7 +4588,7 @@ const questions = [
     incorrect_answers: ["Diamonds", "Iron", "Leather"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the leader of Team Instinct in Pok&eacute;mon Go?",
@@ -4596,7 +4596,7 @@ const questions = [
     incorrect_answers: ["Candela", "Blanche", "Willow"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4605,7 +4605,7 @@ const questions = [
     incorrect_answers: ["Dirk", "Garnet", "Quina"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4614,7 +4614,7 @@ const questions = [
     incorrect_answers: ["Robert Fludd", "Nirona", "Crygor"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4623,7 +4623,7 @@ const questions = [
     incorrect_answers: ["Bwonsamdi", "Hakkar", "Shirvallah"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4632,7 +4632,7 @@ const questions = [
     incorrect_answers: ["Kouya Aotsuki", "Soutarou Touno", "Torahiko Ooshima"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4645,7 +4645,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which Animal Crossing game was for the Nintendo Wii?",
@@ -4657,7 +4657,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Of the following space shooter games, which came out first?",
@@ -4665,7 +4665,7 @@ const questions = [
     incorrect_answers: ["Galaxian", "Galaga", "Sinistar"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4674,7 +4674,7 @@ const questions = [
     incorrect_answers: ["Cloud", "Bayonnetta", "Ryu"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4683,7 +4683,7 @@ const questions = [
     incorrect_answers: ["Roadhog", "Soldier 76", "Junkrat"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4696,7 +4696,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4705,7 +4705,7 @@ const questions = [
     incorrect_answers: ["65", "55", "70"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4718,7 +4718,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4731,7 +4731,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these games was NOT developed by Markus Persson?",
@@ -4739,7 +4739,7 @@ const questions = [
     incorrect_answers: ["Minecraft", "Wurm Online", "0x10c"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4752,7 +4752,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4761,7 +4761,7 @@ const questions = [
     incorrect_answers: ["Mobius 1", "Blaze", "Pixy"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4774,7 +4774,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4783,7 +4783,7 @@ const questions = [
     incorrect_answers: ["Tara Strong", "Troy Baker", "Rob Wiethoff"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4796,7 +4796,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4805,7 +4805,7 @@ const questions = [
     incorrect_answers: ["Buried", "Origins", "Moon"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4814,7 +4814,7 @@ const questions = [
     incorrect_answers: ["Red", "Green", "Blue"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "When was the Valve Corporation founded?",
@@ -4822,7 +4822,7 @@ const questions = [
     incorrect_answers: ["December 26, 1994", "March 22, 1997", "March 13, 1997"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4831,7 +4831,7 @@ const questions = [
     incorrect_answers: ["Dr. Neo Cortex", "Komodo Brothers", "Tiny Tiger"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4840,7 +4840,7 @@ const questions = [
     incorrect_answers: ["Hyrule", "Gysahl", "Besaid"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4849,7 +4849,7 @@ const questions = [
     incorrect_answers: ["Persona", "Etrian Odyssey", "Sam & Max"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the subtitle for Gran Turismo 3?",
@@ -4857,7 +4857,7 @@ const questions = [
     incorrect_answers: ["Championship", "Drive", "Nitro"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4866,7 +4866,7 @@ const questions = [
     incorrect_answers: ["Kudzu", "Twilight", "Astralaria"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4876,7 +4876,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4885,7 +4885,7 @@ const questions = [
     incorrect_answers: ["One Step Ahead Tengo", "Missile", "Cabanela"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4894,7 +4894,7 @@ const questions = [
     incorrect_answers: ["Doom", "Wolfenstein", "Quake"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4903,7 +4903,7 @@ const questions = [
     incorrect_answers: ["Gordon Freeman", "Alyx Vance", "Barney Calhoun"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who made Garry's Mod?",
@@ -4911,7 +4911,7 @@ const questions = [
     incorrect_answers: ["Randy Newman", "Facepunch Studios", "Gabe Newell"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4920,7 +4920,7 @@ const questions = [
     incorrect_answers: ["Unity", "Game Maker: Studio", "Cry Engine"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -4929,7 +4929,7 @@ const questions = [
     incorrect_answers: ["Arkham Knight", "Arkham City", "Arkham Origins"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What snowy mob was added in Minecraft 1.10?",
@@ -4937,7 +4937,7 @@ const questions = [
     incorrect_answers: ["Eskimos", "Penguins", "Walking TNT"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4950,7 +4950,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4959,7 +4959,7 @@ const questions = [
     incorrect_answers: ["Aggress", "Regress", "Digress"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -4968,7 +4968,7 @@ const questions = [
     incorrect_answers: ["FOXENGINE", "FOXALIVE", "FOXKILL"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "When was the first &quot;Half-Life&quot; released?",
@@ -4976,7 +4976,7 @@ const questions = [
     incorrect_answers: ["2004", "1999", "1997"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4985,7 +4985,7 @@ const questions = [
     incorrect_answers: ["4 hours", "12 hours", "5 hours"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -4994,7 +4994,7 @@ const questions = [
     incorrect_answers: ["500 km/h", "320 km/h", "100 km/h"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5003,7 +5003,7 @@ const questions = [
     incorrect_answers: ["Valve", "Hi-Rez Studios", "Gearbox Software"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5012,7 +5012,7 @@ const questions = [
     incorrect_answers: ["Goombella", "Goombarry", "Goomby"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What year was the game Dishonored released?",
@@ -5020,7 +5020,7 @@ const questions = [
     incorrect_answers: ["2011", "2008", "2013"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5029,7 +5029,7 @@ const questions = [
     incorrect_answers: ["Jumperr", "Drett", "Jerry"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5038,7 +5038,7 @@ const questions = [
     incorrect_answers: ["Mask de Smith", "Dan Smith", "Coyote Smith"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5047,7 +5047,7 @@ const questions = [
     incorrect_answers: ["Tec-9", "Desert Eagle", "Dual Berretas"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5056,7 +5056,7 @@ const questions = [
     incorrect_answers: ["John DiMaggio", "Mark Hamill", "Troy Baker"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "What was the world's first handheld game device?",
@@ -5064,7 +5064,7 @@ const questions = [
     incorrect_answers: ["Game Boy", "Microvision", "Game & Watch"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5077,7 +5077,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5086,7 +5086,7 @@ const questions = [
     incorrect_answers: ["Mancubus", "Pinky", "Arch-Vile"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5095,7 +5095,7 @@ const questions = [
     incorrect_answers: ["2008", "2009", "2010"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5104,7 +5104,7 @@ const questions = [
     incorrect_answers: ["Shaco", "Akali", "Zed"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In what year was the game &quot;Eliminator&quot; released?",
@@ -5112,7 +5112,7 @@ const questions = [
     incorrect_answers: ["2000", "1999", "2001"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is the maximum HP in Terraria?",
@@ -5120,7 +5120,7 @@ const questions = [
     incorrect_answers: ["400", "1000", "100"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5129,7 +5129,7 @@ const questions = [
     incorrect_answers: ["AWP", "M4A1", "MP9"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Terraria, what does the Wall of Flesh not drop upon defeat?",
@@ -5137,7 +5137,7 @@ const questions = [
     incorrect_answers: ["Pwnhammer", "Breaker Blade", "Laser Rifle"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5146,7 +5146,7 @@ const questions = [
     incorrect_answers: ["1360", "716", "1155"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "When was Left 4 Dead 2 released?",
@@ -5154,7 +5154,7 @@ const questions = [
     incorrect_answers: ["May 3, 2008", "November 30, 2009", "June 30, 2010"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5163,7 +5163,7 @@ const questions = [
     incorrect_answers: ["VRC7", "VRC6", "MMC5"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the original name of &quot;Minecraft&quot;?",
@@ -5175,7 +5175,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5188,7 +5188,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the main protagonist in Danganronpa 2: Goodbye Despair?",
@@ -5196,7 +5196,7 @@ const questions = [
     incorrect_answers: ["Nagito Komaeda", "Makoto Naegi", "Junko Enoshima"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5205,7 +5205,7 @@ const questions = [
     incorrect_answers: ["The Player", "Oichi", "Hideyoshi"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5214,7 +5214,7 @@ const questions = [
     incorrect_answers: ["IDFA", "IDDQD", "IDSPISPOPD"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5227,7 +5227,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5236,7 +5236,7 @@ const questions = [
     incorrect_answers: ["Scrabs", "Slogs", "Glukkons"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5249,7 +5249,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "When was the video game publisher &quot;Ubisoft&quot; founded ?",
@@ -5257,7 +5257,7 @@ const questions = [
     incorrect_answers: ["April 1990", "June 2001", "August 1956"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5266,7 +5266,7 @@ const questions = [
     incorrect_answers: ["Nate Siemens", "Nick Stamos", "Nolan Stuhlinger"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5275,7 +5275,7 @@ const questions = [
     incorrect_answers: ["Hellhounds", "Jumping Jacks", "Napalm Zombie"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5284,7 +5284,7 @@ const questions = [
     incorrect_answers: ["Rustie", "Machinedrum", "Flying Lotus"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the main currency in Club Penguin?",
@@ -5292,7 +5292,7 @@ const questions = [
     incorrect_answers: ["Stamps", "Tickets", "Gems"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5301,7 +5301,7 @@ const questions = [
     incorrect_answers: ["Marmara", "Severny", "Lastovo"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5310,7 +5310,7 @@ const questions = [
     incorrect_answers: ["Cloud", "Ryu", "Megaman"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5319,7 +5319,7 @@ const questions = [
     incorrect_answers: ["Eastern Commons", "Rurikton", "The Crown Pavilion"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5328,7 +5328,7 @@ const questions = [
     incorrect_answers: ["Quip", "The Dreamer", "Nevermore"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5338,7 +5338,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5347,7 +5347,7 @@ const questions = [
     incorrect_answers: ["Sonic The Hedgehog", "Super Mario 64", "Mega Man"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which company developed the video game &quot;Borderlands&quot;?",
@@ -5355,7 +5355,7 @@ const questions = [
     incorrect_answers: ["2K Games", "Activision", "Rockstar Games"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5364,7 +5364,7 @@ const questions = [
     incorrect_answers: ["Battlefield", "Call of Duty", "Borderlands"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Killing Floor started as a mod for which Unreal Engine 2 game?",
@@ -5376,7 +5376,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5385,7 +5385,7 @@ const questions = [
     incorrect_answers: ["Opa Opa", "NiGHTS", "Ristar"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "What is the name of your team in Star Wars: Republic Commando?",
@@ -5393,7 +5393,7 @@ const questions = [
     incorrect_answers: ["The Commandos", "Bravo Six", "Vader's Fist"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What engine did the original &quot;Half-Life&quot; run on?",
@@ -5401,7 +5401,7 @@ const questions = [
     incorrect_answers: ["Source", "Quake", "Unreal"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What was the name of the cancelled sequel of Team Fortress?",
@@ -5413,7 +5413,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In &quot;Undertale&quot;, how many main endings are there?",
@@ -5421,7 +5421,7 @@ const questions = [
     incorrect_answers: ["2", "5", "13"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5430,7 +5430,7 @@ const questions = [
     incorrect_answers: ["4", "5", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5439,7 +5439,7 @@ const questions = [
     incorrect_answers: ["11 g", "9.42 g", "4.4 g"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5452,7 +5452,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5461,7 +5461,7 @@ const questions = [
     incorrect_answers: ["De Santos", "Watson", "Simpson"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What ingredient is NOT used to craft a cake in Minecraft?",
@@ -5469,7 +5469,7 @@ const questions = [
     incorrect_answers: ["Wheat", "Milk", "Egg"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5478,7 +5478,7 @@ const questions = [
     incorrect_answers: ["Jenga", "Boulder Dash", "Puzzled"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5487,7 +5487,7 @@ const questions = [
     incorrect_answers: ["C++", "C", "ALGOL"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5496,7 +5496,7 @@ const questions = [
     incorrect_answers: ["The Tank", "The Smoker", "The Spitter"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5509,7 +5509,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5522,7 +5522,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5535,7 +5535,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5544,7 +5544,7 @@ const questions = [
     incorrect_answers: ["2", "4", "5"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5557,7 +5557,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5570,7 +5570,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5579,7 +5579,7 @@ const questions = [
     incorrect_answers: ["Half-Life 2", "Garry's Mod", "Team Fortress 2"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5588,7 +5588,7 @@ const questions = [
     incorrect_answers: ["Totodile", "Oshawott", "Mudkip"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5597,7 +5597,7 @@ const questions = [
     incorrect_answers: ["Shiki", "Joshua", "Beat"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5606,7 +5606,7 @@ const questions = [
     incorrect_answers: ["Siebold", "Wikstrom", "Drasna"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5615,7 +5615,7 @@ const questions = [
     incorrect_answers: ["Grass", "Bug", "Ground"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Phil Fish was the designer of which game?",
@@ -5623,7 +5623,7 @@ const questions = [
     incorrect_answers: ["Super Meat Boy", "Hotline Miami", "FTL"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5632,7 +5632,7 @@ const questions = [
     incorrect_answers: ["Zombie", "Chicken", "Cow"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5645,7 +5645,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5654,7 +5654,7 @@ const questions = [
     incorrect_answers: ["Mz. Ruby", "Muggshot", "Clockwerk"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5663,7 +5663,7 @@ const questions = [
     incorrect_answers: ["Computer", "Refrigerator", "Televison"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5676,7 +5676,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "Which variant of the MP5 is depicted in Counter-Strike 1.6?",
@@ -5684,7 +5684,7 @@ const questions = [
     incorrect_answers: ["MP5SD", "MP5K", "MP5RAS"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5693,7 +5693,7 @@ const questions = [
     incorrect_answers: ["4", "1", "6"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5702,7 +5702,7 @@ const questions = [
     incorrect_answers: ["Rutus", "Finn", "Apollo"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5711,7 +5711,7 @@ const questions = [
     incorrect_answers: ["Ron Gilbert", "Tim Schafer", "Tommy Refenes"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5720,7 +5720,7 @@ const questions = [
     incorrect_answers: ["Ring of Steel", "Vendetta", "Eviction"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5729,7 +5729,7 @@ const questions = [
     incorrect_answers: ["Shadows Of Evil", "Der Eisendrache", "Moon"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5738,7 +5738,7 @@ const questions = [
     incorrect_answers: ["GKZ-45 Mk3", "Ray Gun", "Scavenger"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5747,7 +5747,7 @@ const questions = [
     incorrect_answers: ["Tranzit", "Call Of The Dead", "Shi No Numa"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5756,7 +5756,7 @@ const questions = [
     incorrect_answers: ["Moon", "Call Of The Dead", "Die Rise"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5765,7 +5765,7 @@ const questions = [
     incorrect_answers: ["Mr. Game & Watch", "Jigglypuff", "Pichu"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5774,7 +5774,7 @@ const questions = [
     incorrect_answers: ["Charles", "Lee", "Walter"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5783,7 +5783,7 @@ const questions = [
     incorrect_answers: ["3", "5", "1"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5792,7 +5792,7 @@ const questions = [
     incorrect_answers: ["Mario", "Kirby", "Zelda"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5801,7 +5801,7 @@ const questions = [
     incorrect_answers: ["Biergarten", "Hero's Compass", "Wolf Lodge"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5814,7 +5814,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5824,7 +5824,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What's the best selling video game to date?",
@@ -5832,7 +5832,7 @@ const questions = [
     incorrect_answers: ["Wii Sports", "Minecraft", "Super Mario Bros"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5841,7 +5841,7 @@ const questions = [
     incorrect_answers: ["Davao", "Macau", "Palau"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5850,7 +5850,7 @@ const questions = [
     incorrect_answers: ["F-Zero", "Wing Commander", "Star Wars: X-Wing"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5859,7 +5859,7 @@ const questions = [
     incorrect_answers: ["Day of Defeat", "Counter-Strike", "Alien Swarm"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5868,7 +5868,7 @@ const questions = [
     incorrect_answers: ["Clementine", "Kenny", "Rick Grimes"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5877,7 +5877,7 @@ const questions = [
     incorrect_answers: ["4", "2", "5"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5886,7 +5886,7 @@ const questions = [
     incorrect_answers: ["City Escape", "Planet Wisp", "Sky Sanctuary"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5899,7 +5899,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5908,7 +5908,7 @@ const questions = [
     incorrect_answers: ["Injuries", "Disease", "Danger to Others"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5917,7 +5917,7 @@ const questions = [
     incorrect_answers: ["Nintendo", "EA", "Sony"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -5930,7 +5930,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5939,7 +5939,7 @@ const questions = [
     incorrect_answers: ["Blue", "Green", "Magenta"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the main character of &quot;Metal Gear Solid 3&quot;?",
@@ -5947,7 +5947,7 @@ const questions = [
     incorrect_answers: ["Solid Snake", "Liquid Snake", "Venom Snake"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "When was the game 'Portal 2' released?",
@@ -5955,7 +5955,7 @@ const questions = [
     incorrect_answers: ["2014", "2009", "2007"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5964,7 +5964,7 @@ const questions = [
     incorrect_answers: ["Dana", "Alma", "Anna"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -5973,7 +5973,7 @@ const questions = [
     incorrect_answers: ["Drangleic", "Oolacile", "Catarina"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Team Fortress 2, which class wields a shotgun?",
@@ -5981,7 +5981,7 @@ const questions = [
     incorrect_answers: ["Heavy", "Soldier", "Engineer"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -5994,7 +5994,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which company made the Japanese RPG &quot;Dragon Quest&quot;?",
@@ -6002,7 +6002,7 @@ const questions = [
     incorrect_answers: ["Capcom", "Konami", "Blizzard"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6011,7 +6011,7 @@ const questions = [
     incorrect_answers: ["Strategy", "FPS", "Casual"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What was Frank West's job in &quot;Dead Rising&quot;?",
@@ -6019,7 +6019,7 @@ const questions = [
     incorrect_answers: ["Janitor", "Chef", "Taxi Driver"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is NOT a game under the Worms series?",
@@ -6027,7 +6027,7 @@ const questions = [
     incorrect_answers: ["Crazy Golf", "Clan Wars", "Ultimate Mayhem"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6036,7 +6036,7 @@ const questions = [
     incorrect_answers: ["Shish Kabob", "Hamburger", "Lasagna"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is the homeworld of the Elites from Halo?",
@@ -6044,7 +6044,7 @@ const questions = [
     incorrect_answers: ["Te", "Doisac", "Eayn"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6053,7 +6053,7 @@ const questions = [
     incorrect_answers: ["The Swing King", "Maynard John", "Manuel Delgado"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6062,7 +6062,7 @@ const questions = [
     incorrect_answers: ["48", "51", "55"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What video game genre were the original Warcraft games?",
@@ -6074,7 +6074,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Dota 2, what is Earthshaker's real name?",
@@ -6082,7 +6082,7 @@ const questions = [
     incorrect_answers: ["Banehallow Ambry", "Carl", "Barathrum"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6091,7 +6091,7 @@ const questions = [
     incorrect_answers: ["Diamond", "Iron", "Obsidian"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the #1 selling game on Steam by revenue in 2016?",
@@ -6103,7 +6103,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6112,7 +6112,7 @@ const questions = [
     incorrect_answers: ["Deep", "Demo", "Dev"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the browser game Kantai Collection heavily inspired by?",
@@ -6120,7 +6120,7 @@ const questions = [
     incorrect_answers: ["Manga", "World of Warcraft", "An Anime"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6129,7 +6129,7 @@ const questions = [
     incorrect_answers: ["Nico", "Wolf", "Andazi"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6138,7 +6138,7 @@ const questions = [
     incorrect_answers: ["Devil May Cry 4", "Devil May Cry", "Devil May Cry 2"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the creator of Touhou project?",
@@ -6146,7 +6146,7 @@ const questions = [
     incorrect_answers: ["Jun", "Twilight Frontier", "Tasofro"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6155,7 +6155,7 @@ const questions = [
     incorrect_answers: ["Baxter", "Fido", "Henry"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6164,7 +6164,7 @@ const questions = [
     incorrect_answers: ["A Pack-A-Punched gun", "Death Machine", "Monkey Bombs"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6173,7 +6173,7 @@ const questions = [
     incorrect_answers: ["Mob Of The Dead", "Origins", "Ascension"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6186,7 +6186,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6195,7 +6195,7 @@ const questions = [
     incorrect_answers: ["Blazing Sword", "Awakening", "Path of Radiance"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6204,7 +6204,7 @@ const questions = [
     incorrect_answers: ["215", "195", "225"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6213,7 +6213,7 @@ const questions = [
     incorrect_answers: ["Captain", "First Sargent ", "Staff Sargent"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "On which planet does the game Freedom Planet (2014) take place?",
@@ -6221,7 +6221,7 @@ const questions = [
     incorrect_answers: ["Freedom", "Galaxytrail", "Shang Mu"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6230,7 +6230,7 @@ const questions = [
     incorrect_answers: ["Valla", "Malthael", "Kashya"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6239,7 +6239,7 @@ const questions = [
     incorrect_answers: ["Ash Legion", "Blood Legion", "Iron Legion"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6248,7 +6248,7 @@ const questions = [
     incorrect_answers: ["Rabbit", "Tiger", "Goat"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6257,7 +6257,7 @@ const questions = [
     incorrect_answers: ["Southsun Cove", "Lake Doric", "Gendarran Fields"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6266,7 +6266,7 @@ const questions = [
     incorrect_answers: ["Sunrise", "Incinerator", "The Flameseeker Prophecies"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who created Agent 47 in the game series &quot;Hitman&quot;?",
@@ -6278,7 +6278,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following is NOT a Nintendo game console?",
@@ -6287,7 +6287,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6296,7 +6296,7 @@ const questions = [
     incorrect_answers: ["Mario", "Zelda", "Pit"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "When was the first Call of Duty title released?",
@@ -6308,7 +6308,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6317,7 +6317,7 @@ const questions = [
     incorrect_answers: ["Apple", "Google", "Yahoo"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6326,7 +6326,7 @@ const questions = [
     incorrect_answers: ["Hideki Kamiya", "Shu Takumi", "Shinji Mikami"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6335,7 +6335,7 @@ const questions = [
     incorrect_answers: ["M4A1", "AWP", "R8 Revolver"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6344,7 +6344,7 @@ const questions = [
     incorrect_answers: ["Dr. Wallace Breen", "G-Man", "The Gonarch"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "The original Planetside was released in North America on...",
@@ -6356,7 +6356,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6369,7 +6369,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6378,7 +6378,7 @@ const questions = [
     incorrect_answers: ["6", "10", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6387,7 +6387,7 @@ const questions = [
     incorrect_answers: ["Digital Chaos", "Evil Geniuses", "Fnatic"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
@@ -6399,7 +6399,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6408,7 +6408,7 @@ const questions = [
     incorrect_answers: ["1987", "2001", "2004"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is the title of song on the main menu in Halo?",
@@ -6416,7 +6416,7 @@ const questions = [
     incorrect_answers: ["Opening Suite", "Shadows", "Suite Autumn"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6425,7 +6425,7 @@ const questions = [
     incorrect_answers: ["Doom Guy", "Doom Marine", "Doom Reaper"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the FIRST Valve game to have VR?",
@@ -6433,7 +6433,7 @@ const questions = [
     incorrect_answers: ["Dota 2", "Destinations", "Half-Life 2"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6442,7 +6442,7 @@ const questions = [
     incorrect_answers: ["Cave Johnson", "Wallace Breem", "Saxton Hale"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6451,7 +6451,7 @@ const questions = [
     incorrect_answers: ["Super Mario 64", "Mario Tennis", "Dr. Mario 64"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In Undertale, what's the prize for answering correctly?",
@@ -6459,7 +6459,7 @@ const questions = [
     incorrect_answers: ["New car", "Mercy", "Money"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6468,7 +6468,7 @@ const questions = [
     incorrect_answers: ["Fringe Weaver", "Piano Man", "Bad Touch"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6477,7 +6477,7 @@ const questions = [
     incorrect_answers: ["Jesus", "Mr. Hankey", "Mr. Slave"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In the National Pokedex what number is Porygon-Z?",
@@ -6485,7 +6485,7 @@ const questions = [
     incorrect_answers: ["376", "432", "589"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6494,7 +6494,7 @@ const questions = [
     incorrect_answers: ["5", "8", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6503,7 +6503,7 @@ const questions = [
     incorrect_answers: ["Gore Magala", "Malfestio", "Arzuros"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6512,7 +6512,7 @@ const questions = [
     incorrect_answers: ["Blast Fencer", "Winged Viper", "Bastion Warrior"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In what Anno game did the eco balance an part of the game play?",
@@ -6520,7 +6520,7 @@ const questions = [
     incorrect_answers: ["Anno 1404", "Anno 2205", "Anno 1701"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6529,7 +6529,7 @@ const questions = [
     incorrect_answers: ["Luigi", "Yoshi", "Bowser"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6538,7 +6538,7 @@ const questions = [
     incorrect_answers: ["San Fierro", "Las Venturas", "Vice City"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6547,7 +6547,7 @@ const questions = [
     incorrect_answers: ["Abigail", "Haley", "Leah"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6556,7 +6556,7 @@ const questions = [
     incorrect_answers: ["Agatha", "Bruno", "Lorelei"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which one of these games wasn't released in 2016?",
@@ -6568,7 +6568,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6577,7 +6577,7 @@ const questions = [
     incorrect_answers: ["2014", "2013", "2011"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6586,7 +6586,7 @@ const questions = [
     incorrect_answers: ["6", "5", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6595,7 +6595,7 @@ const questions = [
     incorrect_answers: ["Glindor", "Azeroth", "Zaros"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In what year was &quot;Super Mario Sunshine&quot; released?",
@@ -6603,7 +6603,7 @@ const questions = [
     incorrect_answers: ["2003", "2000", "2004"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6616,7 +6616,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What game was used to advertise Steam?",
@@ -6624,7 +6624,7 @@ const questions = [
     incorrect_answers: ["Half-Life", "Half-Life 2", "Team Fortress"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6637,7 +6637,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6650,7 +6650,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6659,7 +6659,7 @@ const questions = [
     incorrect_answers: ["87 Million", "87 Trillion", "87 Gazillion "]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6668,7 +6668,7 @@ const questions = [
     incorrect_answers: ["Shangri-La", "Revelations", "Nuketown"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6677,7 +6677,7 @@ const questions = [
     incorrect_answers: ["The Warden", "The Caretaker", "The Overseer"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What was the release date of &quot;Grand Theft Auto IV&quot;?",
@@ -6685,7 +6685,7 @@ const questions = [
     incorrect_answers: ["May 21, 2009", "June 22, 2010", "July 28, 2008"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6694,7 +6694,7 @@ const questions = [
     incorrect_answers: ["8", "6", "2"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In which game did the Konami Code make its first appearance?",
@@ -6702,7 +6702,7 @@ const questions = [
     incorrect_answers: ["Contra", "Castlevania", "Dance Dance Revolution"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In Guild Wars 2, what was Scarlet Briar's original name?",
@@ -6710,7 +6710,7 @@ const questions = [
     incorrect_answers: ["Scarlet", "Serimon", "Omadd"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6719,7 +6719,7 @@ const questions = [
     incorrect_answers: ["Dynamics", "Statics", "Golems"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In Guild Wars 2, what is the name of the Hylek's sun god?",
@@ -6727,7 +6727,7 @@ const questions = [
     incorrect_answers: ["Huelec", "Ameyalli", "Cueyatl"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6736,7 +6736,7 @@ const questions = [
     incorrect_answers: ["Loire", "Almasy", "Trepe"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the main villain of the Crash Bandicoot series?",
@@ -6744,7 +6744,7 @@ const questions = [
     incorrect_answers: ["Dr. Evo-Cortex", "Dr. Cortox", "Sir Cartex"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6754,7 +6754,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6763,7 +6763,7 @@ const questions = [
     incorrect_answers: ["India", "Turkey", "Slovakia"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6772,7 +6772,7 @@ const questions = [
     incorrect_answers: ["Ben Affleck", "Jason Derulo", "Jim Carrey"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6781,7 +6781,7 @@ const questions = [
     incorrect_answers: ["Ebola", "Red Poison", "Smallpox"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6790,7 +6790,7 @@ const questions = [
     incorrect_answers: ["Yoshi", "T. Yoshisotop Munchakoopas", "Yossy"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6803,7 +6803,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the villain company in &quot;Stardew Valley&quot;?",
@@ -6811,7 +6811,7 @@ const questions = [
     incorrect_answers: ["Ronin", "Empire", "Robotnik Industry's "]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6820,7 +6820,7 @@ const questions = [
     incorrect_answers: ["1 Million", "250 Thousand", "Less than 250 Thousand"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -6833,7 +6833,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6842,7 +6842,7 @@ const questions = [
     incorrect_answers: ["Team Instinct", "Team Valor", "Team Mystic"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6851,7 +6851,7 @@ const questions = [
     incorrect_answers: ["Cristiano Ronaldo", "Wayne Rooney", "David Beckham"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6860,7 +6860,7 @@ const questions = [
     incorrect_answers: ["Mercy", "Winston", "Zenyatta"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6869,7 +6869,7 @@ const questions = [
     incorrect_answers: ["Team Liquid", "Fnatic", "Virtus.pro"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6882,7 +6882,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6895,7 +6895,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6904,7 +6904,7 @@ const questions = [
     incorrect_answers: ["Nick Ramos", "Frank West", "Katie Greene"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6913,7 +6913,7 @@ const questions = [
     incorrect_answers: ["Wario", "Q*bert", "Solid Snake"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who created the 2011 Video Game &quot;Minecraft&quot;?",
@@ -6921,7 +6921,7 @@ const questions = [
     incorrect_answers: ["Jens Bergensten", "Daniel Rosenfeld", "Carl Manneh"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6930,7 +6930,7 @@ const questions = [
     incorrect_answers: ["September 21st", "September 30th", "September 14th"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the leader of Team Valor in Pok&eacute;mon Go?",
@@ -6938,7 +6938,7 @@ const questions = [
     incorrect_answers: ["Willow", "Blanche", "Spark"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In the Fallout series, on which date did The Great War happen?",
@@ -6950,7 +6950,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "When was Final Fantasy XV released?",
@@ -6962,7 +6962,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6971,7 +6971,7 @@ const questions = [
     incorrect_answers: ["Sonic 2", "Sonic CD", "Sonic 3D Blast"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "Which car did not appear in the 2002 Lego Game: Drome Racers?",
@@ -6979,7 +6979,7 @@ const questions = [
     incorrect_answers: ["Raptor", "Hornet", "Behemoth"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -6988,7 +6988,7 @@ const questions = [
     incorrect_answers: ["Anticipation", "Unnecessary Tension", "Ruins"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -6997,7 +6997,7 @@ const questions = [
     incorrect_answers: ["Cleaners", "Last Man Batallion", "Rikers"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7010,7 +7010,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of the following is not a real Pok&eacute;mon?",
@@ -7018,7 +7018,7 @@ const questions = [
     incorrect_answers: ["Dragalge", "Mandibuzz", "Araquanid"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Undertale, how much do Spider Donuts cost in Hotland?",
@@ -7026,7 +7026,7 @@ const questions = [
     incorrect_answers: ["7G", "40G", "12G"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7039,7 +7039,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7048,7 +7048,7 @@ const questions = [
     incorrect_answers: ["6", "10", "12"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7057,7 +7057,7 @@ const questions = [
     incorrect_answers: ["Berlin", "Hamburg", "Munich"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7070,7 +7070,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7083,7 +7083,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7092,7 +7092,7 @@ const questions = [
     incorrect_answers: ["$5 USD", "$10 USD", "$15 USD"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7101,7 +7101,7 @@ const questions = [
     incorrect_answers: ["9,000,000 HP", "100 HP", "150,000 HP"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7110,7 +7110,7 @@ const questions = [
     incorrect_answers: ["Miqo'te", "Lalafell", "Roegadyn"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7119,7 +7119,7 @@ const questions = [
     incorrect_answers: ["Wunderfizz", "Gersch Device", "Mule Kick"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7128,7 +7128,7 @@ const questions = [
     incorrect_answers: ["Sliquifier", "V-R11", "Wunderwaffe DG-2"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In which mall does &quot;Dead Rising&quot; take place?",
@@ -7140,7 +7140,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7149,7 +7149,7 @@ const questions = [
     incorrect_answers: ["Rucks", "Zulf", "Zia"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7158,7 +7158,7 @@ const questions = [
     incorrect_answers: ["Mara", "Izanagi", "Sandaphlon"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7167,7 +7167,7 @@ const questions = [
     incorrect_answers: ["Shaun", "Simon", "Sam"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7180,7 +7180,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Guild Wars 2, what is Tybalt's last name?",
@@ -7188,7 +7188,7 @@ const questions = [
     incorrect_answers: ["Wildeye", "Blightaxe", "Blackblood"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7197,7 +7197,7 @@ const questions = [
     incorrect_answers: ["Adryn", "Hareth", "Gerent"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7206,7 +7206,7 @@ const questions = [
     incorrect_answers: ["S.A.S", "G.I.G.N", "F.B.I"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7215,7 +7215,7 @@ const questions = [
     incorrect_answers: ["Prince", "George Michael", "Vanilla Ice "]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7224,7 +7224,7 @@ const questions = [
     incorrect_answers: ["Agent 27", "Agent Smith", "Agent 67"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What was the first game in the &quot;Battlefield&quot; series?",
@@ -7233,7 +7233,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which Greek letter represents the &quot;Half-Life&quot; logo?",
@@ -7241,7 +7241,7 @@ const questions = [
     incorrect_answers: ["Omega", "Alpha", "Sigma"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is Solid Snake's real name?",
@@ -7249,7 +7249,7 @@ const questions = [
     incorrect_answers: ["Solid Snake", "John", "Huey"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7258,7 +7258,7 @@ const questions = [
     incorrect_answers: ["Seven", "Five", "Eight"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which character is from &quot;Splatoon&quot;?",
@@ -7266,7 +7266,7 @@ const questions = [
     incorrect_answers: ["Cyrus", "Palutena", "Shulk"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7275,7 +7275,7 @@ const questions = [
     incorrect_answers: ["Ahsoka Tano", "Kazdan Paratus", "Kento Marek"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7284,7 +7284,7 @@ const questions = [
     incorrect_answers: ["Arthur", "Sir Toby Belch", "Guy of Gisbourne"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is Pikachu's National Pok&eacute;Dex Number?",
@@ -7292,7 +7292,7 @@ const questions = [
     incorrect_answers: ["#001", "#031", "#109"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7301,7 +7301,7 @@ const questions = [
     incorrect_answers: ["Japan", "China", "France"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7310,7 +7310,7 @@ const questions = [
     incorrect_answers: ["Osiris", "Infinity", "Endeavour"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the name of the final boss in Turok: Dinosaur Hunter?",
@@ -7318,7 +7318,7 @@ const questions = [
     incorrect_answers: ["The Primagen", "Oblivion", "Lord Tyrannus"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7327,7 +7327,7 @@ const questions = [
     incorrect_answers: ["1, 2, 3", "1, 3, 2", "2, 1, 3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "How many classes are there in Team Fortress 2?",
@@ -7335,7 +7335,7 @@ const questions = [
     incorrect_answers: ["10", "8", "7"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who voices Max Payne in the 2001 game &quot;Max Payne&quot;?",
@@ -7343,7 +7343,7 @@ const questions = [
     incorrect_answers: ["Sam Lake", "Troy Baker", "Hideo Kojima"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7352,7 +7352,7 @@ const questions = [
     incorrect_answers: ["13", "16", "11"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "Which game was exclusive to Dreamcast?",
@@ -7364,7 +7364,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these Starbound races has a Wild West culture?",
@@ -7372,7 +7372,7 @@ const questions = [
     incorrect_answers: ["Avian", "Human", "Hylotl"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is Gabe Newell's favorite class in Team Fortress 2?",
@@ -7380,7 +7380,7 @@ const questions = [
     incorrect_answers: ["Heavy", "Medic", "Pyro"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What's the Team Fortress 2 Scout's city of origin?",
@@ -7388,7 +7388,7 @@ const questions = [
     incorrect_answers: ["Sydney", "Detroit", "New York"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7397,7 +7397,7 @@ const questions = [
     incorrect_answers: ["Sub Sandwich", "Chicken Soup", "Pepperoni Pizza"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7406,7 +7406,7 @@ const questions = [
     incorrect_answers: ["Cthulu", "Spike", "Tremor"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "The creator of the Touhou Project series is:",
@@ -7414,7 +7414,7 @@ const questions = [
     incorrect_answers: ["SUN", "RUN", "PUN"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7427,7 +7427,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What is the first weapon you acquire in Half-Life?",
@@ -7435,7 +7435,7 @@ const questions = [
     incorrect_answers: ["A pistol", "The H.E.V suit", "Your fists"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In Dota 2, Wraith King was previously known as...",
@@ -7443,7 +7443,7 @@ const questions = [
     incorrect_answers: ["Reaper King", "Skull King", "Hell King"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7452,7 +7452,7 @@ const questions = [
     incorrect_answers: ["T-51", "T-60", "X-01"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
@@ -7460,7 +7460,7 @@ const questions = [
     incorrect_answers: ["Candela", "Spark", "Willow"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7473,7 +7473,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7482,7 +7482,7 @@ const questions = [
     incorrect_answers: ["The Evil Dead", "Saw", "Alien"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7491,7 +7491,7 @@ const questions = [
     incorrect_answers: ["Steve Blum", "Richard Epcar", "Yuri Lowenthal"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7500,7 +7500,7 @@ const questions = [
     incorrect_answers: ["Victoria Chase", "Stella Hill", "Chloe Price"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7509,7 +7509,7 @@ const questions = [
     incorrect_answers: ["Ruby/Sapphire", "Black/White", "X/Y"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7518,7 +7518,7 @@ const questions = [
     incorrect_answers: ["GLaDOs", "Wallace Breen", "Gordon Freeman"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7527,7 +7527,7 @@ const questions = [
     incorrect_answers: ["Chino Mashido", "Tunki Sunada", "Masaki Narinaka"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7536,7 +7536,7 @@ const questions = [
     incorrect_answers: ["Bowser", "Mewtwo", "King Dedede"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What does Solid Snake use to hide himself with?",
@@ -7544,7 +7544,7 @@ const questions = [
     incorrect_answers: ["Cloaking Device", "Metal Crate", "Cardboard cut-out"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In Animal Crossing, who is the manager of the town shop?",
@@ -7552,7 +7552,7 @@ const questions = [
     incorrect_answers: ["Mr. Resetti", "Gracie", "K.K. Slider"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7561,7 +7561,7 @@ const questions = [
     incorrect_answers: ["Liu Kang", "Shang Tsung", "Raiden"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "In the Lego Island trilogy, who taught Pepper Roni how to read?",
@@ -7573,7 +7573,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7582,7 +7582,7 @@ const questions = [
     incorrect_answers: ["4", "6", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7591,7 +7591,7 @@ const questions = [
     incorrect_answers: ["Paperman", "Scissorsman", "Mega Man"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7600,7 +7600,7 @@ const questions = [
     incorrect_answers: ["Lance", "Walter", "John"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7609,7 +7609,7 @@ const questions = [
     incorrect_answers: ["32", "30", "5"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7618,7 +7618,7 @@ const questions = [
     incorrect_answers: ["Brawl", "Kearvaig", "Talmine"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the first weapon pack for &quot;PAYDAY 2&quot;?",
@@ -7630,7 +7630,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7639,7 +7639,7 @@ const questions = [
     incorrect_answers: ["18", "15", "16"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7648,7 +7648,7 @@ const questions = [
     incorrect_answers: ["Huragok", "Sangheili", "Yanme'e"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7661,7 +7661,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What were the first two blocks in &quot;Minecraft&quot;?",
@@ -7673,7 +7673,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7682,7 +7682,7 @@ const questions = [
     incorrect_answers: ["Diarmid", "Hareth", "Gerent"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7692,7 +7692,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7701,7 +7701,7 @@ const questions = [
     incorrect_answers: ["Dragon Ball", "Sonic The Hedgehog", "Yugioh"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the main character in &quot;The Stanley Parable&quot;?",
@@ -7709,7 +7709,7 @@ const questions = [
     incorrect_answers: ["The Adventure Line", "The Narrator", "The Boss"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7722,7 +7722,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "When was &quot;Garry's Mod&quot; released?",
@@ -7734,7 +7734,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What does IWHBYD stand for on the skull in the Halo series?",
@@ -7746,7 +7746,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7755,7 +7755,7 @@ const questions = [
     incorrect_answers: ["Anti-Gravity Hook", "Influx Waver", "Cosmic Car Key"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7768,7 +7768,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7777,7 +7777,7 @@ const questions = [
     incorrect_answers: ["Mega Man", "Meta Knight", "Diddy Kong"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7786,7 +7786,7 @@ const questions = [
     incorrect_answers: ["GSG-9", "Elite Crew", "Phoenix Connexion"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Rocket League is a game which features..",
@@ -7794,7 +7794,7 @@ const questions = [
     incorrect_answers: ["Helicopters", "Planes", "Submarines"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who was the main antagonist of Max Payne 3 (2012)?",
@@ -7802,7 +7802,7 @@ const questions = [
     incorrect_answers: ["&Aacute;lvaro Neves", "Armando Becker", "Milo Rego"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7811,7 +7811,7 @@ const questions = [
     incorrect_answers: ["Louis", "Zoey", "Bill"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What ingredients are required to make a cake in Minecraft?",
@@ -7823,7 +7823,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7836,7 +7836,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which company did Bethesda purchase the Fallout Series from?",
@@ -7844,7 +7844,7 @@ const questions = [
     incorrect_answers: ["Capcom", "Blizzard Entertainment", "Nintendo"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What company develops the Rock Band series of rhythm games?",
@@ -7852,7 +7852,7 @@ const questions = [
     incorrect_answers: ["Activision", "Konami", "Electronic Arts"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7865,7 +7865,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In WarioWare: Smooth Moves, which one of these is NOT a Form?",
@@ -7873,7 +7873,7 @@ const questions = [
     incorrect_answers: ["The Discard", "The Elephant", "The Mohawk"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question: "How many total monsters appear in Monster Hunter Generations?",
@@ -7881,7 +7881,7 @@ const questions = [
     incorrect_answers: ["100", "98", "73"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7894,7 +7894,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7907,7 +7907,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -7916,7 +7916,7 @@ const questions = [
     incorrect_answers: ["Cave Johnson", "Wheatley", "Atlas / P-Body"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7925,7 +7925,7 @@ const questions = [
     incorrect_answers: ["G-Man", "Alyx Vance", "Gordon Freeman"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What CS:GO case contains the Butterfly Knife?",
@@ -7933,7 +7933,7 @@ const questions = [
     incorrect_answers: ["Shadow Case", "Vanguard Case", "Esports 2014 Case"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What element does the Zinogre use in Monster Hunter?",
@@ -7941,7 +7941,7 @@ const questions = [
     incorrect_answers: ["Ice", "Fire", "Water"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7950,7 +7950,7 @@ const questions = [
     incorrect_answers: ["Widowmaker", "Sombra", "Symmetra"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7959,7 +7959,7 @@ const questions = [
     incorrect_answers: ["Heavy", "Soldier", "Scout"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -7968,7 +7968,7 @@ const questions = [
     incorrect_answers: ["Portal", "Doctor Who", "Back to the Future"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7981,7 +7981,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7990,7 +7990,7 @@ const questions = [
     incorrect_answers: ["Steins; Gate", "Robotics; Notes", "Chaos; Child"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -7999,7 +7999,7 @@ const questions = [
     incorrect_answers: ["Kōki Uchiyama", "Jesse McCartney", "Miyu Irino"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In &quot;Overwatch&quot;, which hero is able to wallride?",
@@ -8007,7 +8007,7 @@ const questions = [
     incorrect_answers: ["Reinhardt", "Sombra", "Mercy"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8020,7 +8020,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8029,7 +8029,7 @@ const questions = [
     incorrect_answers: ["7", "5", "3"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Who developed the 2016 farming RPG &quot;Stardew Valley&quot;?",
@@ -8037,7 +8037,7 @@ const questions = [
     incorrect_answers: ["Daisuke Amaya", "Jasper Byrne", "Lucas Pope"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which company developed and published Game Dev Tycoon?",
@@ -8045,7 +8045,7 @@ const questions = [
     incorrect_answers: ["Greenland Games", "The Tycoonists", "MomCorp"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What animal is featured in &quot;Bloons TD Battles&quot;?",
@@ -8053,7 +8053,7 @@ const questions = [
     incorrect_answers: ["Alligators", "Pigeons", "Lizards"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8062,7 +8062,7 @@ const questions = [
     incorrect_answers: ["2009", "2007", "2008"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8071,7 +8071,7 @@ const questions = [
     incorrect_answers: ["Ellie", "Tess", "Marlene"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8080,7 +8080,7 @@ const questions = [
     incorrect_answers: ["Heather", "Melissa", "Jane"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8089,7 +8089,7 @@ const questions = [
     incorrect_answers: ["Celeste", "Sierra", "Nina"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Guild Wars 2, Brooloonu is a small village for which race?",
@@ -8097,7 +8097,7 @@ const questions = [
     incorrect_answers: ["Kodan", "Charr", "Tengu"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8110,7 +8110,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which Sonic the Hedgehog game introudced Knuckles the Echidna?",
@@ -8122,7 +8122,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8131,7 +8131,7 @@ const questions = [
     incorrect_answers: ["Kudzu", "The Moot", "Astralaria"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8140,7 +8140,7 @@ const questions = [
     incorrect_answers: ["Kamohoali'i Kotaki", "Kraitkin", "The Predator"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8149,7 +8149,7 @@ const questions = [
     incorrect_answers: ["The Predator", "Incinerator", "Flames of War"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these characters is NOT a boss in Crash Bash?",
@@ -8157,7 +8157,7 @@ const questions = [
     incorrect_answers: ["Papu Papu", "Komodo brothers", "Nitros Oxide"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Why were only only 300,000 copies of Uniracers were produced?",
@@ -8170,7 +8170,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8184,7 +8184,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8193,7 +8193,7 @@ const questions = [
     incorrect_answers: ["Jumpman", "Mr. Video", "Mario"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "When was the original Star Wars: Battlefront II released?",
@@ -8205,7 +8205,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What was the character Kirby originally going to be named?",
@@ -8213,7 +8213,7 @@ const questions = [
     incorrect_answers: ["Dedede", "Waddle Dee", "Prince Puff"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What is the main character of Metal Gear Solid 2?",
@@ -8221,7 +8221,7 @@ const questions = [
     incorrect_answers: ["Solidus Snake", "Big Boss", "Venom Snake"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "What's the famous line Vaas says in &quot;Far Cry 3&quot;?",
@@ -8233,7 +8233,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8242,7 +8242,7 @@ const questions = [
     incorrect_answers: ["Betty", "Anna", "Diana"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8251,7 +8251,7 @@ const questions = [
     incorrect_answers: ["Assault", "Mirage", "Cache"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these is a type of monster found in Minecraft?",
@@ -8259,7 +8259,7 @@ const questions = [
     incorrect_answers: ["Werewolf", "Vampire", "Minotaur"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Along with Gabe Newell, who co-founded Valve?",
@@ -8267,7 +8267,7 @@ const questions = [
     incorrect_answers: ["Robin Walker", "Marc Laidlaw", "Stephen Bahl"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In what engine was Titanfall made in?",
@@ -8275,7 +8275,7 @@ const questions = [
     incorrect_answers: ["Frostbite 3", "Unreal Engine", "Cryengine"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8284,7 +8284,7 @@ const questions = [
     incorrect_answers: ["Anomalous", "Eater of Souls", "The Lich King"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these is NOT a player class in Team Fortress 2?",
@@ -8292,7 +8292,7 @@ const questions = [
     incorrect_answers: ["Demoman", "Pyro", "Spy"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8301,7 +8301,7 @@ const questions = [
     incorrect_answers: ["Gauntlet", "Space Invaders", "Street Fighter"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8310,7 +8310,7 @@ const questions = [
     incorrect_answers: ["5", "10", "12"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8319,7 +8319,7 @@ const questions = [
     incorrect_answers: ["Trevor", "Michael", "Franklin"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8328,7 +8328,7 @@ const questions = [
     incorrect_answers: ["Kokona Hruka", "Oka Ruto", "Pipi Osu"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8337,7 +8337,7 @@ const questions = [
     incorrect_answers: ["Ferrari FXX-K", "McLaren P1 GTR", "Lotus E23"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8346,7 +8346,7 @@ const questions = [
     incorrect_answers: ["SG 550", "CZ-75", "XM1014"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8359,7 +8359,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8368,7 +8368,7 @@ const questions = [
     incorrect_answers: ["Arm", "Leg", "Chest"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "When was Minecraft first released to the public?",
@@ -8380,7 +8380,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8393,7 +8393,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the main protagonist of Dead Space?",
@@ -8401,7 +8401,7 @@ const questions = [
     incorrect_answers: ["Commander Shepard", "Gordon Freeman", "Master Chief"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8410,7 +8410,7 @@ const questions = [
     incorrect_answers: ["DJ Shadow", "Daft Punk", "Grandmaster Flash"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8419,7 +8419,7 @@ const questions = [
     incorrect_answers: ["Point & Click", "MMORPG", "Simulation"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8432,7 +8432,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these game franchises were made by Namco?",
@@ -8440,7 +8440,7 @@ const questions = [
     incorrect_answers: ["Street Fighter", "Mortal Kombat", "Dragon Quest"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8449,7 +8449,7 @@ const questions = [
     incorrect_answers: ["Jennifer Hale", "Jenn Taylor", "Lori Alan"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "The first version of Blockland came out in which year?",
@@ -8457,7 +8457,7 @@ const questions = [
     incorrect_answers: ["2007", "2008", "2006"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "What block in Minecraft has the highest blast resistance?",
@@ -8465,7 +8465,7 @@ const questions = [
     incorrect_answers: ["Obsidian", "Bedrock", "Block of Diamond"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8474,7 +8474,7 @@ const questions = [
     incorrect_answers: ["Suspicious Looking Fish", "King Grasshopper", "Slug"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8483,7 +8483,7 @@ const questions = [
     incorrect_answers: ["Substance", "Sanghelios", "Te"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8496,7 +8496,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "Which Kirby game first introduced Copy Abilities?",
@@ -8508,7 +8508,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8517,7 +8517,7 @@ const questions = [
     incorrect_answers: ["Magic", "Smash", "Missile"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8526,7 +8526,7 @@ const questions = [
     incorrect_answers: ["100", "200", "400"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8535,7 +8535,7 @@ const questions = [
     incorrect_answers: ["End Stone", "Water", "Wood Planks"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8548,7 +8548,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8557,7 +8557,7 @@ const questions = [
     incorrect_answers: ["Bridge of Eldin", "75m", "Miiverse"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8566,7 +8566,7 @@ const questions = [
     incorrect_answers: ["HTML 5", "C++", "Python"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8575,7 +8575,7 @@ const questions = [
     incorrect_answers: ["Longinus", "V-R11", "Predator"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8584,7 +8584,7 @@ const questions = [
     incorrect_answers: ["Tom Sheldon", "Marcus Holloway", "Mario Frigo"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8593,7 +8593,7 @@ const questions = [
     incorrect_answers: ["Drake", "Bill", "Mallary"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8602,7 +8602,7 @@ const questions = [
     incorrect_answers: ["8", "5", "12"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question: "In Portal, what color is the Morality Core?",
@@ -8610,7 +8610,7 @@ const questions = [
     incorrect_answers: ["Red", "Yellow", "Blue"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8619,7 +8619,7 @@ const questions = [
     incorrect_answers: ["Subway Sprint", "Hospital Havoc", "Blood Harvest"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8628,7 +8628,7 @@ const questions = [
     incorrect_answers: ["Diarmid", "Adryn", "Gerent"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8637,7 +8637,7 @@ const questions = [
     incorrect_answers: ["Popo and Nina", "Papi and Nana", "Papi and Nina"]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question: "In the Halo series, which era of SPARTAN is Master Chief? ",
@@ -8645,7 +8645,7 @@ const questions = [
     incorrect_answers: ["SPARTAN-I", "SPARTAN-III", ""]
   },
   {
-    category: "Entertainment: Video Games",
+    category: "Video Games",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8655,7 +8655,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What is not a wind instrument?",
@@ -8663,7 +8663,7 @@ const questions = [
     incorrect_answers: ["Oboe", "Trombone", "Duduk"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the best selling artist of all time?",
@@ -8671,7 +8671,7 @@ const questions = [
     incorrect_answers: ["Michael Jackson", "Elton John", "Elvis Presley"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8680,7 +8680,7 @@ const questions = [
     incorrect_answers: ["Marilyn Manson", "Robin Finck", "Josh Homme"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8689,7 +8689,7 @@ const questions = [
     incorrect_answers: ["Windowlicker", "Syro", "Collected Ambient Works 85-92"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8698,7 +8698,7 @@ const questions = [
     incorrect_answers: ["Irving Berlin", "Duke Ellington", "Johnny Mandel"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who had a 1981 hit with the song &quot;Japanese Boy&quot;?",
@@ -8706,7 +8706,7 @@ const questions = [
     incorrect_answers: ["Toyah", "Sandra", "Madonna"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8715,7 +8715,7 @@ const questions = [
     incorrect_answers: ["Wolves", "Ultralight Beam", "Highlights"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8724,7 +8724,7 @@ const questions = [
     incorrect_answers: ["Saturdays = Youth", "Before the Dawn Heals Us", "Junk"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8733,7 +8733,7 @@ const questions = [
     incorrect_answers: ["Kendrick Lamar", "Future", "Fatman Scoop"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8746,7 +8746,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8755,7 +8755,7 @@ const questions = [
     incorrect_answers: ["Japanese", "French", "Spanish"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8764,7 +8764,7 @@ const questions = [
     incorrect_answers: ["Savannah", "Augusta", "Marietta"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the lead singer of the British pop rock band Coldplay?",
@@ -8772,7 +8772,7 @@ const questions = [
     incorrect_answers: ["Jonny Buckland", "Guy Berryman", "Will Champion"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8781,7 +8781,7 @@ const questions = [
     incorrect_answers: ["MSTRKRFT", "STRFKR", "SBTRKT"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8794,7 +8794,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8803,7 +8803,7 @@ const questions = [
     incorrect_answers: ["19", "21", "25"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8812,7 +8812,7 @@ const questions = [
     incorrect_answers: ["Closer", "A Warm Place", "Big Man with a Gun"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these is the name of a song by Tears for Fears?",
@@ -8820,7 +8820,7 @@ const questions = [
     incorrect_answers: ["Scream", "Yell", "Shriek"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8833,7 +8833,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8842,7 +8842,7 @@ const questions = [
     incorrect_answers: ["The Cure", "New Order", "Depeche Mode"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8855,7 +8855,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "The key of sharps does the key of G# minor contain?",
@@ -8863,7 +8863,7 @@ const questions = [
     incorrect_answers: ["3", "7", "0"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8872,7 +8872,7 @@ const questions = [
     incorrect_answers: ["Ol' Dirty Bastard", "GZA", "Method Man"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8881,7 +8881,7 @@ const questions = [
     incorrect_answers: ["deadmau5", "Disclosure", "DJ Shadow"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8890,7 +8890,7 @@ const questions = [
     incorrect_answers: ["Japan", "North Korea", "China"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8899,7 +8899,7 @@ const questions = [
     incorrect_answers: ["Rem", "Ren", "Ram"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8908,7 +8908,7 @@ const questions = [
     incorrect_answers: ["Venus", "Mars", "Uranus"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What was Radiohead's first album?",
@@ -8916,7 +8916,7 @@ const questions = [
     incorrect_answers: ["The Bends", "Kid A", "A Moon Shaped Pool"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8929,7 +8929,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "&quot;Lift Your Spirit&quot; is an album by which artist?",
@@ -8937,7 +8937,7 @@ const questions = [
     incorrect_answers: ["Lena Meyer-Landrut", "Stevie Wonder", "Taylor Swift"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these bands is the oldest?",
@@ -8945,7 +8945,7 @@ const questions = [
     incorrect_answers: ["AC/DC", "Metallica", "Red Hot Chili Peppers"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What album did Bon Iver release in 2016?",
@@ -8957,7 +8957,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who was featured in the song &quot;Words&quot; by Feint? ",
@@ -8965,7 +8965,7 @@ const questions = [
     incorrect_answers: ["Anna Yvette ", "Danyka Nadeau", "Veela"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -8974,7 +8974,7 @@ const questions = [
     incorrect_answers: ["La ultima vez", "Rocket", "Hasta Dondes Estes"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -8983,7 +8983,7 @@ const questions = [
     incorrect_answers: ["Hungarian", "Finnish", "Chinese"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -8996,7 +8996,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9005,7 +9005,7 @@ const questions = [
     incorrect_answers: ["Stairway to Heaven", "Black Dog", "Rock and Roll"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9014,7 +9014,7 @@ const questions = [
     incorrect_answers: ["Manchester", "London", "Newcastle-Upon-Tyne"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who is a pioneer of &quot;Minimal Music&quot; in 1960s?",
@@ -9026,7 +9026,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9035,7 +9035,7 @@ const questions = [
     incorrect_answers: ["Kurt Cobain", "Slash", "Bono"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9044,7 +9044,7 @@ const questions = [
     incorrect_answers: ["Nirvana", "Coldplay", "U2"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9053,7 +9053,7 @@ const questions = [
     incorrect_answers: ["Justin Timberlake", "Harry Styles", "Gary Barlow"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9062,7 +9062,7 @@ const questions = [
     incorrect_answers: ["The Jumpers", "The Kickstarters", "The Beat-Busters"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who was the lead singer and frontman of rock band R.E.M?",
@@ -9070,7 +9070,7 @@ const questions = [
     incorrect_answers: ["Chris Martin", "Thom Yorke", "George Michael"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9079,7 +9079,7 @@ const questions = [
     incorrect_answers: ["Radiohead", "Coldplay", "Bon Jovi"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9088,7 +9088,7 @@ const questions = [
     incorrect_answers: ["The Rolling Stones", "Pink Floyd", "The Who"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these songs did Jimi Hendrix cover?",
@@ -9100,7 +9100,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9109,7 +9109,7 @@ const questions = [
     incorrect_answers: ["2011", "2014", "2009"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which band recorded the album &quot;Parallel Lines&quot;?",
@@ -9117,7 +9117,7 @@ const questions = [
     incorrect_answers: ["Paramore", "Coldplay", "The Police"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9131,7 +9131,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9140,7 +9140,7 @@ const questions = [
     incorrect_answers: ["Angelo", "Fernando", "Dave"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9149,7 +9149,7 @@ const questions = [
     incorrect_answers: ["Fire", "Earth", "Water"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9158,7 +9158,7 @@ const questions = [
     incorrect_answers: ["Rain", "Hail", "Sleet"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who had a 1983 hit with the song 'Africa'?",
@@ -9166,7 +9166,7 @@ const questions = [
     incorrect_answers: ["Foreigner", "Steely Dan", "Journey"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the lead singer of Pearl Jam?",
@@ -9174,7 +9174,7 @@ const questions = [
     incorrect_answers: ["Ozzy Osbourne", "Stone Gossard", "Kurt Cobain"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9183,7 +9183,7 @@ const questions = [
     incorrect_answers: ["Selena Gomez", "Ellie Goulding", "The Weeknd"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which country does the band Rammstein hail from?",
@@ -9191,7 +9191,7 @@ const questions = [
     incorrect_answers: ["Austria", "Armenia", "Belgium"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who was the original drummer for The Beatles?",
@@ -9199,7 +9199,7 @@ const questions = [
     incorrect_answers: ["Ringo Starr", "Stuart Sutcliffe", "Pete Best"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9208,7 +9208,7 @@ const questions = [
     incorrect_answers: ["Jimmy Page", "Eddie Van Halen", "Jimi Hendrix"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Where does the Mac part of the name Fleetwood Mac come from?",
@@ -9216,7 +9216,7 @@ const questions = [
     incorrect_answers: ["Christine McVie", "Mac McAnally", "David Tennant"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9225,7 +9225,7 @@ const questions = [
     incorrect_answers: ["Loretta Martin", "Molly Jones", "Lady Madonna"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9234,7 +9234,7 @@ const questions = [
     incorrect_answers: ["House", "Drum and Bass", "Dubstep"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which one of these artists appears in the album Deltron 3030?",
@@ -9242,7 +9242,7 @@ const questions = [
     incorrect_answers: ["Lamarr Kendrick", "Danger Mouse", "CeeLo Green"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9251,7 +9251,7 @@ const questions = [
     incorrect_answers: ["Caustic Window", "Bradley Strider", "GAK"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9260,7 +9260,7 @@ const questions = [
     incorrect_answers: ["New York", "Detroit", "Atlanta"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9273,7 +9273,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "EDM record label Monstercat is based in which country?",
@@ -9281,7 +9281,7 @@ const questions = [
     incorrect_answers: ["United States", "Australia", "United Kingdom"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9290,7 +9290,7 @@ const questions = [
     incorrect_answers: ["RL Grime", "NGHTMRE", "Flosstradamus"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9299,7 +9299,7 @@ const questions = [
     incorrect_answers: ["&&&&&&", "Sheep", "Xen"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9308,7 +9308,7 @@ const questions = [
     incorrect_answers: ["Fade Into Darkness", "Silhouettes", "Seek Bromance"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who won the 1989 Drum Corps International championships?",
@@ -9316,7 +9316,7 @@ const questions = [
     incorrect_answers: ["Blue Devils", "The Academy", "The Bluecoats"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9325,7 +9325,7 @@ const questions = [
     incorrect_answers: ["Farts", "People talking", "Cricket chirps"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9334,7 +9334,7 @@ const questions = [
     incorrect_answers: ["LOUDPVCK", "KRNE", "DVBBS"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9343,7 +9343,7 @@ const questions = [
     incorrect_answers: ["Fox", "Elephant", "Tiger"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these songs is not by Tatsuro Yamashita?",
@@ -9355,7 +9355,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What was Rage Against the Machine's debut album?",
@@ -9363,7 +9363,7 @@ const questions = [
     incorrect_answers: ["Evil Empire", "Bombtrack", "The Battle Of Los Angeles"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9376,7 +9376,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9385,7 +9385,7 @@ const questions = [
     incorrect_answers: ["Rubber Soul", "Abbey Road", "Magical Mystery Tour"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Kanye West at 2009 VMA's interrupted which celebrity?",
@@ -9393,7 +9393,7 @@ const questions = [
     incorrect_answers: ["MF DOOM", "Beyonce", "Beck"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9402,7 +9402,7 @@ const questions = [
     incorrect_answers: ["2014", "2013", "2012"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What is Brian May's guitar called?",
@@ -9410,7 +9410,7 @@ const questions = [
     incorrect_answers: ["Blue Special", "Green Special", "Yellow Special"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9419,7 +9419,7 @@ const questions = [
     incorrect_answers: ["Jean-Michel Jarre", "Bing Crosby", "Enya"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which Nirvana album had a naked baby on the cover?",
@@ -9427,7 +9427,7 @@ const questions = [
     incorrect_answers: ["Bleach", "In Utero", "Incesticide"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9436,7 +9436,7 @@ const questions = [
     incorrect_answers: ["Matt Burnett", "Ian Jones Quartey", "Ben Leven"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9445,7 +9445,7 @@ const questions = [
     incorrect_answers: ["1970", "1960", "1969"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9454,7 +9454,7 @@ const questions = [
     incorrect_answers: ["1997", "2000", "1992"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9467,7 +9467,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the lead singer of Bastille?",
@@ -9475,7 +9475,7 @@ const questions = [
     incorrect_answers: ["Will Farquarson", "Kyle Simmons", "Chris Wood"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who performed &quot;I Took A Pill In Ibiza&quot;?",
@@ -9483,7 +9483,7 @@ const questions = [
     incorrect_answers: ["Avicii", "Robbie Williams", "Harry Styles"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9496,7 +9496,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Ellie Goulding's earliest album was named?",
@@ -9504,7 +9504,7 @@ const questions = [
     incorrect_answers: ["Halcyon", "Bright Lights", "Halcyon Days"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9513,7 +9513,7 @@ const questions = [
     incorrect_answers: ["Right Ear", "Right Middle Finger", "Nose"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is NOT a song by Pegboard Nerds?",
@@ -9521,7 +9521,7 @@ const questions = [
     incorrect_answers: ["Swamp Thing", "Emoji", "BAMF"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Which of Michael Jackson's albums sold the most copies?",
@@ -9529,7 +9529,7 @@ const questions = [
     incorrect_answers: ["Dangerous", "Bad", "Off the Wall"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9542,7 +9542,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9555,7 +9555,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Where did the British Boy Band &quot;Bros&quot; come from?",
@@ -9563,7 +9563,7 @@ const questions = [
     incorrect_answers: ["Guildford", "Aldershot", "Bagshot"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9572,7 +9572,7 @@ const questions = [
     incorrect_answers: ["Textuell", "Panorama", "Do While"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9581,7 +9581,7 @@ const questions = [
     incorrect_answers: ["Late Registration", "The Life of Pablo", "Graduation"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9591,7 +9591,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9600,7 +9600,7 @@ const questions = [
     incorrect_answers: ["Batman", "Chuck Norris", "Godzilla"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9609,7 +9609,7 @@ const questions = [
     incorrect_answers: ["Hangin'", "Lovin'", "Peein'"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What was the title of ABBA`s first UK hit single?",
@@ -9617,7 +9617,7 @@ const questions = [
     incorrect_answers: ["Mamma Mia", "Fernando", "Dancing Queen"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which English guitarist has the nickname &quot;Slowhand&quot;?",
@@ -9625,7 +9625,7 @@ const questions = [
     incorrect_answers: ["Mark Knopfler", "Jeff Beck", "Jimmy Page"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9634,7 +9634,7 @@ const questions = [
     incorrect_answers: ["One Hot Minute", "By the Way", "Stadium Arcadium"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9647,7 +9647,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What is the best selling album of all time from 1976 to 2018?",
@@ -9659,7 +9659,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9668,7 +9668,7 @@ const questions = [
     incorrect_answers: ["Geddy Lee", "Alex Lifeson", "John Rutsey"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the lead singer of the band Coldplay?",
@@ -9676,7 +9676,7 @@ const questions = [
     incorrect_answers: ["Chris Isaak", "Chris Wallace", "Chris Connelly"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "How many members are there in the band Nirvana?",
@@ -9684,7 +9684,7 @@ const questions = [
     incorrect_answers: ["Two", "Four", "Five"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which popular rock band has a one-armed drummer?",
@@ -9692,7 +9692,7 @@ const questions = [
     incorrect_answers: ["The Beatles", "Lynyrd Skynyrd", "Foreigner"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9701,7 +9701,7 @@ const questions = [
     incorrect_answers: ["John Legend", "CeeLo Green", "Pharrell Williams"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9710,7 +9710,7 @@ const questions = [
     incorrect_answers: ["Mosque", "Synagogue", "Temple"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9719,7 +9719,7 @@ const questions = [
     incorrect_answers: ["X", "III", "IV"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which song is not by TheFatRat?",
@@ -9727,7 +9727,7 @@ const questions = [
     incorrect_answers: ["Monody", "Windfall", "Infinite Power!"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "In 2015, David Hasselhof released a single called...",
@@ -9735,7 +9735,7 @@ const questions = [
     incorrect_answers: ["True Fighter", "Real Kung-Fury", "Real Warrior"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9744,7 +9744,7 @@ const questions = [
     incorrect_answers: ["Brunette", "Black", "Burgundy"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9757,7 +9757,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9766,7 +9766,7 @@ const questions = [
     incorrect_answers: ["Diplo", "Jillionaire", "Walshy Fire"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9779,7 +9779,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "What is the British term for a 64th note?",
@@ -9791,7 +9791,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9800,7 +9800,7 @@ const questions = [
     incorrect_answers: ["Let The Sparks Fly", "Down", "Give Up The Ghost"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -9813,7 +9813,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9822,7 +9822,7 @@ const questions = [
     incorrect_answers: ["Goldfinger", "Less Than Jake", "Lit"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9831,7 +9831,7 @@ const questions = [
     incorrect_answers: ["Without Me", "Kim", "Square Dance"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these bands are NOT from Australia?",
@@ -9839,7 +9839,7 @@ const questions = [
     incorrect_answers: ["Cut Copy", "Empire of the Sun", "Tame Impala"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9848,7 +9848,7 @@ const questions = [
     incorrect_answers: ["Dale", "Global Warming", "Armando"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9861,7 +9861,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9874,7 +9874,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which 80s band is fronted by singer/guitarist Robert Smith?",
@@ -9882,7 +9882,7 @@ const questions = [
     incorrect_answers: ["The Smiths", "Echo & the Bunnymen", "New Order"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9891,7 +9891,7 @@ const questions = [
     incorrect_answers: ["Finland", "Denmark", "Norway"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which song in Drake's &quot;Views&quot; features Future?",
@@ -9899,7 +9899,7 @@ const questions = [
     incorrect_answers: ["Too Good", "Faithful", "Pop Style"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -9908,7 +9908,7 @@ const questions = [
     incorrect_answers: ["Alec Baldwin", "Dwayne Johnson", "Bruce Willis"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9917,7 +9917,7 @@ const questions = [
     incorrect_answers: ["Avicii", "XXYYXX", "Flux Pavilion"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9926,7 +9926,7 @@ const questions = [
     incorrect_answers: ["Sleepless in Seattle", "Men in Black", "Bad Boys"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9935,7 +9935,7 @@ const questions = [
     incorrect_answers: ["Welcome to Heartbreak", "Street Lights", "Heartless"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the lead singer of The Lumineers?",
@@ -9943,7 +9943,7 @@ const questions = [
     incorrect_answers: ["Jeremiah Fraites", "Jay Van Dyke", "Neyla Pekarek"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of the following bands is Tom DeLonge not a part of?",
@@ -9951,7 +9951,7 @@ const questions = [
     incorrect_answers: ["Box Car Racer", "Blink-182", "Angels & Airwaves"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9960,7 +9960,7 @@ const questions = [
     incorrect_answers: ["19.5", "22.5", "25.5"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "When did Tame Impala release their second album?",
@@ -9968,7 +9968,7 @@ const questions = [
     incorrect_answers: ["2015", "2010", "1967"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9977,7 +9977,7 @@ const questions = [
     incorrect_answers: ["George Harrison", "John Lennon", "Paul McCartney"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What was David Bowie's real surname?",
@@ -9985,7 +9985,7 @@ const questions = [
     incorrect_answers: ["Johnson", "Edwards", "Carter"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -9994,7 +9994,7 @@ const questions = [
     incorrect_answers: ["Everything Is Wrong", "Moby", "18"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10003,7 +10003,7 @@ const questions = [
     incorrect_answers: ["Lorde", "Kesha", "Anika Moa"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10016,7 +10016,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10025,7 +10025,7 @@ const questions = [
     incorrect_answers: ["Rattle That Lock", "Blue Light", "Arnold Layne"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10038,7 +10038,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10047,7 +10047,7 @@ const questions = [
     incorrect_answers: ["Demon Days", "Humanz", "The Fall"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10060,7 +10060,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10074,7 +10074,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10083,7 +10083,7 @@ const questions = [
     incorrect_answers: ["Elton John", "Leo Sayer", "Barry White "]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the artist of the recent new album the Uncanny Valley?",
@@ -10091,7 +10091,7 @@ const questions = [
     incorrect_answers: ["Carpenter Brut", "GOST", "Dan Terminus "]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10100,7 +10100,7 @@ const questions = [
     incorrect_answers: ["America", "Chicago", "Smokie"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10109,7 +10109,7 @@ const questions = [
     incorrect_answers: ["Michael Jackson", "Cameo", "Rick James"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10118,7 +10118,7 @@ const questions = [
     incorrect_answers: ["Bob Dylan", "Willie Nelson", "Kris Kristofferson"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10131,7 +10131,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10140,7 +10140,7 @@ const questions = [
     incorrect_answers: ["Elton John", "Billy Joel", "Andy Gibb"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Ringo Starr of The Beatles mainly played what instrument?",
@@ -10148,7 +10148,7 @@ const questions = [
     incorrect_answers: ["Bass", "Guitar", "Piano"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the frontman of the band 30 Seconds to Mars?",
@@ -10156,7 +10156,7 @@ const questions = [
     incorrect_answers: ["Gerard Way", "Matthew Bellamy", "Mike Shinoda"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10165,7 +10165,7 @@ const questions = [
     incorrect_answers: ["Fender Stratocaster", "LsL Mongrel", "Gretsch Falcon"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which country is singer Kyary Pamyu Pamyu from?",
@@ -10173,7 +10173,7 @@ const questions = [
     incorrect_answers: ["South Korea", "China", "Vietnam"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10182,7 +10182,7 @@ const questions = [
     incorrect_answers: ["Passion Pit", "Phoenix", "Franz Ferdinand"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who was not in the band &quot;The Smiths&quot;?",
@@ -10190,7 +10190,7 @@ const questions = [
     incorrect_answers: ["Morrissey", "Andy Rourke", "Mike Joyce"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10199,7 +10199,7 @@ const questions = [
     incorrect_answers: ["Dust Devil", "Sirocco", "Khamsin"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10208,7 +10208,7 @@ const questions = [
     incorrect_answers: ["Black", "Blue", "Yellow"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10217,7 +10217,7 @@ const questions = [
     incorrect_answers: ["Under Pressure", "Flash", "Bohemian Rhapsody"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which Twitch streamer is the vocalist for Red Vox?",
@@ -10225,7 +10225,7 @@ const questions = [
     incorrect_answers: ["The8BitDrummer", "LIRIK", "Sodapoppin"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the lead singer of Silverchair?",
@@ -10233,7 +10233,7 @@ const questions = [
     incorrect_answers: ["Ben Gillies", "Chris Joannou", ""]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Which brass instrument has the lowest pitch in an orchestra?",
@@ -10241,7 +10241,7 @@ const questions = [
     incorrect_answers: ["Trumpet", "Saxophone", "Trombone"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10254,7 +10254,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10263,7 +10263,7 @@ const questions = [
     incorrect_answers: ["Du Hast", "Benzin", "Mein Teil"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which one of these Pink Floyd albums were also a movie?",
@@ -10275,7 +10275,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10284,7 +10284,7 @@ const questions = [
     incorrect_answers: ["1993", "2006", "2010"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10293,7 +10293,7 @@ const questions = [
     incorrect_answers: ["Gretchen Weiners", "Janice Ian", "Cady Heron"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these songs is NOT included in the Suicide Squad OST?",
@@ -10305,7 +10305,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10314,7 +10314,7 @@ const questions = [
     incorrect_answers: ["Germany", "United States", "Finland"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10323,7 +10323,7 @@ const questions = [
     incorrect_answers: ["Randy", "Safe and Sound", "Pleasure"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10332,7 +10332,7 @@ const questions = [
     incorrect_answers: ["Takoyaki", "Sushi", "Oden"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10345,7 +10345,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10354,7 +10354,7 @@ const questions = [
     incorrect_answers: ["Drums", "Guitar", "Keyboards"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the frontman of Muse?",
@@ -10362,7 +10362,7 @@ const questions = [
     incorrect_answers: ["Dominic Howard", "Thom Yorke", "Jonny Greenwood"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10371,7 +10371,7 @@ const questions = [
     incorrect_answers: ["Detroit", "New York", "Baltimore"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10380,7 +10380,7 @@ const questions = [
     incorrect_answers: ["Mitis", "Adam lambert", "Koven"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10389,7 +10389,7 @@ const questions = [
     incorrect_answers: ["Belle", "Snow White", "Pocahontas"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Which album was released by Kanye West in 2013?",
@@ -10401,7 +10401,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What is the last song on the first Panic! At the Disco album?",
@@ -10413,7 +10413,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10426,7 +10426,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What was Daft Punk's first studio album?",
@@ -10438,7 +10438,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What was the best selling album of 2015?",
@@ -10450,7 +10450,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10463,7 +10463,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Who wrote the song &quot;You Know You Like It&quot;?",
@@ -10471,7 +10471,7 @@ const questions = [
     incorrect_answers: ["DJ Snake", "Steve Aoki", "Major Lazer"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10484,7 +10484,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "How many members are in the Japanese rock band SCANDAL?",
@@ -10492,7 +10492,7 @@ const questions = [
     incorrect_answers: ["5", "2", "18"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "When was Gangnam Style uploaded to YouTube?",
@@ -10500,7 +10500,7 @@ const questions = [
     incorrect_answers: ["2013", "2014", "2011"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10509,7 +10509,7 @@ const questions = [
     incorrect_answers: ["Kendrick Lamar", "Drake", "Big Sean"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10518,7 +10518,7 @@ const questions = [
     incorrect_answers: ["Jimmy Page", "Mark Knopfler", "Eric Clapton"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10527,7 +10527,7 @@ const questions = [
     incorrect_answers: ["Jimi Hendrix", "Brian Jones", "Vladimir Vysotsky"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10536,7 +10536,7 @@ const questions = [
     incorrect_answers: ["1979", "1987", "1986"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "From which country does the piano originate?",
@@ -10544,7 +10544,7 @@ const questions = [
     incorrect_answers: ["Germany", "Austria", "France"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10554,7 +10554,7 @@ const questions = [
   },
 
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10563,7 +10563,7 @@ const questions = [
     incorrect_answers: ["Daft Punk ", "Disclosure", "David Guetta"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Who had a 1973 hit with the song 'Hocus Pocus'?",
@@ -10571,7 +10571,7 @@ const questions = [
     incorrect_answers: ["Pilot", "Rush", "AC/DC"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10580,7 +10580,7 @@ const questions = [
     incorrect_answers: ["Help!", "Rubber Soul", "Abbey Road"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10589,7 +10589,7 @@ const questions = [
     incorrect_answers: ["Fools Gold", "The Doobie Brothers", "Fleetwood Mac"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10598,7 +10598,7 @@ const questions = [
     incorrect_answers: ["DeBarge", "The Jacksons", "The Cover Girls"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10607,7 +10607,7 @@ const questions = [
     incorrect_answers: ["The Ventures", "The Spotnicks", "The Tremeloes"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10616,7 +10616,7 @@ const questions = [
     incorrect_answers: ["Rocket Man", "Bennie and the Jets", "Crocodile Rock"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10625,7 +10625,7 @@ const questions = [
     incorrect_answers: ["John Denver", "Billy Joel", "Joe Cocker"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is NOT an album released by The Beatles?",
@@ -10633,7 +10633,7 @@ const questions = [
     incorrect_answers: ["Abbey Road", "Magical Mystery Tour", "Revolver"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10642,7 +10642,7 @@ const questions = [
     incorrect_answers: ["Wu-Tang Clan", "Run-D.M.C.", "Beastie Boys"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these songs was released in 1996?",
@@ -10654,7 +10654,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10663,7 +10663,7 @@ const questions = [
     incorrect_answers: ["John Lennon", "David Gilmour", "Floyd"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10672,7 +10672,7 @@ const questions = [
     incorrect_answers: ["Taylor Hawkins", "Nate Mendel", "Chris Shiflett"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10681,7 +10681,7 @@ const questions = [
     incorrect_answers: ["Paul", "George", "Ringo"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10690,7 +10690,7 @@ const questions = [
     incorrect_answers: ["Romy Madley Croft", "Oliver Sim", "Baria Qureshi"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10699,7 +10699,7 @@ const questions = [
     incorrect_answers: ["48", "6", "3"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10708,7 +10708,7 @@ const questions = [
     incorrect_answers: ["Steve Angello", "Sebastian Ingrosso", "Axwell"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10717,7 +10717,7 @@ const questions = [
     incorrect_answers: ["Staying Alive", "Night Fever", "The Chain"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10726,7 +10726,7 @@ const questions = [
     incorrect_answers: ["Ti&euml;sto", "Slushii", "Dash Berlin"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10735,7 +10735,7 @@ const questions = [
     incorrect_answers: ["Radiohead", "Rush", "Rolling Stones"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10748,7 +10748,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "Brian May was the guitarist for which band?",
@@ -10756,7 +10756,7 @@ const questions = [
     incorrect_answers: ["Pink Floyd", "Rolling Stones", "The Doors"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10765,7 +10765,7 @@ const questions = [
     incorrect_answers: ["K.I.A.", "C.I.A.", "A.I.A."]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
@@ -10773,7 +10773,7 @@ const questions = [
     incorrect_answers: ["Kenyan", "Kazakhstan", "Kuwaiti"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10786,7 +10786,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "In an orchestra, what is the lowest member of the brass family?",
@@ -10794,7 +10794,7 @@ const questions = [
     incorrect_answers: ["Trombone", "Contrabass", "Bassoon"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10803,7 +10803,7 @@ const questions = [
     incorrect_answers: ["Abbey Road", "Led Zeppelin IV", "Pet Sounds"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is not an Ed Sheeran album?",
@@ -10811,7 +10811,7 @@ const questions = [
     incorrect_answers: ["+", "X", "&divide;"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What album did The Lumineers release in 2016?",
@@ -10819,7 +10819,7 @@ const questions = [
     incorrect_answers: ["Winter", "The Lumineers", "Tracks From The Attic"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10832,7 +10832,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10841,7 +10841,7 @@ const questions = [
     incorrect_answers: ["Hero Factory", "Ben 10 Alien Force", "Star Wars"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10850,7 +10850,7 @@ const questions = [
     incorrect_answers: ["1992", "1995", "1994"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10859,7 +10859,7 @@ const questions = [
     incorrect_answers: ["2000", "2015", "2004"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10868,7 +10868,7 @@ const questions = [
     incorrect_answers: ["Coldplay", "Nickelback", "The Flaming Lips"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What is rapper Drake's real name?",
@@ -10876,7 +10876,7 @@ const questions = [
     incorrect_answers: ["Shaun Carter", "Dwayne Carter", "Andre Young"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question: "What was the name of Pink Floyd's first studio album?",
@@ -10884,7 +10884,7 @@ const questions = [
     incorrect_answers: ["Ummagumma", "More", "Atom Heart Mother"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -10893,7 +10893,7 @@ const questions = [
     incorrect_answers: ["Jack &Uuml;", "What So Not", "Noisia"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10902,7 +10902,7 @@ const questions = [
     incorrect_answers: ["Tom Morello ", "Billy Corgan", "Ed O'Brien"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10911,7 +10911,7 @@ const questions = [
     incorrect_answers: ["Elvis", "Adele", "Billy Joel"]
   },
   {
-    category: "Entertainment: Music",
+    category: "Music",
     type: "multiple",
     difficulty: "easy",
     question: "What is the frontman's name of the metal band Megadeth?",
@@ -10920,7 +10920,7 @@ const questions = [
   },
 
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which Apollo mission was the first one to land on the Moon?",
@@ -10928,7 +10928,7 @@ const questions = [
     incorrect_answers: ["Apollo 10", "Apollo 9", "Apollo 13"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10937,7 +10937,7 @@ const questions = [
     incorrect_answers: ["Helium", "Carbon", "Hydrogen"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the largest animal currently on Earth?",
@@ -10945,7 +10945,7 @@ const questions = [
     incorrect_answers: ["Orca", "Colossal Squid", "Giraffe"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which is the chemical name of H2O?",
@@ -10957,7 +10957,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "How many objects are equivalent to one mole?",
@@ -10965,7 +10965,7 @@ const questions = [
     incorrect_answers: ["6.002 x 10^22", "6.022 x 10^22", "6.002 x 10^23"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which element has the chemical symbol 'Fe'?",
@@ -10973,7 +10973,7 @@ const questions = [
     incorrect_answers: ["Gold", "Silver", "Tin"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10982,7 +10982,7 @@ const questions = [
     incorrect_answers: ["Jupiter", "Venus", "Neptune"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10991,7 +10991,7 @@ const questions = [
     incorrect_answers: ["Ears", "Chin", "Neck"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the elemental symbol for mercury?",
@@ -10999,7 +10999,7 @@ const questions = [
     incorrect_answers: ["Me", "Mc", "Hy"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "How many planets are in our Solar System?",
@@ -11007,7 +11007,7 @@ const questions = [
     incorrect_answers: ["Nine", "Seven", "Ten"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the first element on the periodic table?",
@@ -11015,7 +11015,7 @@ const questions = [
     incorrect_answers: ["Helium", "Oxygen", "Lithium"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What was the first living creature in space?",
@@ -11023,7 +11023,7 @@ const questions = [
     incorrect_answers: ["Monkey", "Dog", "Mouse"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which gas forms about 78% of the Earth&rsquo;s atmosphere?",
@@ -11031,7 +11031,7 @@ const questions = [
     incorrect_answers: ["Oxygen", "Argon", "Carbon Dioxide"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "How many degrees Fahrenheit is 100 degrees Celsius? ",
@@ -11039,7 +11039,7 @@ const questions = [
     incorrect_answers: ["326", "100", "451"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11048,7 +11048,7 @@ const questions = [
     incorrect_answers: ["6 Minutes", "2 Minutes", "12 Minutes"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the molecular formula of Glucose?",
@@ -11056,7 +11056,7 @@ const questions = [
     incorrect_answers: ["C2H4O2", "K+", "CH4"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11065,7 +11065,7 @@ const questions = [
     incorrect_answers: ["Carbonyl", "Alkyl", "Aldehyde"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which element has the atomic number of 7?",
@@ -11073,7 +11073,7 @@ const questions = [
     incorrect_answers: ["Oxygen", "Hydrogen", "Neon"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11082,7 +11082,7 @@ const questions = [
     incorrect_answers: ["Haplogroup L", "Haplogroup T", "Haplogroup J"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11091,7 +11091,7 @@ const questions = [
     incorrect_answers: ["Pulmonary Vein", "Aorta", "Coronary Artery"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11100,7 +11100,7 @@ const questions = [
     incorrect_answers: ["Flip-Flop Syndrome", "Split-Brain", "Blind Sight"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "The &quot;Tibia&quot; is found in which part of the body?",
@@ -11108,7 +11108,7 @@ const questions = [
     incorrect_answers: ["Arm", "Hand", "Head"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the scientific name of the knee cap?",
@@ -11116,7 +11116,7 @@ const questions = [
     incorrect_answers: ["Femur", "Foramen Magnum", "Scapula"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "If you planted the seeds of Quercus robur what would grow?",
@@ -11124,7 +11124,7 @@ const questions = [
     incorrect_answers: ["Flowers", "Vegtables", "Grains"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Who developed the first successful polio vaccine in the 1950s?",
@@ -11132,7 +11132,7 @@ const questions = [
     incorrect_answers: ["John F. Enders", "Thomas Weller", "Frederick Robbins"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these chemical compounds is NOT found in gastric acid?",
@@ -11144,7 +11144,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "How many bones are in the human body?",
@@ -11152,7 +11152,7 @@ const questions = [
     incorrect_answers: ["203", "209", "200"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the scientific name of the red fox?",
@@ -11160,7 +11160,7 @@ const questions = [
     incorrect_answers: ["Vulpes Redus", "Red Fox", "Vulpes Vulpie"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What does DNA stand for?",
@@ -11172,7 +11172,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the chemical element Curium named after?",
@@ -11184,7 +11184,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which part of the body does glaucoma affect?",
@@ -11192,7 +11192,7 @@ const questions = [
     incorrect_answers: ["Throat", "Stomach", "Blood"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11205,7 +11205,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11214,7 +11214,7 @@ const questions = [
     incorrect_answers: ["Christian", "Jewish", "Islamic"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is a type of stretch/deep tendon reflex?",
@@ -11226,7 +11226,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11235,7 +11235,7 @@ const questions = [
     incorrect_answers: ["The wake", "The backwash", "The ablative"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Myopia is the scientific term for which condition?",
@@ -11243,7 +11243,7 @@ const questions = [
     incorrect_answers: ["Farsightedness", "Double Vision", "Clouded Vision"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11252,7 +11252,7 @@ const questions = [
     incorrect_answers: ["Nevus", "Nares", "Paxillus"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these is a stop codon in DNA?",
@@ -11260,7 +11260,7 @@ const questions = [
     incorrect_answers: ["ACT", "ACA", "GTA"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "At what temperature does water boil?",
@@ -11268,7 +11268,7 @@ const questions = [
     incorrect_answers: ["200&deg;F", "181&deg;F", "178&deg;F"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "A positron is an antiparticle of a what?",
@@ -11276,7 +11276,7 @@ const questions = [
     incorrect_answers: ["Neutron", "Proton", "Photon"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the unit of electrical capacitance?",
@@ -11284,7 +11284,7 @@ const questions = [
     incorrect_answers: ["Gauss", "Henry", "Watt"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the unit of electrical inductance?",
@@ -11292,7 +11292,7 @@ const questions = [
     incorrect_answers: ["Weber", "Coulomb", "Mho"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11301,7 +11301,7 @@ const questions = [
     incorrect_answers: ["Love", "Safety", "Physiological"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11310,7 +11310,7 @@ const questions = [
     incorrect_answers: ["Dog", "Bat", "Butterfly"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the largest living organism currently known to man?",
@@ -11318,7 +11318,7 @@ const questions = [
     incorrect_answers: ["Blue Whale", "Redwood Tree", "The Coral Reef"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11327,7 +11327,7 @@ const questions = [
     incorrect_answers: ["STS-51-L", "STS-61-C", "STS-109"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11336,7 +11336,7 @@ const questions = [
     incorrect_answers: ["Gongoozler", "Jentacular", "Meupareunia"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which chemical element was originally known as Alabamine?",
@@ -11344,7 +11344,7 @@ const questions = [
     incorrect_answers: ["Selenium", "Antimony", "Molybdenum"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "The Western Lowland Gorilla is scientifically know as?",
@@ -11356,7 +11356,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11366,7 +11366,7 @@ const questions = [
   },
 
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is considered the rarist form of color blindness?",
@@ -11374,7 +11374,7 @@ const questions = [
     incorrect_answers: ["Red", "Green", "Purple"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11383,7 +11383,7 @@ const questions = [
     incorrect_answers: ["Water", "Mercury", "Benzene"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11392,7 +11392,7 @@ const questions = [
     incorrect_answers: ["Science", "Society", "Star"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What name is given to all baby marsupials?",
@@ -11400,7 +11400,7 @@ const questions = [
     incorrect_answers: ["Calf", "Pup", "Cub"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11409,7 +11409,7 @@ const questions = [
     incorrect_answers: ["Knee", "Sholder", "Ankle"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which is the longest bone in the human body? ",
@@ -11417,7 +11417,7 @@ const questions = [
     incorrect_answers: ["Scapula", "Fibula", "Ulna"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which type of rock is created by intense heat AND pressure?",
@@ -11425,7 +11425,7 @@ const questions = [
     incorrect_answers: ["Sedimentary", "Igneous", "Diamond"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11434,7 +11434,7 @@ const questions = [
     incorrect_answers: ["Nitrogen", "Oxygen", "Hydrogen"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the hottest planet in the Solar System?",
@@ -11442,7 +11442,7 @@ const questions = [
     incorrect_answers: ["Mars", "Mercury", "Jupiter"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11455,7 +11455,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11464,7 +11464,7 @@ const questions = [
     incorrect_answers: ["Storm", "Hurricane", "Breeze"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What mineral has the lowest number on the Mohs scale?",
@@ -11472,7 +11472,7 @@ const questions = [
     incorrect_answers: ["Quartz", "Diamond", "Gypsum"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the powerhouse of the cell?",
@@ -11480,7 +11480,7 @@ const questions = [
     incorrect_answers: ["Ribosome", "Redbull", "Nucleus"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "How many planets make up our Solar System?",
@@ -11488,7 +11488,7 @@ const questions = [
     incorrect_answers: ["7", "9", "6"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11497,7 +11497,7 @@ const questions = [
     incorrect_answers: ["Gallium", "Caesium", "Mercury"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11506,7 +11506,7 @@ const questions = [
     incorrect_answers: ["low, some", "high, all", "high, some"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the chemical makeup of water?",
@@ -11514,7 +11514,7 @@ const questions = [
     incorrect_answers: ["C12H6O2", "CO2", "H"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which horizon in a soil profile consists of bedrock?",
@@ -11522,7 +11522,7 @@ const questions = [
     incorrect_answers: ["O", "B", "D"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the primary addictive substance found in tobacco?",
@@ -11530,7 +11530,7 @@ const questions = [
     incorrect_answers: ["Cathinone", "Ephedrine", "Glaucine"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is isobutylphenylpropanoic acid more commonly known as?",
@@ -11538,7 +11538,7 @@ const questions = [
     incorrect_answers: ["Morphine", "Ketamine", "Aspirin"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Where did the dog breed &quot;Chihuahua&quot; originate?",
@@ -11546,7 +11546,7 @@ const questions = [
     incorrect_answers: ["France", "Spain", "Russia"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11555,7 +11555,7 @@ const questions = [
     incorrect_answers: ["Skin", "Brain", "Heart"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the atomic number of the element Strontium?",
@@ -11563,7 +11563,7 @@ const questions = [
     incorrect_answers: ["73", "47", "11"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11572,7 +11572,7 @@ const questions = [
     incorrect_answers: ["Node of Ranvier", "Schwann cell", "Myelin sheath"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following is NOT a real element?",
@@ -11580,7 +11580,7 @@ const questions = [
     incorrect_answers: ["Praseodymium", "Hassium", "Lutetium"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What term is best associated with Sigmund Freud?",
@@ -11592,7 +11592,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11605,7 +11605,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11614,7 +11614,7 @@ const questions = [
     incorrect_answers: ["Odense", "Herning", "Skagen"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11623,7 +11623,7 @@ const questions = [
     incorrect_answers: ["Health", "Flammability", "Radioactivity"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11632,7 +11632,7 @@ const questions = [
     incorrect_answers: ["Europa", "Miranda", "Callisto"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "The human right lung has how many lobes?",
@@ -11640,7 +11640,7 @@ const questions = [
     incorrect_answers: ["4", "2", "1"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the molecular formula of Ozone?",
@@ -11648,7 +11648,7 @@ const questions = [
     incorrect_answers: ["C6H2O6", "N2O", "SO4"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11661,7 +11661,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "The core of the Sun can reach which temperature?",
@@ -11673,7 +11673,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11686,7 +11686,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "How many chromosomes are in your body cells?",
@@ -11694,7 +11694,7 @@ const questions = [
     incorrect_answers: ["21", "22", "24"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Deuterium is an isotope of which element?",
@@ -11702,7 +11702,7 @@ const questions = [
     incorrect_answers: ["Nitrogen", "Helium", "Neon"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Who made the discovery of X-rays?",
@@ -11710,7 +11710,7 @@ const questions = [
     incorrect_answers: ["Thomas Alva Edison", "James Watt", "Albert Einstein"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What element on the periodic table has 92 electrons?",
@@ -11718,7 +11718,7 @@ const questions = [
     incorrect_answers: ["Sulfur", "Hydrogen", "Iron"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "About how old is Earth?",
@@ -11730,7 +11730,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What nucleotide pairs with guanine?",
@@ -11738,7 +11738,7 @@ const questions = [
     incorrect_answers: ["Thymine", "Adenine", "Uracil"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the same in Celsius and Fahrenheit?",
@@ -11746,7 +11746,7 @@ const questions = [
     incorrect_answers: ["32", "-39", "-42"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What does LASER stand for?",
@@ -11759,7 +11759,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Botanically speaking, which of these fruits is NOT a berry?",
@@ -11767,7 +11767,7 @@ const questions = [
     incorrect_answers: ["Blueberry", "Banana", "Concord Grape"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "How much radiation does a banana emit?",
@@ -11779,7 +11779,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11788,7 +11788,7 @@ const questions = [
     incorrect_answers: ["Copper", "Lithium", "Lead"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "The Sun consists of mostly which two elements?",
@@ -11800,7 +11800,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "How long is a light-year?",
@@ -11808,7 +11808,7 @@ const questions = [
     incorrect_answers: ["1 AU", "105.40 Earth-years", "501.2 Million Miles"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Coulrophobia is the irrational fear of what?",
@@ -11816,7 +11816,7 @@ const questions = [
     incorrect_answers: ["Cemeteries", "Needles", "Tunnels"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11826,7 +11826,7 @@ const questions = [
   },
 
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following bones is not in the leg?",
@@ -11834,7 +11834,7 @@ const questions = [
     incorrect_answers: ["Patella", "Tibia", "Fibula "]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the colour of unoxidized blood?",
@@ -11842,7 +11842,7 @@ const questions = [
     incorrect_answers: ["Blue", "Purple", "Green"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11851,7 +11851,7 @@ const questions = [
     incorrect_answers: ["Thrust", "Drag", "Weight "]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11860,7 +11860,7 @@ const questions = [
     incorrect_answers: ["Nucleus", "Chloroplast", "Endoplasmic Reticulum"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11869,7 +11869,7 @@ const questions = [
     incorrect_answers: ["Kidney", "Liver", "Brain"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these stars is the largest?",
@@ -11877,7 +11877,7 @@ const questions = [
     incorrect_answers: ["VY Canis Majoris", "Betelgeuse", "RW Cephei"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11886,7 +11886,7 @@ const questions = [
     incorrect_answers: ["26", "50", "74"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Gannymede is the largest moon of which planet?",
@@ -11894,7 +11894,7 @@ const questions = [
     incorrect_answers: ["Uranus", "Neptune", "Mars"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Au on the Periodic Table refers to which element?",
@@ -11902,7 +11902,7 @@ const questions = [
     incorrect_answers: ["Silver", "Oxygen", "Nickel"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11911,7 +11911,7 @@ const questions = [
     incorrect_answers: ["0", "1", "5"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11920,7 +11920,7 @@ const questions = [
     incorrect_answers: ["Lungs", "Skin", "Heart"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11929,7 +11929,7 @@ const questions = [
     incorrect_answers: ["Soyuz 7K-OK", "Zenit-2", "Voskhod 3KV"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the chemical formula for ammonia?",
@@ -11937,7 +11937,7 @@ const questions = [
     incorrect_answers: ["CO2", "NO3", "CH4"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Which is not a type of neuron?",
@@ -11945,7 +11945,7 @@ const questions = [
     incorrect_answers: ["Sensory Neuron", "Motor Neuron", "Interneuron"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11954,7 +11954,7 @@ const questions = [
     incorrect_answers: ["Rubber", "Nylon", "Bakelite"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Folic acid is the synthetic form of which vitamin?",
@@ -11962,7 +11962,7 @@ const questions = [
     incorrect_answers: ["Vitamin A", "Vitamin C", "Vitamin D"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "The human heart has how many chambers?",
@@ -11970,7 +11970,7 @@ const questions = [
     incorrect_answers: ["2", "6", "3"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11979,7 +11979,7 @@ const questions = [
     incorrect_answers: ["Copper", "Iridium", "Cobalt"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "The asteroid belt is located between which two planets?",
@@ -11991,7 +11991,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Human cells typically have how many copies of each gene?",
@@ -11999,7 +11999,7 @@ const questions = [
     incorrect_answers: ["1", "4", "3"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which is the most abundant element in the universe?",
@@ -12007,7 +12007,7 @@ const questions = [
     incorrect_answers: ["Helium", "Lithium", "Oxygen"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "Which element has the highest melting point?",
@@ -12015,7 +12015,7 @@ const questions = [
     incorrect_answers: ["Tungsten", "Platinum", "Osmium"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
@@ -12023,7 +12023,7 @@ const questions = [
     incorrect_answers: ["3", "5", "6"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12032,7 +12032,7 @@ const questions = [
     incorrect_answers: ["Prophase", "Stasis", "Telophase"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these elements on the Periodic Table is a Noble Gas?",
@@ -12040,7 +12040,7 @@ const questions = [
     incorrect_answers: ["Potassium", "Iodine", "Colbalt"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the standard atomic weight of a Plutonium nucleus?",
@@ -12048,7 +12048,7 @@ const questions = [
     incorrect_answers: ["94", "481", "128"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "71% of the Earth's surface is made up of",
@@ -12056,7 +12056,7 @@ const questions = [
     incorrect_answers: ["Deserts", "Continents", "Forests"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12069,7 +12069,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What is radiation measured in?",
@@ -12077,7 +12077,7 @@ const questions = [
     incorrect_answers: ["Watt", "Decibel", "Kelvin"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12091,7 +12091,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the unit of electrical resistance?",
@@ -12099,7 +12099,7 @@ const questions = [
     incorrect_answers: ["Mho", "Tesla", "Joule"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12112,7 +12112,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12121,7 +12121,7 @@ const questions = [
     incorrect_answers: ["Epimysium", "Myofiaments", "Myocardium"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12130,7 +12130,7 @@ const questions = [
     incorrect_answers: ["Foreshock", "Strike-slip", "Temblor"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What are human nails made of?",
@@ -12138,7 +12138,7 @@ const questions = [
     incorrect_answers: ["Bone", "Chitin", "Calcium"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question: "Where is the Gluteus Maximus muscle located?",
@@ -12146,7 +12146,7 @@ const questions = [
     incorrect_answers: ["Arm", "Head", "Torso"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12159,7 +12159,7 @@ const questions = [
     ]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12168,7 +12168,7 @@ const questions = [
     incorrect_answers: ["Cerebellum", "Thalamus", "Amygdala"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12177,7 +12177,7 @@ const questions = [
     incorrect_answers: ["Saturn", "Jupiter", "Venus"]
   },
   {
-    category: "Science & Nature",
+    category: "ScienceAndNature",
     type: "multiple",
     difficulty: "medium",
     question: "What do you study if you are studying entomology?",
@@ -12186,7 +12186,7 @@ const questions = [
   },
 
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the world's most expensive spice by weight?",
@@ -12194,7 +12194,7 @@ const questions = [
     incorrect_answers: ["Cinnamon", "Cardamom", "Vanilla"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What does a milliner make and sell?",
@@ -12202,7 +12202,7 @@ const questions = [
     incorrect_answers: ["Shoes", "Belts", "Shirts"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12211,7 +12211,7 @@ const questions = [
     incorrect_answers: ["Spades", "Diamonds", "Clubs"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which river flows through the Scottish city of Glasgow?",
@@ -12219,7 +12219,7 @@ const questions = [
     incorrect_answers: ["Tay", "Dee", "Tweed"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12232,7 +12232,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12241,7 +12241,7 @@ const questions = [
     incorrect_answers: ["Sword", "Pen", "Cellphone"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12250,7 +12250,7 @@ const questions = [
     incorrect_answers: ["Transformers", "Care Bears", "Rubik&rsquo;s Cube"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What does a funambulist walk on?",
@@ -12258,7 +12258,7 @@ const questions = [
     incorrect_answers: ["Broken Glass", "Balls", "The Moon"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Scotch whisky and Drambuie make up which cocktail?",
@@ -12266,7 +12266,7 @@ const questions = [
     incorrect_answers: ["Screwdriver", "Sex on the Beach", "Manhattan"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What alcoholic drink is made from molasses?",
@@ -12274,7 +12274,7 @@ const questions = [
     incorrect_answers: ["Gin", "Vodka", "Whisky"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12283,7 +12283,7 @@ const questions = [
     incorrect_answers: ["Mentsuyu", "Karashi", "Ponzu"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the name of the Jewish New Year?",
@@ -12291,7 +12291,7 @@ const questions = [
     incorrect_answers: ["Elul", "New Year", "Succoss"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "When was &quot;YouTube&quot; founded?",
@@ -12299,7 +12299,7 @@ const questions = [
     incorrect_answers: ["May 22, 2004", "September 12, 2005", "July 19, 2009"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12308,7 +12308,7 @@ const questions = [
     incorrect_answers: ["Open Room", "Sitting Room", "Loft"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Red Vines is a brand of what type of candy?",
@@ -12316,7 +12316,7 @@ const questions = [
     incorrect_answers: ["Lollipop", "Chocolate", "Bubblegum"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who is a co-founder of music streaming service Spotify?",
@@ -12328,7 +12328,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the unit of currency in Laos?",
@@ -12336,7 +12336,7 @@ const questions = [
     incorrect_answers: ["Ruble", "Konra", "Dollar"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Sciophobia is the fear of what?",
@@ -12344,7 +12344,7 @@ const questions = [
     incorrect_answers: ["Eating", "Bright lights", "Transportation"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12353,7 +12353,7 @@ const questions = [
     incorrect_answers: ["Noah's Ark", "Fat Man", "Trojan Horse"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the French word for &quot;hat&quot;?",
@@ -12361,7 +12361,7 @@ const questions = [
     incorrect_answers: ["Bonnet", "&Eacute;charpe", "Casque"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Swedish word for &quot;window&quot;?",
@@ -12369,7 +12369,7 @@ const questions = [
     incorrect_answers: ["H&aring;l", "Sk&auml;rm", "Ruta"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Italian word for &quot;tomato&quot;?",
@@ -12377,7 +12377,7 @@ const questions = [
     incorrect_answers: ["Aglio", "Cipolla", "Peperoncino"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the romanized Russian word for &quot;winter&quot;?",
@@ -12385,7 +12385,7 @@ const questions = [
     incorrect_answers: ["Leto", "Vesna", "Osen'"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12394,7 +12394,7 @@ const questions = [
     incorrect_answers: ["Mat Zo", "deadmau5", "Zedd"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "The term &quot;scientist&quot; was coined in which year?",
@@ -12402,7 +12402,7 @@ const questions = [
     incorrect_answers: ["1933", "1942", "1796"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the founder of &quot;The Lego Group&quot;?",
@@ -12414,7 +12414,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Five dollars is worth how many nickles?",
@@ -12422,7 +12422,7 @@ const questions = [
     incorrect_answers: ["50", "25", "69"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the last letter of the Greek alphabet?",
@@ -12430,7 +12430,7 @@ const questions = [
     incorrect_answers: ["Mu", "Epsilon", "Kappa"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What do the letters in the GMT time zone stand for?",
@@ -12442,7 +12442,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When was Nintendo founded?",
@@ -12454,7 +12454,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12463,7 +12463,7 @@ const questions = [
     incorrect_answers: ["Anheuser Busch", "Boston Beer Company", "Miller Coors"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12472,7 +12472,7 @@ const questions = [
     incorrect_answers: ["Answer", "Cause", "Source"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Amsterdam Centraal station is twinned with what station?",
@@ -12484,7 +12484,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When was Hubba Bubba first introduced?",
@@ -12492,7 +12492,7 @@ const questions = [
     incorrect_answers: ["1984", "1972", "1980"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What was Bank of America originally established as?",
@@ -12504,7 +12504,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12513,7 +12513,7 @@ const questions = [
     incorrect_answers: ["Axles", "Gears", "Belts"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Earl Grey tea is black tea flavoured with what?",
@@ -12521,7 +12521,7 @@ const questions = [
     incorrect_answers: ["Lavender", "Vanilla", "Honey"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "If someone said &quot;you are olid&quot;, what would they mean?",
@@ -12533,7 +12533,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What company developed the vocaloid Hatsune Miku?",
@@ -12541,7 +12541,7 @@ const questions = [
     incorrect_answers: ["Sega", "Sony", "Yamaha Corporation"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Named after the mallow flower, mauve is a shade of what?",
@@ -12550,7 +12550,7 @@ const questions = [
   },
 
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12563,7 +12563,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12572,7 +12572,7 @@ const questions = [
     incorrect_answers: ["Moldova", "Czech Republic", "Denmark"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12581,7 +12581,7 @@ const questions = [
     incorrect_answers: ["Oculus", "Google", "Razer"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What's the name of Batman's parents?",
@@ -12593,7 +12593,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the most common surname Wales?",
@@ -12601,7 +12601,7 @@ const questions = [
     incorrect_answers: ["Williams", "Davies", "Evans"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Rolex is a company that specializes in what type of product?",
@@ -12609,7 +12609,7 @@ const questions = [
     incorrect_answers: ["Cars", "Computers", "Sports equipment"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "A doctor with a PhD is a doctor of what?",
@@ -12617,7 +12617,7 @@ const questions = [
     incorrect_answers: ["Psychology", "Phrenology", "Physical Therapy"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How would one say goodbye in Spanish?",
@@ -12625,7 +12625,7 @@ const questions = [
     incorrect_answers: ["Hola", "Au Revoir", "Salir"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "On a dartboard, what number is directly opposite No. 1?",
@@ -12633,7 +12633,7 @@ const questions = [
     incorrect_answers: ["20", "12", "15"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12642,7 +12642,7 @@ const questions = [
     incorrect_answers: ["Single", "Secure", "Solid"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12651,7 +12651,7 @@ const questions = [
     incorrect_answers: ["Target", "Taxi", "Turkey"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which American president appears on a one dollar bill?",
@@ -12663,7 +12663,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12672,7 +12672,7 @@ const questions = [
     incorrect_answers: ["Sphere", "Cylinder", "Pyramid"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which one of the following rhythm games was made by Harmonix?",
@@ -12684,7 +12684,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following is not another name for the eggplant?",
@@ -12692,7 +12692,7 @@ const questions = [
     incorrect_answers: ["Brinjal", "Guinea Squash", "Melongene"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12701,7 +12701,7 @@ const questions = [
     incorrect_answers: ["The Family", "The Simoleon Family", "The Proud Family"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12710,7 +12710,7 @@ const questions = [
     incorrect_answers: ["Taipei 101", "One Detroit Center", "Westendstrasse 1"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12719,7 +12719,7 @@ const questions = [
     incorrect_answers: ["Ukiyo", "Majime", "Ikigai"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the romanized Japanese word for &quot;university&quot;?",
@@ -12727,7 +12727,7 @@ const questions = [
     incorrect_answers: ["Toshokan", "Jimusho", "Shokudou"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12736,7 +12736,7 @@ const questions = [
     incorrect_answers: ["Big Billy Bass", "Singing Fish", "Sardeen"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12745,7 +12745,7 @@ const questions = [
     incorrect_answers: ["Gus", "Phineas", "Ezra"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "On average, Americans consume 100 pounds of what per second?",
@@ -12753,7 +12753,7 @@ const questions = [
     incorrect_answers: ["Potatoes", "Donuts", "Cocaine"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which one of these is not a typical European sword design?",
@@ -12761,7 +12761,7 @@ const questions = [
     incorrect_answers: ["Falchion", "Ulfberht", "Flamberge"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12770,7 +12770,7 @@ const questions = [
     incorrect_answers: ["Bjarke Ingels", "Michael Arad", "Fumihiko Maki"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which one of these Swedish companies was founded in 1943?",
@@ -12778,7 +12778,7 @@ const questions = [
     incorrect_answers: ["H & M", "Lindex", "Clas Ohlson"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12787,7 +12787,7 @@ const questions = [
     incorrect_answers: ["Coca-Cola", "Sprite", "Mountain Dew"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "How many calories are in a 355 ml can of Pepsi Cola?",
@@ -12795,7 +12795,7 @@ const questions = [
     incorrect_answers: ["200", "100", "155"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What direction does the Statue of Liberty face?",
@@ -12803,7 +12803,7 @@ const questions = [
     incorrect_answers: ["Southwest", "Northwest", "Northeast"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In what year was McDonald's founded?",
@@ -12811,7 +12811,7 @@ const questions = [
     incorrect_answers: ["1964", "1951", "1947"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12820,7 +12820,7 @@ const questions = [
     incorrect_answers: ["Count Chocula", "Franken Berry", "Boo-Berry"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which restaurant's mascot is a clown?",
@@ -12828,7 +12828,7 @@ const questions = [
     incorrect_answers: ["Whataburger", "Burger King", "Sonic"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was the soft drink Pepsi originally introduced as?",
@@ -12836,7 +12836,7 @@ const questions = [
     incorrect_answers: ["Pepsin Pop", "Carolina Cola", "Pepsin Syrup"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What color is the &quot;Ex&quot; in FedEx Ground?",
@@ -12844,7 +12844,7 @@ const questions = [
     incorrect_answers: ["Red", "Light Blue", "Orange"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What was the first ever London Underground line to be built?",
@@ -12852,7 +12852,7 @@ const questions = [
     incorrect_answers: ["Circle Line", "Bakerloo Line", "Victoria Line"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How tall is the Burj Khalifa?",
@@ -12860,7 +12860,7 @@ const questions = [
     incorrect_answers: ["2,717 ft", "2,546 ft", "3,024 ft"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12869,7 +12869,7 @@ const questions = [
     incorrect_answers: ["2 years", "8 years", "6 months"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Where does water from Poland Spring water bottles come from?",
@@ -12877,7 +12877,7 @@ const questions = [
     incorrect_answers: ["Hesse, Germany", "Masovia, Poland", "Bavaria, Poland"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12886,7 +12886,7 @@ const questions = [
     incorrect_answers: ["13%", "20%", "7%"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a Burgee?",
@@ -12894,7 +12894,7 @@ const questions = [
     incorrect_answers: ["A rope", "A window", "A type of food"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12907,7 +12907,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When did the website &quot;Facebook&quot; launch?",
@@ -12915,7 +12915,7 @@ const questions = [
     incorrect_answers: ["2005", "2003", "2006"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who invented Pastafarianism?",
@@ -12923,7 +12923,7 @@ const questions = [
     incorrect_answers: ["Eric Tignor", "Bill Nye", "Zach Soldi"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12932,7 +12932,7 @@ const questions = [
     incorrect_answers: ["Bone", "Liver", "Stomach"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12945,7 +12945,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12954,7 +12954,7 @@ const questions = [
     incorrect_answers: ["Television Shows", "Video Games", "Films"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Where did the pineapple plant originate?",
@@ -12962,7 +12962,7 @@ const questions = [
     incorrect_answers: ["Hawaii", "Europe", "Asia"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Whose greyscale face is on the kappa emoticon on Twitch?",
@@ -12970,7 +12970,7 @@ const questions = [
     incorrect_answers: ["Justin DeSeno", "John DeSeno", "Jimmy DeSeno"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12979,7 +12979,7 @@ const questions = [
     incorrect_answers: ["Skirt", "Dress", "Rhobes"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these words means &quot;idle spectator&quot;?",
@@ -12987,7 +12987,7 @@ const questions = [
     incorrect_answers: ["Gossypiboma", "Jentacular", "Meupareunia"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13001,7 +13001,7 @@ const questions = [
   },
 
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13010,7 +13010,7 @@ const questions = [
     incorrect_answers: ["Alan Sugar", "Donald Trump", "Bill Gates"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13019,7 +13019,7 @@ const questions = [
     incorrect_answers: ["Royal Oak", "White Hart", "King's Head"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13028,7 +13028,7 @@ const questions = [
     incorrect_answers: ["Yorkshire Terrier", "Boxer", "Pug"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13037,7 +13037,7 @@ const questions = [
     incorrect_answers: ["May 4, 1776", "June 4, 1776", "July 4, 1776"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13046,7 +13046,7 @@ const questions = [
     incorrect_answers: ["Matthew", "Mark", "Max"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13055,7 +13055,7 @@ const questions = [
     incorrect_answers: ["Rude", "Funny", "Tall"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "In past times, what would a gentleman keep in his fob pocket?",
@@ -13063,7 +13063,7 @@ const questions = [
     incorrect_answers: ["Money", "Keys", "Notebook"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Area 51 is located in which US state?",
@@ -13071,7 +13071,7 @@ const questions = [
     incorrect_answers: ["Arizona", "New Mexico", "Utah"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the largest organ of the human body?",
@@ -13079,7 +13079,7 @@ const questions = [
     incorrect_answers: ["Heart", "large Intestine", "Liver"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is &quot;dabbing&quot;?",
@@ -13087,7 +13087,7 @@ const questions = [
     incorrect_answers: ["A medical procedure", "A sport", "A language"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a &quot;dakimakura&quot;?",
@@ -13099,7 +13099,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the name of the very first video uploaded to YouTube?",
@@ -13111,7 +13111,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In 2013 how much money was lost by Nigerian scams?",
@@ -13119,7 +13119,7 @@ const questions = [
     incorrect_answers: ["$95 Million", "$956 Million", "$2.7 Billion"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What year was Queen Elizabeth II born?",
@@ -13127,7 +13127,7 @@ const questions = [
     incorrect_answers: ["1923", "1929", "1930"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13136,7 +13136,7 @@ const questions = [
     incorrect_answers: ["20", "10", "25"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "A factiod is what?",
@@ -13144,7 +13144,7 @@ const questions = [
     incorrect_answers: ["Useless trivia", "A tiny fact", "A scientific figure"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13153,7 +13153,7 @@ const questions = [
     incorrect_answers: ["HSBC", "Standard Chartered", "Bank of China"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the nickname of the US state of California?",
@@ -13161,7 +13161,7 @@ const questions = [
     incorrect_answers: ["Sunshine State", "Bay State", "Treasure State"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13170,7 +13170,7 @@ const questions = [
     incorrect_answers: ["Biryani", "Pani puri", "Tiki masala"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these colours is NOT featured in the logo for Google?",
@@ -13178,7 +13178,7 @@ const questions = [
     incorrect_answers: ["Yellow", "Blue", "Green"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Chinese word for &quot;airplane&quot;?",
@@ -13186,7 +13186,7 @@ const questions = [
     incorrect_answers: ["Qiche", "Zongxian", "Huojian"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Korean word for &quot;heart&quot;?",
@@ -13194,7 +13194,7 @@ const questions = [
     incorrect_answers: ["Aejeong", "Jeongsin", "Segseu"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Arabic word for &quot;moon&quot;?",
@@ -13202,7 +13202,7 @@ const questions = [
     incorrect_answers: ["Najma", "Kawkab", "Shams"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "The Swedish word &quot;Grunka&quot; means what in English?",
@@ -13210,7 +13210,7 @@ const questions = [
     incorrect_answers: ["People", "Place", "Pineapple"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13219,7 +13219,7 @@ const questions = [
     incorrect_answers: ["Twenty", "Ten", "One hundred"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Who is depicted on the US hundred dollar bill?",
@@ -13231,7 +13231,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13240,7 +13240,7 @@ const questions = [
     incorrect_answers: ["3 Weeks", "1 Week", "2 Months"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13249,7 +13249,7 @@ const questions = [
     incorrect_answers: ["Interrobang", "Tilde", "Pilcrow"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the name of Poland in Polish?",
@@ -13257,7 +13257,7 @@ const questions = [
     incorrect_answers: ["Pupcia", "Polszka", "P&oacute;land"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13266,7 +13266,7 @@ const questions = [
     incorrect_answers: ["Digest", "Look", "Read"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13275,7 +13275,7 @@ const questions = [
     incorrect_answers: ["Yelloh Village", "Keycamp", "Villa Plus"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What year was Apple Inc. founded?",
@@ -13283,7 +13283,7 @@ const questions = [
     incorrect_answers: ["1978", "1980", "1974"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was Mountain Dew's original slogan?",
@@ -13295,7 +13295,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13308,7 +13308,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What year was the RoboSapien toy robot released?",
@@ -13316,7 +13316,7 @@ const questions = [
     incorrect_answers: ["2000", "2001", "2006"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Portuguese word for &quot;Brazil&quot;?",
@@ -13324,7 +13324,7 @@ const questions = [
     incorrect_answers: ["Brazil", "Brasilia", "Bras&iacute;l"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13333,7 +13333,7 @@ const questions = [
     incorrect_answers: ["Phones", "Computers", "Processors"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13342,7 +13342,7 @@ const questions = [
     incorrect_answers: ["CatMassage", "SearchPro", "Netscape Navigator"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Who founded the Khan Academy?",
@@ -13350,7 +13350,7 @@ const questions = [
     incorrect_answers: ["Ben Khan", "Kitt Khan", "Adel Khan"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which sign of the zodiac comes between Virgo and Scorpio?",
@@ -13358,7 +13358,7 @@ const questions = [
     incorrect_answers: ["Gemini", "Taurus", "Capricorn"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following presidents is not on Mount Rushmore?",
@@ -13370,7 +13370,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is Tasmania?",
@@ -13382,7 +13382,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13391,7 +13391,7 @@ const questions = [
     incorrect_answers: ["Bolt", "Kudzu", "The Moot"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Chartreuse is a color between yellow and what?",
@@ -13399,7 +13399,7 @@ const questions = [
     incorrect_answers: ["Red", "Black", "Purple"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13408,7 +13408,7 @@ const questions = [
     incorrect_answers: ["Green", "Blue", "Pink"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which country drives on the left side of the road?",
@@ -13416,7 +13416,7 @@ const questions = [
     incorrect_answers: ["Germany", "Russia", "China"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13425,7 +13425,7 @@ const questions = [
     incorrect_answers: ["China", "South Korea", "United States of America"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which candy is NOT made by Mars?",
@@ -13433,7 +13433,7 @@ const questions = [
     incorrect_answers: ["M&M's", "Twix", "Snickers"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "In which fast food chain can you order a Jamocha Shake?",
@@ -13441,7 +13441,7 @@ const questions = [
     incorrect_answers: ["McDonald's", "Burger King", "Wendy's"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13451,7 +13451,7 @@ const questions = [
   },
 
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13460,7 +13460,7 @@ const questions = [
     incorrect_answers: ["Philosophy", "Politics", "Physics"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the first book of the Old Testament?",
@@ -13468,7 +13468,7 @@ const questions = [
     incorrect_answers: ["Exodus", "Leviticus", "Numbers"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the airspeed velocity of an unladen swallow?",
@@ -13476,7 +13476,7 @@ const questions = [
     incorrect_answers: ["15 MPH", "20 MPH", "200 MPH"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which sign of the zodiac is represented by the Crab?",
@@ -13484,7 +13484,7 @@ const questions = [
     incorrect_answers: ["Libra", "Virgo", "Sagittarius"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In the Morse code, which letter is indicated by 3 dots? ",
@@ -13492,7 +13492,7 @@ const questions = [
     incorrect_answers: ["O", "A", "C"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What does the &quot;G&quot; mean in &quot;G-Man&quot;?",
@@ -13500,7 +13500,7 @@ const questions = [
     incorrect_answers: ["Going", "Ghost", "Geronimo"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which language is NOT Indo-European?",
@@ -13508,7 +13508,7 @@ const questions = [
     incorrect_answers: ["Russian", "Greek", "Latvian"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What geometric shape is generally used for stop signs?",
@@ -13516,7 +13516,7 @@ const questions = [
     incorrect_answers: ["Hexagon", "Circle", "Triangle"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13525,7 +13525,7 @@ const questions = [
     incorrect_answers: ["Papua New Guinea", "Ethiopia", "China"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13538,7 +13538,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13547,7 +13547,7 @@ const questions = [
     incorrect_answers: ["Tiger", "Panda", "Crocodile"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How many colors are there in a rainbow?",
@@ -13555,7 +13555,7 @@ const questions = [
     incorrect_answers: ["9", "8", "10"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which film star has his statue in Leicester Square?",
@@ -13563,7 +13563,7 @@ const questions = [
     incorrect_answers: ["Paul Newman", "Rowan Atkinson ", "Alfred Hitchcock"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following chemicals are found in eggplant seeds?",
@@ -13571,7 +13571,7 @@ const questions = [
     incorrect_answers: ["Mescaline", "Cyanide", "Psilocybin"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these companies does NOT manufacture automobiles?",
@@ -13579,7 +13579,7 @@ const questions = [
     incorrect_answers: ["Nissan", "GMC", "Fiat"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was the destination of the missing flight MH370?",
@@ -13587,7 +13587,7 @@ const questions = [
     incorrect_answers: ["Kuala Lumpur", "Singapore", "Tokyo"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What alcoholic drink is mainly made from juniper berries?",
@@ -13595,7 +13595,7 @@ const questions = [
     incorrect_answers: ["Vodka", "Rum", "Tequila"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13604,7 +13604,7 @@ const questions = [
     incorrect_answers: ["Fiestas", "Flamenco", "Mariachi"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13617,7 +13617,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the German word for &quot;spoon&quot;?",
@@ -13625,7 +13625,7 @@ const questions = [
     incorrect_answers: ["Gabel", "Messer", "Essst&auml;bchen"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13634,7 +13634,7 @@ const questions = [
     incorrect_answers: ["United States of America", "Soviet Union", "Poland"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a dead mall?",
@@ -13647,7 +13647,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13656,7 +13656,7 @@ const questions = [
     incorrect_answers: ["German", "Danish", "Polish"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What do the letters of the fast food chain KFC stand for?",
@@ -13668,7 +13668,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13677,7 +13677,7 @@ const questions = [
     incorrect_answers: ["Go Fish", "Twister", "Munchkin"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13690,7 +13690,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13699,7 +13699,7 @@ const questions = [
     incorrect_answers: ["Toshiba", "Asus", "Dell"]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is real haggis made of?",
@@ -13711,7 +13711,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Nephelococcygia is the practice of doing what?",
@@ -13723,7 +13723,7 @@ const questions = [
     ]
   },
   {
-    category: "General Knowledge",
+    category: "GeneralKnowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Where is Apple Inc. headquartered?",
@@ -18095,7 +18095,7 @@ const questions = [
     ]
   },
   {
-    category: "Entertainment: Film",
+    category: "Movies",
     difficulty: "medium",
     question: "Which of these 'Hocus Pocus' stars is a direct descendant of an accused Salem witch?",
     correct_answer: "Sarah Jessica Parker",
