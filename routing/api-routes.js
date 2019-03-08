@@ -6,10 +6,12 @@ module.exports = function (app) {
   app.post("/api/session", function (req, res) {
     User.findOne(req.body)
       .then(function (data) {
-        res.json(data);
+        if (data._id) {
+          res.json(data);
+        }
       })
       .catch(function (err) {
-        res.json(err);
+        res.status(401).json(err);
       });
   });
   app.get("/api/user/:id", function (req, res) {
@@ -28,7 +30,7 @@ module.exports = function (app) {
         res.json(data);
       })
       .catch(function (err) {
-        res.json(err);
+        res.status(400).json(err);
       });
   });
 
@@ -64,33 +66,34 @@ module.exports = function (app) {
         res.json(err);
       });
   });
-  app.get("/api/question", function(req, res) {
+
+  app.get("/api/question", function (req, res) {
     Question.find(req.body)
-      .then(function(data) {
+      .then(function (data) {
         res.json(data);
       })
-      .catch(function(err) {
+      .catch(function (err) {
         res.json(err);
       });
   });
-  app.post("/api/user/:id", function(req, res) {
+  app.post("/api/user/:id", function (req, res) {
     const userId = req.body.userId;
     const newEntry = {
       body: req.body.body
     };
 
     Score.create(newEntry)
-      .then(function(scoreData) {
+      .then(function (scoreData) {
         return User.findOneAndUpdate(
           { _id: userId },
           { $push: { scores: scoreData._id } },
           { new: true }
         );
       })
-      .then(function(userData) {
+      .then(function (userData) {
         res.json(userData);
       })
-      .catch(function(err) {
+      .catch(function (err) {
         res.json(err);
       });
   });
