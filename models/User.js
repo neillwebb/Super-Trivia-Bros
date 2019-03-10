@@ -18,12 +18,59 @@ var UserSchema = new Schema({
     type: Boolean,
     default: false
   },
-  scores: [
-    {
-      type: Schema.Types.ObjectId,
-      ref: "Score"
-    }
-  ]
+  scores: {
+    type: Array,
+    default: [
+      {
+        category: "Books",
+        score: 0
+      },
+      {
+        category: "Movies",
+        score: 0
+      },
+      {
+        category: "Sports",
+        score: 0
+      },
+      {
+        category: "Television",
+        score: 0
+      },
+      {
+        category: "Celebrities",
+        score: 0
+      },
+      {
+        category: "Animals",
+        score: 0
+      },
+      {
+        category: "Video Games",
+        score: 0
+      },
+      {
+        category: "Music",
+        score: 0
+      },
+      {
+        category: "Science And Nature",
+        score: 0
+      },
+      {
+        category: "General Knowledge",
+        score: 0
+      },
+      {
+        category: "History",
+        score: 0
+      },
+      {
+        category: "Geography",
+        score: 0
+      }
+    ]
+  }
 });
 
 // userSchema.plugin(uniqueValidator);
