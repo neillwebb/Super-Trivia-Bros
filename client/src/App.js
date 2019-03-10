@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import Form from '../src/components/Form';
-import InGame from '../src/components/InGame';
+import GameWindow from '../src/components/GameWindow';
 import "./App.css";
 import * as $ from 'axios';
 
@@ -11,56 +11,7 @@ class App extends Component {
     reguser: '',
     regpw: '',
     category: '',
-    previousScore: [
-      {
-        category: "Books",
-        highScore: 0
-      },
-      {
-        category: "Movies",
-        highScore: 0
-      },
-      {
-        category: "Sports",
-        highScore: 0
-      },
-      {
-        category: "Television",
-        highScore: 0
-      },
-      {
-        category: "Celebrities",
-        highScore: 0
-      },
-      {
-        category: "Animals",
-        highScore: 0
-      },
-      {
-        category: "VideoGames",
-        highScore: 0
-      },
-      {
-        category: "Music",
-        highScore: 0
-      },
-      {
-        category: "ScienceAndNature",
-        highScore: 0
-      },
-      {
-        category: "GeneralKnowledge",
-        highScore: 0
-      },
-      {
-        category: "History",
-        highScore: 0
-      },
-      {
-        category: "Geography",
-        highScore: 0
-      },
-    ],
+    allScores: [],
     score: 0,
     isLoggedin: false,
     easterEgg: false
@@ -68,8 +19,20 @@ class App extends Component {
 
   handleChange = (event) => {
     this.setState({
-      [event.target.name]: event.target.value
+      [event.target.name]: event.target.value.toLowerCase()
     })
+  }
+
+  categoryClick = (event) => {
+    event.preventDefault();
+    this.setState({
+      category: event.target.name
+    })
+  }
+
+  gameStart = (event) => {
+    event.preventDefault();
+    console.log("Hello")
   }
 
   handleRegister = (event) => {
@@ -78,7 +41,7 @@ class App extends Component {
       .then((data) => {
         console.log(data)
       }).catch(function (err) {
-        console.log(err)
+        alert("Invalid username or password (Username might be taken)")
       })
   }
 
@@ -87,14 +50,16 @@ class App extends Component {
     $.post('/api/session', { username: this.state.username, password: this.state.password })
       .then((data) => {
         console.log(data)
+        this.setState({
+          isLoggedin: true,
+          username: this.state.username,
+          password: this.state.password,
+          allScores: data.data.scores
+        })
       }).catch(function (err) {
         alert("Username or password is incorrect")
       })
-    this.setState({
-      isLoggedin: true,
-      username: this.state.username,
-      password: this.state.password
-    })
+
   }
 
   render() {
@@ -104,8 +69,11 @@ class App extends Component {
           <Form onChangeHandler={this.handleChange}
             regHandler={this.handleRegister}
             loginHandler={this.handleLogin} /> :
-          <InGame />
+          <GameWindow categories={this.state.allScores} />
+
+
         }
+
       </div>
     );
   }

@@ -14,13 +14,12 @@ if (process.env.NODE_ENV === "production") {
 }
 
 require("./routing/api-routes.js")(app);
-require("./routing/html-routes.js")(app);
 
 const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb://localhost/supertriviabros";
 
 mongoose.connect(MONGODB_URI, { useNewUrlParser: true });
 
-app.listen(PORT, function() {
+app.listen(PORT, function () {
   console.log("App listening on PORT " + PORT);
 });

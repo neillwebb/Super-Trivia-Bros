@@ -2,41 +2,13 @@ const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
 var ScoreSchema = new Schema({
-  Books: {
-    type: Number
+  category: {
+    type: String,
+    enum: ["Books", "Movies", "Sports", "Television", 'Celebrities', "Animals", "Geography", "History", "VideoGames", "ScienceAndNature", "GeneralKnowledge", "Music"]
   },
-  Movies: {
-    type: Number
-  },
-  Sports: {
-    type: Number
-  },
-  Television: {
-    type: Number
-  },
-  Celebrities: {
-    type: Number
-  },
-  Animals: {
-    type: Number
-  },
-  VideoGames: {
-    type: Number
-  },
-  Music: {
-    type: Number
-  },
-  ScienceAndNature: {
-    type: Number
-  },
-  GeneralKnowledge: {
-    type: Number
-  },
-  History: {
-    type: Number
-  },
-  Geography: {
-    type: Number
+  score: {
+    type: Number,
+    default: 0
   }
 });
 
