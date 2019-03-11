@@ -1,7 +1,3 @@
-body {
-  font-family: "Press Start 2P";
-}
-
 .App {
   text-align: center;
 }
@@ -29,18 +25,51 @@ body {
 
 .background {
   width: 100%;
+  z-index: -1;
 }
 
 .login {
   position: absolute;
-  top: 25%;
-  left: 30%;
+  top: 35%;
+  left: 25%;
   color: limegreen;
+  font-family: "Press Start 2P";
+}
+
+h1 {
+  font-size: 60px;
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 25%;
+  left: 18%;
+  color: yellow;
+}
+
+h2 {
+  font-size: 50px;
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 200%;
+  left: 23%;
+  color: yellow;
+  margin-top: 5%;
 }
 
 h3 {
   font-size: 40px;
   text-align: center;
+  font-family: "Press Start 2P";
+}
+
+.categories {
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 25%;
+}
+
+a {
+  float: left;
+  bottom: 100%;
 }
 
 .inputField {
