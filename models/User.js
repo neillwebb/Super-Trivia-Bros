@@ -73,6 +73,7 @@ var UserSchema = new Schema({
   }
 });
 
+
 // userSchema.plugin(uniqueValidator);
 
 const User = mongoose.model("User", UserSchema);
