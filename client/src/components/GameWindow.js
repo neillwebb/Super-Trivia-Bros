@@ -1,12 +1,17 @@
 import React from 'react';
 import Category from '../components/Category';
-
+import { Link } from 'react-router-dom';
+import Trivia from '../components/Trivia';
+import '../App.css'
 import * as $ from 'axios';
 
 class GameWindow extends React.Component {
     state = {
-        category: '',
+        categories: ["Books", "Movies", "Sports", "Television", 'Celebrities', "Animals", "Geography", "History", "Video Games", "Science And Nature", "General Knowledge", "Music"],
+        selectedCategory: '',
         difficulty: '',
+        scoreList: this.props.allScores,
+        difficultySelected: false,
         categorySelected: false,
         score: 0
     }
@@ -14,26 +19,29 @@ class GameWindow extends React.Component {
         event.preventDefault();
         this.setState({
             categorySelected: true,
-            category: event.target.name
+            selectedCategory: event.target.name
         })
     }
 
-    diffcultyClick = (event) => {
-        event.preventDefault();
-        this.setState({
-            difficulty: event.target.name
-        })
+
+    renderTrivia() {
+        console.log("hello");
+        return <Trivia diff={this.state.difficulty} />
+
     }
 
     pullTrivia = (event) => {
         event.preventDefault();
-        $.get(`/api/question/${this.state.category}`).then((data) => {
+        $.get(`/api/question/${this.state.selectedCategory}`).then((data) => {
             console.log(data)
+            { this.renderTrivia() };
+
         })
+
     }
 
     getCategories() {
-        return this.props.categories.map((data, i) => (
+        return this.state.categories.map((data, i) => (
             <Category key={i} showGame={this.gameStart}
                 name={data} />
         ))
@@ -52,10 +60,7 @@ class GameWindow extends React.Component {
                     <div>
                         <h1>Super Trivia Bros!</h1>
                         <h1> {this.state.category}</h1>
-                        <button name="Easy" onClick={this.diffcultyClick}>Easy</button>
-                        <button name="Medium" onClick={this.diffcultyClick}>Medium</button>
-                        <button name="Hard" onClick={this.diffcultyClick}>Hard</button>
-                        <button onClick={this.pullTrivia}>Start game!</button>
+
 
                     </div>
                 }

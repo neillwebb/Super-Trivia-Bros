@@ -1,7 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Category = (props) => (
-    <button name={props.name} onClick={props.showGame}>{props.name}</button>
+    <Link to={{
+        pathname: "/trivia",
+        hash: props.name
+    }}>{props.name} </Link>
 )
 
 export default Category;

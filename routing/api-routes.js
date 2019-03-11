@@ -45,7 +45,25 @@ module.exports = function (app) {
       category: req.params.id
     })
       .then(function (data) {
-        console.log(res);
+        function shuffle(data) {
+          var currentIndex = data.length, temporaryValue, randomIndex;
+
+          // While there remain elements to shuffle...
+          while (0 !== currentIndex) {
+
+            // Pick a remaining element...
+            randomIndex = Math.floor(Math.random() * currentIndex);
+            currentIndex -= 1;
+
+            // And swap it with the current element.
+            temporaryValue = data[currentIndex];
+            data[currentIndex] = data[randomIndex];
+            data[randomIndex] = temporaryValue;
+          }
+
+          return data;
+        }
+        shuffle(data);
         res.json(data);
       })
       .catch(function (err) {
@@ -65,30 +83,6 @@ module.exports = function (app) {
       });
   });
 
-  // needs to be a put on user scores
-  app.post("/api/score", function (req, res) {
-    const userId = req.body.userId;
-    const newEntry = {
-      category: req.body.category,
-      score: req.body.score
-    };
-
-    Score.create(newEntry)
-      .then(function (scoreData) {
-        return User.findOneAndUpdate(
-          { _id: userId },
-          { $push: { scores: scoreData._id } },
-          { new: true }
-        );
-      })
-      .then(function (userData) {
-        res.json(userData);
-      })
-      .catch(function (err) {
-        res.json(err);
-      });
-  });
-
   app.get("/api/question", function (req, res) {
     Question.find(req.body)
       .then(function (data) {
@@ -99,53 +93,24 @@ module.exports = function (app) {
       });
   });
 
-
-  app.put("/api/user", function (req, res) {
-    User.create(req.body)
-      .then(function (dbUser) {
-        res.json(dbUser)
-      })
-      .catch(function (err) {
-        res.status(400).json(err);
-      });
-  });
-
-  app.put('/api/user/:id', function (req, res) {
-    User.update(
-      req.body,
+  //works
+  app.put('/api/user', function (req, res) {
+    const userId = req.body.username;
+    const category = req.body.category;
+    const score = req.body.score;
+    console.log(userId, category, score)
+    User.findOneAndUpdate({ username: userId },
+      { $set: { "scores.$[elem].score": score } },
       {
-        where: {
-          id: req.params.id
-        }
-      }).then(function (data) {
+        multi: true,
+        arrayFilters: [{ "elem.category": category }]
+      })
+      .then(function (data) {
         res.json({ success: true, data: data });
       }).catch(function (err) {
         res.json({ success: false, error: err });
       });
   });
 
-  //replaced by User.put route?
-  app.post("/api/user/:id", function (req, res) {
-    const userId = req.params.id;
-    const newEntry = {
-      category: req.body.category,
-      score: req.body.score
-    };
-
-    Score.create(newEntry)
-      .then(function (scoreData) {
-        return User.findOneAndUpdate(
-          { _id: userId },
-          { $push: { scores: scoreData._id } },
-          { new: true }
-        );
-      })
-      .then(function (userData) {
-        res.json(userData);
-      })
-      .catch(function (err) {
-        res.json(err);
-      });
-  });
 };
 

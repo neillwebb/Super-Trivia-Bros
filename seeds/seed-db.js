@@ -10920,7 +10920,7 @@ const questions = [
   },
 
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which Apollo mission was the first one to land on the Moon?",
@@ -10928,7 +10928,7 @@ const questions = [
     incorrect_answers: ["Apollo 10", "Apollo 9", "Apollo 13"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10937,7 +10937,7 @@ const questions = [
     incorrect_answers: ["Helium", "Carbon", "Hydrogen"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the largest animal currently on Earth?",
@@ -10945,7 +10945,7 @@ const questions = [
     incorrect_answers: ["Orca", "Colossal Squid", "Giraffe"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which is the chemical name of H2O?",
@@ -10957,7 +10957,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "How many objects are equivalent to one mole?",
@@ -10965,7 +10965,7 @@ const questions = [
     incorrect_answers: ["6.002 x 10^22", "6.022 x 10^22", "6.002 x 10^23"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which element has the chemical symbol 'Fe'?",
@@ -10973,7 +10973,7 @@ const questions = [
     incorrect_answers: ["Gold", "Silver", "Tin"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -10982,7 +10982,7 @@ const questions = [
     incorrect_answers: ["Jupiter", "Venus", "Neptune"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -10991,7 +10991,7 @@ const questions = [
     incorrect_answers: ["Ears", "Chin", "Neck"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the elemental symbol for mercury?",
@@ -10999,7 +10999,7 @@ const questions = [
     incorrect_answers: ["Me", "Mc", "Hy"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "How many planets are in our Solar System?",
@@ -11007,7 +11007,7 @@ const questions = [
     incorrect_answers: ["Nine", "Seven", "Ten"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the first element on the periodic table?",
@@ -11015,7 +11015,7 @@ const questions = [
     incorrect_answers: ["Helium", "Oxygen", "Lithium"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What was the first living creature in space?",
@@ -11023,7 +11023,7 @@ const questions = [
     incorrect_answers: ["Monkey", "Dog", "Mouse"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which gas forms about 78% of the Earth&rsquo;s atmosphere?",
@@ -11031,7 +11031,7 @@ const questions = [
     incorrect_answers: ["Oxygen", "Argon", "Carbon Dioxide"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "How many degrees Fahrenheit is 100 degrees Celsius? ",
@@ -11039,7 +11039,7 @@ const questions = [
     incorrect_answers: ["326", "100", "451"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11048,7 +11048,7 @@ const questions = [
     incorrect_answers: ["6 Minutes", "2 Minutes", "12 Minutes"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the molecular formula of Glucose?",
@@ -11056,7 +11056,7 @@ const questions = [
     incorrect_answers: ["C2H4O2", "K+", "CH4"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11065,7 +11065,7 @@ const questions = [
     incorrect_answers: ["Carbonyl", "Alkyl", "Aldehyde"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which element has the atomic number of 7?",
@@ -11073,7 +11073,7 @@ const questions = [
     incorrect_answers: ["Oxygen", "Hydrogen", "Neon"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11082,7 +11082,7 @@ const questions = [
     incorrect_answers: ["Haplogroup L", "Haplogroup T", "Haplogroup J"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11091,7 +11091,7 @@ const questions = [
     incorrect_answers: ["Pulmonary Vein", "Aorta", "Coronary Artery"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11100,7 +11100,7 @@ const questions = [
     incorrect_answers: ["Flip-Flop Syndrome", "Split-Brain", "Blind Sight"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "The &quot;Tibia&quot; is found in which part of the body?",
@@ -11108,7 +11108,7 @@ const questions = [
     incorrect_answers: ["Arm", "Hand", "Head"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the scientific name of the knee cap?",
@@ -11116,7 +11116,7 @@ const questions = [
     incorrect_answers: ["Femur", "Foramen Magnum", "Scapula"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "If you planted the seeds of Quercus robur what would grow?",
@@ -11124,7 +11124,7 @@ const questions = [
     incorrect_answers: ["Flowers", "Vegtables", "Grains"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Who developed the first successful polio vaccine in the 1950s?",
@@ -11132,7 +11132,7 @@ const questions = [
     incorrect_answers: ["John F. Enders", "Thomas Weller", "Frederick Robbins"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these chemical compounds is NOT found in gastric acid?",
@@ -11144,7 +11144,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "How many bones are in the human body?",
@@ -11152,7 +11152,7 @@ const questions = [
     incorrect_answers: ["203", "209", "200"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the scientific name of the red fox?",
@@ -11160,7 +11160,7 @@ const questions = [
     incorrect_answers: ["Vulpes Redus", "Red Fox", "Vulpes Vulpie"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What does DNA stand for?",
@@ -11172,7 +11172,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Who is the chemical element Curium named after?",
@@ -11184,7 +11184,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which part of the body does glaucoma affect?",
@@ -11192,7 +11192,7 @@ const questions = [
     incorrect_answers: ["Throat", "Stomach", "Blood"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11205,7 +11205,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11214,7 +11214,7 @@ const questions = [
     incorrect_answers: ["Christian", "Jewish", "Islamic"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these is a type of stretch/deep tendon reflex?",
@@ -11226,7 +11226,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11235,7 +11235,7 @@ const questions = [
     incorrect_answers: ["The wake", "The backwash", "The ablative"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Myopia is the scientific term for which condition?",
@@ -11243,7 +11243,7 @@ const questions = [
     incorrect_answers: ["Farsightedness", "Double Vision", "Clouded Vision"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11252,7 +11252,7 @@ const questions = [
     incorrect_answers: ["Nevus", "Nares", "Paxillus"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of these is a stop codon in DNA?",
@@ -11260,7 +11260,7 @@ const questions = [
     incorrect_answers: ["ACT", "ACA", "GTA"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "At what temperature does water boil?",
@@ -11268,7 +11268,7 @@ const questions = [
     incorrect_answers: ["200&deg;F", "181&deg;F", "178&deg;F"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "A positron is an antiparticle of a what?",
@@ -11276,7 +11276,7 @@ const questions = [
     incorrect_answers: ["Neutron", "Proton", "Photon"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the unit of electrical capacitance?",
@@ -11284,7 +11284,7 @@ const questions = [
     incorrect_answers: ["Gauss", "Henry", "Watt"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the unit of electrical inductance?",
@@ -11292,7 +11292,7 @@ const questions = [
     incorrect_answers: ["Weber", "Coulomb", "Mho"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11301,7 +11301,7 @@ const questions = [
     incorrect_answers: ["Love", "Safety", "Physiological"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11310,7 +11310,7 @@ const questions = [
     incorrect_answers: ["Dog", "Bat", "Butterfly"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the largest living organism currently known to man?",
@@ -11318,7 +11318,7 @@ const questions = [
     incorrect_answers: ["Blue Whale", "Redwood Tree", "The Coral Reef"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11327,7 +11327,7 @@ const questions = [
     incorrect_answers: ["STS-51-L", "STS-61-C", "STS-109"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11336,7 +11336,7 @@ const questions = [
     incorrect_answers: ["Gongoozler", "Jentacular", "Meupareunia"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which chemical element was originally known as Alabamine?",
@@ -11344,7 +11344,7 @@ const questions = [
     incorrect_answers: ["Selenium", "Antimony", "Molybdenum"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "The Western Lowland Gorilla is scientifically know as?",
@@ -11356,7 +11356,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11366,7 +11366,7 @@ const questions = [
   },
 
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is considered the rarist form of color blindness?",
@@ -11374,7 +11374,7 @@ const questions = [
     incorrect_answers: ["Red", "Green", "Purple"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11383,7 +11383,7 @@ const questions = [
     incorrect_answers: ["Water", "Mercury", "Benzene"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11392,7 +11392,7 @@ const questions = [
     incorrect_answers: ["Science", "Society", "Star"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What name is given to all baby marsupials?",
@@ -11400,7 +11400,7 @@ const questions = [
     incorrect_answers: ["Calf", "Pup", "Cub"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11409,7 +11409,7 @@ const questions = [
     incorrect_answers: ["Knee", "Sholder", "Ankle"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which is the longest bone in the human body? ",
@@ -11417,7 +11417,7 @@ const questions = [
     incorrect_answers: ["Scapula", "Fibula", "Ulna"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which type of rock is created by intense heat AND pressure?",
@@ -11425,7 +11425,7 @@ const questions = [
     incorrect_answers: ["Sedimentary", "Igneous", "Diamond"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11434,7 +11434,7 @@ const questions = [
     incorrect_answers: ["Nitrogen", "Oxygen", "Hydrogen"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the hottest planet in the Solar System?",
@@ -11442,7 +11442,7 @@ const questions = [
     incorrect_answers: ["Mars", "Mercury", "Jupiter"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11455,7 +11455,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11464,7 +11464,7 @@ const questions = [
     incorrect_answers: ["Storm", "Hurricane", "Breeze"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What mineral has the lowest number on the Mohs scale?",
@@ -11472,7 +11472,7 @@ const questions = [
     incorrect_answers: ["Quartz", "Diamond", "Gypsum"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the powerhouse of the cell?",
@@ -11480,7 +11480,7 @@ const questions = [
     incorrect_answers: ["Ribosome", "Redbull", "Nucleus"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "How many planets make up our Solar System?",
@@ -11488,7 +11488,7 @@ const questions = [
     incorrect_answers: ["7", "9", "6"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11497,7 +11497,7 @@ const questions = [
     incorrect_answers: ["Gallium", "Caesium", "Mercury"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11506,7 +11506,7 @@ const questions = [
     incorrect_answers: ["low, some", "high, all", "high, some"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the chemical makeup of water?",
@@ -11514,7 +11514,7 @@ const questions = [
     incorrect_answers: ["C12H6O2", "CO2", "H"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which horizon in a soil profile consists of bedrock?",
@@ -11522,7 +11522,7 @@ const questions = [
     incorrect_answers: ["O", "B", "D"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the primary addictive substance found in tobacco?",
@@ -11530,7 +11530,7 @@ const questions = [
     incorrect_answers: ["Cathinone", "Ephedrine", "Glaucine"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is isobutylphenylpropanoic acid more commonly known as?",
@@ -11538,7 +11538,7 @@ const questions = [
     incorrect_answers: ["Morphine", "Ketamine", "Aspirin"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Where did the dog breed &quot;Chihuahua&quot; originate?",
@@ -11546,7 +11546,7 @@ const questions = [
     incorrect_answers: ["France", "Spain", "Russia"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11555,7 +11555,7 @@ const questions = [
     incorrect_answers: ["Skin", "Brain", "Heart"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the atomic number of the element Strontium?",
@@ -11563,7 +11563,7 @@ const questions = [
     incorrect_answers: ["73", "47", "11"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11572,7 +11572,7 @@ const questions = [
     incorrect_answers: ["Node of Ranvier", "Schwann cell", "Myelin sheath"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following is NOT a real element?",
@@ -11580,7 +11580,7 @@ const questions = [
     incorrect_answers: ["Praseodymium", "Hassium", "Lutetium"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What term is best associated with Sigmund Freud?",
@@ -11592,7 +11592,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11605,7 +11605,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11614,7 +11614,7 @@ const questions = [
     incorrect_answers: ["Odense", "Herning", "Skagen"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11623,7 +11623,7 @@ const questions = [
     incorrect_answers: ["Health", "Flammability", "Radioactivity"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11632,7 +11632,7 @@ const questions = [
     incorrect_answers: ["Europa", "Miranda", "Callisto"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "The human right lung has how many lobes?",
@@ -11640,7 +11640,7 @@ const questions = [
     incorrect_answers: ["4", "2", "1"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the molecular formula of Ozone?",
@@ -11648,7 +11648,7 @@ const questions = [
     incorrect_answers: ["C6H2O6", "N2O", "SO4"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11661,7 +11661,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "The core of the Sun can reach which temperature?",
@@ -11673,7 +11673,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11686,7 +11686,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "How many chromosomes are in your body cells?",
@@ -11694,7 +11694,7 @@ const questions = [
     incorrect_answers: ["21", "22", "24"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Deuterium is an isotope of which element?",
@@ -11702,7 +11702,7 @@ const questions = [
     incorrect_answers: ["Nitrogen", "Helium", "Neon"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Who made the discovery of X-rays?",
@@ -11710,7 +11710,7 @@ const questions = [
     incorrect_answers: ["Thomas Alva Edison", "James Watt", "Albert Einstein"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What element on the periodic table has 92 electrons?",
@@ -11718,7 +11718,7 @@ const questions = [
     incorrect_answers: ["Sulfur", "Hydrogen", "Iron"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "About how old is Earth?",
@@ -11730,7 +11730,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What nucleotide pairs with guanine?",
@@ -11738,7 +11738,7 @@ const questions = [
     incorrect_answers: ["Thymine", "Adenine", "Uracil"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "What is the same in Celsius and Fahrenheit?",
@@ -11746,7 +11746,7 @@ const questions = [
     incorrect_answers: ["32", "-39", "-42"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What does LASER stand for?",
@@ -11759,7 +11759,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Botanically speaking, which of these fruits is NOT a berry?",
@@ -11767,7 +11767,7 @@ const questions = [
     incorrect_answers: ["Blueberry", "Banana", "Concord Grape"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "How much radiation does a banana emit?",
@@ -11779,7 +11779,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11788,7 +11788,7 @@ const questions = [
     incorrect_answers: ["Copper", "Lithium", "Lead"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "The Sun consists of mostly which two elements?",
@@ -11800,7 +11800,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "How long is a light-year?",
@@ -11808,7 +11808,7 @@ const questions = [
     incorrect_answers: ["1 AU", "105.40 Earth-years", "501.2 Million Miles"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Coulrophobia is the irrational fear of what?",
@@ -11816,7 +11816,7 @@ const questions = [
     incorrect_answers: ["Cemeteries", "Needles", "Tunnels"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11826,7 +11826,7 @@ const questions = [
   },
 
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following bones is not in the leg?",
@@ -11834,7 +11834,7 @@ const questions = [
     incorrect_answers: ["Patella", "Tibia", "Fibula "]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the colour of unoxidized blood?",
@@ -11842,7 +11842,7 @@ const questions = [
     incorrect_answers: ["Blue", "Purple", "Green"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11851,7 +11851,7 @@ const questions = [
     incorrect_answers: ["Thrust", "Drag", "Weight "]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11860,7 +11860,7 @@ const questions = [
     incorrect_answers: ["Nucleus", "Chloroplast", "Endoplasmic Reticulum"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11869,7 +11869,7 @@ const questions = [
     incorrect_answers: ["Kidney", "Liver", "Brain"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these stars is the largest?",
@@ -11877,7 +11877,7 @@ const questions = [
     incorrect_answers: ["VY Canis Majoris", "Betelgeuse", "RW Cephei"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -11886,7 +11886,7 @@ const questions = [
     incorrect_answers: ["26", "50", "74"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Gannymede is the largest moon of which planet?",
@@ -11894,7 +11894,7 @@ const questions = [
     incorrect_answers: ["Uranus", "Neptune", "Mars"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Au on the Periodic Table refers to which element?",
@@ -11902,7 +11902,7 @@ const questions = [
     incorrect_answers: ["Silver", "Oxygen", "Nickel"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11911,7 +11911,7 @@ const questions = [
     incorrect_answers: ["0", "1", "5"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11920,7 +11920,7 @@ const questions = [
     incorrect_answers: ["Lungs", "Skin", "Heart"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11929,7 +11929,7 @@ const questions = [
     incorrect_answers: ["Soyuz 7K-OK", "Zenit-2", "Voskhod 3KV"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is the chemical formula for ammonia?",
@@ -11937,7 +11937,7 @@ const questions = [
     incorrect_answers: ["CO2", "NO3", "CH4"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Which is not a type of neuron?",
@@ -11945,7 +11945,7 @@ const questions = [
     incorrect_answers: ["Sensory Neuron", "Motor Neuron", "Interneuron"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -11954,7 +11954,7 @@ const questions = [
     incorrect_answers: ["Rubber", "Nylon", "Bakelite"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Folic acid is the synthetic form of which vitamin?",
@@ -11962,7 +11962,7 @@ const questions = [
     incorrect_answers: ["Vitamin A", "Vitamin C", "Vitamin D"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "The human heart has how many chambers?",
@@ -11970,7 +11970,7 @@ const questions = [
     incorrect_answers: ["2", "6", "3"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -11979,7 +11979,7 @@ const questions = [
     incorrect_answers: ["Copper", "Iridium", "Cobalt"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "The asteroid belt is located between which two planets?",
@@ -11991,7 +11991,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Human cells typically have how many copies of each gene?",
@@ -11999,7 +11999,7 @@ const questions = [
     incorrect_answers: ["1", "4", "3"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which is the most abundant element in the universe?",
@@ -12007,7 +12007,7 @@ const questions = [
     incorrect_answers: ["Helium", "Lithium", "Oxygen"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "Which element has the highest melting point?",
@@ -12015,7 +12015,7 @@ const questions = [
     incorrect_answers: ["Tungsten", "Platinum", "Osmium"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "In Chemistry, how many isomers does Butanol (C4H9OH) have?",
@@ -12023,7 +12023,7 @@ const questions = [
     incorrect_answers: ["3", "5", "6"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12032,7 +12032,7 @@ const questions = [
     incorrect_answers: ["Prophase", "Stasis", "Telophase"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these elements on the Periodic Table is a Noble Gas?",
@@ -12040,7 +12040,7 @@ const questions = [
     incorrect_answers: ["Potassium", "Iodine", "Colbalt"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the standard atomic weight of a Plutonium nucleus?",
@@ -12048,7 +12048,7 @@ const questions = [
     incorrect_answers: ["94", "481", "128"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "71% of the Earth's surface is made up of",
@@ -12056,7 +12056,7 @@ const questions = [
     incorrect_answers: ["Deserts", "Continents", "Forests"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12069,7 +12069,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What is radiation measured in?",
@@ -12077,7 +12077,7 @@ const questions = [
     incorrect_answers: ["Watt", "Decibel", "Kelvin"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12091,7 +12091,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
     question: "What is the unit of electrical resistance?",
@@ -12099,7 +12099,7 @@ const questions = [
     incorrect_answers: ["Mho", "Tesla", "Joule"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12112,7 +12112,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12121,7 +12121,7 @@ const questions = [
     incorrect_answers: ["Epimysium", "Myofiaments", "Myocardium"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12130,7 +12130,7 @@ const questions = [
     incorrect_answers: ["Foreshock", "Strike-slip", "Temblor"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What are human nails made of?",
@@ -12138,7 +12138,7 @@ const questions = [
     incorrect_answers: ["Bone", "Chitin", "Calcium"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question: "Where is the Gluteus Maximus muscle located?",
@@ -12146,7 +12146,7 @@ const questions = [
     incorrect_answers: ["Arm", "Head", "Torso"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12159,7 +12159,7 @@ const questions = [
     ]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12168,7 +12168,7 @@ const questions = [
     incorrect_answers: ["Cerebellum", "Thalamus", "Amygdala"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12177,7 +12177,7 @@ const questions = [
     incorrect_answers: ["Saturn", "Jupiter", "Venus"]
   },
   {
-    category: "ScienceAndNature",
+    category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
     question: "What do you study if you are studying entomology?",
@@ -12186,7 +12186,7 @@ const questions = [
   },
 
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the world's most expensive spice by weight?",
@@ -12194,7 +12194,7 @@ const questions = [
     incorrect_answers: ["Cinnamon", "Cardamom", "Vanilla"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What does a milliner make and sell?",
@@ -12202,7 +12202,7 @@ const questions = [
     incorrect_answers: ["Shoes", "Belts", "Shirts"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12211,7 +12211,7 @@ const questions = [
     incorrect_answers: ["Spades", "Diamonds", "Clubs"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which river flows through the Scottish city of Glasgow?",
@@ -12219,7 +12219,7 @@ const questions = [
     incorrect_answers: ["Tay", "Dee", "Tweed"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12232,7 +12232,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12241,7 +12241,7 @@ const questions = [
     incorrect_answers: ["Sword", "Pen", "Cellphone"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12250,7 +12250,7 @@ const questions = [
     incorrect_answers: ["Transformers", "Care Bears", "Rubik&rsquo;s Cube"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What does a funambulist walk on?",
@@ -12258,7 +12258,7 @@ const questions = [
     incorrect_answers: ["Broken Glass", "Balls", "The Moon"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Scotch whisky and Drambuie make up which cocktail?",
@@ -12266,7 +12266,7 @@ const questions = [
     incorrect_answers: ["Screwdriver", "Sex on the Beach", "Manhattan"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What alcoholic drink is made from molasses?",
@@ -12274,7 +12274,7 @@ const questions = [
     incorrect_answers: ["Gin", "Vodka", "Whisky"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12283,7 +12283,7 @@ const questions = [
     incorrect_answers: ["Mentsuyu", "Karashi", "Ponzu"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the name of the Jewish New Year?",
@@ -12291,7 +12291,7 @@ const questions = [
     incorrect_answers: ["Elul", "New Year", "Succoss"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "When was &quot;YouTube&quot; founded?",
@@ -12299,7 +12299,7 @@ const questions = [
     incorrect_answers: ["May 22, 2004", "September 12, 2005", "July 19, 2009"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12308,7 +12308,7 @@ const questions = [
     incorrect_answers: ["Open Room", "Sitting Room", "Loft"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Red Vines is a brand of what type of candy?",
@@ -12316,7 +12316,7 @@ const questions = [
     incorrect_answers: ["Lollipop", "Chocolate", "Bubblegum"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who is a co-founder of music streaming service Spotify?",
@@ -12328,7 +12328,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the unit of currency in Laos?",
@@ -12336,7 +12336,7 @@ const questions = [
     incorrect_answers: ["Ruble", "Konra", "Dollar"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Sciophobia is the fear of what?",
@@ -12344,7 +12344,7 @@ const questions = [
     incorrect_answers: ["Eating", "Bright lights", "Transportation"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12353,7 +12353,7 @@ const questions = [
     incorrect_answers: ["Noah's Ark", "Fat Man", "Trojan Horse"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the French word for &quot;hat&quot;?",
@@ -12361,7 +12361,7 @@ const questions = [
     incorrect_answers: ["Bonnet", "&Eacute;charpe", "Casque"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Swedish word for &quot;window&quot;?",
@@ -12369,7 +12369,7 @@ const questions = [
     incorrect_answers: ["H&aring;l", "Sk&auml;rm", "Ruta"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Italian word for &quot;tomato&quot;?",
@@ -12377,7 +12377,7 @@ const questions = [
     incorrect_answers: ["Aglio", "Cipolla", "Peperoncino"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the romanized Russian word for &quot;winter&quot;?",
@@ -12385,7 +12385,7 @@ const questions = [
     incorrect_answers: ["Leto", "Vesna", "Osen'"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12394,7 +12394,7 @@ const questions = [
     incorrect_answers: ["Mat Zo", "deadmau5", "Zedd"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "The term &quot;scientist&quot; was coined in which year?",
@@ -12402,7 +12402,7 @@ const questions = [
     incorrect_answers: ["1933", "1942", "1796"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who is the founder of &quot;The Lego Group&quot;?",
@@ -12414,7 +12414,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Five dollars is worth how many nickles?",
@@ -12422,7 +12422,7 @@ const questions = [
     incorrect_answers: ["50", "25", "69"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the last letter of the Greek alphabet?",
@@ -12430,7 +12430,7 @@ const questions = [
     incorrect_answers: ["Mu", "Epsilon", "Kappa"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What do the letters in the GMT time zone stand for?",
@@ -12442,7 +12442,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When was Nintendo founded?",
@@ -12454,7 +12454,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12463,7 +12463,7 @@ const questions = [
     incorrect_answers: ["Anheuser Busch", "Boston Beer Company", "Miller Coors"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12472,7 +12472,7 @@ const questions = [
     incorrect_answers: ["Answer", "Cause", "Source"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Amsterdam Centraal station is twinned with what station?",
@@ -12484,7 +12484,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When was Hubba Bubba first introduced?",
@@ -12492,7 +12492,7 @@ const questions = [
     incorrect_answers: ["1984", "1972", "1980"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What was Bank of America originally established as?",
@@ -12504,7 +12504,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12513,7 +12513,7 @@ const questions = [
     incorrect_answers: ["Axles", "Gears", "Belts"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Earl Grey tea is black tea flavoured with what?",
@@ -12521,7 +12521,7 @@ const questions = [
     incorrect_answers: ["Lavender", "Vanilla", "Honey"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "If someone said &quot;you are olid&quot;, what would they mean?",
@@ -12533,7 +12533,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What company developed the vocaloid Hatsune Miku?",
@@ -12541,7 +12541,7 @@ const questions = [
     incorrect_answers: ["Sega", "Sony", "Yamaha Corporation"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Named after the mallow flower, mauve is a shade of what?",
@@ -12550,7 +12550,7 @@ const questions = [
   },
 
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12563,7 +12563,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12572,7 +12572,7 @@ const questions = [
     incorrect_answers: ["Moldova", "Czech Republic", "Denmark"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12581,7 +12581,7 @@ const questions = [
     incorrect_answers: ["Oculus", "Google", "Razer"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What's the name of Batman's parents?",
@@ -12593,7 +12593,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the most common surname Wales?",
@@ -12601,7 +12601,7 @@ const questions = [
     incorrect_answers: ["Williams", "Davies", "Evans"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Rolex is a company that specializes in what type of product?",
@@ -12609,7 +12609,7 @@ const questions = [
     incorrect_answers: ["Cars", "Computers", "Sports equipment"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "A doctor with a PhD is a doctor of what?",
@@ -12617,7 +12617,7 @@ const questions = [
     incorrect_answers: ["Psychology", "Phrenology", "Physical Therapy"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How would one say goodbye in Spanish?",
@@ -12625,7 +12625,7 @@ const questions = [
     incorrect_answers: ["Hola", "Au Revoir", "Salir"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "On a dartboard, what number is directly opposite No. 1?",
@@ -12633,7 +12633,7 @@ const questions = [
     incorrect_answers: ["20", "12", "15"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12642,7 +12642,7 @@ const questions = [
     incorrect_answers: ["Single", "Secure", "Solid"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12651,7 +12651,7 @@ const questions = [
     incorrect_answers: ["Target", "Taxi", "Turkey"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which American president appears on a one dollar bill?",
@@ -12663,7 +12663,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -12672,7 +12672,7 @@ const questions = [
     incorrect_answers: ["Sphere", "Cylinder", "Pyramid"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which one of the following rhythm games was made by Harmonix?",
@@ -12684,7 +12684,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following is not another name for the eggplant?",
@@ -12692,7 +12692,7 @@ const questions = [
     incorrect_answers: ["Brinjal", "Guinea Squash", "Melongene"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12701,7 +12701,7 @@ const questions = [
     incorrect_answers: ["The Family", "The Simoleon Family", "The Proud Family"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12710,7 +12710,7 @@ const questions = [
     incorrect_answers: ["Taipei 101", "One Detroit Center", "Westendstrasse 1"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12719,7 +12719,7 @@ const questions = [
     incorrect_answers: ["Ukiyo", "Majime", "Ikigai"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the romanized Japanese word for &quot;university&quot;?",
@@ -12727,7 +12727,7 @@ const questions = [
     incorrect_answers: ["Toshokan", "Jimusho", "Shokudou"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12736,7 +12736,7 @@ const questions = [
     incorrect_answers: ["Big Billy Bass", "Singing Fish", "Sardeen"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12745,7 +12745,7 @@ const questions = [
     incorrect_answers: ["Gus", "Phineas", "Ezra"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "On average, Americans consume 100 pounds of what per second?",
@@ -12753,7 +12753,7 @@ const questions = [
     incorrect_answers: ["Potatoes", "Donuts", "Cocaine"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which one of these is not a typical European sword design?",
@@ -12761,7 +12761,7 @@ const questions = [
     incorrect_answers: ["Falchion", "Ulfberht", "Flamberge"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12770,7 +12770,7 @@ const questions = [
     incorrect_answers: ["Bjarke Ingels", "Michael Arad", "Fumihiko Maki"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which one of these Swedish companies was founded in 1943?",
@@ -12778,7 +12778,7 @@ const questions = [
     incorrect_answers: ["H & M", "Lindex", "Clas Ohlson"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12787,7 +12787,7 @@ const questions = [
     incorrect_answers: ["Coca-Cola", "Sprite", "Mountain Dew"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "How many calories are in a 355 ml can of Pepsi Cola?",
@@ -12795,7 +12795,7 @@ const questions = [
     incorrect_answers: ["200", "100", "155"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What direction does the Statue of Liberty face?",
@@ -12803,7 +12803,7 @@ const questions = [
     incorrect_answers: ["Southwest", "Northwest", "Northeast"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In what year was McDonald's founded?",
@@ -12811,7 +12811,7 @@ const questions = [
     incorrect_answers: ["1964", "1951", "1947"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12820,7 +12820,7 @@ const questions = [
     incorrect_answers: ["Count Chocula", "Franken Berry", "Boo-Berry"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which restaurant's mascot is a clown?",
@@ -12828,7 +12828,7 @@ const questions = [
     incorrect_answers: ["Whataburger", "Burger King", "Sonic"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was the soft drink Pepsi originally introduced as?",
@@ -12836,7 +12836,7 @@ const questions = [
     incorrect_answers: ["Pepsin Pop", "Carolina Cola", "Pepsin Syrup"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What color is the &quot;Ex&quot; in FedEx Ground?",
@@ -12844,7 +12844,7 @@ const questions = [
     incorrect_answers: ["Red", "Light Blue", "Orange"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What was the first ever London Underground line to be built?",
@@ -12852,7 +12852,7 @@ const questions = [
     incorrect_answers: ["Circle Line", "Bakerloo Line", "Victoria Line"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How tall is the Burj Khalifa?",
@@ -12860,7 +12860,7 @@ const questions = [
     incorrect_answers: ["2,717 ft", "2,546 ft", "3,024 ft"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12869,7 +12869,7 @@ const questions = [
     incorrect_answers: ["2 years", "8 years", "6 months"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Where does water from Poland Spring water bottles come from?",
@@ -12877,7 +12877,7 @@ const questions = [
     incorrect_answers: ["Hesse, Germany", "Masovia, Poland", "Bavaria, Poland"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12886,7 +12886,7 @@ const questions = [
     incorrect_answers: ["13%", "20%", "7%"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a Burgee?",
@@ -12894,7 +12894,7 @@ const questions = [
     incorrect_answers: ["A rope", "A window", "A type of food"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -12907,7 +12907,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "When did the website &quot;Facebook&quot; launch?",
@@ -12915,7 +12915,7 @@ const questions = [
     incorrect_answers: ["2005", "2003", "2006"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Who invented Pastafarianism?",
@@ -12923,7 +12923,7 @@ const questions = [
     incorrect_answers: ["Eric Tignor", "Bill Nye", "Zach Soldi"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12932,7 +12932,7 @@ const questions = [
     incorrect_answers: ["Bone", "Liver", "Stomach"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12945,7 +12945,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12954,7 +12954,7 @@ const questions = [
     incorrect_answers: ["Television Shows", "Video Games", "Films"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Where did the pineapple plant originate?",
@@ -12962,7 +12962,7 @@ const questions = [
     incorrect_answers: ["Hawaii", "Europe", "Asia"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Whose greyscale face is on the kappa emoticon on Twitch?",
@@ -12970,7 +12970,7 @@ const questions = [
     incorrect_answers: ["Justin DeSeno", "John DeSeno", "Jimmy DeSeno"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -12979,7 +12979,7 @@ const questions = [
     incorrect_answers: ["Skirt", "Dress", "Rhobes"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these words means &quot;idle spectator&quot;?",
@@ -12987,7 +12987,7 @@ const questions = [
     incorrect_answers: ["Gossypiboma", "Jentacular", "Meupareunia"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13001,7 +13001,7 @@ const questions = [
   },
 
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13010,7 +13010,7 @@ const questions = [
     incorrect_answers: ["Alan Sugar", "Donald Trump", "Bill Gates"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13019,7 +13019,7 @@ const questions = [
     incorrect_answers: ["Royal Oak", "White Hart", "King's Head"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13028,7 +13028,7 @@ const questions = [
     incorrect_answers: ["Yorkshire Terrier", "Boxer", "Pug"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13037,7 +13037,7 @@ const questions = [
     incorrect_answers: ["May 4, 1776", "June 4, 1776", "July 4, 1776"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13046,7 +13046,7 @@ const questions = [
     incorrect_answers: ["Matthew", "Mark", "Max"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13055,7 +13055,7 @@ const questions = [
     incorrect_answers: ["Rude", "Funny", "Tall"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "In past times, what would a gentleman keep in his fob pocket?",
@@ -13063,7 +13063,7 @@ const questions = [
     incorrect_answers: ["Money", "Keys", "Notebook"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Area 51 is located in which US state?",
@@ -13071,7 +13071,7 @@ const questions = [
     incorrect_answers: ["Arizona", "New Mexico", "Utah"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the largest organ of the human body?",
@@ -13079,7 +13079,7 @@ const questions = [
     incorrect_answers: ["Heart", "large Intestine", "Liver"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is &quot;dabbing&quot;?",
@@ -13087,7 +13087,7 @@ const questions = [
     incorrect_answers: ["A medical procedure", "A sport", "A language"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a &quot;dakimakura&quot;?",
@@ -13099,7 +13099,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the name of the very first video uploaded to YouTube?",
@@ -13111,7 +13111,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In 2013 how much money was lost by Nigerian scams?",
@@ -13119,7 +13119,7 @@ const questions = [
     incorrect_answers: ["$95 Million", "$956 Million", "$2.7 Billion"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What year was Queen Elizabeth II born?",
@@ -13127,7 +13127,7 @@ const questions = [
     incorrect_answers: ["1923", "1929", "1930"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13136,7 +13136,7 @@ const questions = [
     incorrect_answers: ["20", "10", "25"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "A factiod is what?",
@@ -13144,7 +13144,7 @@ const questions = [
     incorrect_answers: ["Useless trivia", "A tiny fact", "A scientific figure"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13153,7 +13153,7 @@ const questions = [
     incorrect_answers: ["HSBC", "Standard Chartered", "Bank of China"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the nickname of the US state of California?",
@@ -13161,7 +13161,7 @@ const questions = [
     incorrect_answers: ["Sunshine State", "Bay State", "Treasure State"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13170,7 +13170,7 @@ const questions = [
     incorrect_answers: ["Biryani", "Pani puri", "Tiki masala"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which of these colours is NOT featured in the logo for Google?",
@@ -13178,7 +13178,7 @@ const questions = [
     incorrect_answers: ["Yellow", "Blue", "Green"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Chinese word for &quot;airplane&quot;?",
@@ -13186,7 +13186,7 @@ const questions = [
     incorrect_answers: ["Qiche", "Zongxian", "Huojian"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Korean word for &quot;heart&quot;?",
@@ -13194,7 +13194,7 @@ const questions = [
     incorrect_answers: ["Aejeong", "Jeongsin", "Segseu"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the romanized Arabic word for &quot;moon&quot;?",
@@ -13202,7 +13202,7 @@ const questions = [
     incorrect_answers: ["Najma", "Kawkab", "Shams"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "The Swedish word &quot;Grunka&quot; means what in English?",
@@ -13210,7 +13210,7 @@ const questions = [
     incorrect_answers: ["People", "Place", "Pineapple"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13219,7 +13219,7 @@ const questions = [
     incorrect_answers: ["Twenty", "Ten", "One hundred"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Who is depicted on the US hundred dollar bill?",
@@ -13231,7 +13231,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13240,7 +13240,7 @@ const questions = [
     incorrect_answers: ["3 Weeks", "1 Week", "2 Months"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13249,7 +13249,7 @@ const questions = [
     incorrect_answers: ["Interrobang", "Tilde", "Pilcrow"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the name of Poland in Polish?",
@@ -13257,7 +13257,7 @@ const questions = [
     incorrect_answers: ["Pupcia", "Polszka", "P&oacute;land"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13266,7 +13266,7 @@ const questions = [
     incorrect_answers: ["Digest", "Look", "Read"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13275,7 +13275,7 @@ const questions = [
     incorrect_answers: ["Yelloh Village", "Keycamp", "Villa Plus"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What year was Apple Inc. founded?",
@@ -13283,7 +13283,7 @@ const questions = [
     incorrect_answers: ["1978", "1980", "1974"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was Mountain Dew's original slogan?",
@@ -13295,7 +13295,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13308,7 +13308,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What year was the RoboSapien toy robot released?",
@@ -13316,7 +13316,7 @@ const questions = [
     incorrect_answers: ["2000", "2001", "2006"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the Portuguese word for &quot;Brazil&quot;?",
@@ -13324,7 +13324,7 @@ const questions = [
     incorrect_answers: ["Brazil", "Brasilia", "Bras&iacute;l"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13333,7 +13333,7 @@ const questions = [
     incorrect_answers: ["Phones", "Computers", "Processors"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13342,7 +13342,7 @@ const questions = [
     incorrect_answers: ["CatMassage", "SearchPro", "Netscape Navigator"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Who founded the Khan Academy?",
@@ -13350,7 +13350,7 @@ const questions = [
     incorrect_answers: ["Ben Khan", "Kitt Khan", "Adel Khan"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which sign of the zodiac comes between Virgo and Scorpio?",
@@ -13358,7 +13358,7 @@ const questions = [
     incorrect_answers: ["Gemini", "Taurus", "Capricorn"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which of the following presidents is not on Mount Rushmore?",
@@ -13370,7 +13370,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is Tasmania?",
@@ -13382,7 +13382,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13391,7 +13391,7 @@ const questions = [
     incorrect_answers: ["Bolt", "Kudzu", "The Moot"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Chartreuse is a color between yellow and what?",
@@ -13399,7 +13399,7 @@ const questions = [
     incorrect_answers: ["Red", "Black", "Purple"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13408,7 +13408,7 @@ const questions = [
     incorrect_answers: ["Green", "Blue", "Pink"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which country drives on the left side of the road?",
@@ -13416,7 +13416,7 @@ const questions = [
     incorrect_answers: ["Germany", "Russia", "China"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13425,7 +13425,7 @@ const questions = [
     incorrect_answers: ["China", "South Korea", "United States of America"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which candy is NOT made by Mars?",
@@ -13433,7 +13433,7 @@ const questions = [
     incorrect_answers: ["M&M's", "Twix", "Snickers"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "In which fast food chain can you order a Jamocha Shake?",
@@ -13441,7 +13441,7 @@ const questions = [
     incorrect_answers: ["McDonald's", "Burger King", "Wendy's"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13451,7 +13451,7 @@ const questions = [
   },
 
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13460,7 +13460,7 @@ const questions = [
     incorrect_answers: ["Philosophy", "Politics", "Physics"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What is the first book of the Old Testament?",
@@ -13468,7 +13468,7 @@ const questions = [
     incorrect_answers: ["Exodus", "Leviticus", "Numbers"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "What is the airspeed velocity of an unladen swallow?",
@@ -13476,7 +13476,7 @@ const questions = [
     incorrect_answers: ["15 MPH", "20 MPH", "200 MPH"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "Which sign of the zodiac is represented by the Crab?",
@@ -13484,7 +13484,7 @@ const questions = [
     incorrect_answers: ["Libra", "Virgo", "Sagittarius"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "In the Morse code, which letter is indicated by 3 dots? ",
@@ -13492,7 +13492,7 @@ const questions = [
     incorrect_answers: ["O", "A", "C"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What does the &quot;G&quot; mean in &quot;G-Man&quot;?",
@@ -13500,7 +13500,7 @@ const questions = [
     incorrect_answers: ["Going", "Ghost", "Geronimo"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which language is NOT Indo-European?",
@@ -13508,7 +13508,7 @@ const questions = [
     incorrect_answers: ["Russian", "Greek", "Latvian"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What geometric shape is generally used for stop signs?",
@@ -13516,7 +13516,7 @@ const questions = [
     incorrect_answers: ["Hexagon", "Circle", "Triangle"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13525,7 +13525,7 @@ const questions = [
     incorrect_answers: ["Papua New Guinea", "Ethiopia", "China"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13538,7 +13538,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13547,7 +13547,7 @@ const questions = [
     incorrect_answers: ["Tiger", "Panda", "Crocodile"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "How many colors are there in a rainbow?",
@@ -13555,7 +13555,7 @@ const questions = [
     incorrect_answers: ["9", "8", "10"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which film star has his statue in Leicester Square?",
@@ -13563,7 +13563,7 @@ const questions = [
     incorrect_answers: ["Paul Newman", "Rowan Atkinson ", "Alfred Hitchcock"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Which of the following chemicals are found in eggplant seeds?",
@@ -13571,7 +13571,7 @@ const questions = [
     incorrect_answers: ["Mescaline", "Cyanide", "Psilocybin"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "Which of these companies does NOT manufacture automobiles?",
@@ -13579,7 +13579,7 @@ const questions = [
     incorrect_answers: ["Nissan", "GMC", "Fiat"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What was the destination of the missing flight MH370?",
@@ -13587,7 +13587,7 @@ const questions = [
     incorrect_answers: ["Kuala Lumpur", "Singapore", "Tokyo"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What alcoholic drink is mainly made from juniper berries?",
@@ -13595,7 +13595,7 @@ const questions = [
     incorrect_answers: ["Vodka", "Rum", "Tequila"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13604,7 +13604,7 @@ const questions = [
     incorrect_answers: ["Fiestas", "Flamenco", "Mariachi"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13617,7 +13617,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is the German word for &quot;spoon&quot;?",
@@ -13625,7 +13625,7 @@ const questions = [
     incorrect_answers: ["Gabel", "Messer", "Essst&auml;bchen"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13634,7 +13634,7 @@ const questions = [
     incorrect_answers: ["United States of America", "Soviet Union", "Poland"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is a dead mall?",
@@ -13647,7 +13647,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question:
@@ -13656,7 +13656,7 @@ const questions = [
     incorrect_answers: ["German", "Danish", "Polish"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question: "What do the letters of the fast food chain KFC stand for?",
@@ -13668,7 +13668,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
@@ -13677,7 +13677,7 @@ const questions = [
     incorrect_answers: ["Go Fish", "Twister", "Munchkin"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13690,7 +13690,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question:
@@ -13699,7 +13699,7 @@ const questions = [
     incorrect_answers: ["Toshiba", "Asus", "Dell"]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
     question: "What is real haggis made of?",
@@ -13711,7 +13711,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Nephelococcygia is the practice of doing what?",
@@ -13723,7 +13723,7 @@ const questions = [
     ]
   },
   {
-    category: "GeneralKnowledge",
+    category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
     question: "Where is Apple Inc. headquartered?",
