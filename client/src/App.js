@@ -10,7 +10,7 @@ class App extends Component {
     password: '',
     reguser: '',
     regpw: '',
-    category: '',
+    category: ["Books", "Movies", "Sports", "Television", 'Celebrities', "Animals", "Geography", "History", "VideoGames", "ScienceAndNature", "GeneralKnowledge", "Music"],
     allScores: [],
     score: 0,
     isLoggedin: false,
@@ -28,11 +28,6 @@ class App extends Component {
     this.setState({
       category: event.target.name
     })
-  }
-
-  gameStart = (event) => {
-    event.preventDefault();
-    console.log("Hello")
   }
 
   handleRegister = (event) => {
@@ -69,7 +64,7 @@ class App extends Component {
           <Form onChangeHandler={this.handleChange}
             regHandler={this.handleRegister}
             loginHandler={this.handleLogin} /> :
-          <GameWindow categories={this.state.allScores} />
+          <GameWindow categories={this.state.category} />
 
 
         }
