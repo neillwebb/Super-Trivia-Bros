@@ -1,3 +1,7 @@
+body {
+  font-family: "Press Start 2P";
+}
+
 .App {
   text-align: center;
 }
@@ -21,6 +25,34 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.background {
+  width: 100%;
+}
+
+.login {
+  position: absolute;
+  top: 25%;
+  left: 30%;
+  color: limegreen;
+}
+
+h3 {
+  font-size: 40px;
+  text-align: center;
+}
+
+.inputField {
+  padding: 12px 20px;
+  font-family: "Press Start 2P";
+  margin-left: 28%;
+}
+
+.loginButton {
+  font-family: "Press Start 2P";
+  float: right;
+  margin-top: -1%;
 }
 
 @keyframes App-logo-spin {
