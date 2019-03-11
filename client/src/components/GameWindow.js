@@ -26,7 +26,8 @@ class GameWindow extends React.Component {
     scoreList: this.props.allScores,
     difficultySelected: false,
     categorySelected: false,
-    score: 0
+    score: 0,
+    className: "categories"
   };
   gameStart = event => {
     event.preventDefault();
@@ -59,18 +60,12 @@ class GameWindow extends React.Component {
 
   render() {
     return (
-      <div className="categories">
-        {this.state.categorySelected === false ? (
-          <header>
-            <h1>Super Trivia Bros!</h1>
-            <h2>Choose a category!</h2>
-          </header>
-        ) : (
-          <div>
-            <h1>Super Trivia Bros!</h1>
-            <h1> {this.state.category}</h1>
-          </div>
-        )}
+      <div>
+        <header>
+          <h1>Super Trivia Bros!</h1>
+          <h2>Choose a category!</h2>
+        </header>
+
         {this.getCategories()}
       </div>
     );
