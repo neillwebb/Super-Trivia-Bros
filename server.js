@@ -15,6 +15,12 @@ if (process.env.NODE_ENV === "production") {
 
 require("./routing/api-routes.js")(app);
 
+if (process.env.NODE_ENV === "production") {
+  app.get("*", function (req, res) {
+    res.sendFile(__dirname + "/client/build/index.html");
+  });
+}
+
 const MONGODB_URI =
   process.env.MONGODB_URI || "mongodb://localhost/supertriviabros";
 

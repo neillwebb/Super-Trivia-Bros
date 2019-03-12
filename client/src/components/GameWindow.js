@@ -2,7 +2,6 @@ import React from "react";
 import Category from "../components/Category";
 import { Link } from "react-router-dom";
 import "../App.css";
-import PersonalHighScore from "./PersonalHighScore";
 import * as $ from "axios";
 
 class GameWindow extends React.Component {
@@ -51,8 +50,12 @@ class GameWindow extends React.Component {
           <h1>Super Trivia Bros!</h1>
           <h2>Choose a category:</h2>
           <h3>
+<<<<<<< HEAD
+            <Link to="/highscore"> Your high scores!
+=======
             <Link className="userProfile" to="/highscore">
               <img className="imageLink" src="../src/image.png" />
+>>>>>>> 5e27ef3f245afe4e9ef9e7dacf4280f99ff4e980
             </Link>
           </h3>
         </header>

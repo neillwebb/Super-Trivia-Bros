@@ -7,7 +7,8 @@ class Login extends Component {
     state = {
         reguser: '',
         regpw: '',
-        isLoggedin: false,
+        username: '',
+        password: ''
     }
 
     handleChange = (event) => {
