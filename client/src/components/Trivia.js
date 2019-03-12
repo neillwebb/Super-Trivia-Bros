@@ -56,7 +56,8 @@ class Trivia extends React.Component {
         difficulty: temp,
         difficultySelected: true,
         answerList: tempArray,
-        questionList: tempQuestions
+        questionList: tempQuestions,
+        score: 0
       });
     });
   };
@@ -94,8 +95,7 @@ class Trivia extends React.Component {
       });
     } else {
       this.setState({
-        gameFinished: true,
-        score: 0
+        gameFinished: true
       });
     }
   };
@@ -140,9 +140,6 @@ class Trivia extends React.Component {
                 );
               })}
             </div>
-            <button name="next" onClick={this.nextQuestion}>
-              Next
-            </button>
           </div>
         ) : (
               <div>
