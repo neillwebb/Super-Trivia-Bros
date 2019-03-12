@@ -25,7 +25,7 @@ function shuffle(arr) {
 
 class Trivia extends React.Component {
   state = {
-    username: '',
+    username: "",
     category: this.props.location.hash.substring(1),
     difficulty: "",
     questionList: [],
@@ -75,15 +75,14 @@ class Trivia extends React.Component {
     });
   };
 
-  answerClick = (event) => {
+  answerClick = event => {
     event.preventDefault();
     if (parseInt(event.target.value) === 3) {
       this.setState({
         score: this.state.score + 10
-      })
+      });
     }
     this.nextQuestion();
-
   };
 
   getQuestions() {
@@ -118,8 +117,6 @@ class Trivia extends React.Component {
         })
       }
     }
-
-
   };
 
 
@@ -168,8 +165,14 @@ class Trivia extends React.Component {
           </div>
         ) : (
               <div>
-                <div>Your score was: {this.state.score}!</div>
-                <Link to="/gamewindow">Back to Main Menu</Link>
+                <p className="gameOver">GAME OVER!</p>
+                <div className="endScore">
+                  Your score was:
+              {this.state.score}
+                </div>
+                <Link className="menu" to="/gamewindow">
+                  Back to Main Menu
+            </Link>
               </div>
             )}
       </div>
