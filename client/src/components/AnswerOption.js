@@ -12,9 +12,7 @@ const AnswerOption = props => (
       // className={"ui button" + props.option}
       value={props.id}
       onClick={props.answerHandler}>{props.id}
-
     </button>
-
   </div>
 );
 
