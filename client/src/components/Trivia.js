@@ -21,6 +21,7 @@ function shuffle(inputArr) {
   }
   return arr;
 }
+
 class Trivia extends React.Component {
   state = {
     username: "",
@@ -32,9 +33,11 @@ class Trivia extends React.Component {
     scoreList: [],
     difficultySelected: false,
     gameFinished: false,
+    newHighScore: false,
     categoryScore: 0,
     score: 0
   };
+
   componentDidMount() {
     const userId = sessionStorage.getItem("userId");
     $.get(`/api/user/${userId}`).then(data => {
@@ -44,6 +47,7 @@ class Trivia extends React.Component {
       });
     });
   }
+
   diffcultyClick = event => {
     event.preventDefault();
     let temp = event.target.name;
@@ -67,6 +71,7 @@ class Trivia extends React.Component {
       this.setState({
         difficulty: temp,
         difficultySelected: true,
+        newHighScore: false,
         answerList: tempArray,
         questionList: tempQuestions,
         categoryScore: previousScore.score,
@@ -74,6 +79,7 @@ class Trivia extends React.Component {
       });
     });
   };
+
   answerClick = event => {
     event.preventDefault();
     if (parseInt(event.target.value) === 3) {
@@ -81,7 +87,11 @@ class Trivia extends React.Component {
         score: this.state.score + 10,
       }, this.nextQuestion);
     }
+    else {
+      this.nextQuestion()
+    }
   };
+
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
   }
@@ -102,7 +112,6 @@ class Trivia extends React.Component {
   }
 
   nextQuestion() {
-    console.log(this.state.count)
     if (this.state.count < 9) {
       this.setState({
         count: this.state.count + 1
@@ -113,7 +122,11 @@ class Trivia extends React.Component {
         gameFinished: true
       });
       if (this.state.score > this.state.categoryScore) {
-        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score })
+        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
+          this.setState({
+            newHighScore: true
+          });
+        });
       }
     }
   }
@@ -163,7 +176,8 @@ class Trivia extends React.Component {
               })}
             </div>
           </div>
-        ) : (
+        ) :
+            this.state.newHighScore === false ?
               <div>
                 <p className="gameOver">GAME OVER!</p>
                 <div className="endScore">
@@ -174,7 +188,20 @@ class Trivia extends React.Component {
                   Back to Main Menu
             </Link>
               </div>
-            )}
+              :
+              <div>
+                <p className="gameOver">GAME OVER!</p>
+                <div className="endScore">
+                  Your score was:
+                  {this.state.score}
+                </div>
+                <div className="newHigh">
+                  New high score!</div>
+                <Link className="menu" to="/gamewindow">
+                  Back to Main Menu
+          </Link>
+              </div>
+        }
       </div>
     );
   }
