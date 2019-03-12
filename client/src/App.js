@@ -5,7 +5,7 @@ import Trivia from "../src/components/Trivia";
 import PersonalHighScore from "../src/components/PersonalHighScore";
 import GameWindow from "../src/components/GameWindow";
 import "./App.css";
-import image from "../src/Webpage.png";
+import image from "../src/Final.png";
 
 const App = () => (
   <BrowserRouter>
