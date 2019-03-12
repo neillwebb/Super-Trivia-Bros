@@ -11,7 +11,6 @@ class PersonalHighScore extends React.Component {
   componentDidMount() {
     const userId = sessionStorage.getItem("userId");
     $.get(`/api/user/${userId}`).then(data => {
-      console.log(data);
       this.setState({
         username: data.data.username,
         scoreList: data.data.scores,

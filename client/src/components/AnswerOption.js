@@ -1,19 +1,20 @@
 import React from "react";
+const options = ["A", "B", "C", "D"];
 
 const AnswerOption = props => (
   <div className="answer_div">
     <div>
-      <ul>
-        <p className={"answers" + props.id} value={props.id}>
-          {props.name}
-        </p>
-      </ul>
+      <p className={"answers" + props.option} value={props.id}>
+        {props.option}: {props.name}
+      </p>
     </div>
     <button
-      className={"ui button" + props.id}
+      // className={"ui button" + props.option}
       value={props.id}
-      onClick={props.answerHandler}
-    />
+      onClick={props.answerHandler}>{props.id}
+
+    </button>
+
   </div>
 );
 

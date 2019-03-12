@@ -4,7 +4,8 @@ import AnswerOption from "../components/AnswerOption";
 import { Link } from "react-router-dom";
 import * as $ from "axios";
 
-function shuffle(arr) {
+function shuffle(inputArr) {
+  const arr = inputArr.concat();
   var currentIndex = arr.length,
     temporaryValue,
     randomIndex;
@@ -51,7 +52,7 @@ class Trivia extends React.Component {
   diffcultyClick = event => {
     event.preventDefault();
     let temp = event.target.name;
-    const previousScore = this.state.scoreList.find(item => item.category === this.state.category)
+    const previousScore = this.state.scoreList.length > 0 ? this.state.scoreList.find(item => item.category === this.state.category) : {};
 
     $.get(`/api/question/${this.state.category}`).then(data => {
       const tempArray = [];
@@ -79,10 +80,9 @@ class Trivia extends React.Component {
     event.preventDefault();
     if (parseInt(event.target.value) === 3) {
       this.setState({
-        score: this.state.score + 10
-      });
+        score: this.state.score + 10,
+      }, this.nextQuestion);
     }
-    this.nextQuestion();
   };
 
   getQuestions() {
@@ -93,31 +93,36 @@ class Trivia extends React.Component {
     const currentAnswers = this.state.answerList[this.state.count].map(
       (answer, i) => {
         const optionText = answer.toString ? answer.toString() : answer;
-        return { option: options[i], text: optionText, id: i };
+        return { text: optionText, id: i };
       }
     );
-    console.log(currentAnswers);
-    return shuffle(currentAnswers);
 
+    let shuffledChoices = shuffle(currentAnswers);
+    shuffledChoices.map((answer, i) => {
+      answer.option = options[i];
+      return answer;
+    });
+
+    return shuffledChoices;
   }
 
   nextQuestion() {
+    console.log(this.state.count)
     if (this.state.count < 9) {
       this.setState({
         count: this.state.count + 1
       });
     }
-    else {
+    else if (parseInt(this.state.count) == 9) {
       this.setState({
         gameFinished: true
       });
       if (this.state.score > this.state.categoryScore) {
-        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
-          console.log(data);
-        })
+        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score })
       }
     }
-  };
+  }
+
 
 
   render() {
@@ -153,7 +158,7 @@ class Trivia extends React.Component {
               {shuffledChoices.map(choice => {
                 return (
                   <AnswerOption
-                    key={choice.id}
+                    key={choice.option}
                     id={choice.id}
                     answerHandler={this.answerClick}
                     option={choice.option}
