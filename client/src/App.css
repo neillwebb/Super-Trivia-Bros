@@ -396,6 +396,30 @@ li {
   opacity: 0.1;
 }
 
+.Play {
+  position: absolute;
+  width: 8%;
+  height: 5%;
+  left: 8%;
+  bottom: 10%;
+  background-color: lime;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  border-color: lime;
+}
+
+.Pause {
+  position: absolute;
+  width: 8%;
+  height: 5%;
+  left: 18%;
+  bottom: 10%;
+  background-color: rgb(148, 0, 0);
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  border-color: rgb(187, 13, 13);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

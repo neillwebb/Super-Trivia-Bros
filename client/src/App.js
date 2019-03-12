@@ -6,6 +6,7 @@ import PersonalHighScore from "../src/components/PersonalHighScore";
 import GameWindow from "../src/components/GameWindow";
 import "./App.css";
 import image from "../src/Final.png";
+import Music from "./components/Audio";
 
 const App = () => (
   <BrowserRouter>
@@ -17,6 +18,7 @@ const App = () => (
       <Route exact path="/gamewindow" component={GameWindow} />
       <Route exact path="/highscore" component={PersonalHighScore} />
       <Route exact path="/trivia" component={Trivia} />
+      <Music />
     </div>
   </BrowserRouter>
 );
