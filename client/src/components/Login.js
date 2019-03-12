@@ -36,16 +36,8 @@ class Login extends Component {
         $.post('/api/session', { username: this.state.username, password: this.state.password })
             .then((data) => {
                 // console.log(data)
-                this.setState({
-                    username: this.state.username,
-                    password: this.state.password,
-                    allScores: data.data.scores,
-                    isLoggedin: true
-                })
-                // () => {
-                //     this.props.history.push("/gamewindow")
-                // })
-                //renders from routing(app) instead of <gamewindow so the state is nonexistent
+                sessionStorage.setItem('userId', data.data._id);
+                this.props.history.push("/gamewindow")
             }).catch(function (err) {
                 alert("Username or password is incorrect")
             })

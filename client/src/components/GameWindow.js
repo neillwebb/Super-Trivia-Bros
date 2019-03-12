@@ -3,9 +3,11 @@ import Category from '../components/Category';
 import { Link } from "react-router-dom";
 import '../App.css'
 import PersonalHighScore from './PersonalHighScore';
+import * as $ from 'axios';
 
 class GameWindow extends React.Component {
   state = {
+    username: '',
     categories: [
       "Books",
       "Movies",
@@ -20,16 +22,22 @@ class GameWindow extends React.Component {
       "General Knowledge",
       "Music"
     ],
-    scoreList: this.props.scores,
+    scoreList: [],
+    easterEgg: false,
     score: 0
   }
 
-  // componentDidMount() {
-  //   this.setState({
-  //     scoreList: this.props.scores
-  //   })
-  //   console.log(this.state.scoreList)
-  // }
+  componentDidMount() {
+    const userId = sessionStorage.getItem('userId');
+    $.get(`/api/user/${userId}`).then((data) => {
+      console.log(data)
+      this.setState({
+        username: data.data.username,
+        scoreList: data.data.scores
+      })
+    })
+
+  }
 
   // componentWillReceiveProps(prevProps) {
   //   console.log(this.props)
