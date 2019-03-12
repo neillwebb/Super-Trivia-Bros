@@ -98,7 +98,7 @@ a {
 }
 
 li {
-  font-size: 10px;
+  font-size: 8px;
   font-family: "Press Start 2P";
   position: absolute;
   color: lime;
@@ -127,37 +127,37 @@ li {
 .Books {
   position: absolute;
   top: 44%;
-  left: 34.5%;
+  left: 31.5%;
 }
 
 .Movies {
   position: absolute;
   top: 50%;
-  left: 33%;
+  left: 30%;
 }
 
 .Sports {
   position: absolute;
   top: 56%;
-  left: 33%;
+  left: 30%;
 }
 
 .Television {
   position: absolute;
   top: 62%;
-  left: 27%;
+  left: 24%;
 }
 
 .Celebrities {
   position: absolute;
   top: 68%;
-  left: 25.5%;
+  left: 22.5%;
 }
 
 .Animals {
   position: absolute;
   top: 74%;
-  left: 31.5%;
+  left: 28.5%;
 }
 
 .Video.Games {
