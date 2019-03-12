@@ -2,15 +2,13 @@ import React from "react";
 
 const AnswerOption = props => (
   <div className="answer_div">
-    <div>
-      <ul>
-        <p className="answers" value={props.id}>
-          {props.name}
-        </p>
-      </ul>
-    </div>
+    <ul>
+      <p className="answers" value={props.id}>
+        {props.option}: {props.name}
+      </p>
+    </ul>
     <button
-      className="answer_buttons"
+      className={"class" + props.id}
       value={props.id}
       onClick={props.answerHandler}
     />

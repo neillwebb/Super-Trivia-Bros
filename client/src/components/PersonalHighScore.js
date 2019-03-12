@@ -27,7 +27,7 @@ class PersonalHighScore extends React.Component {
           <h1> Personal High Scores! </h1>
           <ul>
             {this.state.scoreList.map((data, i) => (
-              <li>{data.category}: {data.score}</li>
+              <li key={i}>{data.category}: {data.score}</li>
             ))}
             <Link to="/gamewindow">Main Menu</Link>
           </ul>

@@ -31,17 +31,29 @@ class Trivia extends React.Component {
     questionList: [],
     answerList: [],
     count: 0,
-    scoreList: this.props.allScores,
+    scoreList: [],
     difficultySelected: false,
     gameFinished: false,
+    categoryScore: 0,
     score: 0
   };
+
+  componentDidMount() {
+    const userId = sessionStorage.getItem('userId');
+    $.get(`/api/user/${userId}`).then((data) => {
+      this.setState({
+        username: data.data.username,
+        scoreList: data.data.scores
+      })
+    })
+  }
 
   diffcultyClick = event => {
     event.preventDefault();
     let temp = event.target.name;
+    const previousScore = this.state.scoreList.find(item => item.category === this.state.category)
+
     $.get(`/api/question/${this.state.category}`).then(data => {
-      console.log(data);
       const tempArray = [];
       const tempQuestions = [];
       for (let i = 0; i < 10; i++) {
@@ -57,6 +69,7 @@ class Trivia extends React.Component {
         difficultySelected: true,
         answerList: tempArray,
         questionList: tempQuestions,
+        categoryScore: previousScore.score,
         score: 0
       });
     });
@@ -64,7 +77,6 @@ class Trivia extends React.Component {
 
   answerClick = (event) => {
     event.preventDefault();
-    console.log(event.target.value)
     if (parseInt(event.target.value) === 3) {
       this.setState({
         score: this.state.score + 10
@@ -85,7 +97,9 @@ class Trivia extends React.Component {
         return { option: options[i], text: optionText, id: i };
       }
     );
+    console.log(currentAnswers);
     return shuffle(currentAnswers);
+
   }
 
   nextQuestion() {
@@ -93,12 +107,21 @@ class Trivia extends React.Component {
       this.setState({
         count: this.state.count + 1
       });
-    } else {
+    }
+    else {
       this.setState({
         gameFinished: true
       });
+      if (this.state.score > this.state.categoryScore) {
+        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
+          console.log(data);
+        })
+      }
     }
+
+
   };
+
 
   render() {
     const shuffledChoices = this.state.difficultySelected
@@ -129,12 +152,14 @@ class Trivia extends React.Component {
           <div>
             {this.getQuestions()}
             <div>
+              <div className="currentScore">{this.state.score}</div>
               {shuffledChoices.map(choice => {
                 return (
                   <AnswerOption
                     key={choice.id}
                     id={choice.id}
                     answerHandler={this.answerClick}
+                    option={choice.option}
                     name={choice.text}
                   />
                 );
