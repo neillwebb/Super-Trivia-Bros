@@ -16,10 +16,9 @@ module.exports = function (app) {
       });
   });
 
-  //might not be needed
+  //works
   app.get("/api/user/:id", function (req, res) {
-    User.find({ _id: req.params.id })
-      .populate("scores")
+    User.findOne({ _id: req.params.id })
       .then(function (data) {
         res.json(data);
       })
