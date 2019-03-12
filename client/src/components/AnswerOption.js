@@ -1,7 +1,7 @@
 import React from "react";
 const options = ["A", "B", "C", "D"];
 
-const AnswerOption = props => (
+const AnswerOption = (props) => (
   <div className="answer_div">
     <div>
       <p className={"answers" + props.option} value={props.id}>
@@ -9,9 +9,9 @@ const AnswerOption = props => (
       </p>
     </div>
     <button
-      className={"ui button" + props.option}
+      // className={"ui button" + props.option}
       value={props.id}
-      onClick={props.answerHandler}>
+      onClick={props.answerHandler}>{props.id}
     </button>
   </div>
 );

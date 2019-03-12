@@ -299,6 +299,15 @@ li {
   font-family: "Press Start 2P";
 }
 
+.newHigh {
+  font-size: 30px;
+  position: absolute;
+  top: 60%;
+  left: 38%;
+  color: yellow;
+  font-family: "Press Start 2P";
+}
+
 .menu {
   font-size: 30px;
   position: absolute;
