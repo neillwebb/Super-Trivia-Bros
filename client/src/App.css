@@ -251,19 +251,37 @@ a {
     width: 100%;
   }
 } */
+.gameOver {
+  font-size: 140px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: red;
+  font-family: "Press Start 2P";
+}
+
+.endScore {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  color: yellow;
+  font-family: "Press Start 2P";
+}
 
 .menu {
   font-size: 30px;
   position: absolute;
-  top: 50%;
-  left: 13%;
+  top: 70%;
+  left: 36%;
+  color: white;
 }
 
 .answers1 {
   font-family: "Press Start 2P";
   position: absolute;
   top: 42%;
-  left: 38%;
+  left: 32%;
   color: red;
   font-size: 32px;
 }
@@ -272,7 +290,7 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 51%;
-  left: 38%;
+  left: 32%;
   color: yellow;
   font-size: 32px;
 }
@@ -281,7 +299,7 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 61%;
-  left: 38%;
+  left: 32%;
   color: #6dd8e1;
   font-size: 32px;
 }
@@ -290,33 +308,45 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 70%;
-  left: 38%;
+  left: 32%;
   color: lime;
   font-size: 32px;
 }
 
 .button1 {
   position: absolute;
-  right: 48%;
-  bottom: 14%;
+  width: 3.5%;
+  height: 2%;
+  right: 46%;
+  bottom: 13%;
+  opacity: 0.1;
 }
 
 .button2 {
   position: absolute;
+  width: 3.5%;
+  height: 2%;
   bottom: 7%;
-  right: 39%;
+  right: 37%;
+  opacity: 0.1;
 }
 
 .button3 {
   position: absolute;
-  bottom: 14%;
-  right: 30%;
+  width: 3.5%;
+  height: 2%;
+  bottom: 13%;
+  right: 29%;
+  opacity: 0.1;
 }
 
 .button0 {
   position: absolute;
+  width: 3.5%;
+  height: 2%;
   bottom: 7%;
-  right: 20%;
+  right: 19%;
+  opacity: 0.1;
 }
 
 @keyframes App-logo-spin {
