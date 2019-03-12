@@ -45,6 +45,13 @@ h1 {
   color: yellow;
 }
 
+.cat_class {
+  font-size: 50px;
+  color: yellow;
+  font-family: "Press Start 2P";
+  left: 13%;
+}
+
 h2 {
   font-size: 50px;
   font-family: "Press Start 2P";
@@ -62,6 +69,10 @@ h3 {
 
 a {
   font-family: "Press Start 2P";
+}
+
+.userProfile {
+  background-image: url("../src/image.png");
 }
 
 .Video.Games,
@@ -92,31 +103,31 @@ a {
 
 .Movies {
   position: absolute;
-  top: 52%;
+  top: 50%;
   left: 33%;
 }
 
 .Sports {
   position: absolute;
-  top: 60%;
+  top: 56%;
   left: 33%;
 }
 
 .Television {
   position: absolute;
-  top: 68%;
+  top: 62%;
   left: 27%;
 }
 
 .Celebrities {
   position: absolute;
-  top: 76%;
+  top: 68%;
   left: 25.5%;
 }
 
 .Animals {
   position: absolute;
-  top: 84%;
+  top: 74%;
   left: 31.5%;
 }
 
@@ -128,31 +139,31 @@ a {
 
 .Geography {
   position: absolute;
-  top: 52%;
+  top: 50%;
   right: 33%;
 }
 
 .History {
   position: absolute;
-  top: 60%;
+  top: 56%;
   right: 36%;
 }
 
 .Science.And.Nature {
   position: absolute;
-  top: 68%;
+  top: 62%;
   right: 19.5%;
 }
 
 .General.Knowledge {
   position: absolute;
-  top: 76%;
+  top: 68%;
   right: 21%;
 }
 
 .Music {
   position: absolute;
-  top: 84%;
+  top: 74%;
   right: 38.75%;
 }
 
@@ -218,7 +229,27 @@ a {
   top: 25%;
   text-align: center;
   color: white;
+  margin: 0 auto;
+  animation: typing 3.5s steps(40, end);
 }
+
+.answer_div {
+  background-color: red;
+  width: 75%;
+  /* height: 40%;
+  position: absolute; */
+  /* top: 50%;
+  left: 13%; */
+}
+
+/* @keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+} */
 
 @keyframes App-logo-spin {
   from {
