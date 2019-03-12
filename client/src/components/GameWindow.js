@@ -1,9 +1,8 @@
-import React from "react";
-import Category from "../components/Category";
+import React from 'react';
+import Category from '../components/Category';
 import { Link } from "react-router-dom";
-import Trivia from "../components/Trivia";
-import "../App.css";
-import * as $ from "axios";
+import '../App.css'
+import PersonalHighScore from './PersonalHighScore';
 
 class GameWindow extends React.Component {
   state = {
@@ -12,7 +11,7 @@ class GameWindow extends React.Component {
       "Movies",
       "Sports",
       "Television",
-      "Celebrities",
+      'Celebrities',
       "Animals",
       "Geography",
       "History",
@@ -21,51 +20,45 @@ class GameWindow extends React.Component {
       "General Knowledge",
       "Music"
     ],
-    selectedCategory: "",
-    difficulty: "",
-    scoreList: this.props.allScores,
-    difficultySelected: false,
-    categorySelected: false,
-    score: 0,
-    className: "categories"
-  };
-  gameStart = event => {
-    event.preventDefault();
-    this.setState({
-      categorySelected: true,
-      selectedCategory: event.target.name
-    });
-  };
-
-  renderTrivia() {
-    console.log("hello");
-    return <Trivia diff={this.state.difficulty} />;
+    scoreList: this.props.scores,
+    score: 0
   }
 
-  pullTrivia = event => {
-    event.preventDefault();
-    $.get(`/api/question/${this.state.selectedCategory}`).then(data => {
-      console.log(data);
-      {
-        this.renderTrivia();
-      }
-    });
-  };
+  // componentDidMount() {
+  //   this.setState({
+  //     scoreList: this.props.scores
+  //   })
+  //   console.log(this.state.scoreList)
+  // }
+
+  // componentWillReceiveProps(prevProps) {
+  //   console.log(this.props)
+  //   console.log(prevProps)
+  //   if (this.props.scores !== prevProps.scores) {
+  //     console.log(this.props.scores)
+  //     this.setState({
+  //       scoreList: this.props.scores
+  //     })
+  //   }
+  // }
+
 
   getCategories() {
     return this.state.categories.map((data, i) => (
-      <Category key={i} showGame={this.gameStart} name={data} />
-    ));
+      <Category key={i}
+        name={data} />
+    ))
   }
 
   render() {
+    console.log(this.state.scoreList)
     return (
-      <div>
+      <div className="categories">
         <header>
           <h1>Super Trivia Bros!</h1>
-          <h2>Choose a category!</h2>
+          <h2>Choose a category:</h2>
+          <h3><Link to="/highscore">Your high scores!</Link></h3>
         </header>
-
         {this.getCategories()}
       </div>
     );
