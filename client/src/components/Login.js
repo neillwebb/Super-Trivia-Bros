@@ -21,13 +21,6 @@ class Login extends Component {
         })
     }
 
-    categoryClick = (event) => {
-        event.preventDefault();
-        this.setState({
-            category: event.target.name
-        })
-    }
-
     handleRegister = (event) => {
         event.preventDefault();
         $.post('/api/user', { username: this.state.reguser, password: this.state.regpw })
@@ -42,7 +35,6 @@ class Login extends Component {
         event.preventDefault();
         $.post('/api/session', { username: this.state.username, password: this.state.password })
             .then((data) => {
-                console.log(data)
                 this.setState({
                     isLoggedin: true,
                     username: this.state.username,

@@ -1,6 +1,6 @@
 import React from "react";
 
-const Form = props => (
+const Form = (props) => (
   <form className="login">
     <h3>Register</h3>
     <input

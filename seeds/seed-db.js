@@ -18,7 +18,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "easy",
-    question: "Who wrote &quot;Harry Potter&quot;?",
+    question: "Who wrote 'Harry Potter'?",
     correct_answer: "J.K. Rowling",
     incorrect_answers: ["J.R.R. Tolkien", "Terry Pratchett", "Daniel Radcliffe"]
   },
@@ -40,7 +40,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which author and poet famously wrote the line, &quot;The female of the species is more deadly than the male&quot;?",
+      "Which author and poet famously wrote the line, 'The female of the species is more deadly than the male'?",
     correct_answer: "Rudyard Kipling",
     incorrect_answers: [
       "Edgar Allan Poe",
@@ -74,7 +74,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "hard",
-    question: "Who wrote the novel &quot;Moby-Dick&quot;?",
+    question: "Who wrote the novel 'Moby-Dick'?",
     correct_answer: "Herman Melville",
     incorrect_answers: [
       "William Golding",
@@ -95,7 +95,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the book &quot;The Martian&quot;, how long was Mark Watney trapped on Mars (in Sols)?",
+      "In the book 'The Martian', how long was Mark Watney trapped on Mars (in Sols)?",
     correct_answer: "549 Days",
     incorrect_answers: ["765 Days", "401 Days", "324 Days"]
   },
@@ -116,7 +116,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who wrote the 1967 horror novel &quot;Rosemary's Baby&quot;?",
+      "Who wrote the 1967 horror novel 'Rosemary's Baby'?",
     correct_answer: "Ira Levin",
     incorrect_answers: ["Stephen King", "Robert Bloch", "Mary Shelley"]
   },
@@ -165,7 +165,7 @@ const questions = [
     question:
       "By what nickname is Jack Dawkins known in the Charles Dickens novel, 'Oliver Twist'?",
     correct_answer: "The Artful Dodger",
-    incorrect_answers: ["Fagin", "Bull&rsquo;s-eye", "Mr. Fang"]
+    incorrect_answers: ["Fagin", "Bull's-eye", "Mr. Fang"]
   },
   {
     category: "Books",
@@ -203,7 +203,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "easy",
-    question: "&quot;Green Eggs And Ham&quot; is a book by which author?",
+    question: "'Green Eggs And Ham' is a book by which author?",
     correct_answer: "Dr. Seuss",
     incorrect_answers: ["Beatrix Potter", "Roald Dahl", "A.A. Milne"]
   },
@@ -212,7 +212,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the name of the Mysterious Island, in Jules Verne's &quot;The Mysterious Island&quot;?",
+      "What was the name of the Mysterious Island, in Jules Verne's 'The Mysterious Island'?",
     correct_answer: "Lincoln Island",
     incorrect_answers: [
       "Vulcania Island",
@@ -245,7 +245,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who wrote the children's story &quot;The Little Match Girl&quot;?",
+      "Who wrote the children's story 'The Little Match Girl'?",
     correct_answer: "Hans Christian Andersen",
     incorrect_answers: ["Charles Dickens", "Lewis Carroll", "Oscar Wilde"]
   },
@@ -254,7 +254,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Harry Potter&quot; series, what is Headmaster Dumbledore's full name?",
+      "In the 'Harry Potter' series, what is Headmaster Dumbledore's full name?",
     correct_answer: "Albus Percival Wulfric Brian Dumbledore",
     incorrect_answers: [
       "Albus Valum Jetta Mobius Dumbledore",
@@ -292,7 +292,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who wrote the young adult novel &quot;The Fault in Our Stars&quot;?",
+      "Who wrote the young adult novel 'The Fault in Our Stars'?",
     correct_answer: "John Green",
     incorrect_answers: ["Stephenie Meyer", "Suzanne Collins", "Stephen Chbosky"]
   },
@@ -310,7 +310,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who was the author of the 1954 novel, &quot;Lord of the Flies&quot;?",
+      "Who was the author of the 1954 novel, 'Lord of the Flies'?",
     correct_answer: "William Golding",
     incorrect_answers: ["Stephen King", "F. Scott Fitzgerald", "Hunter Fox"]
   },
@@ -337,7 +337,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The title of Adolf Hitler's autobiography &quot;Mein Kampf&quot; is what when translated to English?",
+      "The title of Adolf Hitler's autobiography 'Mein Kampf' is what when translated to English?",
     correct_answer: "My Struggle",
     incorrect_answers: ["My Hatred", "My Sadness", "My Desire"]
   },
@@ -359,7 +359,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Where does the book &quot;The Silence of the Lambs&quot; get its title from?",
+      "Where does the book 'The Silence of the Lambs' get its title from?",
     correct_answer: "The main character's trauma in childhood",
     incorrect_answers: [
       "The relation it has with killing the innocents",
@@ -372,7 +372,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Michael Crichton's novel &quot;Jurassic Park&quot;, John Hammond meets his demise at the claws of which dinosaur?",
+      "In Michael Crichton's novel 'Jurassic Park', John Hammond meets his demise at the claws of which dinosaur?",
     correct_answer: "Procompsognathus",
     incorrect_answers: ["Dilophosaurus", "Tyrannosaurus Rex", "Velociraptor"]
   },
@@ -381,7 +381,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Harry Potter&quot; novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
+      "In the 'Harry Potter' novels, what must a Hogwarts student do to enter the Ravenclaw Common Room?",
     correct_answer: "Answer a riddle",
     incorrect_answers: [
       "Rhythmically tap barrels with a wand",
@@ -393,7 +393,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "medium",
-    question: "The book &quot;Fahrenheit 451&quot; was written by whom?",
+    question: "The book 'Fahrenheit 451' was written by whom?",
     correct_answer: "Ray Bradbury",
     incorrect_answers: [
       "R. L. Stine",
@@ -419,12 +419,12 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the last message of the Dolphins in &quot;The Hitchhiker's Guide to the Galaxy&quot;?",
-    correct_answer: "&quot;So long, and thanks for all the fish.&quot;",
+      "What was the last message of the Dolphins in 'The Hitchhiker's Guide to the Galaxy'?",
+    correct_answer: "'So long, and thanks for all the fish.'",
     incorrect_answers: [
-      "&quot;The answer is 42.&quot;",
-      "&quot;Land of the brave.&quot;",
-      "&quot;Goodbye cruel world!&quot;"
+      "'The answer is 42.'",
+      "'Land of the brave.'",
+      "'Goodbye cruel world!'"
     ]
   },
   {
@@ -432,7 +432,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the book series &quot;Odd Thomas&quot;, Danny Jessup has what genetic disease? ",
+      "In the book series 'Odd Thomas', Danny Jessup has what genetic disease? ",
     correct_answer: "Osteogenesis Imperfecta",
     incorrect_answers: [
       "Spinocerebellar ataxia",
@@ -445,7 +445,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In Margaret Atwood's &quot;The Handmaid's Tale&quot;, what is Offred's real name is implied to be?",
+      "In Margaret Atwood's 'The Handmaid's Tale', what is Offred's real name is implied to be?",
     correct_answer: "June",
     incorrect_answers: ["August", "April", "May"]
   },
@@ -502,7 +502,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the name of Eragon's dragon in &quot;Eragon&quot;?",
+    question: "What is the name of Eragon's dragon in 'Eragon'?",
     correct_answer: "Saphira",
     incorrect_answers: ["Glaedr", "Thorn", "Arya"]
   },
@@ -523,7 +523,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who wrote the &quot;A Song of Ice And Fire&quot; fantasy novel series?",
+      "Who wrote the 'A Song of Ice And Fire' fantasy novel series?",
     correct_answer: "George R. R. Martin",
     incorrect_answers: ["George Lucas", "George Orwell", "George Eliot"]
   },
@@ -532,7 +532,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What was the name of Captain Nemo's submarine in &quot;20,000 Leagues Under the Sea&quot;?",
+      "What was the name of Captain Nemo's submarine in '20,000 Leagues Under the Sea'?",
     correct_answer: "The Nautilus",
     incorrect_answers: ["The Neptune", "The Poseidon ", "The Atlantis"]
   },
@@ -557,7 +557,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which famous spy novelist wrote the childrens' story &quot;Chitty-Chitty-Bang-Bang&quot;?",
+      "Which famous spy novelist wrote the childrens' story 'Chitty-Chitty-Bang-Bang'?",
     correct_answer: "Ian Fleming",
     incorrect_answers: ["Joseph Conrad", "John Buchan", "Graham Greene"]
   },
@@ -565,7 +565,7 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "medium",
-    question: "In the &quot;The Hobbit&quot;, who kills Smaug?",
+    question: "In the 'The Hobbit', who kills Smaug?",
     correct_answer: "Bard",
     incorrect_answers: ["Bilbo Baggins", "Gandalf the Grey", "Frodo"]
   },
@@ -573,16 +573,16 @@ const questions = [
     category: "Books",
     type: "multiple",
     difficulty: "hard",
-    question: "The novel &quot;Jane Eyre&quot; was written by what author? ",
-    correct_answer: "Charlotte Bront&euml;",
-    incorrect_answers: ["Emily Bront&euml;", "Jane Austen", "Louisa May Alcott"]
+    question: "The novel 'Jane Eyre' was written by what author? ",
+    correct_answer: "Charlotte Bronte",
+    incorrect_answers: ["Emily Bronte", "Jane Austen", "Louisa May Alcott"]
   },
   {
     category: "Books",
     type: "multiple",
     difficulty: "medium",
     question:
-      "The novel &quot;Of Mice And Men&quot; was written by what author? ",
+      "The novel 'Of Mice And Men' was written by what author? ",
     correct_answer: "John Steinbeck ",
     incorrect_answers: ["George Orwell", "Mark Twain ", "Harper Lee"]
   },
@@ -591,7 +591,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "J.K. Rowling completed &quot;Harry Potter and the Deathly Hallows&quot; in which hotel in Edinburgh, Scotland?",
+      "J.K. Rowling completed 'Harry Potter and the Deathly Hallows' in which hotel in Edinburgh, Scotland?",
     correct_answer: "The Balmoral",
     incorrect_answers: [
       "The Dunstane Hotel",
@@ -664,7 +664,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the make and model of the tour vehicles in &quot;Jurassic Park&quot;?",
+      "What is the make and model of the tour vehicles in 'Jurassic Park'?",
     correct_answer: "1992 Toyota Land Cruiser",
     incorrect_answers: [
       "1992 Jeep Wrangler YJ Sahar",
@@ -677,7 +677,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Little Women&quot;, which of the March sisters married Laurie?",
+      "In 'Little Women', which of the March sisters married Laurie?",
     correct_answer: "Amy",
     incorrect_answers: ["Beth", "Jo", "Meg"]
   },
@@ -695,7 +695,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the name of the fictional SCP Foundation, what does the &quot;SCP&quot; stand for?",
+      "In the name of the fictional SCP Foundation, what does the 'SCP' stand for?",
     correct_answer: "Special Containment Procedures",
     incorrect_answers: [
       "Secure, Contain, Protect",
@@ -727,7 +727,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie &quot;Batman&quot;?",
+      "Who starred as Bruce Wayne and Batman in Tim Burton's 1989 movie 'Batman'?",
     correct_answer: "Michael Keaton",
     incorrect_answers: ["George Clooney", "Val Kilmer", "Adam West"]
   },
@@ -736,7 +736,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the movie &ldquo;The Iron Giant,&rdquo; this character is the protagonist.",
+      "In the movie 'The Iron Giant,' this character is the protagonist.",
     correct_answer: "Hogarth Hughes",
     incorrect_answers: ["Kent Mansley", "Dean McCoppin", "Annie Hughes"]
   },
@@ -745,7 +745,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the film &quot;Interstellar&quot;, how long did they spend on Miller's planet?",
+      "In the film 'Interstellar', how long did they spend on Miller's planet?",
     correct_answer: "23 years, 4 months, and 8 days",
     incorrect_answers: [
       "15 years, 2 months, and 15 days",
@@ -767,7 +767,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who played Deputy Marshal Samuel Gerard in the 1993 film &quot;The Fugitive&quot;?",
+      "Who played Deputy Marshal Samuel Gerard in the 1993 film 'The Fugitive'?",
     correct_answer: "Tommy Lee Jones",
     incorrect_answers: ["Harrison Ford", "Harvey Keitel", "Martin Landau"]
   },
@@ -794,7 +794,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which movie contains the quote, &quot;Say hello to my little friend!&quot;?",
+      "Which movie contains the quote, 'Say hello to my little friend!'?",
     correct_answer: "Scarface",
     incorrect_answers: ["Reservoir Dogs", "Heat", "Goodfellas"]
   },
@@ -803,7 +803,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who directed the movies &quot;Pulp Fiction&quot;, &quot;Reservoir Dogs&quot; and &quot;Django Unchained&quot;?",
+      "Who directed the movies 'Pulp Fiction', 'Reservoir Dogs' and 'Django Unchained'?",
     correct_answer: "Quentin Tarantino",
     incorrect_answers: ["Martin Scorcese", "Steven Spielberg", "James Cameron"]
   },
@@ -846,7 +846,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "medium",
-    question: "Who directed the 1973 film &quot;American Graffiti&quot;?",
+    question: "Who directed the 1973 film 'American Graffiti'?",
     correct_answer: "George Lucas",
     incorrect_answers: [
       "Ron Howard",
@@ -859,7 +859,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "This movie contains the quote, &quot;Nobody puts Baby in a corner.&quot;",
+      "This movie contains the quote, 'Nobody puts Baby in a corner.'",
     correct_answer: "Dirty Dancing",
     incorrect_answers: [
       "Three Men and a Baby",
@@ -872,7 +872,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the dog that played Toto in the 1939 film &quot;The Wizard of Oz&quot;?",
+      "What is the name of the dog that played Toto in the 1939 film 'The Wizard of Oz'?",
     correct_answer: "Terry",
     incorrect_answers: ["Tommy", "Teddy", "Toto"]
   },
@@ -889,7 +889,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What does TIE stand for in reference to the TIE Fighter in &quot;Star Wars&quot;?",
+      "What does TIE stand for in reference to the TIE Fighter in 'Star Wars'?",
     correct_answer: "Twin Ion Engine",
     incorrect_answers: [
       "Twin Iron Engine",
@@ -902,7 +902,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the name of the assassin in the first &quot;Hellboy&quot; movie?",
+      "What is the name of the assassin in the first 'Hellboy' movie?",
     correct_answer: "Karl Ruprecht Kroenen",
     incorrect_answers: [
       "Klaus Werner von Krupt",
@@ -932,7 +932,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1994 movie &quot;Speed&quot;, what is the minimum speed the bus must go to prevent to bomb from exploding?",
+      "In the 1994 movie 'Speed', what is the minimum speed the bus must go to prevent to bomb from exploding?",
     correct_answer: "50 mph",
     incorrect_answers: ["60 mph", "40 mph", "70 mph"]
   },
@@ -941,7 +941,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In 2012, which movie won every category in the 32nd &quot;Golden Raspberry Awards&quot;?",
+      "In 2012, which movie won every category in the 32nd 'Golden Raspberry Awards'?",
     correct_answer: "Jack and Jill",
     incorrect_answers: [
       "The Girl with the Dragon Tattoo",
@@ -954,7 +954,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the villian in the 2015 Russian-American Sci-Fi Movie &quot;Hardcore Henry&quot;?",
+      "What is the name of the villian in the 2015 Russian-American Sci-Fi Movie 'Hardcore Henry'?",
     correct_answer: "Akan",
     incorrect_answers: ["Estelle", "Jimmy", "Henry"]
   },
@@ -963,7 +963,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the seaside city the mods are visiting?",
+      "In the 1979 British film 'Quadrophenia' what is the name of the seaside city the mods are visiting?",
     correct_answer: "Brighton",
     incorrect_answers: ["Eastbourne", "Mousehole", "Bridlington"]
   },
@@ -981,7 +981,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who in Pulp Fiction says &quot;No, they got the metric system there, they wouldn't know what the fuck a Quarter Pounder is.&quot;",
+      "Who in Pulp Fiction says 'No, they got the metric system there, they wouldn't know what the fuck a Quarter Pounder is.'",
     correct_answer: "Vincent Vega",
     incorrect_answers: ["Jules Winnfield", "Jimmie Dimmick", "Butch Coolidge"]
   },
@@ -989,7 +989,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "hard",
-    question: "In the movie &quot;Scream&quot; who is Ghost Face?",
+    question: "In the movie 'Scream' who is Ghost Face?",
     correct_answer: "Billy Loomis and Stu Macher",
     incorrect_answers: [
       "Dewey Riley",
@@ -1001,7 +1001,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "medium",
-    question: "In what year was the movie &quot;Police Academy&quot; released?",
+    question: "In what year was the movie 'Police Academy' released?",
     correct_answer: "1984",
     incorrect_answers: ["1986", "1985", "1983"]
   },
@@ -1019,7 +1019,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1999 movie Fight Club, which of these is not a rule of the &quot;fight club&quot;?",
+      "In the 1999 movie Fight Club, which of these is not a rule of the 'fight club'?",
     correct_answer: "Always wear a shirt",
     incorrect_answers: [
       "You do not talk about FIGHT CLUB",
@@ -1033,11 +1033,11 @@ const questions = [
     difficulty: "medium",
     question:
       "Darth Vader's famous reveal to Luke is iconic. But which of these is the right one?",
-    correct_answer: "&quot;No. I am your father.&quot;",
+    correct_answer: "'No. I am your father.'",
     incorrect_answers: [
-      "&quot;Luke, I am your father.&quot;",
-      "&quot;You're wrong. I am your father.&quot;",
-      "&quot;The truth is that I am your father.&quot;"
+      "'Luke, I am your father.'",
+      "'You're wrong. I am your father.'",
+      "'The truth is that I am your father.'"
     ]
   },
   {
@@ -1067,7 +1067,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who played the Cenobite called &quot;Pinhead&quot; in the original Hellraiser films?",
+      "Who played the Cenobite called 'Pinhead' in the original Hellraiser films?",
     correct_answer: "Doug Bradley",
     incorrect_answers: ["Doug Jones", "Doug Savant", "Doug Benson"]
   },
@@ -1076,7 +1076,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the director of the 1991 film &quot;Silence of the Lambs&quot;?",
+      "Who is the director of the 1991 film 'Silence of the Lambs'?",
     correct_answer: "Jonathan Demme",
     incorrect_answers: ["Stanley Kubrick", "Frank Darabont", "Michael Bay"]
   },
@@ -1094,7 +1094,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Star Trek Nemesis&quot;, why was Praetor Shinzon created?",
+      "In 'Star Trek Nemesis', why was Praetor Shinzon created?",
     correct_answer: "To replace Picard as a Romulan Agent",
     incorrect_answers: [
       "To destroy the Enterprise",
@@ -1116,7 +1116,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In what year does Jurassic World open in the &quot;Jurassic Park&quot; universe?",
+      "In what year does Jurassic World open in the 'Jurassic Park' universe?",
     correct_answer: "2005",
     incorrect_answers: ["2007", "2015", "2020"]
   },
@@ -1125,7 +1125,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the name of the supercomputer located in the control room in &quot;Jurassic Park&quot;?",
+      "What is the name of the supercomputer located in the control room in 'Jurassic Park'?",
     correct_answer: "Thinking Machines CM-5",
     incorrect_answers: ["Cray X-MP", "Cray XK7", "IBM Blue Gene/Q"]
   },
@@ -1134,7 +1134,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Before &quot;Jurassic Park III&quot; was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
+      "Before 'Jurassic Park III' was finalized and the Spinosaurus was chosen, which dinosaur was going to be the star?",
     correct_answer: "Baryonyx",
     incorrect_answers: ["Tyrannosaurus Rex", "Velociraptor", "Suchomimus"]
   },
@@ -1143,7 +1143,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Jurassic Park&quot; universe, what was the first dinosaur cloned by InGen in 1986?",
+      "In the 'Jurassic Park' universe, what was the first dinosaur cloned by InGen in 1986?",
     correct_answer: "Velociraptor",
     incorrect_answers: ["Triceratops", "Troodon", "Brachiosaurus"]
   },
@@ -1151,7 +1151,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "medium",
-    question: "Who directed the movie &quot;Alien&quot;?",
+    question: "Who directed the movie 'Alien'?",
     correct_answer: "Ridley Scott",
     incorrect_answers: ["Christopher Nolan", "Michael Bay", "James Cameron"]
   },
@@ -1160,7 +1160,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who plays &quot;Bruce Wayne&quot; in the 2008 movie &quot;The Dark Knight&quot;?",
+      "Who plays 'Bruce Wayne' in the 2008 movie 'The Dark Knight'?",
     correct_answer: "Christian Bale",
     incorrect_answers: ["Michael Caine", "Ron Dean", "Heath Ledger"]
   },
@@ -1193,11 +1193,11 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which director directed the movie &quot;Pan's Labyrinth&quot;?",
+      "Which director directed the movie 'Pan's Labyrinth'?",
     correct_answer: "Guillermo Del Toro",
     incorrect_answers: [
-      "Alfonso Cuar&oacute;n",
-      "Alejandro Gonz&aacute;lez I&ntilde;&aacute;rritu",
+      "Alfonso Cuaron",
+      "Alejandro Gonzalez In;arritu",
       "Alejandro Jodorowsky"
     ]
   },
@@ -1263,7 +1263,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who played the female lead in the 1933 film &quot;King Kong&quot;?",
+      "Who played the female lead in the 1933 film 'King Kong'?",
     correct_answer: "Fay Wray",
     incorrect_answers: ["Jean Harlow", "Vivien Leigh", "Mae West"]
   },
@@ -1272,7 +1272,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was Marilyn Monroe`s character's first name in the film &quot;Some Like It Hot&quot;?",
+      "What was Marilyn Monroe`s character's first name in the film 'Some Like It Hot'?",
     correct_answer: "Sugar",
     incorrect_answers: ["Honey", "Caramel", "Candy"]
   },
@@ -1290,7 +1290,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who starred in the film 1973 movie &quot;Enter The Dragon&quot;?",
+      "Who starred in the film 1973 movie 'Enter The Dragon'?",
     correct_answer: "Bruce Lee",
     incorrect_answers: ["Jackie Chan", "Jet Li", "Yun-Fat Chow"]
   },
@@ -1299,7 +1299,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of James Dean's character in the 1955 movie &quot;Rebel Without a Cause&quot;?",
+      "What is the name of James Dean's character in the 1955 movie 'Rebel Without a Cause'?",
     correct_answer: "Jim Stark",
     incorrect_answers: ["Ned Stark", "Jim Kane", "Frank Stark"]
   },
@@ -1307,8 +1307,8 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "easy",
-    question: "Who directed the 2015 movie &quot;The Revenant&quot;?",
-    correct_answer: "Alejandro G. I&ntilde;&aacute;rritu",
+    question: "Who directed the 2015 movie 'The Revenant'?",
+    correct_answer: "Alejandro G. In;arritu",
     incorrect_answers: ["Christopher Nolan", "David Fincher", "Wes Anderson"]
   },
   {
@@ -1316,7 +1316,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "This movie contains the quote, &quot;I love the smell of napalm in the morning!&quot;",
+      "This movie contains the quote, 'I love the smell of napalm in the morning!'",
     correct_answer: "Apocalypse Now",
     incorrect_answers: ["Platoon", "The Deer Hunter", "Full Metal Jacket"]
   },
@@ -1325,7 +1325,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "This movie contains the quote, &quot;Houston, we have a problem.&quot;",
+      "This movie contains the quote, 'Houston, we have a problem.'",
     correct_answer: "Apollo 13",
     incorrect_answers: ["The Right Stuff", "Capricorn One", "Marooned"]
   },
@@ -1334,7 +1334,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "This movie contains the quote, &quot;What we've got here is a failure to communicate.&quot;",
+      "This movie contains the quote, 'What we've got here is a failure to communicate.'",
     correct_answer: "Cool Hand Luke",
     incorrect_answers: [
       "Bonnie and Clyde",
@@ -1347,7 +1347,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the first &quot;Star Wars&quot; film by release order?",
+      "What is the name of the first 'Star Wars' film by release order?",
     correct_answer: "A New Hope",
     incorrect_answers: [
       "The Phantom Menace",
@@ -1360,7 +1360,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the Artificial Intelligence system in the 1983 film, &quot;WarGames&quot;?",
+      "What is the name of the Artificial Intelligence system in the 1983 film, 'WarGames'?",
     correct_answer: "War Operation Plan Response",
     incorrect_answers: [
       "Self Evolving Thought Helix",
@@ -1381,7 +1381,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which iconic character is featured in movies such as &quot;The Enforcer&quot;, &quot;Sudden Impact&quot;, and &quot;The Dead Pool&quot;?",
+      "Which iconic character is featured in movies such as 'The Enforcer', 'Sudden Impact', and 'The Dead Pool'?",
     correct_answer: "Dirty Harry",
     incorrect_answers: ["Indiana Jones", "James Bond", "Harry Potter"]
   },
@@ -1390,7 +1390,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1971 film &quot;Willy Wonka & the Chocolate Factory&quot;, who played Willy Wonka?",
+      "In the 1971 film 'Willy Wonka & the Chocolate Factory', who played Willy Wonka?",
     correct_answer: "Gene Wilder",
     incorrect_answers: ["Shia LeBouf", "Peter Ostrum", "Johnny Depp"]
   },
@@ -1407,7 +1407,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In what Disney movie can you spot the character &quot;Pac-Man&quot; in if you look closely enough in some scenes?",
+      "In what Disney movie can you spot the character 'Pac-Man' in if you look closely enough in some scenes?",
     correct_answer: "Tron",
     incorrect_answers: ["Big Hero 6", "Fantasia", "Monsters, Inc."]
   },
@@ -1416,7 +1416,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1979 British film &quot;Quadrophenia&quot; what is the name of the main protagonist?",
+      "In the 1979 British film 'Quadrophenia' what is the name of the main protagonist?",
     correct_answer: "Jimmy Cooper",
     incorrect_answers: ["Pete Townshend", "Franc Roddam", "Archie Bunker"]
   },
@@ -1425,7 +1425,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who played Baron Victor Frankestein in the 1957 Hammer horror film &quot;The Curse of Frankenstein&quot;?",
+      "Who played Baron Victor Frankestein in the 1957 Hammer horror film 'The Curse of Frankenstein'?",
     correct_answer: "Peter Cushing",
     incorrect_answers: ["Boris Karloff", "Vincent Price", "Lon Chaney Jr."]
   },
@@ -1447,7 +1447,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the movie &quot;Cast Away&quot; the main protagonist's best friend while on the island is named",
+      "In the movie 'Cast Away' the main protagonist's best friend while on the island is named",
     correct_answer: "Wilson",
     incorrect_answers: ["Carson", "Jackson", "Willy"]
   },
@@ -1456,7 +1456,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the correct phrase for the Latin saying &quot;Romanes Eunt Domus&quot; in Monty Python's Life of Brian?",
+      "What is the correct phrase for the Latin saying 'Romanes Eunt Domus' in Monty Python's Life of Brian?",
     correct_answer: "Romani Ite Domum",
     incorrect_answers: [
       "Romans Go Home",
@@ -1469,7 +1469,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who voices the main character Blu in the 2011 animated film &quot;Rio&quot;?",
+      "Who voices the main character Blu in the 2011 animated film 'Rio'?",
     correct_answer: "Jesse Eisenberg",
     incorrect_answers: ["Michael Cera", "Jonah Hill", "Zach Galifianakis"]
   },
@@ -1478,7 +1478,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the movie &quot;Spaceballs&quot;, what are the Spaceballs attempting to steal from Planet Druidia?",
+      "In the movie 'Spaceballs', what are the Spaceballs attempting to steal from Planet Druidia?",
     correct_answer: "Air",
     incorrect_answers: ["The Schwartz", "Princess Lonestar", "Meatballs"]
   },
@@ -1496,7 +1496,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What year did the James Cameron film &quot;Titanic&quot; come out in theaters?",
+      "What year did the James Cameron film 'Titanic' come out in theaters?",
     correct_answer: "1997",
     incorrect_answers: ["1996", "1998", "1999"]
   },
@@ -1505,7 +1505,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "When does &quot;Rogue One: A Star Wars Story&quot; take place chronologically in the series?",
+      "When does 'Rogue One: A Star Wars Story' take place chronologically in the series?",
     correct_answer: "Between Episode 3 and 4",
     incorrect_answers: [
       "After Episode 6",
@@ -1536,7 +1536,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the 1992 film &quot;Army of Darkness&quot;, what name does Ash give to his double-barreled shotgun?",
+      "In the 1992 film 'Army of Darkness', what name does Ash give to his double-barreled shotgun?",
     correct_answer: "Boomstick",
     incorrect_answers: ["Bloomstick", "Blastbranch", "2-Pump Chump"]
   },
@@ -1553,7 +1553,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the movie &quot;Blade Runner&quot;, what is the term used for human-like androids ?",
+      "In the movie 'Blade Runner', what is the term used for human-like androids ?",
     correct_answer: "Replicants",
     incorrect_answers: ["Cylons", "Synthetics", "Skinjobs"]
   },
@@ -1562,7 +1562,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who was the director of &quot;Scott Pilgrim vs. the World (2010)&quot;?",
+      "Who was the director of 'Scott Pilgrim vs. the World (2010)'?",
     correct_answer: "Edgar Wright",
     incorrect_answers: ["Phil Lord", "Chris Miller", "Seth Rogan"]
   },
@@ -1571,7 +1571,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In what year did Clint Eastwood star as Inspector Harry Callahan in the film &quot;Dirty Harry&quot;?",
+      "In what year did Clint Eastwood star as Inspector Harry Callahan in the film 'Dirty Harry'?",
     correct_answer: "1971",
     incorrect_answers: ["1975", "1983", "1969"]
   },
@@ -1580,7 +1580,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "According to &quot;Star Wars&quot; lore, which planet does Obi-Wan Kenobi come from?",
+      "According to 'Star Wars' lore, which planet does Obi-Wan Kenobi come from?",
     correct_answer: "Stewjon",
     incorrect_answers: ["Alderaan", "Tatooine", "Naboo"]
   },
@@ -1589,7 +1589,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Jurassic World&quot;, which company purchases InGen and creates Jurassic World?",
+      "In 'Jurassic World', which company purchases InGen and creates Jurassic World?",
     correct_answer: "Masrani Global Corporation ",
     incorrect_answers: [
       "Biology Synthetics Technologies",
@@ -1602,7 +1602,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which actors made up the trio in &quot;The Good, the Bad, and the Ugly&quot;? ",
+      "Which actors made up the trio in 'The Good, the Bad, and the Ugly'? ",
     correct_answer: "Clint Eastwood, Eli Wallach, and Lee Van Cleef",
     incorrect_answers: [
       "Sergio Leone, Ennio Morricone, and Tonino Delli Colli",
@@ -1624,7 +1624,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What Queen song plays during the final fight scene of the film &quot;Hardcore Henry&quot;?",
+      "What Queen song plays during the final fight scene of the film 'Hardcore Henry'?",
     correct_answer: "Don't Stop Me Now",
     incorrect_answers: [
       "Brighton Rock",
@@ -1637,7 +1637,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the species of the &quot;Predator&quot; in the 1987 movie &quot;Predator&quot;?",
+      "What is the species of the 'Predator' in the 1987 movie 'Predator'?",
     correct_answer: "Yautja",
     incorrect_answers: ["Xenomorph", "Praetorian", "Phocrex"]
   },
@@ -1678,7 +1678,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who provided a majority of the songs and lyrics for &quot;Spirit: Stallion of the Cimarron&quot;?",
+      "Who provided a majority of the songs and lyrics for 'Spirit: Stallion of the Cimarron'?",
     correct_answer: "Bryan Adams",
     incorrect_answers: ["Smash Mouth", "Oasis", "Air Supply"]
   },
@@ -1707,11 +1707,11 @@ const questions = [
     difficulty: "medium",
     question:
       "Which of the following is NOT a quote from the 1942 film Casablanca? ",
-    correct_answer: "&quot;Frankly, my dear, I don't give a damn.&quot;",
+    correct_answer: "'Frankly, my dear, I don't give a damn.'",
     incorrect_answers: [
-      "&quot;Here's lookin' at you, kid.&quot;",
-      "&ldquo;Of all the gin joints, in all the towns, in all the world, she walks into mine&hellip;&rdquo;",
-      "&quot;Round up the usual suspects.&quot;"
+      "'Here's lookin' at you, kid.'",
+      "'Of all the gin joints, in all the towns, in all the world, she walks into mine...'",
+      "'Round up the usual suspects.'"
     ]
   },
   {
@@ -1736,7 +1736,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "easy",
-    question: "Who directed &quot;E.T. the Extra-Terrestrial&quot; (1982)?",
+    question: "Who directed 'E.T. the Extra-Terrestrial' (1982)?",
     correct_answer: "Steven Spielberg",
     incorrect_answers: ["Stanley Kubrick", "James Cameron", "Tim Burton"]
   },
@@ -1787,7 +1787,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 1984 movie &quot;The Terminator&quot;, what model number is the Terminator portrayed by Arnold Schwarzenegger?",
+      "In the 1984 movie 'The Terminator', what model number is the Terminator portrayed by Arnold Schwarzenegger?",
     correct_answer: "T-800",
     incorrect_answers: ["I-950", "T-888", "T-1000"]
   },
@@ -1817,7 +1817,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "This movie contains the quote, &quot;I feel the need ... the need for speed!&quot;",
+      "This movie contains the quote, 'I feel the need ... the need for speed!'",
     correct_answer: "Top Gun",
     incorrect_answers: ["Days of Thunder", "The Color of Money", "Cocktail"]
   },
@@ -1835,7 +1835,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the orange and white bot's name in &quot;Star Wars: The Force Awakens&quot;?",
+      "What is the orange and white bot's name in 'Star Wars: The Force Awakens'?",
     correct_answer: "BB-8",
     incorrect_answers: ["BB-3", "AA-A", "R2-D2"]
   },
@@ -1843,7 +1843,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "hard",
-    question: "What was the name of the planet in &quot;Aliens&quot;?",
+    question: "What was the name of the planet in 'Aliens'?",
     correct_answer: "LV-426",
     incorrect_answers: ["Weyland Yutani Corporation Base", "FR-838", "DI-621"]
   },
@@ -1852,7 +1852,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these actors/actresses is NOT a part of the cast for the 2016 movie &quot;Suicide Squad&quot;?",
+      "Which of these actors/actresses is NOT a part of the cast for the 2016 movie 'Suicide Squad'?",
     correct_answer: "Scarlett Johansson",
     incorrect_answers: ["Jared Leto", "Will Smith", "Margot Robbie"]
   },
@@ -1906,7 +1906,7 @@ const questions = [
     incorrect_answers: [
       "Ip Man 2",
       "The Bourne Legacy",
-      "L&eacute;on: The Professional"
+      "Leon: The Professional"
     ]
   },
   {
@@ -1943,7 +1943,7 @@ const questions = [
       "Who is the main protagonist in, the 1985 film, Back to the Future?",
     correct_answer: "Marty McFly",
     incorrect_answers: [
-      "Emmett &quot;Doc&quot; Brown",
+      "Emmett 'Doc' Brown",
       "Biff Tannen",
       "George McFly"
     ]
@@ -1953,7 +1953,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the 1964 film &quot;Zulu&quot;, what song does the British Army company sing before the final battle?",
+      "In the 1964 film 'Zulu', what song does the British Army company sing before the final battle?",
     correct_answer: "Men of Harlech",
     incorrect_answers: [
       "Scotland the Brave",
@@ -1974,7 +1974,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In &quot;Jurassic World&quot;, what is the name of the dinosaur that is a genetic hybrid?",
+      "In 'Jurassic World', what is the name of the dinosaur that is a genetic hybrid?",
     correct_answer: "Indominus Rex",
     incorrect_answers: ["Mosasaurus", "Pteranodon", "Tyrannosaurus Rex "]
   },
@@ -1983,7 +1983,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The 2002 film &quot;28 Days Later&quot; is mainly set in which European country?",
+      "The 2002 film '28 Days Later' is mainly set in which European country?",
     correct_answer: "United Kingdom",
     incorrect_answers: ["France", "Italy", "Germany"]
   },
@@ -2001,7 +2001,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "&quot;The first rule is: you don't talk about it&quot; is a reference to which movie?",
+      "'The first rule is: you don't talk about it' is a reference to which movie?",
     correct_answer: "Fight Club",
     incorrect_answers: ["The Island", "Unthinkable", "American Pie"]
   },
@@ -2009,7 +2009,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "easy",
-    question: "In the 2012 film, &quot;The Lorax&quot;, who is the antagonist?",
+    question: "In the 2012 film, 'The Lorax', who is the antagonist?",
     correct_answer: "Aloysius O'Hare",
     incorrect_answers: ["Ted Wiggins", "The Once-Ler", "Grammy Norma"]
   },
@@ -2018,7 +2018,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "At the end of the 2001 film &quot;Rat Race&quot;, whose concert do the contestants crash?",
+      "At the end of the 2001 film 'Rat Race', whose concert do the contestants crash?",
     correct_answer: "Smash Mouth",
     incorrect_answers: ["Bowling for Soup", "Sum 41", "Linkin Park"]
   },
@@ -2054,7 +2054,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the 1995 film &quot;Balto&quot;, who are Steele's accomplices?",
+      "In the 1995 film 'Balto', who are Steele's accomplices?",
     correct_answer: "Kaltag, Nikki, and Star",
     incorrect_answers: [
       "Dusty, Kirby, and Ralph",
@@ -2080,7 +2080,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which documentary film maker wrote and starred in the film &quot;My Scientology Movie&quot; which first debuted in 2015?",
+      "Which documentary film maker wrote and starred in the film 'My Scientology Movie' which first debuted in 2015?",
     correct_answer: "Louis Theroux",
     incorrect_answers: ["Errol Morris", "Joe Berlinger", "Adam Curtis"]
   },
@@ -2089,7 +2089,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the island that &quot;Jurassic Park&quot; is built on?",
+      "What is the name of the island that 'Jurassic Park' is built on?",
     correct_answer: "Isla Nublar",
     incorrect_answers: ["Isla Sorna", "Isla Muerta", "Isla Pena"]
   },
@@ -2098,7 +2098,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Jurassic Park&quot; universe, what is the name of the island that contains InGen's Site B?",
+      "In the 'Jurassic Park' universe, what is the name of the island that contains InGen's Site B?",
     correct_answer: "Isla Sorna",
     incorrect_answers: ["Isla Nublar", "Isla Pena", "Isla Muerta"]
   },
@@ -2107,7 +2107,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Jurassic Park&quot; universe, when did &quot;Jurassic Park: San Diego&quot; begin construction?",
+      "In the 'Jurassic Park' universe, when did 'Jurassic Park: San Diego' begin construction?",
     correct_answer: "1985",
     incorrect_answers: ["1988", "1986", "1993"]
   },
@@ -2116,7 +2116,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which actress portrayed Dr. Grace Augustine in the James Cameron movie &quot;Avatar&quot;?",
+      "Which actress portrayed Dr. Grace Augustine in the James Cameron movie 'Avatar'?",
     correct_answer: "Sigourney Weaver",
     incorrect_answers: ["Jessica Chastain", "Melissa Beckett", "Alyssa Monroe "]
   },
@@ -2125,7 +2125,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "For the film &quot;Raiders of The Lost Ark&quot;, what was Harrison Ford sick with during the filming of the Cairo chase?",
+      "For the film 'Raiders of The Lost Ark', what was Harrison Ford sick with during the filming of the Cairo chase?",
     correct_answer: "Dysentery",
     incorrect_answers: ["Anemia", "Constipation", "Acid Reflux "]
   },
@@ -2214,7 +2214,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which actor played the main character in the 1990 film &quot;Edward Scissorhands&quot;?",
+      "Which actor played the main character in the 1990 film 'Edward Scissorhands'?",
     correct_answer: "Johnny Depp",
     incorrect_answers: ["Clint Eastwood", "Leonardo DiCaprio", "Ben Stiller"]
   },
@@ -2223,7 +2223,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What did Alfred Hitchcock use as blood in the film &quot;Psycho&quot;? ",
+      "What did Alfred Hitchcock use as blood in the film 'Psycho'? ",
     correct_answer: "Chocolate syrup",
     incorrect_answers: ["Ketchup", "Red food coloring", "Maple syrup"]
   },
@@ -2244,7 +2244,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What city did the monster attack in the film, &quot;Cloverfield&quot;?",
+      "What city did the monster attack in the film, 'Cloverfield'?",
     correct_answer: "New York, New York",
     incorrect_answers: [
       "Las Vegas, Nevada",
@@ -2256,7 +2256,7 @@ const questions = [
     category: "Movies",
     type: "multiple",
     difficulty: "medium",
-    question: "Who voiced Metalbeard in &quot;The Lego Movie&quot;?",
+    question: "Who voiced Metalbeard in 'The Lego Movie'?",
     correct_answer: "Nick Offerman",
     incorrect_answers: ["Liam Neeson", "Morgan Freeman", "Will Arnet"]
   },
@@ -2265,13 +2265,13 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What three movies, in order from release date, make up the &quot;Dollars Trilogy&quot;?",
+      "What three movies, in order from release date, make up the 'Dollars Trilogy'?",
     correct_answer:
-      "&quot;A Fistful of Dollars&quot;, &quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;",
+      "'A Fistful of Dollars', 'For a Few Dollars More', 'The Good, the Bad, and the Ugly'",
     incorrect_answers: [
-      "&quot;The Good, the Bad, and the Ugly&quot;, &quot;For A Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;",
-      "&quot;For a Few Dollars More&quot;, &quot;The Good, the Bad, and the Ugly&quot;, &quot;A Fistful of Dollars&quot;",
-      "&quot;For a Few Dollars More&quot;, &quot;A Fistful of Dollars&quot;, &quot;The Good, the Bad, and the Ugly&quot;"
+      "'The Good, the Bad, and the Ugly', 'For A Few Dollars More', 'A Fistful of Dollars'",
+      "'For a Few Dollars More', 'The Good, the Bad, and the Ugly', 'A Fistful of Dollars'",
+      "'For a Few Dollars More', 'A Fistful of Dollars', 'The Good, the Bad, and the Ugly'"
     ]
   },
   {
@@ -2279,7 +2279,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which actor plays the character &quot;Tommy Jarvis&quot; in &quot;Friday the 13th: The Final Chapter&quot; (1984)?",
+      "Which actor plays the character 'Tommy Jarvis' in 'Friday the 13th: The Final Chapter' (1984)?",
     correct_answer: "Corey Feldman",
     incorrect_answers: ["Macaulay Culkin", "Mel Gibson", "Mark Hamill"]
   },
@@ -2350,7 +2350,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these teams isn't a member of the NHL's &quot;Original Six&quot; era?",
+      "Which of these teams isn't a member of the NHL's 'Original Six' era?",
     correct_answer: "Philadelphia Flyers",
     incorrect_answers: [
       "New York Rangers",
@@ -2380,7 +2380,7 @@ const questions = [
     category: "Sports",
     type: "multiple",
     difficulty: "easy",
-    question: "In what sport is a &quot;shuttlecock&quot; used?",
+    question: "In what sport is a 'shuttlecock' used?",
     correct_answer: "Badminton",
     incorrect_answers: ["Table Tennis", "Rugby", "Cricket"]
   },
@@ -2543,7 +2543,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which soccer team won the Copa Am&eacute;rica 2015 Championship ?",
+      "Which soccer team won the Copa America 2015 Championship ?",
     correct_answer: "Chile",
     incorrect_answers: ["Argentina", "Brazil", "Paraguay"]
   },
@@ -2551,7 +2551,7 @@ const questions = [
     category: "Sports",
     type: "multiple",
     difficulty: "medium",
-    question: "Which soccer team won the Copa Am&eacute;rica Centenario 2016?",
+    question: "Which soccer team won the Copa America Centenario 2016?",
     correct_answer: "Chile",
     incorrect_answers: ["Argentina", "Brazil", "Colombia"]
   },
@@ -2676,7 +2676,7 @@ const questions = [
     category: "Sports",
     type: "multiple",
     difficulty: "medium",
-    question: "Who won the &quot;Champions League&quot; in 1999?",
+    question: "Who won the 'Champions League' in 1999?",
     correct_answer: "Manchester United",
     incorrect_answers: ["Barcelona", "Bayern Munich", "Liverpool"]
   },
@@ -2814,7 +2814,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which city did the former NHL team &quot;The Nordiques&quot; originiate from?",
+      "Which city did the former NHL team 'The Nordiques' originiate from?",
     correct_answer: "Quebec City",
     incorrect_answers: ["Houston", "Montreal", "New York"]
   },
@@ -2823,7 +2823,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "This Canadian television sportscaster is known for his &quot;Hockey Night in Canada&quot; role, a commentary show during hockey games.",
+      "This Canadian television sportscaster is known for his 'Hockey Night in Canada' role, a commentary show during hockey games.",
     correct_answer: "Don Cherry",
     incorrect_answers: ["Don McKellar", "Don Taylor ", "Donald Sutherland"]
   },
@@ -2846,7 +2846,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the TV series &quot;Person of Interest&quot;, who plays the character &quot;Harold Finch&quot;?",
+      "In the TV series 'Person of Interest', who plays the character 'Harold Finch'?",
     correct_answer: "Michael Emerson",
     incorrect_answers: ["Jim Caviezel", "Taraji P. Henson", "Kevin Chapman"]
   },
@@ -2862,7 +2862,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "In what year did &quot;The Big Bang Theory&quot; debut on CBS?",
+    question: "In what year did 'The Big Bang Theory' debut on CBS?",
     correct_answer: "2007",
     incorrect_answers: ["2008", "2006", "2009"]
   },
@@ -2897,7 +2897,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the setting of the show &quot;Parks and Recreation&quot;?",
+      "What is the setting of the show 'Parks and Recreation'?",
     correct_answer: "Pawnee, Indiana",
     incorrect_answers: [
       "Eagleton, Indiana",
@@ -2910,7 +2910,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these characters in &quot;Stranger Things&quot; has the power of Telekinesis?",
+      "Which of these characters in 'Stranger Things' has the power of Telekinesis?",
     correct_answer: "Eleven",
     incorrect_answers: ["Mike", "Lucas", "Karen"]
   },
@@ -2939,7 +2939,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "easy",
-    question: "How many seasons did &quot;Stargate SG-1&quot; have?",
+    question: "How many seasons did 'Stargate SG-1' have?",
     correct_answer: "10",
     incorrect_answers: ["3", "7", "12"]
   },
@@ -2947,7 +2947,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "easy",
-    question: "Who is the main character in the show &quot;Burn Notice&quot;?",
+    question: "Who is the main character in the show 'Burn Notice'?",
     correct_answer: "Michael Westen",
     incorrect_answers: ["Sam Axe", "Fiona Glenanne", "Madeline Westen"]
   },
@@ -2964,7 +2964,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Naruto: Shippuden, which of the following elements is a &quot;Kekkei Tōta?&quot;",
+      "In Naruto: Shippuden, which of the following elements is a 'Kekkei Tōta?'",
     correct_answer: "Particle Style",
     incorrect_answers: ["Any Doujutsu", "Shadow Style", "Ice Style"]
   },
@@ -2973,8 +2973,8 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Dee from &quot;It's Always Sunny in Philadelphia&quot; has dated all of the following guys EXCEPT",
-    correct_answer: "Matthew &quot;Rickety Cricket&quot; Mara",
+      "Dee from 'It's Always Sunny in Philadelphia' has dated all of the following guys EXCEPT",
+    correct_answer: "Matthew 'Rickety Cricket' Mara",
     incorrect_answers: [
       "Colin the Thief",
       "Ben the Soldier",
@@ -2986,7 +2986,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which country does the YouTuber &quot;SinowBeats&quot; originate from?",
+      "Which country does the YouTuber 'SinowBeats' originate from?",
     correct_answer: "Scotland",
     incorrect_answers: ["England", "Sweden", "Germany"]
   },
@@ -3004,7 +3004,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the main character in &quot;The Flash&quot; TV series?",
+      "What is the name of the main character in 'The Flash' TV series?",
     correct_answer: "Barry Allen",
     incorrect_answers: ["Oliver Queen", "Bart Allen", "Bruce Wayne"]
   },
@@ -3034,7 +3034,7 @@ const questions = [
     incorrect_answers: [
       "Christopher Hall",
       "Pauline Bennett",
-      "Pavandeep &quot;Pav&quot; Paul"
+      "Pavandeep 'Pav' Paul"
     ]
   },
   {
@@ -3042,7 +3042,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which year did the British television series &quot;The Bill&quot; end?",
+      "In which year did the British television series 'The Bill' end?",
     correct_answer: "2010",
     incorrect_answers: ["2001", "2007", "2012"]
   },
@@ -3050,7 +3050,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "What is Meg's full name in &quot;Family Guy&quot;?",
+    question: "What is Meg's full name in 'Family Guy'?",
     correct_answer: "Megatron Griffin",
     incorrect_answers: ["Who-Cares Griffin", "Neil Griffin", "Megan Griffin"]
   },
@@ -3059,7 +3059,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In season one of the Netflix political drama &quot;House of Cards&quot;, what government position does Frank Underwood hold?",
+      "In season one of the Netflix political drama 'House of Cards', what government position does Frank Underwood hold?",
     correct_answer: "House Majority Whip",
     incorrect_answers: ["Attorney General", "President", "Chief of Staff"]
   },
@@ -3068,7 +3068,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "British actor David Morrissey stars as which role in &quot;The Walking Dead&quot;?",
+      "British actor David Morrissey stars as which role in 'The Walking Dead'?",
     correct_answer: "The Governor",
     incorrect_answers: ["Negan", "Rick Grimes", "Daryl Dixon"]
   },
@@ -3077,7 +3077,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many seasons did the TV show &quot;Donkey Kong Country&quot; last?",
+      "How many seasons did the TV show 'Donkey Kong Country' last?",
     correct_answer: "2",
     incorrect_answers: ["1", "4", "5"]
   },
@@ -3086,7 +3086,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the TV Show &quot;Donkey Kong Country&quot;, which episode did the song &quot;Eddie, Let Me Go Back To My Home&quot; play in?",
+      "In the TV Show 'Donkey Kong Country', which episode did the song 'Eddie, Let Me Go Back To My Home' play in?",
     correct_answer: "It's a Wonderful Life",
     incorrect_answers: [
       "Message In A Bottle Show",
@@ -3099,7 +3099,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "When Donkey Kong died in the &quot;Donkey Kong Country&quot; episode &quot;It's a Wonderful Life&quot;, who was his guardian angel?",
+      "When Donkey Kong died in the 'Donkey Kong Country' episode 'It's a Wonderful Life', who was his guardian angel?",
     correct_answer: "Eddie the Mean Old Yeti",
     incorrect_answers: ["Kiddy Kong", "Diddy Kong", "King K. Rool"]
   },
@@ -3116,7 +3116,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Star Trek&quot;, what is the Ferengi's First Rule of Acquisition?",
+      "In 'Star Trek', what is the Ferengi's First Rule of Acquisition?",
     correct_answer: "Once you have their money, you never give it back. ",
     incorrect_answers: [
       "Never place friendship above profit",
@@ -3144,7 +3144,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "In &quot;Star Trek&quot;, what is the Klingon death ritual?",
+    question: "In 'Star Trek', what is the Klingon death ritual?",
     correct_answer: "Look into sky and yell loudly in mourning.",
     incorrect_answers: [
       "Kiss the jagged forehead before burial.",
@@ -3157,7 +3157,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which race enjoys a glass of warm baghol in &quot;Star Trek&quot;?",
+      "Which race enjoys a glass of warm baghol in 'Star Trek'?",
     correct_answer: "Klingon",
     incorrect_answers: ["Vulcan", "Human", "Botha"]
   },
@@ -3166,7 +3166,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Star Trek&quot;, what sauce is commonly used by Klingons on bregit lung?",
+      "In 'Star Trek', what sauce is commonly used by Klingons on bregit lung?",
     correct_answer: "Grapok sauce",
     incorrect_answers: [
       "Gazorpazorp pudding",
@@ -3179,7 +3179,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Star Trek&quot;, what is the Klingon delicacy of &quot;gagh&quot; made from?",
+      "In 'Star Trek', what is the Klingon delicacy of 'gagh' made from?",
     correct_answer: "Serpent worms",
     incorrect_answers: ["Earthworms", "Spaghetti noodles", "Klingworms"]
   },
@@ -3188,7 +3188,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "How many seasons did the Sci-Fi television show &quot;Stargate Universe&quot; have?",
+      "How many seasons did the Sci-Fi television show 'Stargate Universe' have?",
     correct_answer: "2",
     incorrect_answers: ["10", "5", "3"]
   },
@@ -3197,7 +3197,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of these voices wasn't a choice for the House AI in &quot;The Simpsons Treehouse of Horror&quot; short, House of Whacks?",
+      "Which of these voices wasn't a choice for the House AI in 'The Simpsons Treehouse of Horror' short, House of Whacks?",
     correct_answer: "George Clooney",
     incorrect_answers: ["Matthew Perry", "Dennis Miller", "Pierce Brosnan"]
   },
@@ -3206,7 +3206,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who played the Waitress in the Spam sketch of &quot;Monty Python's Flying Circus&quot;?",
+      "Who played the Waitress in the Spam sketch of 'Monty Python's Flying Circus'?",
     correct_answer: "Terry Jones",
     incorrect_answers: ["Eric Idle", "Graham Chapman", "John Cleese"]
   },
@@ -3250,7 +3250,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In &quot;Star Trek: Voyager&quot;, which episode did Voyager establish real-time communication with Starfleet Headquarters?",
+      "In 'Star Trek: Voyager', which episode did Voyager establish real-time communication with Starfleet Headquarters?",
     correct_answer: "Pathfinder",
     incorrect_answers: [
       "Message In A Bottle",
@@ -3263,12 +3263,12 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the TV show &quot;Mad Men&quot;, what was Donald Draper's birthname?",
-    correct_answer: "Richard &quot;Dick&quot; Whitman",
+      "In the TV show 'Mad Men', what was Donald Draper's birthname?",
+    correct_answer: "Richard 'Dick' Whitman",
     incorrect_answers: [
       "Donald Draper",
       "John Ashbury",
-      "Michael &quot;Mikey&quot; Wilhelm"
+      "Michael 'Mikey' Wilhelm"
     ]
   },
   {
@@ -3276,7 +3276,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who was the first ever actor to play &quot;The Doctor&quot; on &quot;Doctor Who&quot;?",
+      "Who was the first ever actor to play 'The Doctor' on 'Doctor Who'?",
     correct_answer: "William Hartnell",
     incorrect_answers: ["David Tennant", "Peter Capaldi", "Tom Baker"]
   },
@@ -3285,7 +3285,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;The Simpsons&quot;, what is the real name of &quot;Comic Book Guy&quot;?",
+      "In 'The Simpsons', what is the real name of 'Comic Book Guy'?",
     correct_answer: "Jeff Albertson",
     incorrect_answers: ["Comic Book Guy", "Edward Stone", "Jack Richardson"]
   },
@@ -3311,7 +3311,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "hard",
-    question: "Who was the winner of &quot;Big Brother&quot; Season 10?",
+    question: "Who was the winner of 'Big Brother' Season 10?",
     correct_answer: "Dan Gheesling",
     incorrect_answers: ["Bryce Kranyik", "Ryan Sutfin", "Chris Mundorf"]
   },
@@ -3320,7 +3320,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "From what show is the character &quot;James Doakes&quot;? ",
+    question: "From what show is the character 'James Doakes'? ",
     correct_answer: "Dexter",
     incorrect_answers: [
       "Marvel's Daredevil",
@@ -3342,7 +3342,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the TV show &quot;Cheers&quot;, Sam Malone was a former relief pitcher for which baseball team?",
+      "In the TV show 'Cheers', Sam Malone was a former relief pitcher for which baseball team?",
     correct_answer: "Boston Red Sox",
     incorrect_answers: [
       "New York Mets",
@@ -3364,7 +3364,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who played Agent Fox Mulder in the TV sci-fi drama &quot;The X-Files&quot;?",
+      "Who played Agent Fox Mulder in the TV sci-fi drama 'The X-Files'?",
     correct_answer: "David Duchovny",
     incorrect_answers: ["Gillian Anderson", "Robert Patrick", "Mitch Pileggi"]
   },
@@ -3399,7 +3399,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In which British seaside town was the BBC sitcom &quot;Fawlty Towers&quot; set?",
+      "In which British seaside town was the BBC sitcom 'Fawlty Towers' set?",
     correct_answer: "Torquay",
     incorrect_answers: ["Blackpool", "Bournemouth", "Great Yarmouth"]
   },
@@ -3419,7 +3419,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "Who was the star of the TV series &quot;24&quot;?",
+    question: "Who was the star of the TV series '24'?",
     correct_answer: "Kiefer Sutherland",
     incorrect_answers: ["Kevin Bacon", "Hugh Laurie", "Rob Lowe"]
   },
@@ -3428,7 +3428,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the name of Ross' pet monkey on &quot;Friends&quot;?",
+      "What was the name of Ross' pet monkey on 'Friends'?",
     correct_answer: "Marcel",
     incorrect_answers: ["Jojo", "George", "Champ"]
   },
@@ -3445,7 +3445,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the episode of SpongeBob SquarePants, &quot;Survival of the Idiots&quot;, Spongebob called Patrick which nickname?",
+      "In the episode of SpongeBob SquarePants, 'Survival of the Idiots', Spongebob called Patrick which nickname?",
     correct_answer: "Pinhead",
     incorrect_answers: ["Starfish", "Larry", "Dirty Dan"]
   },
@@ -3462,7 +3462,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;It's Always Sunny in Philadelphia&quot; what was the name of Frank's wrestling persona?",
+      "In 'It's Always Sunny in Philadelphia' what was the name of Frank's wrestling persona?",
     correct_answer: "The Trash Man",
     incorrect_answers: ["Bird of War", "Day Man", "The Maniac"]
   },
@@ -3471,7 +3471,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The &quot;Psycho&quot; series of videos on YouTube was created by which of the following?",
+      "The 'Psycho' series of videos on YouTube was created by which of the following?",
     correct_answer: "RiDGiD STUDiOS",
     incorrect_answers: ["Dan Bell", "Billy Familia", "VeganGainz"]
   },
@@ -3480,7 +3480,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who co-founded the YouTube Let's Play channel &quot;Game Grumps&quot; alongside Newgrounds animator Egoraptor?",
+      "Who co-founded the YouTube Let's Play channel 'Game Grumps' alongside Newgrounds animator Egoraptor?",
     correct_answer: "JonTron",
     incorrect_answers: ["Pewdiepie", "Tobuscus", "Markiplier"]
   },
@@ -3489,7 +3489,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "On the show &quot;Rick and Morty&quot;, in episode &quot;Total Rickall&quot;, who was a parasite?",
+      "On the show 'Rick and Morty', in episode 'Total Rickall', who was a parasite?",
     correct_answer: "Pencilvester",
     incorrect_answers: ["Beth Smith", "Summer Smith", "Mr. Poopy Butthole"]
   },
@@ -3579,7 +3579,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the show &quot;Tengen Toppa Gurren Lagann&quot; what is the name of the character who force everyone to live underground?",
+      "In the show 'Tengen Toppa Gurren Lagann' what is the name of the character who force everyone to live underground?",
     correct_answer: "Lordgenome",
     incorrect_answers: ["Kingloname", "Lord Genome", "King Loname"]
   },
@@ -3601,7 +3601,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;The Big Bang Theory&quot;, what is Howard Wolowitz's nickname in World of Warcraft?",
+      "In 'The Big Bang Theory', what is Howard Wolowitz's nickname in World of Warcraft?",
     correct_answer: "Wolowizard",
     incorrect_answers: ["Sheldor", "Rajesh", "Priya"]
   },
@@ -3619,7 +3619,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which show is known for the songs &quot;You are a Pirate&quot;, &quot;Cooking by the Book&quot; and &quot;We Are Number One&quot;?",
+      "Which show is known for the songs 'You are a Pirate', 'Cooking by the Book' and 'We Are Number One'?",
     correct_answer: "LazyTown",
     incorrect_answers: ["Sofia the First", "DuckTales", "Tom and Jerry"]
   },
@@ -3656,7 +3656,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Donkey Kong Country&quot;, why does Donkey Kong want to know the secret of the crystal coconut?",
+      "In 'Donkey Kong Country', why does Donkey Kong want to know the secret of the crystal coconut?",
     correct_answer: "He's the big kahuna.",
     incorrect_answers: [
       "To find out where all the bananas are.",
@@ -3669,7 +3669,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Star Trek&quot;, who was the founder of the Klingon Empire and its philosophy?",
+      "In 'Star Trek', who was the founder of the Klingon Empire and its philosophy?",
     correct_answer: "Kahless the Unforgettable",
     incorrect_answers: [
       "Lady Lukara of the Great Hall",
@@ -3681,7 +3681,7 @@ const questions = [
     category: "Television",
     type: "multiple",
     difficulty: "medium",
-    question: "What breed of dog is &quot;Scooby Doo&quot;?",
+    question: "What breed of dog is 'Scooby Doo'?",
     correct_answer: "Great Dane",
     incorrect_answers: ["Pit bull", "Boxer", "Doberman Pinscher"]
   },
@@ -3693,7 +3693,7 @@ const questions = [
       "In 2008, British celebrity chef Gordon Ramsay believes he almost died after suffering what accident in Iceland while filming?",
     correct_answer: "Slipping off a cliff, and nearly drowning in icy water",
     incorrect_answers: [
-      "Crash landing when arriving at Keflav&iacute;k airport",
+      "Crash landing when arriving at Keflavik airport",
       "A minor car accident in a snowstorm",
       "Being served under-cooked chicken at his hotel"
     ]
@@ -3703,7 +3703,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What episode of &quot;Mr. Bean&quot; saw him trying to prevent people from seeing him naked?",
+      "What episode of 'Mr. Bean' saw him trying to prevent people from seeing him naked?",
     correct_answer: "Mr. Bean in Room 426",
     incorrect_answers: [
       "Mr. Bean Goes to Town",
@@ -3716,7 +3716,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of the following actors portrayed the Ninth Doctor in the British television show &quot;Doctor Who&quot;?",
+      "Which of the following actors portrayed the Ninth Doctor in the British television show 'Doctor Who'?",
     correct_answer: "Christopher Eccleston",
     incorrect_answers: ["David Tennant", "Matt Smith", "Tom Baker"]
   },
@@ -3743,7 +3743,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which actor portrays &quot;Walter White&quot; in the series &quot;Breaking Bad&quot;?",
+      "Which actor portrays 'Walter White' in the series 'Breaking Bad'?",
     correct_answer: "Bryan Cranston",
     incorrect_answers: ["Andrew Lincoln", "Aaron Paul", "RJ Mitte"]
   },
@@ -3752,7 +3752,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Prior to working at Wizards of the Coast, &quot;Mark Rosewater&quot; was a writer for which show?",
+      "Prior to working at Wizards of the Coast, 'Mark Rosewater' was a writer for which show?",
     correct_answer: "Roseanne",
     incorrect_answers: ["Boy Meets World", "The X-Files", "NYPD Blue"]
   },
@@ -3761,7 +3761,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of Chris's brother in &quot;Everybody Hates Chris&quot;?",
+      "What is the name of Chris's brother in 'Everybody Hates Chris'?",
     correct_answer: "Drew",
     incorrect_answers: ["Jerome", "Greg", "Joe"]
   },
@@ -3770,7 +3770,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "On the NBC show Community, whose catch-phrase was &quot;Pop! Pop!&quot;?",
+      "On the NBC show Community, whose catch-phrase was 'Pop! Pop!'?",
     correct_answer: "Magnitude",
     incorrect_answers: ["Star Burns", "Leonard", "Senoir Chang"]
   },
@@ -3787,7 +3787,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The HBO series &quot;Game of Thrones&quot; is based on which series of books?",
+      "The HBO series 'Game of Thrones' is based on which series of books?",
     correct_answer: "A Song of Ice and Fire",
     incorrect_answers: ["The Wheel of Time", "Harry Potter", "The Notebook"]
   },
@@ -3806,7 +3806,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which track by &quot;Massive Attack&quot; is used for the theme of &quot;House&quot;? ",
+      "Which track by 'Massive Attack' is used for the theme of 'House'? ",
     correct_answer: "Teardrop",
     incorrect_answers: ["Protection", "Angel", "Black Milk"]
   },
@@ -3824,7 +3824,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "The theme for the popular science fiction series &quot;Doctor Who&quot; was composed by who?",
+      "The theme for the popular science fiction series 'Doctor Who' was composed by who?",
     correct_answer: "Ron Grainer",
     incorrect_answers: ["Murray Gold", "Delia Derbyshire", "Peter Howell"]
   },
@@ -3842,7 +3842,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which company has exclusive rights to air episodes of the &quot;The Grand Tour&quot;?",
+      "Which company has exclusive rights to air episodes of the 'The Grand Tour'?",
     correct_answer: "Amazon",
     incorrect_answers: ["Netflix", "BBC", "CCTV"]
   },
@@ -3851,7 +3851,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the &quot;Flash&quot; and &quot;Arrow&quot; spinoff featuring a team of characters that have appeared on both shows?",
+      "What is the name of the 'Flash' and 'Arrow' spinoff featuring a team of characters that have appeared on both shows?",
     correct_answer: "Legends of Tomorrow",
     incorrect_answers: [
       "Heroes of Tomorrow",
@@ -3864,11 +3864,11 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the television show &quot;Lazy Town&quot;, who is the actor of Robbie Rotten?",
-    correct_answer: "Stef&aacute;n Stef&aacute;nsson",
+      "In the television show 'Lazy Town', who is the actor of Robbie Rotten?",
+    correct_answer: "Stefan Stefansson",
     incorrect_answers: [
       "Adam Sandler",
-      "Magn&uacute;s Scheving",
+      "Magnus Scheving",
       "Stephen Carl"
     ]
   },
@@ -3877,7 +3877,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "How many seasons did the Sci-Fi television show &quot;Stargate Atlantis&quot; have?",
+      "How many seasons did the Sci-Fi television show 'Stargate Atlantis' have?",
     correct_answer: "5",
     incorrect_answers: ["10", "2", "7"]
   },
@@ -3886,7 +3886,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the planet that the Doctor from television series &quot;Doctor Who&quot; comes from?",
+      "What is the name of the planet that the Doctor from television series 'Doctor Who' comes from?",
     correct_answer: "Gallifrey",
     incorrect_answers: ["Sontar", "Skaro", "Mondas"]
   },
@@ -3905,8 +3905,8 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of &quot;Team Fortress 2&quot; update, in which it became Free-to-play?",
-    correct_answer: "&Uuml;ber Update",
+      "What is the name of 'Team Fortress 2' update, in which it became Free-to-play?",
+    correct_answer: "uber Update",
     incorrect_answers: [
       "Pyromania Update",
       "Mann-Conomy Update",
@@ -3968,7 +3968,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the currency in the &quot;Animal Crossing&quot; series?",
+      "What is the name of the currency in the 'Animal Crossing' series?",
     correct_answer: "Bells",
     incorrect_answers: ["Sea Shells", "Leaves", "Bugs"]
   },
@@ -4006,12 +4006,12 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which of the following Pok&eacute;mon games released first?",
-    correct_answer: "Pok&eacute;mon Crystal",
+    question: "Which of the following Pokemon games released first?",
+    correct_answer: "Pokemon Crystal",
     incorrect_answers: [
-      "Pok&eacute;mon Platinum",
-      "Pok&eacute;mon FireRed",
-      "Pok&eacute;mon Black"
+      "Pokemon Platinum",
+      "Pokemon FireRed",
+      "Pokemon Black"
     ]
   },
   {
@@ -4053,7 +4053,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many zombies need to be killed to get the &quot;Zombie Genocider&quot; achievement in Dead Rising (2006)?",
+      "How many zombies need to be killed to get the 'Zombie Genocider' achievement in Dead Rising (2006)?",
     correct_answer: "53,594",
     incorrect_answers: ["53,593", "53,595", "53,596"]
   },
@@ -4071,7 +4071,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The &quot;Day of Defeat&quot; series of games take place during which war?",
+      "The 'Day of Defeat' series of games take place during which war?",
     correct_answer: "World War II",
     incorrect_answers: ["World War I", "Vietnam War", "Iraq War"]
   },
@@ -4080,7 +4080,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Overwatch&quot;, what is the name of Mercy's &quot;ultimate ability&quot;?",
+      "In 'Overwatch', what is the name of Mercy's 'ultimate ability'?",
     correct_answer: "Valkyrie",
     incorrect_answers: ["Earthshatter", "Rocket Barrage", "Molten Core"]
   },
@@ -4097,7 +4097,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is NOT the name of a team leader in Pok&eacute;mon GO?",
+      "Which of these is NOT the name of a team leader in Pokemon GO?",
     correct_answer: "Leif",
     incorrect_answers: ["Blanche", "Spark", "Candela"]
   },
@@ -4115,7 +4115,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the video game &quot;Metal Gear Solid&quot;, what did Revolver Ocelot consider the greatest handgun ever made?",
+      "In the video game 'Metal Gear Solid', what did Revolver Ocelot consider the greatest handgun ever made?",
     correct_answer: "Colt Single Action Army",
     incorrect_answers: ["Colt Python", "Colt M1892", "Colt 1851 Navy Revolver"]
   },
@@ -4141,7 +4141,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the title of the game &quot;Luigi's Mansion&quot;, what is the only letter to not appear with a pair of eyes in it?",
+      "In the title of the game 'Luigi's Mansion', what is the only letter to not appear with a pair of eyes in it?",
     correct_answer: "s",
     incorrect_answers: ["n", "i", "m"]
   },
@@ -4158,7 +4158,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What do the video games No Man&rsquo;s Sky and Mighty No. 9 have in common?",
+      "What do the video games No Man's Sky and Mighty No. 9 have in common?",
     correct_answer: "Both were announced in 2013.",
     incorrect_answers: [
       "Both were crowdfunded.",
@@ -4195,7 +4195,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "During development of &quot;Super Mario World&quot;, Yoshi's hard saddle was originally which of these?",
+      "During development of 'Super Mario World', Yoshi's hard saddle was originally which of these?",
     correct_answer: "A shell",
     incorrect_answers: ["A slide of Gelatin", "A poffin", "A spike"]
   },
@@ -4204,7 +4204,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Halo 2&quot;, what is the name of the monitor of Installation 05?",
+      "In 'Halo 2', what is the name of the monitor of Installation 05?",
     correct_answer: "2401 Penitent Tangent",
     incorrect_answers: [
       "343 Guilty Spark",
@@ -4217,7 +4217,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Fallout 4&quot;, what is the name of the dog you find at Red Rocket truck stop?",
+      "In 'Fallout 4', what is the name of the dog you find at Red Rocket truck stop?",
     correct_answer: "Dogmeat",
     incorrect_answers: ["Sparky", "Quazar", "Chop"]
   },
@@ -4226,7 +4226,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which operation in &quot;Tom Clancy's Rainbow Six Siege&quot; introduced the &quot;Skyscraper&quot; map?",
+      "Which operation in 'Tom Clancy's Rainbow Six Siege' introduced the 'Skyscraper' map?",
     correct_answer: "Red Crow",
     incorrect_answers: ["Velvet Shell", "Skull Rain", "Dust Line"]
   },
@@ -4243,7 +4243,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Final Fantasy VI&quot;, what is the name of (summoned) Gilgamesh's weakest attack?",
+      "In 'Final Fantasy VI', what is the name of (summoned) Gilgamesh's weakest attack?",
     correct_answer: "Excalipoor",
     incorrect_answers: ["Excalibore", "Excalisnore", "Excalisore"]
   },
@@ -4252,7 +4252,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "When was the video game &quot;P.A.M.E.L.A.&quot; released on Steam?",
+      "When was the video game 'P.A.M.E.L.A.' released on Steam?",
     correct_answer: "March 9, 2017",
     incorrect_answers: [
       "January 7, 2007",
@@ -4265,7 +4265,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of Cream the Rabbit's mom in the &quot;Sonic the Hedgehog&quot; series?",
+      "What is the name of Cream the Rabbit's mom in the 'Sonic the Hedgehog' series?",
     correct_answer: "Vanilla",
     incorrect_answers: ["Peach", "Strawberry", "Mint"]
   },
@@ -4274,7 +4274,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the perk that was introduced in the &quot;Call Of Duty: Zombies&quot; map, &quot;Mob Of The Dead&quot;?",
+      "What is the perk that was introduced in the 'Call Of Duty: Zombies' map, 'Mob Of The Dead'?",
     correct_answer: "Electric Cherry",
     incorrect_answers: ["Quick Revive", "Vulture Aid", "Tombstone"]
   },
@@ -4283,7 +4283,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many numbered power generators are there?",
+      "In the 'Call Of Duty: Zombies' map 'Origins', how many numbered power generators are there?",
     correct_answer: "6",
     incorrect_answers: ["8", "5", "3"]
   },
@@ -4292,7 +4292,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, completing which map's easter egg will reward you with the achievement, &quot;Time Travel Will Tell&quot;?",
+      "In 'Call Of Duty: Zombies', completing which map's easter egg will reward you with the achievement, 'Time Travel Will Tell'?",
     correct_answer: "Shangri-La",
     incorrect_answers: ["Ascension", "Moon", "Die Rise"]
   },
@@ -4301,7 +4301,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, where is &quot;Stamin-Up&quot; located?",
+      "In the 'Call Of Duty: Zombies' map 'Origins', where is 'Stamin-Up' located?",
     correct_answer: "Generator 5",
     incorrect_answers: ["Generator 3", "Generator 4", "Excavation Site"]
   },
@@ -4310,7 +4310,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is not a character in the game, &quot;Lethal League&quot;?",
+      "Which of these is not a character in the game, 'Lethal League'?",
     correct_answer: "Rex",
     incorrect_answers: ["Switch", "Candyman", "Sonata"]
   },
@@ -4319,7 +4319,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call of Duty: Zombies&quot;, what group does Doctor Maxis work for?",
+      "In 'Call of Duty: Zombies', what group does Doctor Maxis work for?",
     correct_answer: "Group 935",
     incorrect_answers: ["Group Reanimate", "Group Rezurrection", "Division 9"]
   },
@@ -4372,7 +4372,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the main protagonist in &quot;Xenoblade Chronicles&quot;?",
+      "What is the name of the main protagonist in 'Xenoblade Chronicles'?",
     correct_answer: "Shulk",
     incorrect_answers: ["Reyn", "Fiora", "Dunban"]
   },
@@ -4450,7 +4450,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which one of the following actors did not voice a character in &quot;Saints Row: The Third&quot;?",
+      "Which one of the following actors did not voice a character in 'Saints Row: The Third'?",
     correct_answer: "Ron Jeremy",
     incorrect_answers: ["Sasha Grey", "Burt Reynolds", "Hulk Hogan"]
   },
@@ -4467,7 +4467,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question: "Who composed the soundtrack for the game VVVVVV?",
-    correct_answer: "Magnus P&aring;lsson",
+    correct_answer: "Magnus Palsson",
     incorrect_answers: ["Terry Cavanagh", "Danny Baranowsky", "Joel Zimmerman"]
   },
   {
@@ -4475,7 +4475,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the &quot;Worms&quot; series of video games, which of these weapons is affected by wind?",
+      "In the 'Worms' series of video games, which of these weapons is affected by wind?",
     correct_answer: "Bazooka",
     incorrect_answers: ["Grenade", "Air Strike", "Mortar"]
   },
@@ -4483,7 +4483,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which of these &quot;Worms&quot; games featured 3D gameplay?",
+    question: "Which of these 'Worms' games featured 3D gameplay?",
     correct_answer: "Worms 4: Mayhem",
     incorrect_answers: [
       "Worms W.M.D",
@@ -4574,7 +4574,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is NOT a playable character race in the video game &quot;Starbound&quot;?",
+      "Which of these is NOT a playable character race in the video game 'Starbound'?",
     correct_answer: "Fenerox",
     incorrect_answers: ["Floran", "Novakid", "Hylotl"]
   },
@@ -4591,7 +4591,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Who is the leader of Team Instinct in Pok&eacute;mon Go?",
+    question: "Who is the leader of Team Instinct in Pokemon Go?",
     correct_answer: "Spark",
     incorrect_answers: ["Candela", "Blanche", "Willow"]
   },
@@ -4609,7 +4609,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who created the pump &quot;F.L.U.D.D.&quot; Mario uses in Super Mario Sunshine?",
+      "Who created the pump 'F.L.U.D.D.' Mario uses in Super Mario Sunshine?",
     correct_answer: "Elvin Gadd",
     incorrect_answers: ["Robert Fludd", "Nirona", "Crygor"]
   },
@@ -4627,7 +4627,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which character, in the game &quot;Morenatsu&quot;, has the most possible endings to their route, at a total of four different endings?",
+      "Which character, in the game 'Morenatsu', has the most possible endings to their route, at a total of four different endings?",
     correct_answer: "Shin Kuroi",
     incorrect_answers: ["Kouya Aotsuki", "Soutarou Touno", "Torahiko Ooshima"]
   },
@@ -4709,12 +4709,12 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these operators from &quot;Tom Clancy's Rainbow Six Siege&quot; has the ability to damage reinforced walls?",
-    correct_answer: "Jordan &quot;Thermite&quot; Trace",
+      "Which of these operators from 'Tom Clancy's Rainbow Six Siege' has the ability to damage reinforced walls?",
+    correct_answer: "Jordan 'Thermite' Trace",
     incorrect_answers: [
-      "Eliza &quot;Ash&quot; Cohen",
-      "Seamus &quot;Sledge&quot; Cowden",
-      "Dominic &quot;Bandit&quot; Brunsmeier"
+      "Eliza 'Ash' Cohen",
+      "Seamus 'Sledge' Cowden",
+      "Dominic 'Bandit' Brunsmeier"
     ]
   },
   {
@@ -4743,7 +4743,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the Zombies mode of &quot;Call of Duty: Black Ops&quot;, what is the &quot;Pack-A-Punched&quot; version of the &quot;Galil&quot; called?",
+      "In the Zombies mode of 'Call of Duty: Black Ops', what is the 'Pack-A-Punched' version of the 'Galil' called?",
     correct_answer: "Lamentation",
     incorrect_answers: [
       "Galvanized Atomic Lead Insertion Liquidator",
@@ -4756,7 +4756,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the main protagonist of &quot;Ace Combat Zero: The Belkan War&quot;?",
+      "Who is the main protagonist of 'Ace Combat Zero: The Belkan War'?",
     correct_answer: "Cipher",
     incorrect_answers: ["Mobius 1", "Blaze", "Pixy"]
   },
@@ -4765,7 +4765,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which game in the &quot;Monster Hunter&quot; series introduced the &quot;Insect Glaive&quot; weapon?",
+      "Which game in the 'Monster Hunter' series introduced the 'Insect Glaive' weapon?",
     correct_answer: "Monster Hunter 4",
     incorrect_answers: [
       "Monster Hunter Freedom",
@@ -4778,7 +4778,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who voices the character &quot;Vernon Cherry&quot; in &quot;Red Dead Redemption&quot;?",
+      "Who voices the character 'Vernon Cherry' in 'Red Dead Redemption'?",
     correct_answer: "Casey Mongillo",
     incorrect_answers: ["Tara Strong", "Troy Baker", "Rob Wiethoff"]
   },
@@ -4787,7 +4787,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Ace Attorney&quot; series, what is the relationship between Apollo Justice and Trucy Wright?",
+      "In the 'Ace Attorney' series, what is the relationship between Apollo Justice and Trucy Wright?",
     correct_answer: "They're half-siblings",
     incorrect_answers: [
       "They're co-workers",
@@ -4800,7 +4800,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What was the first &quot;Call Of Duty: Zombies&quot; map to be directed by Jason Blundell?",
+      "What was the first 'Call Of Duty: Zombies' map to be directed by Jason Blundell?",
     correct_answer: "Mob Of The Dead",
     incorrect_answers: ["Buried", "Origins", "Moon"]
   },
@@ -4809,7 +4809,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the beginning of the game &quot;Sonic Adventure&quot;, what color Chaos Emerald does Tails own?",
+      "In the beginning of the game 'Sonic Adventure', what color Chaos Emerald does Tails own?",
     correct_answer: "Purple",
     incorrect_answers: ["Red", "Green", "Blue"]
   },
@@ -4826,7 +4826,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the 4th boss in the 1997 video game &quot;Crash Bandicoot 2: Cortex Strikes Back&quot;?",
+      "What is the 4th boss in the 1997 video game 'Crash Bandicoot 2: Cortex Strikes Back'?",
     correct_answer: "Dr. N. Gin",
     incorrect_answers: ["Dr. Neo Cortex", "Komodo Brothers", "Tiny Tiger"]
   },
@@ -4835,7 +4835,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Where does &quot;The Legend of Zelda: Majora's Mask&quot; take place?",
+      "Where does 'The Legend of Zelda: Majora's Mask' take place?",
     correct_answer: "Termina",
     incorrect_answers: ["Hyrule", "Gysahl", "Besaid"]
   },
@@ -4844,7 +4844,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which gaming series includes &quot;The Diabolical Box&quot; and &quot;The Curious Village&quot;?",
+      "Which gaming series includes 'The Diabolical Box' and 'The Curious Village'?",
     correct_answer: "Professor Layton",
     incorrect_answers: ["Persona", "Etrian Odyssey", "Sam & Max"]
   },
@@ -4870,7 +4870,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the hardest possible difficulty in &quot;Deus Ex: Mankind Divided&quot;?",
+      "What is the hardest possible difficulty in 'Deus Ex: Mankind Divided'?",
     correct_answer: "I Never Asked For This",
     incorrect_answers: ["Nightmare", "Extreme", "Guru"]
   },
@@ -4924,7 +4924,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What was the first video game in the Batman &quot;Arkham&quot; series?",
+      "What was the first video game in the Batman 'Arkham' series?",
     correct_answer: "Arkham Asylum",
     incorrect_answers: ["Arkham Knight", "Arkham City", "Arkham Origins"]
   },
@@ -4954,7 +4954,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name the location-based augmented reality game developed by Niantic before Pok&eacute;mon GO?",
+      "What is the name the location-based augmented reality game developed by Niantic before Pokemon GO?",
     correct_answer: "Ingress",
     incorrect_answers: ["Aggress", "Regress", "Digress"]
   },
@@ -4963,7 +4963,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the virus in &quot;Metal Gear Solid 1&quot;?",
+      "What is the name of the virus in 'Metal Gear Solid 1'?",
     correct_answer: "FOXDIE",
     incorrect_answers: ["FOXENGINE", "FOXALIVE", "FOXKILL"]
   },
@@ -4971,7 +4971,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "hard",
-    question: "When was the first &quot;Half-Life&quot; released?",
+    question: "When was the first 'Half-Life' released?",
     correct_answer: "1998",
     incorrect_answers: ["2004", "1999", "1997"]
   },
@@ -4989,7 +4989,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the fastest speed possible in Trackmania&sup2;: Stadium?",
+      "What is the fastest speed possible in Trackmania 2: Stadium?",
     correct_answer: "1000 km/h",
     incorrect_answers: ["500 km/h", "320 km/h", "100 km/h"]
   },
@@ -4998,7 +4998,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What company created and developed the game &quot;Overwatch&quot;?",
+      "What company created and developed the game 'Overwatch'?",
     correct_answer: "Blizzard Entertainment",
     incorrect_answers: ["Valve", "Hi-Rez Studios", "Gearbox Software"]
   },
@@ -5024,7 +5024,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What name does the little headcrab in &quot;Half Life 2&quot; have?",
+      "What name does the little headcrab in 'Half Life 2' have?",
     correct_answer: "Lamarr",
     incorrect_answers: ["Jumperr", "Drett", "Jerry"]
   },
@@ -5051,7 +5051,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game Destiny, who succeeded Peter Dinklage in voicing the protagonist's &quot;Ghost&quot;?",
+      "In the game Destiny, who succeeded Peter Dinklage in voicing the protagonist's 'Ghost'?",
     correct_answer: "Nolan North",
     incorrect_answers: ["John DiMaggio", "Mark Hamill", "Troy Baker"]
   },
@@ -5068,7 +5068,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which game does a character say, &quot;Sometimes, I dream about cheese&quot;?",
+      "In which game does a character say, 'Sometimes, I dream about cheese'?",
     correct_answer: "Half Life 2",
     incorrect_answers: [
       "Team Fortress 2",
@@ -5090,7 +5090,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In what year was the first &quot;Mass Effect&quot; game released?",
+      "In what year was the first 'Mass Effect' game released?",
     correct_answer: "2007",
     incorrect_answers: ["2008", "2009", "2010"]
   },
@@ -5099,7 +5099,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the video game &quot;League of Legends&quot; which character is known as &quot;The Sinister Blade&quot;?",
+      "In the video game 'League of Legends' which character is known as 'The Sinister Blade'?",
     correct_answer: "Katarina",
     incorrect_answers: ["Shaco", "Akali", "Zed"]
   },
@@ -5107,7 +5107,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "hard",
-    question: "In what year was the game &quot;Eliminator&quot; released?",
+    question: "In what year was the game 'Eliminator' released?",
     correct_answer: "1998",
     incorrect_answers: ["2000", "1999", "2001"]
   },
@@ -5141,7 +5141,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "How many trophies are there in &quot;Super Smash Bros. for Nintendo 3DS&quot;?",
+      "How many trophies are there in 'Super Smash Bros. for Nintendo 3DS'?",
     correct_answer: "685",
     incorrect_answers: ["1360", "716", "1155"]
   },
@@ -5158,7 +5158,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "&quot;Gimmick!&quot; is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
+      "'Gimmick!' is a Japanese Famicom game that uses a sound chip expansion in the cartridge. What is it called?",
     correct_answer: "FME-7",
     incorrect_answers: ["VRC7", "VRC6", "MMC5"]
   },
@@ -5166,7 +5166,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "What was the original name of &quot;Minecraft&quot;?",
+    question: "What was the original name of 'Minecraft'?",
     correct_answer: "Cave Game",
     incorrect_answers: [
       "Minecraft: Order of the Stone",
@@ -5200,7 +5200,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game Pok&eacute;mon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?",
+      "In the game Pokemon Conquest, which warlord is able to bond with Zekrom and a shiny Rayquazza?",
     correct_answer: "Nobunaga",
     incorrect_answers: ["The Player", "Oichi", "Hideyoshi"]
   },
@@ -5218,12 +5218,12 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Earthbound&quot;, how does one enter &quot;Master Belch's&quot; factory?",
+      "In 'Earthbound', how does one enter 'Master Belch's' factory?",
     correct_answer: "Wait 3 Minutes",
     incorrect_answers: [
-      "Enter the password &quot;Fly Honey&quot;",
-      "Enter the password &quot;Master Belch Rules&quot;",
-      "Enter the password &quot;Mr Saturn Drools&quot;"
+      "Enter the password 'Fly Honey'",
+      "Enter the password 'Master Belch Rules'",
+      "Enter the password 'Mr Saturn Drools'"
     ]
   },
   {
@@ -5231,7 +5231,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the common, gun-toting enemies of the &quot;Oddworld&quot; video game series?",
+      "What is the name of the common, gun-toting enemies of the 'Oddworld' video game series?",
     correct_answer: "Sligs",
     incorrect_answers: ["Scrabs", "Slogs", "Glukkons"]
   },
@@ -5240,11 +5240,11 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Super Mario Sunshine&quot;, how do you unlock the &quot;Corona Mountain&quot; level?",
+      "In 'Super Mario Sunshine', how do you unlock the 'Corona Mountain' level?",
     correct_answer: "By clearing every 7th episode",
     incorrect_answers: [
       "By obtaining 70 Shines",
-      "By clearing every episode involving a &quot;Secret&quot;",
+      "By clearing every episode involving a 'Secret'",
       "By unlocking every nozzle F.L.U.D.D can use"
     ]
   },
@@ -5252,7 +5252,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "When was the video game publisher &quot;Ubisoft&quot; founded ?",
+    question: "When was the video game publisher 'Ubisoft' founded ?",
     correct_answer: "March 1986",
     incorrect_answers: ["April 1990", "June 2001", "August 1956"]
   },
@@ -5261,7 +5261,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;PAYDAY&quot; series, what is the real name of the character known as &quot;Dallas&quot;?",
+      "In the 'PAYDAY' series, what is the real name of the character known as 'Dallas'?",
     correct_answer: "Nathan Steele",
     incorrect_answers: ["Nate Siemens", "Nick Stamos", "Nolan Stuhlinger"]
   },
@@ -5270,7 +5270,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the boss round featured in the &quot;Call Of Duty: Zombies&quot; map &quot;Five&quot;?",
+      "What is the boss round featured in the 'Call Of Duty: Zombies' map 'Five'?",
     correct_answer: "The Pentagon Thief",
     incorrect_answers: ["Hellhounds", "Jumping Jacks", "Napalm Zombie"]
   },
@@ -5279,7 +5279,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which artist composed the original soundtrack for &quot;Watch Dogs 2&quot;?",
+      "Which artist composed the original soundtrack for 'Watch Dogs 2'?",
     correct_answer: "Hudson Mohawke",
     incorrect_answers: ["Rustie", "Machinedrum", "Flying Lotus"]
   },
@@ -5342,7 +5342,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which game did &quot;Sonic The Hedgehog&quot; make his first appearance in?",
+      "Which game did 'Sonic The Hedgehog' make his first appearance in?",
     correct_answer: "Rad Mobile",
     incorrect_answers: ["Sonic The Hedgehog", "Super Mario 64", "Mega Man"]
   },
@@ -5350,7 +5350,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which company developed the video game &quot;Borderlands&quot;?",
+    question: "Which company developed the video game 'Borderlands'?",
     correct_answer: "Gearbox Software",
     incorrect_answers: ["2K Games", "Activision", "Rockstar Games"]
   },
@@ -5380,7 +5380,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who was the mascot of SEGA mascot before &quot;Sonic the Hedgehog&quot;?",
+      "Who was the mascot of SEGA mascot before 'Sonic the Hedgehog'?",
     correct_answer: "Alex Kidd",
     incorrect_answers: ["Opa Opa", "NiGHTS", "Ristar"]
   },
@@ -5396,7 +5396,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "What engine did the original &quot;Half-Life&quot; run on?",
+    question: "What engine did the original 'Half-Life' run on?",
     correct_answer: "GoldSrc",
     incorrect_answers: ["Source", "Quake", "Unreal"]
   },
@@ -5416,7 +5416,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "In &quot;Undertale&quot;, how many main endings are there?",
+    question: "In 'Undertale', how many main endings are there?",
     correct_answer: "3",
     incorrect_answers: ["2", "5", "13"]
   },
@@ -5425,7 +5425,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "How many times do you fight Gilgamesh in &quot;Final Fantasy 5&quot;?",
+      "How many times do you fight Gilgamesh in 'Final Fantasy 5'?",
     correct_answer: "6",
     incorrect_answers: ["4", "5", "3"]
   },
@@ -5434,7 +5434,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the original &quot;Super Mario Bros.&quot;, what is the acceleration of Mario if he was in free fall?",
+      "In the original 'Super Mario Bros.', what is the acceleration of Mario if he was in free fall?",
     correct_answer: "9.31 g",
     incorrect_answers: ["11 g", "9.42 g", "4.4 g"]
   },
@@ -5482,7 +5482,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "&quot;Rollercoaster Tycoon&quot; was programmed mostly entirely in...",
+      "'Rollercoaster Tycoon' was programmed mostly entirely in...",
     correct_answer: "x86 Assembly",
     incorrect_answers: ["C++", "C", "ALGOL"]
   },
@@ -5500,7 +5500,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In World of Warcraft lore, who was first to have the title &quot;The Ashbringer&quot;?",
+      "In World of Warcraft lore, who was first to have the title 'The Ashbringer'?",
     correct_answer: "Alexandros Mograine",
     incorrect_answers: [
       "Tirion Fordring",
@@ -5526,7 +5526,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In PROTOTYPE 2. who is referred to as &quot;Tango Primary&quot;?",
+      "In PROTOTYPE 2. who is referred to as 'Tango Primary'?",
     correct_answer: "James Heller",
     incorrect_answers: [
       "Alex Mercer",
@@ -5548,7 +5548,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "When was Chapter 1 of the Source Engine mod &quot;Underhell&quot; released?",
+      "When was Chapter 1 of the Source Engine mod 'Underhell' released?",
     correct_answer: "September 1st, 2013",
     incorrect_answers: [
       "March 3rd, 2011",
@@ -5562,11 +5562,11 @@ const questions = [
     difficulty: "easy",
     question:
       "In Need for Speed: Most Wanted (2005), what was the name of the main antagonist?",
-    correct_answer: "Clarence &quot;Razor&quot; Callahan",
+    correct_answer: "Clarence 'Razor' Callahan",
     incorrect_answers: [
-      "Hector &quot;Ming&quot; Domingo",
-      "Toru &quot;Bull&quot; Sato",
-      "Karl &quot;Baron&quot; Smit"
+      "Hector 'Ming' Domingo",
+      "Toru 'Bull' Sato",
+      "Karl 'Baron' Smit"
     ]
   },
   {
@@ -5583,7 +5583,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which water-type Pok&eacute;mon starter was introduced in the 4th generation of the series?",
+      "Which water-type Pokemon starter was introduced in the 4th generation of the series?",
     correct_answer: "Piplup",
     incorrect_answers: ["Totodile", "Oshawott", "Mudkip"]
   },
@@ -5601,7 +5601,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of the following Elite Four members from the 6th Generation of Pok&eacute;mon was a member of Team Flare?",
+      "Which of the following Elite Four members from the 6th Generation of Pokemon was a member of Team Flare?",
     correct_answer: "Malva",
     incorrect_answers: ["Siebold", "Wikstrom", "Drasna"]
   },
@@ -5610,7 +5610,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the Pok&eacute;mon series, which type is Sudowoodo, the Imitation Pok&eacute;mon?",
+      "In the Pokemon series, which type is Sudowoodo, the Imitation Pokemon?",
     correct_answer: "Rock",
     incorrect_answers: ["Grass", "Bug", "Ground"]
   },
@@ -5636,7 +5636,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which &quot;Fallout: New Vegas&quot; quest is NOT named after a real-life song?",
+      "Which 'Fallout: New Vegas' quest is NOT named after a real-life song?",
     correct_answer: "They Went That-a-Way",
     incorrect_answers: [
       "Come Fly With Me",
@@ -5658,7 +5658,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What household item make the characters of &quot;Steins; Gate&quot; travel through time?",
+      "What household item make the characters of 'Steins; Gate' travel through time?",
     correct_answer: "Microwave",
     incorrect_answers: ["Computer", "Refrigerator", "Televison"]
   },
@@ -5688,7 +5688,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many different notes is the tune, &quot;Song of Healing&quot;, comprised of in &quot;The Legend of Zelda: Majora's Mask&quot;?",
+      "How many different notes is the tune, 'Song of Healing', comprised of in 'The Legend of Zelda: Majora's Mask'?",
     correct_answer: "3",
     incorrect_answers: ["4", "1", "6"]
   },
@@ -5697,7 +5697,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game &quot;Red Dead Redemption&quot;, what is the name of John Marston's dog?",
+      "In the game 'Red Dead Redemption', what is the name of John Marston's dog?",
     correct_answer: "Rufus",
     incorrect_answers: ["Rutus", "Finn", "Apollo"]
   },
@@ -5706,7 +5706,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who created the indie adventure game &quot;Night in the Woods&quot;?",
+      "Who created the indie adventure game 'Night in the Woods'?",
     correct_answer: "Alec Holowka",
     incorrect_answers: ["Ron Gilbert", "Tim Schafer", "Tommy Refenes"]
   },
@@ -5715,7 +5715,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the first level in &quot;Call of Duty: World at War&quot;?",
+      "What is the name of the first level in 'Call of Duty: World at War'?",
     correct_answer: "Semper Fi",
     incorrect_answers: ["Ring of Steel", "Vendetta", "Eviction"]
   },
@@ -5724,7 +5724,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, which map's opening cutscene shows &quot;Richtofen&quot; killing another version of himself?",
+      "In 'Call Of Duty: Zombies', which map's opening cutscene shows 'Richtofen' killing another version of himself?",
     correct_answer: "The Giant",
     incorrect_answers: ["Shadows Of Evil", "Der Eisendrache", "Moon"]
   },
@@ -5733,7 +5733,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these is not a wonder weapon in &quot;Call Of Duty: Zombies&quot;?",
+      "Which of these is not a wonder weapon in 'Call Of Duty: Zombies'?",
     correct_answer: "R115 Resonator",
     incorrect_answers: ["GKZ-45 Mk3", "Ray Gun", "Scavenger"]
   },
@@ -5742,7 +5742,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, which map features the &quot;Fly Trap&quot; easter egg?",
+      "In 'Call Of Duty: Zombies', which map features the 'Fly Trap' easter egg?",
     correct_answer: "Der Riese",
     incorrect_answers: ["Tranzit", "Call Of The Dead", "Shi No Numa"]
   },
@@ -5751,7 +5751,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, which map introduced the perk &quot;PhD Flopper&quot;?",
+      "In 'Call Of Duty: Zombies', which map introduced the perk 'PhD Flopper'?",
     correct_answer: "Ascension",
     incorrect_answers: ["Moon", "Call Of The Dead", "Die Rise"]
   },
@@ -5760,7 +5760,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is the only fighter in the game &quot;Super Smash Bros. Melee&quot; capable of dealing damage with their taunt animation?",
+      "Which of these is the only fighter in the game 'Super Smash Bros. Melee' capable of dealing damage with their taunt animation?",
     correct_answer: "Luigi",
     incorrect_answers: ["Mr. Game & Watch", "Jigglypuff", "Pichu"]
   },
@@ -5769,7 +5769,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Telltale Games' &quot;The Walking Dead: Season One&quot; what is the name of Clementine's father?",
+      "In Telltale Games' 'The Walking Dead: Season One' what is the name of Clementine's father?",
     correct_answer: "Ed",
     incorrect_answers: ["Charles", "Lee", "Walter"]
   },
@@ -5845,7 +5845,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "The Internet Meme &quot;All your base are belong to us&quot; is based on the poorly translated English Version of which Video Game?",
+      "The Internet Meme 'All your base are belong to us' is based on the poorly translated English Version of which Video Game?",
     correct_answer: "Zero Wing",
     incorrect_answers: ["F-Zero", "Wing Commander", "Star Wars: X-Wing"]
   },
@@ -5863,7 +5863,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who is the protagonist in the game &quot;The Walking Dead: Season One&quot;?",
+      "Who is the protagonist in the game 'The Walking Dead: Season One'?",
     correct_answer: "Lee Everett",
     incorrect_answers: ["Clementine", "Kenny", "Rick Grimes"]
   },
@@ -5872,7 +5872,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "If a &quot;360 no-scope&quot; is one full rotation before shooting, how many rotations would a &quot;1080 no-scope&quot; be?",
+      "If a '360 no-scope' is one full rotation before shooting, how many rotations would a '1080 no-scope' be?",
     correct_answer: "3",
     incorrect_answers: ["4", "2", "5"]
   },
@@ -5881,7 +5881,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these levels does NOT appear in the console/PC versions of the game &quot;Sonic Generations&quot;?",
+      "Which of these levels does NOT appear in the console/PC versions of the game 'Sonic Generations'?",
     correct_answer: "Mushroom Hill",
     incorrect_answers: ["City Escape", "Planet Wisp", "Sky Sanctuary"]
   },
@@ -5912,7 +5912,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The rights to the &quot;Rayman&quot; series are owned by which company?",
+      "The rights to the 'Rayman' series are owned by which company?",
     correct_answer: "Ubisoft",
     incorrect_answers: ["Nintendo", "EA", "Sony"]
   },
@@ -5921,7 +5921,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game series &quot;The Legend of Zelda&quot;, what was the first 3D game?",
+      "In the game series 'The Legend of Zelda', what was the first 3D game?",
     correct_answer: "Ocarina of Time",
     incorrect_answers: [
       "Majora's Mask",
@@ -5934,7 +5934,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Sonic the Hedgehog 3&quot; for the Sega Genesis, what is the color of the second Chaos Emerald you can get from Special Stages?",
+      "In 'Sonic the Hedgehog 3' for the Sega Genesis, what is the color of the second Chaos Emerald you can get from Special Stages?",
     correct_answer: "Orange",
     incorrect_answers: ["Blue", "Green", "Magenta"]
   },
@@ -5942,7 +5942,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Who is the main character of &quot;Metal Gear Solid 3&quot;?",
+    question: "Who is the main character of 'Metal Gear Solid 3'?",
     correct_answer: "Naked Snake",
     incorrect_answers: ["Solid Snake", "Liquid Snake", "Venom Snake"]
   },
@@ -5985,19 +5985,19 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the game &quot;Overwatch,&quot; which quote does the hero &quot;McCree&quot; NOT say upon using his flashbang ability?",
-    correct_answer: "&quot;You done?&quot;",
+      "In the game 'Overwatch,' which quote does the hero 'McCree' NOT say upon using his flashbang ability?",
+    correct_answer: "'You done?'",
     incorrect_answers: [
-      "&quot;Whoa there.&quot;",
-      "&quot;Hold up now.&quot;",
-      "&quot;Don't move.&quot;"
+      "'Whoa there.'",
+      "'Hold up now.'",
+      "'Don't move.'"
     ]
   },
   {
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which company made the Japanese RPG &quot;Dragon Quest&quot;?",
+    question: "Which company made the Japanese RPG 'Dragon Quest'?",
     correct_answer: "Square Enix",
     incorrect_answers: ["Capcom", "Konami", "Blizzard"]
   },
@@ -6014,7 +6014,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What was Frank West's job in &quot;Dead Rising&quot;?",
+    question: "What was Frank West's job in 'Dead Rising'?",
     correct_answer: "Photojournalist",
     incorrect_answers: ["Janitor", "Chef", "Taxi Driver"]
   },
@@ -6048,7 +6048,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Hitman: Blood Money, what is the name of the target in the mission &quot;Death of a Showman&quot;?",
+      "In Hitman: Blood Money, what is the name of the target in the mission 'Death of a Showman'?",
     correct_answer: "Joseph Clarence",
     incorrect_answers: ["The Swing King", "Maynard John", "Manuel Delgado"]
   },
@@ -6107,7 +6107,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "The 'D' in the term &quot;D-Mail&quot; from the game &quot;Steins; Gate&quot; is short for what?",
+      "The 'D' in the term 'D-Mail' from the game 'Steins; Gate' is short for what?",
     correct_answer: "DeLorean",
     incorrect_answers: ["Deep", "Demo", "Dev"]
   },
@@ -6124,7 +6124,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the creature that the main character befriends in &quot;The Last Guardian&quot;?",
+      "What is the name of the creature that the main character befriends in 'The Last Guardian'?",
     correct_answer: "Trico",
     incorrect_answers: ["Nico", "Wolf", "Andazi"]
   },
@@ -6133,7 +6133,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Devil May Cry&quot; franchise, which game is chronologically first?",
+      "In the 'Devil May Cry' franchise, which game is chronologically first?",
     correct_answer: "Devil May Cry 3: Dante's Awakening ",
     incorrect_answers: ["Devil May Cry 4", "Devil May Cry", "Devil May Cry 2"]
   },
@@ -6150,7 +6150,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, what is the name of Samantha Maxis' dog?",
+      "In 'Call Of Duty: Zombies', what is the name of Samantha Maxis' dog?",
     correct_answer: "Fluffy",
     incorrect_answers: ["Baxter", "Fido", "Henry"]
   },
@@ -6159,7 +6159,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, what does the game traditionally reward you for completing a boss round?",
+      "In 'Call Of Duty: Zombies', what does the game traditionally reward you for completing a boss round?",
     correct_answer: "Max Ammo",
     incorrect_answers: ["A Pack-A-Punched gun", "Death Machine", "Monkey Bombs"]
   },
@@ -6168,7 +6168,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, completing which map's main easter egg will reward you with the achievement, &quot;High Maintenance&quot;?",
+      "In 'Call Of Duty: Zombies', completing which map's main easter egg will reward you with the achievement, 'High Maintenance'?",
     correct_answer: "Die Rise",
     incorrect_answers: ["Mob Of The Dead", "Origins", "Ascension"]
   },
@@ -6177,7 +6177,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Magicka&quot;, which two elements are combined to cast the spell, &quot;Nullify&quot;?",
+      "In 'Magicka', which two elements are combined to cast the spell, 'Nullify'?",
     correct_answer: "Arcane + Shield",
     incorrect_answers: [
       "Lightning + Shield",
@@ -6199,7 +6199,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Team Fortress 2&quot;, how much health does a scout have when overhealed?",
+      "In 'Team Fortress 2', how much health does a scout have when overhealed?",
     correct_answer: "185",
     incorrect_answers: ["215", "195", "225"]
   },
@@ -6208,7 +6208,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What military rank is the protagonist &quot;Nomad&quot; in &quot;Crysis&quot;?",
+      "What military rank is the protagonist 'Nomad' in 'Crysis'?",
     correct_answer: "First Lieutenant",
     incorrect_answers: ["Captain", "First Sargent ", "Staff Sargent"]
   },
@@ -6269,7 +6269,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Who created Agent 47 in the game series &quot;Hitman&quot;?",
+    question: "Who created Agent 47 in the game series 'Hitman'?",
     correct_answer: "Dr. Otto Wolfgang Ort-Meyer",
     incorrect_answers: [
       "Professor Hertz Amadeus Schneider",
@@ -6291,7 +6291,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What's the name of the main protagonist in the &quot;Legend of Zelda&quot; franchise?",
+      "What's the name of the main protagonist in the 'Legend of Zelda' franchise?",
     correct_answer: "Link",
     incorrect_answers: ["Mario", "Zelda", "Pit"]
   },
@@ -6360,7 +6360,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these features was added in the 1994 game &quot;Heretic&quot; that the original &quot;DOOM&quot; could not add due to limitations?",
+      "Which of these features was added in the 1994 game 'Heretic' that the original 'DOOM' could not add due to limitations?",
     correct_answer: "Looking up and down",
     incorrect_answers: [
       "Increased room sizes",
@@ -6373,7 +6373,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Excluding their instructor, how many members of Class VII are there in the game &quot;Legend of Heroes: Trails of Cold Steel&quot;?",
+      "Excluding their instructor, how many members of Class VII are there in the game 'Legend of Heroes: Trails of Cold Steel'?",
     correct_answer: "9",
     incorrect_answers: ["6", "10", "3"]
   },
@@ -6390,7 +6390,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "hard",
-    question: "What is the main theme song of &quot;Sonic Adventure 2&quot;?",
+    question: "What is the main theme song of 'Sonic Adventure 2'?",
     correct_answer: "Live and Learn",
     incorrect_answers: [
       "Open Your Heart",
@@ -6403,7 +6403,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In what year was &quot;Metal Gear Solid&quot; released in North America?",
+      "In what year was 'Metal Gear Solid' released in North America?",
     correct_answer: "1998",
     incorrect_answers: ["1987", "2001", "2004"]
   },
@@ -6437,7 +6437,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Who is the founder of Team Fortress 2's fictional company &quot;Mann Co&quot;?",
+      "Who is the founder of Team Fortress 2's fictional company 'Mann Co'?",
     correct_answer: "Zepheniah Mann",
     incorrect_answers: ["Cave Johnson", "Wallace Breem", "Saxton Hale"]
   },
@@ -6463,7 +6463,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of these is NOT a possible drink to be made in the game &quot;VA-11 HALL-A: Cyberpunk Bartender Action&quot;?",
+      "Which of these is NOT a possible drink to be made in the game 'VA-11 HALL-A: Cyberpunk Bartender Action'?",
     correct_answer: "Sour Appletini",
     incorrect_answers: ["Fringe Weaver", "Piano Man", "Bad Touch"]
   },
@@ -6472,7 +6472,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of the following is NOT a summon in the game &quot;South Park: The Stick of Truth&quot;?",
+      "Which of the following is NOT a summon in the game 'South Park: The Stick of Truth'?",
     correct_answer: "Towelie",
     incorrect_answers: ["Jesus", "Mr. Hankey", "Mr. Slave"]
   },
@@ -6498,7 +6498,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Monster Hunter Generations, which of the following monsters are a part of the &quot;Fated Four&quot;?",
+      "In Monster Hunter Generations, which of the following monsters are a part of the 'Fated Four'?",
     correct_answer: "Astalos",
     incorrect_answers: ["Gore Magala", "Malfestio", "Arzuros"]
   },
@@ -6551,7 +6551,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which Elite Four member from the first generation of Pok&eacute;mon became the champion in the next generation?",
+      "Which Elite Four member from the first generation of Pokemon became the champion in the next generation?",
     correct_answer: "Lance",
     incorrect_answers: ["Agatha", "Bruno", "Lorelei"]
   },
@@ -6572,7 +6572,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In what year was the game &quot;FTL: Faster Than Light&quot; released?",
+      "In what year was the game 'FTL: Faster Than Light' released?",
     correct_answer: "2012",
     incorrect_answers: ["2014", "2013", "2011"]
   },
@@ -6581,7 +6581,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In &quot;Mario & Sonic at the Olympic Games&quot;, characters are split into how many types?",
+      "In 'Mario & Sonic at the Olympic Games', characters are split into how many types?",
     correct_answer: "4",
     incorrect_answers: ["6", "5", "3"]
   },
@@ -6590,7 +6590,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the world that the MMO &quot;RuneScape&quot; takes place in?",
+      "What is the name of the world that the MMO 'RuneScape' takes place in?",
     correct_answer: "Gielinor",
     incorrect_answers: ["Glindor", "Azeroth", "Zaros"]
   },
@@ -6598,7 +6598,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "In what year was &quot;Super Mario Sunshine&quot; released?",
+    question: "In what year was 'Super Mario Sunshine' released?",
     correct_answer: "2002",
     incorrect_answers: ["2003", "2000", "2004"]
   },
@@ -6628,7 +6628,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Little Lost Girl&quot; Easter Egg in Call of Duty: Black Ops II, what's the last step required for the achievement?",
+      "In the 'Little Lost Girl' Easter Egg in Call of Duty: Black Ops II, what's the last step required for the achievement?",
     correct_answer: "Raise Hell",
     incorrect_answers: [
       "Freedom",
@@ -6641,7 +6641,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Sean Bean voices the character of &quot;Martin Septim&quot; in which Elder Scrolls game?",
+      "Sean Bean voices the character of 'Martin Septim' in which Elder Scrolls game?",
     correct_answer: "The Elder Scrolls IV: Oblivion",
     incorrect_answers: [
       "The Elder Scrolls V: Skyrim",
@@ -6654,7 +6654,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many unique items does &quot;Borderlands 2&quot; claim to have?",
+      "How many unique items does 'Borderlands 2' claim to have?",
     correct_answer: "87 Bazillion ",
     incorrect_answers: ["87 Million", "87 Trillion", "87 Gazillion "]
   },
@@ -6663,7 +6663,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which &quot;Call Of Duty: Zombies&quot; map introduced the &quot;Staffs Of The Ancients&quot;?",
+      "Which 'Call Of Duty: Zombies' map introduced the 'Staffs Of The Ancients'?",
     correct_answer: "Origins",
     incorrect_answers: ["Shangri-La", "Revelations", "Nuketown"]
   },
@@ -6672,7 +6672,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the first boss the player encounters in the 2017 game, &quot;Little Nightmares&quot;?",
+      "What is the name of the first boss the player encounters in the 2017 game, 'Little Nightmares'?",
     correct_answer: "The Janitor",
     incorrect_answers: ["The Warden", "The Caretaker", "The Overseer"]
   },
@@ -6680,7 +6680,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What was the release date of &quot;Grand Theft Auto IV&quot;?",
+    question: "What was the release date of 'Grand Theft Auto IV'?",
     correct_answer: "April 29, 2008",
     incorrect_answers: ["May 21, 2009", "June 22, 2010", "July 28, 2008"]
   },
@@ -6748,7 +6748,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What Pok&eacute;mon's Base Stat Total does not change when it evolves?",
+      "What Pokemon's Base Stat Total does not change when it evolves?",
     correct_answer: "Scyther",
     incorrect_answers: ["Pikachu", "Sneasel", "Larvesta"]
   },
@@ -6758,7 +6758,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Halo&quot; franchise, in what country is New Mombasa?",
+      "In the 'Halo' franchise, in what country is New Mombasa?",
     correct_answer: "Kenya",
     incorrect_answers: ["India", "Turkey", "Slovakia"]
   },
@@ -6806,7 +6806,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Who is the villain company in &quot;Stardew Valley&quot;?",
+    question: "Who is the villain company in 'Stardew Valley'?",
     correct_answer: "Joja Co ",
     incorrect_answers: ["Ronin", "Empire", "Robotnik Industry's "]
   },
@@ -6824,7 +6824,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the Gamecube Version of &quot;Resident Evil&quot; what text document is open on the monitor of the computer in the Visual Data Room?",
+      "In the Gamecube Version of 'Resident Evil' what text document is open on the monitor of the computer in the Visual Data Room?",
     correct_answer: "A GDC Document",
     incorrect_answers: [
       "Text Document on Herbs",
@@ -6837,7 +6837,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these is NOT a team available in the game Pok&eacute;mon Go?",
+      "Which of these is NOT a team available in the game Pokemon Go?",
     correct_answer: "Team Rocket",
     incorrect_answers: ["Team Instinct", "Team Valor", "Team Mystic"]
   },
@@ -6886,12 +6886,12 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Overwatch,&quot; what is the hero McCree's full name?",
+      "In 'Overwatch,' what is the hero McCree's full name?",
     correct_answer: "Jesse McCree",
     incorrect_answers: [
-      "Jack &quot;McCree&quot; Morrison",
+      "Jack 'McCree' Morrison",
       "Gabriel Reyes",
-      "Jamison &quot;Deadeye&quot; Fawkes"
+      "Jamison 'Deadeye' Fawkes"
     ]
   },
   {
@@ -6899,7 +6899,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the protagonist of the videogame &quot;Dead Rising 2&quot;?",
+      "Who is the protagonist of the videogame 'Dead Rising 2'?",
     correct_answer: "Chuck Greene",
     incorrect_answers: ["Nick Ramos", "Frank West", "Katie Greene"]
   },
@@ -6916,7 +6916,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Who created the 2011 Video Game &quot;Minecraft&quot;?",
+    question: "Who created the 2011 Video Game 'Minecraft'?",
     correct_answer: "Markus Persson",
     incorrect_answers: ["Jens Bergensten", "Daniel Rosenfeld", "Carl Manneh"]
   },
@@ -6933,7 +6933,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Who is the leader of Team Valor in Pok&eacute;mon Go?",
+    question: "Who is the leader of Team Valor in Pokemon Go?",
     correct_answer: "Candela",
     incorrect_answers: ["Willow", "Blanche", "Spark"]
   },
@@ -6983,7 +6983,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these songs does NOT play during the Ruins segments of the 2015 game &quot;Undertale&quot;?",
+      "Which of these songs does NOT play during the Ruins segments of the 2015 game 'Undertale'?",
     correct_answer: "Another Medium",
     incorrect_answers: ["Anticipation", "Unnecessary Tension", "Ruins"]
   },
@@ -7001,7 +7001,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into &quot;Super Smash Bros.&quot;?",
+      "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into 'Super Smash Bros.'?",
     correct_answer: "Dragon King: The Fighting Game",
     incorrect_answers: [
       "Nintendo Legends: Fight!",
@@ -7013,7 +7013,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which of the following is not a real Pok&eacute;mon?",
+    question: "Which of the following is not a real Pokemon?",
     correct_answer: "Luminid",
     incorrect_answers: ["Dragalge", "Mandibuzz", "Araquanid"]
   },
@@ -7052,7 +7052,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which German city does the map &quot;Clubhouse&quot; in &quot;Tom Clancy's Rainbow Six Siege&quot; take place in?",
+      "Which German city does the map 'Clubhouse' in 'Tom Clancy's Rainbow Six Siege' take place in?",
     correct_answer: "Hannover",
     incorrect_answers: ["Berlin", "Hamburg", "Munich"]
   },
@@ -7061,7 +7061,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game &quot;Brawlhalla&quot;, what species is the character B&ouml;dvar is?",
+      "In the game 'Brawlhalla', what species is the character Bodvar is?",
     correct_answer: "Half Human / Half Bear",
     incorrect_answers: [
       "A Human",
@@ -7074,7 +7074,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which location does Dark Sun Gwyndolin reside in &quot;Dark Souls&quot;?",
+      "In which location does Dark Sun Gwyndolin reside in 'Dark Souls'?",
     correct_answer: "Anor Londo",
     incorrect_answers: [
       "Firelink Shrine",
@@ -7087,7 +7087,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How much did the indie game &quot;Cave Story&quot; cost when it was first released in 2004?",
+      "How much did the indie game 'Cave Story' cost when it was first released in 2004?",
     correct_answer: "$0 USD",
     incorrect_answers: ["$5 USD", "$10 USD", "$15 USD"]
   },
@@ -7096,7 +7096,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Starbound&quot;, what is the max HP of the monster &quot;Punchy&quot;?",
+      "In 'Starbound', what is the max HP of the monster 'Punchy'?",
     correct_answer: "50,000 HP",
     incorrect_answers: ["9,000,000 HP", "100 HP", "150,000 HP"]
   },
@@ -7105,7 +7105,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is not a playable race in &quot;Final Fantasy XIV: A Realm Reborn&quot;?",
+      "What is not a playable race in 'Final Fantasy XIV: A Realm Reborn'?",
     correct_answer: "Hume",
     incorrect_answers: ["Miqo'te", "Lalafell", "Roegadyn"]
   },
@@ -7114,7 +7114,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, what is the name of the machine that upgrades weapons?",
+      "In 'Call Of Duty: Zombies', what is the name of the machine that upgrades weapons?",
     correct_answer: "Pack-A-Punch",
     incorrect_answers: ["Wunderfizz", "Gersch Device", "Mule Kick"]
   },
@@ -7123,7 +7123,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, which weapon does NOT deal any damage?",
+      "In 'Call Of Duty: Zombies', which weapon does NOT deal any damage?",
     correct_answer: "31-79 JGb215",
     incorrect_answers: ["Sliquifier", "V-R11", "Wunderwaffe DG-2"]
   },
@@ -7131,7 +7131,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "In which mall does &quot;Dead Rising&quot; take place?",
+    question: "In which mall does 'Dead Rising' take place?",
     correct_answer: "Willamette Parkview Mall",
     incorrect_answers: [
       "Liberty Mall",
@@ -7144,7 +7144,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which character does the player play as in the video game &quot;Bastion&quot;?",
+      "Which character does the player play as in the video game 'Bastion'?",
     correct_answer: "The Kid",
     incorrect_answers: ["Rucks", "Zulf", "Zia"]
   },
@@ -7153,7 +7153,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the protagonist's first Persona in &quot;Persona 5&quot;?",
+      "What is the name of the protagonist's first Persona in 'Persona 5'?",
     correct_answer: "Arsene",
     incorrect_answers: ["Mara", "Izanagi", "Sandaphlon"]
   },
@@ -7162,7 +7162,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Resident Evil 2&quot;, what is Leon Kennedy's middle name?",
+      "In 'Resident Evil 2', what is Leon Kennedy's middle name?",
     correct_answer: "Scott",
     incorrect_answers: ["Shaun", "Simon", "Sam"]
   },
@@ -7210,7 +7210,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which pop singer was brought in by SEGA to produce the music for &quot;Sonic the Hedgehog 3&quot;?",
+      "Which pop singer was brought in by SEGA to produce the music for 'Sonic the Hedgehog 3'?",
     correct_answer: "Michael Jackson ",
     incorrect_answers: ["Prince", "George Michael", "Vanilla Ice "]
   },
@@ -7219,7 +7219,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In the &quot;Hitman&quot; series, what is the name of the main character?",
+      "In the 'Hitman' series, what is the name of the main character?",
     correct_answer: "Agent 47",
     incorrect_answers: ["Agent 27", "Agent Smith", "Agent 67"]
   },
@@ -7227,7 +7227,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What was the first game in the &quot;Battlefield&quot; series?",
+    question: "What was the first game in the 'Battlefield' series?",
     correct_answer: "Battlefield 1942",
     incorrect_answers: ["Battlefield Vietnam", "Battlefield 2", "Battlefield 1"]
   },
@@ -7236,7 +7236,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Which Greek letter represents the &quot;Half-Life&quot; logo?",
+    question: "Which Greek letter represents the 'Half-Life' logo?",
     correct_answer: "Lambda",
     incorrect_answers: ["Omega", "Alpha", "Sigma"]
   },
@@ -7261,7 +7261,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Which character is from &quot;Splatoon&quot;?",
+    question: "Which character is from 'Splatoon'?",
     correct_answer: "Marie",
     incorrect_answers: ["Cyrus", "Palutena", "Shulk"]
   },
@@ -7287,7 +7287,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What is Pikachu's National Pok&eacute;Dex Number?",
+    question: "What is Pikachu's National PokeDex Number?",
     correct_answer: "#025",
     incorrect_answers: ["#001", "#031", "#109"]
   },
@@ -7322,7 +7322,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which order do you need to hit some Deku Scrubs to open the first boss door in &quot;Ocarina of Time&quot;?",
+      "In which order do you need to hit some Deku Scrubs to open the first boss door in 'Ocarina of Time'?",
     correct_answer: "2, 3, 1",
     incorrect_answers: ["1, 2, 3", "1, 3, 2", "2, 1, 3"]
   },
@@ -7338,7 +7338,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Who voices Max Payne in the 2001 game &quot;Max Payne&quot;?",
+    question: "Who voices Max Payne in the 2001 game 'Max Payne'?",
     correct_answer: "James McCaffrey",
     incorrect_answers: ["Sam Lake", "Troy Baker", "Hideo Kojima"]
   },
@@ -7347,7 +7347,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the 2002 video game &quot;Kingdom Hearts&quot;, how many playable worlds were there?",
+      "In the 2002 video game 'Kingdom Hearts', how many playable worlds were there?",
     correct_answer: "14",
     incorrect_answers: ["13", "16", "11"]
   },
@@ -7401,7 +7401,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is the name of a cut enemy from &quot;Half-Life 2&quot;?",
+      "Which of these is the name of a cut enemy from 'Half-Life 2'?",
     correct_answer: "Hydra",
     incorrect_answers: ["Cthulu", "Spike", "Tremor"]
   },
@@ -7418,7 +7418,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "How long was the World Record Speed Run of Valve Software's &quot;Half-Life&quot; that was done in 2014.",
+      "How long was the World Record Speed Run of Valve Software's 'Half-Life' that was done in 2014.",
     correct_answer: "20 Minutes, 41 Seconds",
     incorrect_answers: [
       "45 Minutes, 32 Seconds",
@@ -7447,7 +7447,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Fallout 4, which type of power armor is first encountered in the early mission &quot;When Freedom Calls&quot; in a crashed Vertibird?",
+      "In Fallout 4, which type of power armor is first encountered in the early mission 'When Freedom Calls' in a crashed Vertibird?",
     correct_answer: "T-45",
     incorrect_answers: ["T-51", "T-60", "X-01"]
   },
@@ -7455,7 +7455,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Who is the leader of Team Mystic in Pok&eacute;mon Go?",
+    question: "Who is the leader of Team Mystic in Pokemon Go?",
     correct_answer: "Blanche",
     incorrect_answers: ["Candela", "Spark", "Willow"]
   },
@@ -7495,7 +7495,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the name of the main character in &quot;Life is Strange&quot;?",
+      "What is the name of the main character in 'Life is Strange'?",
     correct_answer: "Maxine Caulfield",
     incorrect_answers: ["Victoria Chase", "Stella Hill", "Chloe Price"]
   },
@@ -7504,7 +7504,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which Pokemon generation did the fan-named &quot;Masuda Method&quot; first appear in? ",
+      "Which Pokemon generation did the fan-named 'Masuda Method' first appear in? ",
     correct_answer: "Diamond/Pearl",
     incorrect_answers: ["Ruby/Sapphire", "Black/White", "X/Y"]
   },
@@ -7522,7 +7522,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game &quot;Persona 4&quot;, what is the canonical name of the protagonist?",
+      "In the game 'Persona 4', what is the canonical name of the protagonist?",
     correct_answer: "Yu Narukami",
     incorrect_answers: ["Chino Mashido", "Tunki Sunada", "Masaki Narinaka"]
   },
@@ -7586,7 +7586,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of the following names is the &quot;Mega Man&quot; Franchise known as in Japan?",
+      "Which of the following names is the 'Mega Man' Franchise known as in Japan?",
     correct_answer: "Rockman",
     incorrect_answers: ["Paperman", "Scissorsman", "Mega Man"]
   },
@@ -7595,7 +7595,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the real name of the Scout in &quot;Team Fortress 2&quot;?",
+      "What is the real name of the Scout in 'Team Fortress 2'?",
     correct_answer: "Jeremy",
     incorrect_answers: ["Lance", "Walter", "John"]
   },
@@ -7604,7 +7604,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many regular Sunken Sea Scrolls are there in &quot;Splatoon&quot;?",
+      "How many regular Sunken Sea Scrolls are there in 'Splatoon'?",
     correct_answer: "27",
     incorrect_answers: ["32", "30", "5"]
   },
@@ -7613,7 +7613,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which town was Seamus &quot;Sledge&quot; Cowden from &quot;Tom Clancy's Rainbow Six Siege&quot; born in?",
+      "Which town was Seamus 'Sledge' Cowden from 'Tom Clancy's Rainbow Six Siege' born in?",
     correct_answer: "John O'Groats",
     incorrect_answers: ["Brawl", "Kearvaig", "Talmine"]
   },
@@ -7621,7 +7621,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "What was the first weapon pack for &quot;PAYDAY 2&quot;?",
+    question: "What was the first weapon pack for 'PAYDAY 2'?",
     correct_answer: "The Gage Weapon Pack #1",
     incorrect_answers: [
       "The Overkill Pack",
@@ -7634,7 +7634,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the game Pok&eacute;mon Conquest, how many kingdoms make up the region of Ransei?",
+      "In the game Pokemon Conquest, how many kingdoms make up the region of Ransei?",
     correct_answer: "17",
     incorrect_answers: ["18", "15", "16"]
   },
@@ -7643,7 +7643,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Halo&quot; series, what is the name of the race of aliens humans refer to as &quot;Grunts&quot;?",
+      "In the 'Halo' series, what is the name of the race of aliens humans refer to as 'Grunts'?",
     correct_answer: "Unggoy",
     incorrect_answers: ["Huragok", "Sangheili", "Yanme'e"]
   },
@@ -7652,7 +7652,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the &quot;Ace Attorney&quot; series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
+      "In the 'Ace Attorney' series, who was the truly responsible of the forging of the autopsy report of the pivotal IS-7 incident?",
     correct_answer: "Bansai Ichiyanagi",
     incorrect_answers: [
       "Manfred Von Karma",
@@ -7664,7 +7664,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What were the first two blocks in &quot;Minecraft&quot;?",
+    question: "What were the first two blocks in 'Minecraft'?",
     correct_answer: "Grass and Cobblestone",
     incorrect_answers: [
       "Grass and Stone",
@@ -7696,7 +7696,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which franchise does the creature &quot;Slowpoke&quot; originate from?",
+      "Which franchise does the creature 'Slowpoke' originate from?",
     correct_answer: "Pokemon",
     incorrect_answers: ["Dragon Ball", "Sonic The Hedgehog", "Yugioh"]
   },
@@ -7704,7 +7704,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "Who is the main character in &quot;The Stanley Parable&quot;?",
+    question: "Who is the main character in 'The Stanley Parable'?",
     correct_answer: "Stanley",
     incorrect_answers: ["The Adventure Line", "The Narrator", "The Boss"]
   },
@@ -7713,7 +7713,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the first &quot;Team Fortress 2&quot; update to include a war?",
+      "What was the first 'Team Fortress 2' update to include a war?",
     correct_answer: "Sniper vs. Spy Update",
     incorrect_answers: [
       "WAR! Update",
@@ -7725,7 +7725,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "When was &quot;Garry's Mod&quot; released?",
+    question: "When was 'Garry's Mod' released?",
     correct_answer: "December 24, 2004",
     incorrect_answers: [
       "November 13, 2004",
@@ -7759,7 +7759,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In what Half-Life expansion can you find Gordon's picture in an &quot;Employee of the Month&quot; picture frame?",
+      "In what Half-Life expansion can you find Gordon's picture in an 'Employee of the Month' picture frame?",
     correct_answer: "Half-Life: Opposing Force",
     incorrect_answers: [
       "Half-Life: Blue Shift",
@@ -7799,14 +7799,14 @@ const questions = [
     difficulty: "medium",
     question: "Who was the main antagonist of Max Payne 3 (2012)?",
     correct_answer: "Victor Branco",
-    incorrect_answers: ["&Aacute;lvaro Neves", "Armando Becker", "Milo Rego"]
+    incorrect_answers: ["alvaro Neves", "Armando Becker", "Milo Rego"]
   },
   {
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these is NOT a playable character in &quot;Left 4 Dead&quot;?",
+      "Which of these is NOT a playable character in 'Left 4 Dead'?",
     correct_answer: "Nick",
     incorrect_answers: ["Louis", "Zoey", "Bill"]
   },
@@ -7945,7 +7945,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of the following characters from the game &quot;Overwatch&quot; was revealed to be homosexual in December of 2016?",
+      "Which of the following characters from the game 'Overwatch' was revealed to be homosexual in December of 2016?",
     correct_answer: "Tracer",
     incorrect_answers: ["Widowmaker", "Sombra", "Symmetra"]
   },
@@ -7963,7 +7963,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which franchise was NOT featured in the 2015 video game &quot;Lego Dimensions&quot;?",
+      "Which franchise was NOT featured in the 2015 video game 'Lego Dimensions'?",
     correct_answer: "Breaking Bad",
     incorrect_answers: ["Portal", "Doctor Who", "Back to the Future"]
   },
@@ -7972,7 +7972,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The cake depicted in Valve's &quot;Portal&quot; franchise most closely resembles which real-world type of cake?",
+      "The cake depicted in Valve's 'Portal' franchise most closely resembles which real-world type of cake?",
     correct_answer: "Black Forest",
     incorrect_answers: [
       "Devil's Food",
@@ -8002,7 +8002,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "In &quot;Overwatch&quot;, which hero is able to wallride?",
+    question: "In 'Overwatch', which hero is able to wallride?",
     correct_answer: "Lucio",
     incorrect_answers: ["Reinhardt", "Sombra", "Mercy"]
   },
@@ -8011,7 +8011,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Call Of Duty: Zombies&quot; map &quot;Moon&quot;, there is a secondary called the QED. What does QED stand for?",
+      "In the 'Call Of Duty: Zombies' map 'Moon', there is a secondary called the QED. What does QED stand for?",
     correct_answer: "Quantum Entanglement Device",
     incorrect_answers: [
       "Quad Ectoplasmic Driver",
@@ -8024,7 +8024,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Call Of Duty: Zombies&quot; map &quot;Origins&quot;, how many steps are there to upgrade a Staff?",
+      "In the 'Call Of Duty: Zombies' map 'Origins', how many steps are there to upgrade a Staff?",
     correct_answer: "4",
     incorrect_answers: ["7", "5", "3"]
   },
@@ -8032,7 +8032,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "Who developed the 2016 farming RPG &quot;Stardew Valley&quot;?",
+    question: "Who developed the 2016 farming RPG 'Stardew Valley'?",
     correct_answer: "Eric Barone",
     incorrect_answers: ["Daisuke Amaya", "Jasper Byrne", "Lucas Pope"]
   },
@@ -8048,7 +8048,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "medium",
-    question: "What animal is featured in &quot;Bloons TD Battles&quot;?",
+    question: "What animal is featured in 'Bloons TD Battles'?",
     correct_answer: "Monkeys",
     incorrect_answers: ["Alligators", "Pigeons", "Lizards"]
   },
@@ -8057,7 +8057,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In what year was Pok&eacute;mon Diamond & Pearl released in Japan?",
+      "In what year was Pokemon Diamond & Pearl released in Japan?",
     correct_answer: "2006",
     incorrect_answers: ["2009", "2007", "2008"]
   },
@@ -8066,7 +8066,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of Joel's daughter in the game, &quot;The Last of Us&quot;? ",
+      "What is the name of Joel's daughter in the game, 'The Last of Us'? ",
     correct_answer: "Sarah",
     incorrect_answers: ["Ellie", "Tess", "Marlene"]
   },
@@ -8075,7 +8075,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;Portal&quot; series, who was Cave Johnson's personal assistant?",
+      "In the 'Portal' series, who was Cave Johnson's personal assistant?",
     correct_answer: "Caroline",
     incorrect_answers: ["Heather", "Melissa", "Jane"]
   },
@@ -8174,7 +8174,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which stage was planned to be a part of &quot;Sonic the Hedgehog 2&quot;, but was scrapped during development?",
+      "Which stage was planned to be a part of 'Sonic the Hedgehog 2', but was scrapped during development?",
     correct_answer: "Genocide City Zone",
     incorrect_answers: [
       "Stardust Speedway Zone",
@@ -8188,7 +8188,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What name did &quot;Mario&quot;, from &quot;Super Mario Brothers&quot;, originally have?",
+      "What name did 'Mario', from 'Super Mario Brothers', originally have?",
     correct_answer: "Ossan",
     incorrect_answers: ["Jumpman", "Mr. Video", "Mario"]
   },
@@ -8224,7 +8224,7 @@ const questions = [
     category: "Video Games",
     type: "multiple",
     difficulty: "easy",
-    question: "What's the famous line Vaas says in &quot;Far Cry 3&quot;?",
+    question: "What's the famous line Vaas says in 'Far Cry 3'?",
     correct_answer: "Did I ever tell you the definition of Insanity?",
     incorrect_answers: [
       "Have I failed to entertain you?",
@@ -8305,7 +8305,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many Star Spirits do you rescue in the Nintendo 64 video game &quot;Paper Mario&quot;?",
+      "How many Star Spirits do you rescue in the Nintendo 64 video game 'Paper Mario'?",
     correct_answer: "7",
     incorrect_answers: ["5", "10", "12"]
   },
@@ -8314,7 +8314,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these is NOT a main playable character in &quot;Grand Theft Auto V&quot;?",
+      "Which of these is NOT a main playable character in 'Grand Theft Auto V'?",
     correct_answer: "Lamar",
     incorrect_answers: ["Trevor", "Michael", "Franklin"]
   },
@@ -8341,7 +8341,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these weapons is NOT available to the Terrorist team in the game, &quot;Counter-Strike: Global Offensive&quot;?",
+      "Which of these weapons is NOT available to the Terrorist team in the game, 'Counter-Strike: Global Offensive'?",
     correct_answer: "SCAR-20",
     incorrect_answers: ["SG 550", "CZ-75", "XM1014"]
   },
@@ -8350,12 +8350,12 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Sonic the Hedgehog 2&quot; for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
+      "In 'Sonic the Hedgehog 2' for the Sega Genesis, what do you input in the sound test screen to access the secret level select?",
     correct_answer: "The Lead Programmer's birthday",
     incorrect_answers: [
-      "The first release date of &quot;Sonic the Hedgehog&quot;",
+      "The first release date of 'Sonic the Hedgehog'",
       "The date Sonic Team was founded",
-      "The first release date of &quot;Sonic the Hedgehog 2&quot;"
+      "The first release date of 'Sonic the Hedgehog 2'"
     ]
   },
   {
@@ -8405,7 +8405,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which musical artist was NOT featured as playable avatars in the game &quot;DJ Hero&quot;?",
+      "Which musical artist was NOT featured as playable avatars in the game 'DJ Hero'?",
     correct_answer: "Dr. Dre",
     incorrect_answers: ["DJ Shadow", "Daft Punk", "Grandmaster Flash"]
   },
@@ -8414,7 +8414,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What type of genre is the controversial 2015 game &quot;Hatred&quot;?",
+      "What type of genre is the controversial 2015 game 'Hatred'?",
     correct_answer: "Shoot 'Em Up",
     incorrect_answers: ["Point & Click", "MMORPG", "Simulation"]
   },
@@ -8478,7 +8478,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;Halo&quot;, what is the name of the planet which Installation 04 orbits?",
+      "In 'Halo', what is the name of the planet which Installation 04 orbits?",
     correct_answer: "Threshold",
     incorrect_answers: ["Substance", "Sanghelios", "Te"]
   },
@@ -8512,7 +8512,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of the following Copy Abilities was only featured in &quot;Kirby & The Amazing Mirror&quot;?",
+      "Which of the following Copy Abilities was only featured in 'Kirby & The Amazing Mirror'?",
     correct_answer: "Mini",
     incorrect_answers: ["Magic", "Smash", "Missile"]
   },
@@ -8521,7 +8521,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In &quot;Overwatch&quot;, how much health does Roadhog's &quot;Take a Breather&quot; ability recover?",
+      "In 'Overwatch', how much health does Roadhog's 'Take a Breather' ability recover?",
     correct_answer: "300",
     incorrect_answers: ["100", "200", "400"]
   },
@@ -8530,7 +8530,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these blocks in &quot;Minecraft&quot; has the lowest blast resistance?",
+      "Which of these blocks in 'Minecraft' has the lowest blast resistance?",
     correct_answer: "Sand",
     incorrect_answers: ["End Stone", "Water", "Wood Planks"]
   },
@@ -8539,7 +8539,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which game in the &quot;Monster Hunter&quot; series introduced the monster &quot;Gobul&quot;?",
+      "Which game in the 'Monster Hunter' series introduced the monster 'Gobul'?",
     correct_answer: "Monster Hunter Tri",
     incorrect_answers: [
       "Monster Hunter Freedom Unite",
@@ -8552,7 +8552,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these stages is not playable in &quot;Super Smash Bros. for Wii U&quot;?",
+      "Which of these stages is not playable in 'Super Smash Bros. for Wii U'?",
     correct_answer: "Fountain of Dreams",
     incorrect_answers: ["Bridge of Eldin", "75m", "Miiverse"]
   },
@@ -8561,7 +8561,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What programming language was used to create the game &quot;Minecraft&quot;?",
+      "What programming language was used to create the game 'Minecraft'?",
     correct_answer: "Java",
     incorrect_answers: ["HTML 5", "C++", "Python"]
   },
@@ -8570,7 +8570,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In &quot;Call Of Duty: Zombies&quot;, what is the name of the Pack-A-Punched Crossbow?",
+      "In 'Call Of Duty: Zombies', what is the name of the Pack-A-Punched Crossbow?",
     correct_answer: "Awful Lawton",
     incorrect_answers: ["Longinus", "V-R11", "Predator"]
   },
@@ -8579,7 +8579,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the main character in the video game &quot;Just Cause 3&quot;?",
+      "Who is the main character in the video game 'Just Cause 3'?",
     correct_answer: "Rico Rodriguez",
     incorrect_answers: ["Tom Sheldon", "Marcus Holloway", "Mario Frigo"]
   },
@@ -8588,7 +8588,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which character in the &quot;Animal Crossing&quot; series uses the phrase &quot;zip zoom&quot; when talking to the player?",
+      "Which character in the 'Animal Crossing' series uses the phrase 'zip zoom' when talking to the player?",
     correct_answer: "Scoot",
     incorrect_answers: ["Drake", "Bill", "Mallary"]
   },
@@ -8597,7 +8597,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In &quot;The Witness&quot;, how many lasers must be activated to get into the mountain area?",
+      "In 'The Witness', how many lasers must be activated to get into the mountain area?",
     correct_answer: "7",
     incorrect_answers: ["8", "5", "12"]
   },
@@ -8649,7 +8649,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the &quot;S.T.A.L.K.E.R.&quot; series, which of these items can't be used to lower the player's accumulated radiation?",
+      "In the 'S.T.A.L.K.E.R.' series, which of these items can't be used to lower the player's accumulated radiation?",
     correct_answer: "Radioprotectant",
     incorrect_answers: ["Anti-rad", "Medkit", "Vodka"]
   },
@@ -8693,7 +8693,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who wrote the musical composition, &quot;Rhapsody In Blue&quot;?",
+      "Who wrote the musical composition, 'Rhapsody In Blue'?",
     correct_answer: "George Gershwin",
     incorrect_answers: ["Irving Berlin", "Duke Ellington", "Johnny Mandel"]
   },
@@ -8701,7 +8701,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "hard",
-    question: "Who had a 1981 hit with the song &quot;Japanese Boy&quot;?",
+    question: "Who had a 1981 hit with the song 'Japanese Boy'?",
     correct_answer: "Aneka",
     incorrect_answers: ["Toyah", "Sandra", "Madonna"]
   },
@@ -8710,7 +8710,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which song in rapper Kanye West's album &quot;The Life of Pablo&quot; features Rihanna?",
+      "Which song in rapper Kanye West's album 'The Life of Pablo' features Rihanna?",
     correct_answer: "Famous",
     incorrect_answers: ["Wolves", "Ultralight Beam", "Highlights"]
   },
@@ -8719,7 +8719,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which M83 album is the song &quot;Midnight City&quot; featured in?",
+      "Which M83 album is the song 'Midnight City' featured in?",
     correct_answer: "Hurry Up, We're Dreaming",
     incorrect_answers: ["Saturdays = Youth", "Before the Dawn Heals Us", "Junk"]
   },
@@ -8728,7 +8728,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which famous rapper is featured in Jack &Uuml; (Skrillex and Diplo)'s 2015 single called &quot;Febreze&quot;?",
+      "Which famous rapper is featured in Jack u (Skrillex and Diplo)'s 2015 single called 'Febreze'?",
     correct_answer: "2 Chainz",
     incorrect_answers: ["Kendrick Lamar", "Future", "Fatman Scoop"]
   },
@@ -8750,7 +8750,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these languages was NOT included in the 2016 song &quot;Don't Mind&quot; by Kent Jones?",
+      "Which of these languages was NOT included in the 2016 song 'Don't Mind' by Kent Jones?",
     correct_answer: "Portuguese",
     incorrect_answers: ["Japanese", "French", "Spanish"]
   },
@@ -8759,7 +8759,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Finish these lyrics from the 2016 song &quot;Panda&quot; by Desiigner: &quot;I got broads in _______&quot;.",
+      "Finish these lyrics from the 2016 song 'Panda' by Desiigner: 'I got broads in _______'.",
     correct_answer: "Atlanta",
     incorrect_answers: ["Savannah", "Augusta", "Marietta"]
   },
@@ -8837,7 +8837,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which band released songs suchs as &quot;Rio&quot;, &quot;Girls on Film&quot;, and &quot;The Reflex&quot;?",
+      "Which band released songs suchs as 'Rio', 'Girls on Film', and 'The Reflex'?",
     correct_answer: "Duran Duran",
     incorrect_answers: ["The Cure", "New Order", "Depeche Mode"]
   },
@@ -8876,7 +8876,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The 2016 song &quot;Starboy&quot; by Canadian singer The Weeknd features which prominent electronic artist?",
+      "The 2016 song 'Starboy' by Canadian singer The Weeknd features which prominent electronic artist?",
     correct_answer: "Daft Punk",
     incorrect_answers: ["deadmau5", "Disclosure", "DJ Shadow"]
   },
@@ -8885,7 +8885,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "From which country did the song &quot;Gangnam Style&quot; originate from?",
+      "From which country did the song 'Gangnam Style' originate from?",
     correct_answer: "South Korea",
     incorrect_answers: ["Japan", "North Korea", "China"]
   },
@@ -8894,7 +8894,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the main character from the music video of &quot;Shelter&quot; by Porter Robinson and A-1 Studios?",
+      "What is the name of the main character from the music video of 'Shelter' by Porter Robinson and A-1 Studios?",
     correct_answer: "Rin",
     incorrect_answers: ["Rem", "Ren", "Ram"]
   },
@@ -8932,7 +8932,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "medium",
-    question: "&quot;Lift Your Spirit&quot; is an album by which artist?",
+    question: "'Lift Your Spirit' is an album by which artist?",
     correct_answer: "Aloe Blacc",
     incorrect_answers: ["Lena Meyer-Landrut", "Stevie Wonder", "Taylor Swift"]
   },
@@ -8960,7 +8960,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "easy",
-    question: "Who was featured in the song &quot;Words&quot; by Feint? ",
+    question: "Who was featured in the song 'Words' by Feint? ",
     correct_answer: "Laura Brehm",
     incorrect_answers: ["Anna Yvette ", "Danyka Nadeau", "Veela"]
   },
@@ -8969,7 +8969,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the name of the song by Beyonc&eacute; and Alejandro Fern&aacute;ndez released in 2007?",
+      "What is the name of the song by Beyonce and Alejandro Fernandez released in 2007?",
     correct_answer: "Amor Gitano",
     incorrect_answers: ["La ultima vez", "Rocket", "Hasta Dondes Estes"]
   },
@@ -8978,7 +8978,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The song &quot;Caramelldansen&quot; is commonly mistaken as a Japanese song, what language is the song actually sung in?",
+      "The song 'Caramelldansen' is commonly mistaken as a Japanese song, what language is the song actually sung in?",
     correct_answer: "Swedish",
     incorrect_answers: ["Hungarian", "Finnish", "Chinese"]
   },
@@ -8987,7 +8987,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "&quot;The Singing Cowboy&quot; Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
+      "'The Singing Cowboy' Gene Autry is credited with the first recording for all but which classic Christmas jingle?",
     correct_answer: "White Christmas",
     incorrect_answers: [
       "Frosty the Snowman",
@@ -9000,7 +9000,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these songs is not on the &quot;untitled&quot; album by Led Zeppelin?",
+      "Which of these songs is not on the 'untitled' album by Led Zeppelin?",
     correct_answer: "Celebration Day",
     incorrect_answers: ["Stairway to Heaven", "Black Dog", "Rock and Roll"]
   },
@@ -9017,12 +9017,12 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "hard",
-    question: "Who is a pioneer of &quot;Minimal Music&quot; in 1960s?",
+    question: "Who is a pioneer of 'Minimal Music' in 1960s?",
     correct_answer: "Steve Reich",
     incorrect_answers: [
       "Wolfgang Amadeus Mozart",
       "Brian Eno",
-      "Sigur R&oacute;s"
+      "Sigur Ros"
     ]
   },
   {
@@ -9030,7 +9030,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the vocalist and frontman of rock band &quot;Guns N' Roses&quot;?",
+      "Who is the vocalist and frontman of rock band 'Guns N' Roses'?",
     correct_answer: "Axl Rose",
     incorrect_answers: ["Kurt Cobain", "Slash", "Bono"]
   },
@@ -9039,7 +9039,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which rock band released the album &quot;The Bends&quot; in March 1995?",
+      "Which rock band released the album 'The Bends' in March 1995?",
     correct_answer: "Radiohead",
     incorrect_answers: ["Nirvana", "Coldplay", "U2"]
   },
@@ -9048,7 +9048,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which former boy-band star released hit solo single &quot;Angels&quot; in 1997?",
+      "Which former boy-band star released hit solo single 'Angels' in 1997?",
     correct_answer: "Robbie Williams",
     incorrect_answers: ["Justin Timberlake", "Harry Styles", "Gary Barlow"]
   },
@@ -9074,7 +9074,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, &quot;DAMN.&quot;?",
+      "Which of these bands was a featuring artist in Compton rapper Kendrick Lamar's 2017 album, 'DAMN.'?",
     correct_answer: "U2",
     incorrect_answers: ["Radiohead", "Coldplay", "Bon Jovi"]
   },
@@ -9083,7 +9083,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which artist or group did John Lennon consider &quot;son(s) of the Beatles&quot;?",
+      "Which artist or group did John Lennon consider 'son(s) of the Beatles'?",
     correct_answer: "Jeff Lynne's Electric Light Orchestra",
     incorrect_answers: ["The Rolling Stones", "Pink Floyd", "The Who"]
   },
@@ -9104,7 +9104,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "When was the 3rd album &quot;Notes from the Underground&quot; of the band &quot;Hollywood Undead&quot; released?",
+      "When was the 3rd album 'Notes from the Underground' of the band 'Hollywood Undead' released?",
     correct_answer: "2013",
     incorrect_answers: ["2011", "2014", "2009"]
   },
@@ -9112,7 +9112,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "easy",
-    question: "Which band recorded the album &quot;Parallel Lines&quot;?",
+    question: "Which band recorded the album 'Parallel Lines'?",
     correct_answer: "Blondie",
     incorrect_answers: ["Paramore", "Coldplay", "The Police"]
   },
@@ -9178,7 +9178,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which singer was featured in Jack &Uuml; (Skrillex & Diplo)'s 2015 song 'Where Are &Uuml; Now'?",
+      "Which singer was featured in Jack u (Skrillex & Diplo)'s 2015 song 'Where Are u Now'?",
     correct_answer: "Justin Bieber",
     incorrect_answers: ["Selena Gomez", "Ellie Goulding", "The Weeknd"]
   },
@@ -9203,7 +9203,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Whose signature guitar technique is called the &quot;windmill&quot;?",
+      "Whose signature guitar technique is called the 'windmill'?",
     correct_answer: "Pete Townshend",
     incorrect_answers: ["Jimmy Page", "Eddie Van Halen", "Jimi Hendrix"]
   },
@@ -9264,7 +9264,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which Toronto landmark was featured on the cover art of Canadian rapper Drake's 2016 album &quot;Views&quot;?",
+      "Which Toronto landmark was featured on the cover art of Canadian rapper Drake's 2016 album 'Views'?",
     correct_answer: "CN Tower",
     incorrect_answers: [
       "Allan Gardens",
@@ -9285,7 +9285,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which artist released the 2012 single &quot;Harlem Shake&quot;, which was used in numerous YouTube videos in 2013?",
+      "Which artist released the 2012 single 'Harlem Shake', which was used in numerous YouTube videos in 2013?",
     correct_answer: "Baauer",
     incorrect_answers: ["RL Grime", "NGHTMRE", "Flosstradamus"]
   },
@@ -9295,15 +9295,15 @@ const questions = [
     difficulty: "hard",
     question:
       "What is the name of the 2016 mixtape released by Venezuelan electronic producer Arca?",
-    correct_answer: "Entra&ntilde;as",
-    incorrect_answers: ["&&&&&&", "Sheep", "Xen"]
+    correct_answer: "Entran;as",
+    incorrect_answers: ["Arca", "Sheep", "Xen"]
   },
   {
     category: "Music",
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which song by Swedish electronic musician Avicii samples the song &quot;Something's Got A Hold On Me&quot; by Etta James?",
+      "Which song by Swedish electronic musician Avicii samples the song 'Something's Got A Hold On Me' by Etta James?",
     correct_answer: "Levels",
     incorrect_answers: ["Fade Into Darkness", "Silhouettes", "Seek Bromance"]
   },
@@ -9320,7 +9320,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The 1952 musical composition 4'33&quot;, composed by prolific American composer John Cage, is mainly comprised of what sound?",
+      "The 1952 musical composition 4'33', composed by prolific American composer John Cage, is mainly comprised of what sound?",
     correct_answer: "Silence",
     incorrect_answers: ["Farts", "People talking", "Cricket chirps"]
   },
@@ -9329,7 +9329,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which artist collaborated with American DJ Dillon Francis to release the song 2016 &quot;Need You&quot;?",
+      "Which artist collaborated with American DJ Dillon Francis to release the song 2016 'Need You'?",
     correct_answer: "NGHTMRE",
     incorrect_answers: ["LOUDPVCK", "KRNE", "DVBBS"]
   },
@@ -9338,7 +9338,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What animal is featured on the cover of English electronic music group The Prodigy's album, &quot;The Fat of the Land&quot;?",
+      "What animal is featured on the cover of English electronic music group The Prodigy's album, 'The Fat of the Land'?",
     correct_answer: "Crab",
     incorrect_answers: ["Fox", "Elephant", "Tiger"]
   },
@@ -9397,7 +9397,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which year was the album &quot;Floral Shoppe&quot; by Macintosh Plus released?",
+      "Which year was the album 'Floral Shoppe' by Macintosh Plus released?",
     correct_answer: "2011",
     incorrect_answers: ["2014", "2013", "2012"]
   },
@@ -9414,7 +9414,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who recorded the album called &quot;Down to the Moon&quot; in 1986?",
+      "Who recorded the album called 'Down to the Moon' in 1986?",
     correct_answer: "Andreas Vollenweider",
     incorrect_answers: ["Jean-Michel Jarre", "Bing Crosby", "Enya"]
   },
@@ -9440,7 +9440,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "When did The Beatles release the LP &quot;Please Please Me&quot;?",
+      "When did The Beatles release the LP 'Please Please Me'?",
     correct_answer: "1963",
     incorrect_answers: ["1970", "1960", "1969"]
   },
@@ -9449,7 +9449,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What year was Red Hot Chill Pepper's album &quot;Californication&quot; released?",
+      "What year was Red Hot Chill Pepper's album 'Californication' released?",
     correct_answer: "1999",
     incorrect_answers: ["1997", "2000", "1992"]
   },
@@ -9458,7 +9458,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "&quot;All the Boys&quot; by Panic! At the Disco was released as a bonus track on what album?",
+      "'All the Boys' by Panic! At the Disco was released as a bonus track on what album?",
     correct_answer: "Too Weird To Live, Too Rare To Die!",
     incorrect_answers: [
       "A Fever You Can't Sweat Out",
@@ -9478,7 +9478,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "easy",
-    question: "Who performed &quot;I Took A Pill In Ibiza&quot;?",
+    question: "Who performed 'I Took A Pill In Ibiza'?",
     correct_answer: "Mike Posner",
     incorrect_answers: ["Avicii", "Robbie Williams", "Harry Styles"]
   },
@@ -9487,11 +9487,11 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the first Studio Album to be released on the Internet with a &quot;Pay-What-You-Want&quot; price?",
+      "What is the first Studio Album to be released on the Internet with a 'Pay-What-You-Want' price?",
     correct_answer: "In Rainbows",
     incorrect_answers: [
       "The Help Album",
-      "Skrillex and Diplo Present Jack &Uuml;",
+      "Skrillex and Diplo Present Jack u",
       "Blackstar"
     ]
   },
@@ -9533,7 +9533,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which classical composer wrote the &quot;Moonlight Sonata&quot;?",
+      "Which classical composer wrote the 'Moonlight Sonata'?",
     correct_answer: "Ludvig Van Beethoven",
     incorrect_answers: [
       "Chief Keef",
@@ -9547,18 +9547,18 @@ const questions = [
     difficulty: "hard",
     question:
       "Which lyric is about Red Hot Chili Peppers frontman Anthony Kiedis?",
-    correct_answer: "&quot;A rainy Lithuanian / Is dancing as an Indian&quot;",
+    correct_answer: "'A rainy Lithuanian / Is dancing as an Indian'",
     incorrect_answers: [
-      "&quot;Fly away on, my zephyr / I feel it more than ever&quot;",
-      "&quot;And I liked the dimple in your chin / Your pale blue eyes&quot;",
-      "&quot;You used to be so warm and affectionate...but now you're quick to get into your regret&quot;"
+      "'Fly away on, my zephyr / I feel it more than ever'",
+      "'And I liked the dimple in your chin / Your pale blue eyes'",
+      "'You used to be so warm and affectionate...but now you're quick to get into your regret'"
     ]
   },
   {
     category: "Music",
     type: "multiple",
     difficulty: "medium",
-    question: "Where did the British Boy Band &quot;Bros&quot; come from?",
+    question: "Where did the British Boy Band 'Bros' come from?",
     correct_answer: "Camberley",
     incorrect_answers: ["Guildford", "Aldershot", "Bagshot"]
   },
@@ -9567,7 +9567,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Bj&ouml;rk's &quot;Unison&quot; contains a sample of which Oval song?",
+      "Bjork's 'Unison' contains a sample of which Oval song?",
     correct_answer: "Aero Deck",
     incorrect_answers: ["Textuell", "Panorama", "Do While"]
   },
@@ -9576,7 +9576,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which album by American rapper Kanye West contained songs such as &quot;Love Lockdown&quot;, &quot;Paranoid&quot; and &quot;Heartless&quot;?",
+      "Which album by American rapper Kanye West contained songs such as 'Love Lockdown', 'Paranoid' and 'Heartless'?",
     correct_answer: "808s & Heartbreak",
     incorrect_answers: ["Late Registration", "The Life of Pablo", "Graduation"]
   },
@@ -9595,7 +9595,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In the song &ldquo;The Ultimate Showdown of Ultimate Destiny,&rdquo; who is the only one to survive the battle?",
+      "In the song 'The Ultimate Showdown of Ultimate Destiny,' who is the only one to survive the battle?",
     correct_answer: "Mr. Rogers",
     incorrect_answers: ["Batman", "Chuck Norris", "Godzilla"]
   },
@@ -9604,7 +9604,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "According to their 1974 hit, what were Brownsville Station doing &quot;In The Boys' Room&quot;?",
+      "According to their 1974 hit, what were Brownsville Station doing 'In The Boys' Room'?",
     correct_answer: "Smokin'",
     incorrect_answers: ["Hangin'", "Lovin'", "Peein'"]
   },
@@ -9620,7 +9620,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "easy",
-    question: "Which English guitarist has the nickname &quot;Slowhand&quot;?",
+    question: "Which English guitarist has the nickname 'Slowhand'?",
     correct_answer: "Eric Clapton",
     incorrect_answers: ["Mark Knopfler", "Jeff Beck", "Jimmy Page"]
   },
@@ -9629,7 +9629,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The Red Hot Chili Pepper song &quot;Give It Away&quot; is from what album?",
+      "The Red Hot Chili Pepper song 'Give It Away' is from what album?",
     correct_answer: "Blood Sugar Sex Magik",
     incorrect_answers: ["One Hot Minute", "By the Way", "Stadium Arcadium"]
   },
@@ -9638,7 +9638,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The song &quot;Twin Size Mattress&quot; was written by which band?",
+      "The song 'Twin Size Mattress' was written by which band?",
     correct_answer: "The Front Bottoms",
     incorrect_answers: [
       "Twenty One Pilots",
@@ -9696,7 +9696,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which singer was featured in Swedish producer Avicii's song &quot;Wake Me Up&quot;?",
+      "Which singer was featured in Swedish producer Avicii's song 'Wake Me Up'?",
     correct_answer: "Aloe Blacc",
     incorrect_answers: ["John Legend", "CeeLo Green", "Pharrell Williams"]
   },
@@ -9705,7 +9705,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Irish musician Hozier released a music track in 2013 titled, &quot;Take Me to ______&quot;",
+      "Irish musician Hozier released a music track in 2013 titled, 'Take Me to ______'",
     correct_answer: "Church",
     incorrect_answers: ["Mosque", "Synagogue", "Temple"]
   },
@@ -9804,7 +9804,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the English title of the vaporwave track &quot;リサフランク420 / 現代のコンピュー&quot; by Macintosh Plus (Vektroid)?",
+      "What is the English title of the vaporwave track 'リサフランク420 / 現代のコンピュー' by Macintosh Plus (Vektroid)?",
     correct_answer: "Lisa Frank 420 / Modern Computing",
     incorrect_answers: [
       "Smoke Weed 420 / Everyday",
@@ -9826,7 +9826,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these songs by artist Eminem contain the lyric &quot;Nice to meet you. Hi, my name is... I forgot my name!&quot;?",
+      "Which of these songs by artist Eminem contain the lyric 'Nice to meet you. Hi, my name is... I forgot my name!'?",
     correct_answer: "Rain Man",
     incorrect_answers: ["Without Me", "Kim", "Square Dance"]
   },
@@ -9852,7 +9852,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which famous 90's rap album is commonly referred to as &quot;The Bible of Hip Hop&quot;?",
+      "Which famous 90's rap album is commonly referred to as 'The Bible of Hip Hop'?",
     correct_answer: "Illmatic",
     incorrect_answers: [
       "The Low End Theory",
@@ -9886,7 +9886,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which country does the electronic music duo &quot;The Knife&quot; originate from?",
+      "Which country does the electronic music duo 'The Knife' originate from?",
     correct_answer: "Sweden",
     incorrect_answers: ["Finland", "Denmark", "Norway"]
   },
@@ -9894,7 +9894,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "medium",
-    question: "Which song in Drake's &quot;Views&quot; features Future?",
+    question: "Which song in Drake's 'Views' features Future?",
     correct_answer: "Grammys",
     incorrect_answers: ["Too Good", "Faithful", "Pop Style"]
   },
@@ -9903,7 +9903,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Kanye West's &quot;Gold Digger&quot; featured which Oscar-winning actor?",
+      "Kanye West's 'Gold Digger' featured which Oscar-winning actor?",
     correct_answer: "Jamie Foxx",
     incorrect_answers: ["Alec Baldwin", "Dwayne Johnson", "Bruce Willis"]
   },
@@ -9912,7 +9912,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "&quot;Drink the Sea&quot; is an album by which electronic music artist?",
+      "'Drink the Sea' is an album by which electronic music artist?",
     correct_answer: "The Glitch Mob",
     incorrect_answers: ["Avicii", "XXYYXX", "Flux Pavilion"]
   },
@@ -9921,7 +9921,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In what film was the Michael Jackson song &quot;Will You Be There&quot; featured?",
+      "In what film was the Michael Jackson song 'Will You Be There' featured?",
     correct_answer: "Free Willy",
     incorrect_answers: ["Sleepless in Seattle", "Men in Black", "Bad Boys"]
   },
@@ -9955,7 +9955,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "How many copies have Metallica album &quot;Metallica&quot; (A.K.A The Black Album) sold worldwide (in Millions of Copies)?",
+      "How many copies have Metallica album 'Metallica' (A.K.A The Black Album) sold worldwide (in Millions of Copies)?",
     correct_answer: "20.5",
     incorrect_answers: ["19.5", "22.5", "25.5"]
   },
@@ -9972,7 +9972,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which member of &quot;The Beatles&quot; narrated episodes of &quot;Thomas the Tank Engine&quot;?",
+      "Which member of 'The Beatles' narrated episodes of 'Thomas the Tank Engine'?",
     correct_answer: "Ringo Starr",
     incorrect_answers: ["George Harrison", "John Lennon", "Paul McCartney"]
   },
@@ -9998,7 +9998,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the stage name of New Zealand singer Phillipa &quot;Pip&quot; Brown?",
+      "What is the stage name of New Zealand singer Phillipa 'Pip' Brown?",
     correct_answer: "Ladyhawke",
     incorrect_answers: ["Lorde", "Kesha", "Anika Moa"]
   },
@@ -10007,7 +10007,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The Who's eponymous line, &quot;Teenage Wasteland&quot;, appears in which of their songs?",
+      "The Who's eponymous line, 'Teenage Wasteland', appears in which of their songs?",
     correct_answer: "Baba O' Riley",
     incorrect_answers: [
       "The Seeker",
@@ -10042,7 +10042,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "From which album is the Gorillaz song, &quot;On Melancholy Hill&quot; featured in?",
+      "From which album is the Gorillaz song, 'On Melancholy Hill' featured in?",
     correct_answer: "Plastic Beach",
     incorrect_answers: ["Demon Days", "Humanz", "The Fall"]
   },
@@ -10051,7 +10051,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which Iron Maiden album did the song &quot;Dream of Mirrors&quot; feature in?",
+      "Which Iron Maiden album did the song 'Dream of Mirrors' feature in?",
     correct_answer: "Brave New World",
     incorrect_answers: [
       "Dance of Death",
@@ -10064,7 +10064,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these songs is NOT in The Beatles' album &quot;Sgt. Pepper's Lonely Hearts Club Band&quot;?",
+      "Which of these songs is NOT in The Beatles' album 'Sgt. Pepper's Lonely Hearts Club Band'?",
     correct_answer: "Strawberry Fields Forever",
     incorrect_answers: [
       "Getting Better",
@@ -10078,7 +10078,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who had hits in the 70s with the songs &quot;Lonely Boy&quot; and &quot;Never Let Her Slip Away&quot;?",
+      "Who had hits in the 70s with the songs 'Lonely Boy' and 'Never Let Her Slip Away'?",
     correct_answer: "Andrew Gold",
     incorrect_answers: ["Elton John", "Leo Sayer", "Barry White "]
   },
@@ -10095,7 +10095,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which band had hits in 1972 with the songs &quot;Baby I'm A Want You&quot;, &quot;Everything I Own&quot; and &quot;The Guitar Man&quot;",
+      "Which band had hits in 1972 with the songs 'Baby I'm A Want You', 'Everything I Own' and 'The Guitar Man'",
     correct_answer: "Bread",
     incorrect_answers: ["America", "Chicago", "Smokie"]
   },
@@ -10122,7 +10122,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "&quot;Some people call me the space cowboy&quot; is the first line from what song?",
+      "'Some people call me the space cowboy' is the first line from what song?",
     correct_answer: "The Joker",
     incorrect_answers: [
       "Fandango",
@@ -10177,7 +10177,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which band released songs such as &quot;Electric Feel&quot;, &quot;Kids&quot;, and &quot;Time to Pretend&quot;?",
+      "Which band released songs such as 'Electric Feel', 'Kids', and 'Time to Pretend'?",
     correct_answer: "MGMT",
     incorrect_answers: ["Passion Pit", "Phoenix", "Franz Ferdinand"]
   },
@@ -10185,7 +10185,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "hard",
-    question: "Who was not in the band &quot;The Smiths&quot;?",
+    question: "Who was not in the band 'The Smiths'?",
     correct_answer: "Martin Chambers",
     incorrect_answers: ["Morrissey", "Andy Rourke", "Mike Joyce"]
   },
@@ -10212,7 +10212,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which Queen song was covered by Brittany Murphy in the 2006 film &quot;Happy Feet&quot;?",
+      "Which Queen song was covered by Brittany Murphy in the 2006 film 'Happy Feet'?",
     correct_answer: "Somebody to Love",
     incorrect_answers: ["Under Pressure", "Flash", "Bohemian Rhapsody"]
   },
@@ -10245,7 +10245,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What was the subject of the 2014 song &quot;CoCo&quot; by American rapper O. T. Genasis?",
+      "What was the subject of the 2014 song 'CoCo' by American rapper O. T. Genasis?",
     correct_answer: "Cocaine",
     incorrect_answers: [
       "Conan O'Brien",
@@ -10309,7 +10309,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which country does the power metal band &quot;Sabaton&quot; originate from?",
+      "Which country does the power metal band 'Sabaton' originate from?",
     correct_answer: "Sweden",
     incorrect_answers: ["Germany", "United States", "Finland"]
   },
@@ -10327,7 +10327,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the title of Sakamoto Kyu's song &quot;Ue o Muite Arukou&quot; (I Look Up As I Walk) changed to in the United States?",
+      "What was the title of Sakamoto Kyu's song 'Ue o Muite Arukou' (I Look Up As I Walk) changed to in the United States?",
     correct_answer: "Sukiyaki",
     incorrect_answers: ["Takoyaki", "Sushi", "Oden"]
   },
@@ -10336,7 +10336,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which one of these songs did the group &quot;Men At Work&quot; NOT make?",
+      "Which one of these songs did the group 'Men At Work' NOT make?",
     correct_answer: "Safety Dance",
     incorrect_answers: [
       "Down Under",
@@ -10366,7 +10366,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In Kendrick Lamar's 2012 album, &quot;Good Kid, M.A.A.D City&quot;, the album's story takes place in which city?",
+      "In Kendrick Lamar's 2012 album, 'Good Kid, M.A.A.D City', the album's story takes place in which city?",
     correct_answer: "Compton",
     incorrect_answers: ["Detroit", "New York", "Baltimore"]
   },
@@ -10375,7 +10375,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What musician made the song &quot;Fuckin` Perfect&quot; in 2010?",
+      "What musician made the song 'Fuckin` Perfect' in 2010?",
     correct_answer: "P!nk",
     incorrect_answers: ["Mitis", "Adam lambert", "Koven"]
   },
@@ -10384,7 +10384,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which Disney character sings the song &quot;A Dream is a Wish Your Heart Makes&quot;?",
+      "Which Disney character sings the song 'A Dream is a Wish Your Heart Makes'?",
     correct_answer: "Cinderella",
     incorrect_answers: ["Belle", "Snow White", "Pocahontas"]
   },
@@ -10417,7 +10417,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "In 2006, which band released their debut album &quot;A Fever You Can't Sweat Out&quot;?",
+      "In 2006, which band released their debut album 'A Fever You Can't Sweat Out'?",
     correct_answer: "Panic! At the Disco",
     incorrect_answers: [
       "Twenty One Pilots",
@@ -10454,7 +10454,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which song on Daft Punk's &quot;Random Access Memories&quot; features Pharrell Williams?",
+      "Which song on Daft Punk's 'Random Access Memories' features Pharrell Williams?",
     correct_answer: "Get Lucky",
     incorrect_answers: [
       "Doin' It Right",
@@ -10466,7 +10466,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "hard",
-    question: "Who wrote the song &quot;You Know You Like It&quot;?",
+    question: "Who wrote the song 'You Know You Like It'?",
     correct_answer: "AlunaGeorge",
     incorrect_answers: ["DJ Snake", "Steve Aoki", "Major Lazer"]
   },
@@ -10531,7 +10531,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which year was the Megadeth album &quot;Peace Sells... but Who's Buying?&quot; released?",
+      "In which year was the Megadeth album 'Peace Sells... but Who's Buying?' released?",
     correct_answer: "1986",
     incorrect_answers: ["1979", "1987", "1986"]
   },
@@ -10548,7 +10548,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who performed the guitar solo on Michael Jackson's hit &quot;Beat It&quot;?",
+      "Who performed the guitar solo on Michael Jackson's hit 'Beat It'?",
     correct_answer: "Eddie Van Halen",
     incorrect_answers: ["Steve Vai", "Kirk Hammett", "Zakk Wylde"]
   },
@@ -10558,7 +10558,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What French artist/band is known for playing on the midi instrument &quot;Launchpad&quot;?",
+      "What French artist/band is known for playing on the midi instrument 'Launchpad'?",
     correct_answer: "Madeon",
     incorrect_answers: ["Daft Punk ", "Disclosure", "David Guetta"]
   },
@@ -10611,7 +10611,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which Elton John hit starts with the line &quot;When are you gonna come down&quot;?",
+      "Which Elton John hit starts with the line 'When are you gonna come down'?",
     correct_answer: "Goodbye Yellow Brick Road",
     incorrect_answers: ["Rocket Man", "Bennie and the Jets", "Crocodile Rock"]
   },
@@ -10637,7 +10637,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which rap group released the album &quot;Straight Outta Compton&quot;?",
+      "Which rap group released the album 'Straight Outta Compton'?",
     correct_answer: "N.W.A",
     incorrect_answers: ["Wu-Tang Clan", "Run-D.M.C.", "Beastie Boys"]
   },
@@ -10646,11 +10646,11 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question: "Which of these songs was released in 1996?",
-    correct_answer: "The Smashing Pumpkins - &quot;1979&quot;",
+    correct_answer: "The Smashing Pumpkins - '1979'",
     incorrect_answers: [
-      "Prince - &quot;1999&quot;",
-      "James Blunt - &quot;1973&quot;",
-      "David Bowie - &quot;1984&quot;"
+      "Prince - '1999'",
+      "James Blunt - '1973'",
+      "David Bowie - '1984'"
     ]
   },
   {
@@ -10658,7 +10658,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Who is the Pink Floyd song &quot;Shine On You Crazy Diamond&quot; written about?",
+      "Who is the Pink Floyd song 'Shine On You Crazy Diamond' written about?",
     correct_answer: "Syd Barrett",
     incorrect_answers: ["John Lennon", "David Gilmour", "Floyd"]
   },
@@ -10685,7 +10685,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which member of the English band &quot;The xx&quot; released their solo album &quot;In Colour&quot; in 2015?",
+      "Which member of the English band 'The xx' released their solo album 'In Colour' in 2015?",
     correct_answer: "Jamie xx",
     incorrect_answers: ["Romy Madley Croft", "Oliver Sim", "Baria Qureshi"]
   },
@@ -10694,7 +10694,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "How many members are there in the idol group &quot;&micro;'s&quot;?",
+      "How many members are there in the idol group 'µ's'?",
     correct_answer: "9",
     incorrect_answers: ["48", "6", "3"]
   },
@@ -10712,7 +10712,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Madonna's song &quot;Hung Up&quot; includes a piece from which popular 70s song?",
+      "Madonna's song 'Hung Up' includes a piece from which popular 70s song?",
     correct_answer: "Gimmie! Gimmie! Gimme! (A Man After Midnight)",
     incorrect_answers: ["Staying Alive", "Night Fever", "The Chain"]
   },
@@ -10721,9 +10721,9 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of these artists did NOT remix the song &quot;Faded&quot; by Alan Walker?",
+      "Which of these artists did NOT remix the song 'Faded' by Alan Walker?",
     correct_answer: "Skrillex",
-    incorrect_answers: ["Ti&euml;sto", "Slushii", "Dash Berlin"]
+    incorrect_answers: ["Tiesto", "Slushii", "Dash Berlin"]
   },
   {
     category: "Music",
@@ -10760,7 +10760,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song &quot;Paper Planes&quot;?",
+      "What is the stage name of English female rapper Mathangi Arulpragasam, who is known for the song 'Paper Planes'?",
     correct_answer: "M.I.A.",
     incorrect_answers: ["K.I.A.", "C.I.A.", "A.I.A."]
   },
@@ -10768,7 +10768,7 @@ const questions = [
     category: "Music",
     type: "multiple",
     difficulty: "easy",
-    question: "The &quot;K&quot; in &quot;K-Pop&quot; stands for which word?",
+    question: "The 'K' in 'K-Pop' stands for which word?",
     correct_answer: "Korean",
     incorrect_answers: ["Kenyan", "Kazakhstan", "Kuwaiti"]
   },
@@ -10808,7 +10808,7 @@ const questions = [
     difficulty: "medium",
     question: "Which of these is not an Ed Sheeran album?",
     correct_answer: "-",
-    incorrect_answers: ["+", "X", "&divide;"]
+    incorrect_answers: ["+", "X", "divide"]
   },
   {
     category: "Music",
@@ -10823,12 +10823,12 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In the Panic! At the Disco's song &quot;Nothern Downpour&quot;, which lyric follows 'I know the world's a broken bone'.",
-    correct_answer: "&quot;So melt your headaches call it home&quot;",
+      "In the Panic! At the Disco's song 'Nothern Downpour', which lyric follows 'I know the world's a broken bone'.",
+    correct_answer: "'So melt your headaches call it home'",
     incorrect_answers: [
-      "&quot;So sing your song until you're home&quot;",
-      "&quot;So let them know they're on their own&quot;",
-      "&quot;So start a fire in their cold stone&quot;"
+      "'So sing your song until you're home'",
+      "'So let them know they're on their own'",
+      "'So start a fire in their cold stone'"
     ]
   },
   {
@@ -10836,7 +10836,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Cryoshell, known for &quot;Creeping in My Soul&quot; did the advertising music for what Lego Theme?",
+      "Cryoshell, known for 'Creeping in My Soul' did the advertising music for what Lego Theme?",
     correct_answer: "Bionicle",
     incorrect_answers: ["Hero Factory", "Ben 10 Alien Force", "Star Wars"]
   },
@@ -10845,7 +10845,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What year was Min Yoongi from South Korea boy band &quot;BTS&quot; born in?",
+      "What year was Min Yoongi from South Korea boy band 'BTS' born in?",
     correct_answer: "1993",
     incorrect_answers: ["1992", "1995", "1994"]
   },
@@ -10854,7 +10854,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In which year did &quot;Caravan Palace&quot; release their first album?",
+      "In which year did 'Caravan Palace' release their first album?",
     correct_answer: "2008",
     incorrect_answers: ["2000", "2015", "2004"]
   },
@@ -10863,7 +10863,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which band released the album &quot;Sonic Highways&quot; in 2014?",
+      "Which band released the album 'Sonic Highways' in 2014?",
     correct_answer: "Foo Fighters",
     incorrect_answers: ["Coldplay", "Nickelback", "The Flaming Lips"]
   },
@@ -10890,7 +10890,7 @@ const questions = [
     question:
       "Electronic artists Boys Noize and Skrillex have collaborated and released tracks under what name?",
     correct_answer: "Dog Blood",
-    incorrect_answers: ["Jack &Uuml;", "What So Not", "Noisia"]
+    incorrect_answers: ["Jack u", "What So Not", "Noisia"]
   },
   {
     category: "Music",
@@ -10906,7 +10906,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "&quot;Make You Feel My Love&quot; was originally written and performed by which singer-songwriter?",
+      "'Make You Feel My Love' was originally written and performed by which singer-songwriter?",
     correct_answer: "Bob Dylan",
     incorrect_answers: ["Elvis", "Adele", "Billy Joel"]
   },
@@ -11026,7 +11026,7 @@ const questions = [
     category: "Science And Nature",
     type: "multiple",
     difficulty: "easy",
-    question: "Which gas forms about 78% of the Earth&rsquo;s atmosphere?",
+    question: "Which gas forms about 78% of the Earth's atmosphere?",
     correct_answer: "Nitrogen",
     incorrect_answers: ["Oxygen", "Argon", "Carbon Dioxide"]
   },
@@ -11103,7 +11103,7 @@ const questions = [
     category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
-    question: "The &quot;Tibia&quot; is found in which part of the body?",
+    question: "The 'Tibia' is found in which part of the body?",
     correct_answer: "Leg",
     incorrect_answers: ["Arm", "Hand", "Head"]
   },
@@ -11196,7 +11196,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which one of these is scientific term for &quot;Brain Freeze&quot;?",
+      "Which one of these is scientific term for 'Brain Freeze'?",
     correct_answer: "Sphenopalatine Ganglioneuralgia",
     incorrect_answers: [
       "Hyacinthoides Italica",
@@ -11209,7 +11209,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "&quot;The Big Bang Theory&quot; was first theorized by a priest of what religious ideology?",
+      "'The Big Bang Theory' was first theorized by a priest of what religious ideology?",
     correct_answer: "Catholic",
     incorrect_answers: ["Christian", "Jewish", "Islamic"]
   },
@@ -11264,8 +11264,8 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question: "At what temperature does water boil?",
-    correct_answer: "212&deg;F",
-    incorrect_answers: ["200&deg;F", "181&deg;F", "178&deg;F"]
+    correct_answer: "212°F",
+    incorrect_answers: ["200°F", "181°F", "178°F"]
   },
   {
     category: "Science And Nature",
@@ -11296,7 +11296,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "In Psychology, which need appears highest in the &quot;Maslow's hierarchy of needs&quot; pyramid?",
+      "In Psychology, which need appears highest in the 'Maslow's hierarchy of needs' pyramid?",
     correct_answer: "Esteem",
     incorrect_answers: ["Love", "Safety", "Physiological"]
   },
@@ -11305,7 +11305,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What animal takes part in Schr&ouml;dinger's most famous thought experiment?",
+      "What animal takes part in Schrodinger's most famous thought experiment?",
     correct_answer: "Cat",
     incorrect_answers: ["Dog", "Bat", "Butterfly"]
   },
@@ -11331,7 +11331,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of the following is the term for &quot;surgical complications resulting from surgical sponges left inside the patient's body?",
+      "Which of the following is the term for 'surgical complications resulting from surgical sponges left inside the patient's body?",
     correct_answer: "Gossypiboma",
     incorrect_answers: ["Gongoozler", "Jentacular", "Meupareunia"]
   },
@@ -11378,7 +11378,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of the following liquids is least viscous? Assume temperature is 25&deg;C.",
+      "Which of the following liquids is least viscous? Assume temperature is 25°C.",
     correct_answer: "Acetone",
     incorrect_answers: ["Water", "Mercury", "Benzene"]
   },
@@ -11541,7 +11541,7 @@ const questions = [
     category: "Science And Nature",
     type: "multiple",
     difficulty: "medium",
-    question: "Where did the dog breed &quot;Chihuahua&quot; originate?",
+    question: "Where did the dog breed 'Chihuahua' originate?",
     correct_answer: "Mexico",
     incorrect_answers: ["France", "Spain", "Russia"]
   },
@@ -11665,10 +11665,10 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question: "The core of the Sun can reach which temperature?",
-    correct_answer: "27&deg; Million F (15&deg; Million C)",
+    correct_answer: "27° Million F (15° Million C)",
     incorrect_answers: [
-      "938,000&deg; F (521093.3&deg; C)",
-      "8&deg; Billion F (&deg;4.4 Billion C)",
+      "938,000° F (521093.3° C)",
+      "8° Billion F (°4.4 Billion C)",
       "Absolute Zero (Both F and C)"
     ]
   },
@@ -11706,7 +11706,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question: "Who made the discovery of X-rays?",
-    correct_answer: "Wilhelm Conrad R&ouml;ntgen",
+    correct_answer: "Wilhelm Conrad Rontgen",
     incorrect_answers: ["Thomas Alva Edison", "James Watt", "Albert Einstein"]
   },
   {
@@ -11855,7 +11855,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What is the &quot;powerhouse&quot; of the Eukaryotic animal cell?",
+      "What is the 'powerhouse' of the Eukaryotic animal cell?",
     correct_answer: "Mitochondria",
     incorrect_answers: ["Nucleus", "Chloroplast", "Endoplasmic Reticulum"]
   },
@@ -12081,7 +12081,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What does the term &quot;isolation&quot; refer to in microbiology?",
+      "What does the term 'isolation' refer to in microbiology?",
     correct_answer:
       "The separation of a strain from a natural, mixed population of living microbes",
     incorrect_answers: [
@@ -12103,7 +12103,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which desert is the only desert in the world where the &quot;Saguaro&quot; cactus grows indigenously?",
+      "Which desert is the only desert in the world where the 'Saguaro' cactus grows indigenously?",
     correct_answer: "The Sonoran Desert",
     incorrect_answers: [
       "The Gobi Desert",
@@ -12150,7 +12150,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What is the scientific name for the extinct hominin known as &quot;Lucy&quot;?",
+      "What is the scientific name for the extinct hominin known as 'Lucy'?",
     correct_answer: "Australopithecus Afarensis",
     incorrect_answers: [
       "Australopithecus Africanus",
@@ -12172,7 +12172,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which planet did the &quot;Viking 1&quot; spacecraft send surface images of, starting in 1976?",
+      "Which planet did the 'Viking 1' spacecraft send surface images of, starting in 1976?",
     correct_answer: "Mars",
     incorrect_answers: ["Saturn", "Jupiter", "Venus"]
   },
@@ -12247,7 +12247,7 @@ const questions = [
     question:
       "Which best selling toy of 1983 caused hysteria, resulting in riots breaking out in stores?",
     correct_answer: "Cabbage Patch Kids",
-    incorrect_answers: ["Transformers", "Care Bears", "Rubik&rsquo;s Cube"]
+    incorrect_answers: ["Transformers", "Care Bears", "Rubik's Cube"]
   },
   {
     category: "General Knowledge",
@@ -12294,7 +12294,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "When was &quot;YouTube&quot; founded?",
+    question: "When was 'YouTube' founded?",
     correct_answer: "February 14, 2005",
     incorrect_answers: ["May 22, 2004", "September 12, 2005", "July 19, 2009"]
   },
@@ -12303,7 +12303,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Before the 19th Century, the &quot;Living Room&quot; was originally called the...",
+      "Before the 19th Century, the 'Living Room' was originally called the...",
     correct_answer: "Parlor",
     incorrect_answers: ["Open Room", "Sitting Room", "Loft"]
   },
@@ -12356,23 +12356,23 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
-    question: "What is the French word for &quot;hat&quot;?",
+    question: "What is the French word for 'hat'?",
     correct_answer: "Chapeau",
-    incorrect_answers: ["Bonnet", "&Eacute;charpe", "Casque"]
+    incorrect_answers: ["Bonnet", "echarpe", "Casque"]
   },
   {
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the Swedish word for &quot;window&quot;?",
-    correct_answer: "F&ouml;nster",
-    incorrect_answers: ["H&aring;l", "Sk&auml;rm", "Ruta"]
+    question: "What is the Swedish word for 'window'?",
+    correct_answer: "Fonster",
+    incorrect_answers: ["Hal", "Skarm", "Ruta"]
   },
   {
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the Italian word for &quot;tomato&quot;?",
+    question: "What is the Italian word for 'tomato'?",
     correct_answer: "Pomodoro",
     incorrect_answers: ["Aglio", "Cipolla", "Peperoncino"]
   },
@@ -12380,7 +12380,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the romanized Russian word for &quot;winter&quot;?",
+    question: "What is the romanized Russian word for 'winter'?",
     correct_answer: "Zima",
     incorrect_answers: ["Leto", "Vesna", "Osen'"]
   },
@@ -12389,7 +12389,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which musician has collaborated with American producer Porter Robinson and released the 2016 song &quot;Shelter&quot;?",
+      "Which musician has collaborated with American producer Porter Robinson and released the 2016 song 'Shelter'?",
     correct_answer: "Madeon",
     incorrect_answers: ["Mat Zo", "deadmau5", "Zedd"]
   },
@@ -12397,7 +12397,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "The term &quot;scientist&quot; was coined in which year?",
+    question: "The term 'scientist' was coined in which year?",
     correct_answer: "1833",
     incorrect_answers: ["1933", "1942", "1796"]
   },
@@ -12405,7 +12405,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "Who is the founder of &quot;The Lego Group&quot;?",
+    question: "Who is the founder of 'The Lego Group'?",
     correct_answer: "Ole Kirk Christiansen",
     incorrect_answers: [
       "Jens Niels Christiansen",
@@ -12467,7 +12467,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "According to Sherlock Holmes, &quot;If you eliminate the impossible, whatever remains, however improbable, must be the...&quot;",
+      "According to Sherlock Holmes, 'If you eliminate the impossible, whatever remains, however improbable, must be the...'",
     correct_answer: "Truth",
     incorrect_answers: ["Answer", "Cause", "Source"]
   },
@@ -12524,7 +12524,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "If someone said &quot;you are olid&quot;, what would they mean?",
+    question: "If someone said 'you are olid', what would they mean?",
     correct_answer: "You smell extremely unpleasant.",
     incorrect_answers: [
       "You are out of shape/weak.",
@@ -12567,7 +12567,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Where is the train station &quot;Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch&quot;?",
+      "Where is the train station 'Llanfairpwllgwyngyll'?",
     correct_answer: "Wales",
     incorrect_answers: ["Moldova", "Czech Republic", "Denmark"]
   },
@@ -12621,7 +12621,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question: "How would one say goodbye in Spanish?",
-    correct_answer: "Adi&oacute;s",
+    correct_answer: "Adios",
     incorrect_answers: ["Hola", "Au Revoir", "Salir"]
   },
   {
@@ -12696,7 +12696,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of the following is an existing family in &quot;The Sims&quot;?",
+      "Which of the following is an existing family in 'The Sims'?",
     correct_answer: "The Goth Family",
     incorrect_answers: ["The Family", "The Simoleon Family", "The Proud Family"]
   },
@@ -12714,7 +12714,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these is the name of a Japanese system of alternative medicine, literally meaning &quot;finger pressure&quot;?",
+      "Which of these is the name of a Japanese system of alternative medicine, literally meaning 'finger pressure'?",
     correct_answer: "Shiatsu",
     incorrect_answers: ["Ukiyo", "Majime", "Ikigai"]
   },
@@ -12722,7 +12722,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the romanized Japanese word for &quot;university&quot;?",
+    question: "What is the romanized Japanese word for 'university'?",
     correct_answer: "Daigaku",
     incorrect_answers: ["Toshokan", "Jimusho", "Shokudou"]
   },
@@ -12731,7 +12731,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What is the name of the popular animatronic singing fish prop, singing such hits such as &quot;Don't Worry, Be Happy&quot;?",
+      "What is the name of the popular animatronic singing fish prop, singing such hits such as 'Don't Worry, Be Happy'?",
     correct_answer: "Big Mouth Billy Bass",
     incorrect_answers: ["Big Billy Bass", "Singing Fish", "Sardeen"]
   },
@@ -12839,7 +12839,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
-    question: "What color is the &quot;Ex&quot; in FedEx Ground?",
+    question: "What color is the 'Ex' in FedEx Ground?",
     correct_answer: "Green",
     incorrect_answers: ["Red", "Light Blue", "Orange"]
   },
@@ -12898,7 +12898,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What does the Latin phrase &quot;Veni, vidi, vici&quot; translate into English?",
+      "What does the Latin phrase 'Veni, vidi, vici' translate into English?",
     correct_answer: "I came, I saw, I conquered",
     incorrect_answers: [
       "See no evil, hear no evil, speak no evil",
@@ -12910,7 +12910,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "When did the website &quot;Facebook&quot; launch?",
+    question: "When did the website 'Facebook' launch?",
     correct_answer: "2004",
     incorrect_answers: ["2005", "2003", "2006"]
   },
@@ -12936,7 +12936,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which slogan did the fast food company, McDonald's, use before their &quot;I'm Lovin' It&quot; slogan?",
+      "Which slogan did the fast food company, McDonald's, use before their 'I'm Lovin' It' slogan?",
     correct_answer: "We Love to See You Smile",
     incorrect_answers: [
       "Why Pay More!?",
@@ -12949,7 +12949,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The website &quot;Shut Up & Sit Down&quot; reviews which form of media?",
+      "The website 'Shut Up & Sit Down' reviews which form of media?",
     correct_answer: "Board Games",
     incorrect_answers: ["Television Shows", "Video Games", "Films"]
   },
@@ -12982,7 +12982,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "Which of these words means &quot;idle spectator&quot;?",
+    question: "Which of these words means 'idle spectator'?",
     correct_answer: "Gongoozler",
     incorrect_answers: ["Gossypiboma", "Jentacular", "Meupareunia"]
   },
@@ -13041,7 +13041,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "What name represents the letter &quot;M&quot; in the NATO phonetic alphabet?",
+      "What name represents the letter 'M' in the NATO phonetic alphabet?",
     correct_answer: "Mike",
     incorrect_answers: ["Matthew", "Mark", "Max"]
   },
@@ -13082,7 +13082,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
-    question: "What is &quot;dabbing&quot;?",
+    question: "What is 'dabbing'?",
     correct_answer: "A dance",
     incorrect_answers: ["A medical procedure", "A sport", "A language"]
   },
@@ -13090,7 +13090,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is a &quot;dakimakura&quot;?",
+    question: "What is a 'dakimakura'?",
     correct_answer: "A body pillow",
     incorrect_answers: [
       "A Chinese meal, essentially composed of fish",
@@ -13181,7 +13181,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "What is the romanized Chinese word for &quot;airplane&quot;?",
+    question: "What is the romanized Chinese word for 'airplane'?",
     correct_answer: "Feiji",
     incorrect_answers: ["Qiche", "Zongxian", "Huojian"]
   },
@@ -13189,7 +13189,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "What is the romanized Korean word for &quot;heart&quot;?",
+    question: "What is the romanized Korean word for 'heart'?",
     correct_answer: "Simjang",
     incorrect_answers: ["Aejeong", "Jeongsin", "Segseu"]
   },
@@ -13197,7 +13197,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "What is the romanized Arabic word for &quot;moon&quot;?",
+    question: "What is the romanized Arabic word for 'moon'?",
     correct_answer: "Qamar",
     incorrect_answers: ["Najma", "Kawkab", "Shams"]
   },
@@ -13205,7 +13205,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "hard",
-    question: "The Swedish word &quot;Grunka&quot; means what in English?",
+    question: "The Swedish word 'Grunka' means what in English?",
     correct_answer: "Thing",
     incorrect_answers: ["People", "Place", "Pineapple"]
   },
@@ -13254,14 +13254,14 @@ const questions = [
     difficulty: "easy",
     question: "What is the name of Poland in Polish?",
     correct_answer: "Polska",
-    incorrect_answers: ["Pupcia", "Polszka", "P&oacute;land"]
+    incorrect_answers: ["Pupcia", "Polszka", "Poland"]
   },
   {
     category: "General Knowledge",
     type: "multiple",
     difficulty: "easy",
     question:
-      "The New York Times slogan is, &ldquo;All the News That&rsquo;s Fit to&hellip;&rdquo;",
+      "The New York Times slogan is, 'All the News That's Fit to...'",
     correct_answer: "Print",
     incorrect_answers: ["Digest", "Look", "Read"]
   },
@@ -13299,7 +13299,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a &quot;Guardians of the Galaxy&quot; themed ride?",
+      "Which iconic Disneyland attraction was closed in 2017 to be remodeled as a 'Guardians of the Galaxy' themed ride?",
     correct_answer: "Twilight Zone Tower of Terror",
     incorrect_answers: [
       "The Haunted Mansion",
@@ -13319,9 +13319,9 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the Portuguese word for &quot;Brazil&quot;?",
+    question: "What is the Portuguese word for 'Brazil'?",
     correct_answer: "Brasil",
-    incorrect_answers: ["Brazil", "Brasilia", "Bras&iacute;l"]
+    incorrect_answers: ["Brazil", "Brasilia", "Brasil"]
   },
   {
     category: "General Knowledge",
@@ -13337,7 +13337,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What was the original name of the search engine &quot;Google&quot;?",
+      "What was the original name of the search engine 'Google'?",
     correct_answer: "BackRub",
     incorrect_answers: ["CatMassage", "SearchPro", "Netscape Navigator"]
   },
@@ -13445,7 +13445,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which company's original slogan was &quot;Don't be evil&quot;?",
+      "Which company's original slogan was 'Don't be evil'?",
     correct_answer: "Google",
     incorrect_answers: ["Apple", "Yahoo", "Microsoft"]
   },
@@ -13455,7 +13455,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "This field is sometimes known as &ldquo;The Dismal Science.&rdquo;",
+      "This field is sometimes known as 'The Dismal Science.'",
     correct_answer: "Economics",
     incorrect_answers: ["Philosophy", "Politics", "Physics"]
   },
@@ -13495,7 +13495,7 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What does the &quot;G&quot; mean in &quot;G-Man&quot;?",
+    question: "What does the 'G' mean in 'G-Man'?",
     correct_answer: "Government",
     incorrect_answers: ["Going", "Ghost", "Geronimo"]
   },
@@ -13520,7 +13520,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "The words &quot;bungalow&quot; and &quot;shampoo&quot; originate from the languages of which country?",
+      "The words 'bungalow' and 'shampoo' originate from the languages of which country?",
     correct_answer: "India",
     incorrect_answers: ["Papua New Guinea", "Ethiopia", "China"]
   },
@@ -13620,9 +13620,9 @@ const questions = [
     category: "General Knowledge",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the German word for &quot;spoon&quot;?",
-    correct_answer: "L&ouml;ffel",
-    incorrect_answers: ["Gabel", "Messer", "Essst&auml;bchen"]
+    question: "What is the German word for 'spoon'?",
+    correct_answer: "Loffel",
+    incorrect_answers: ["Gabel", "Messer", "Essstabchen"]
   },
   {
     category: "General Knowledge",
@@ -13757,7 +13757,7 @@ const questions = [
     category: "History",
     type: "multiple",
     difficulty: "medium",
-    question: "During what war did the &quot;Cuban Missile Crisis&quot; occur?",
+    question: "During what war did the 'Cuban Missile Crisis' occur?",
     correct_answer: "Cold War",
     incorrect_answers: ["World War I", "World War II", "Revolutionary War"]
   },
@@ -13785,7 +13785,7 @@ const questions = [
     category: "History",
     type: "multiple",
     difficulty: "medium",
-    question: "What number does the Roman numeral &quot;D&quot; stand for?",
+    question: "What number does the Roman numeral 'D' stand for?",
     correct_answer: "500",
     incorrect_answers: ["100", "1000", "50"]
   },
@@ -13830,7 +13830,7 @@ const questions = [
     question:
       "Which of the following African countries was most successful in resisting colonization?",
     correct_answer: "Ethiopia",
-    incorrect_answers: ["C&ocirc;te d&rsquo;Ivoire", "Congo", "Namibia"]
+    incorrect_answers: ["Cote d'Ivoire", "Congo", "Namibia"]
   },
   {
     category: "History",
@@ -13846,7 +13846,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "One of the deadliest pandemics, the &quot;Spanish Flu&quot;, killed off what percentage of the human world population at the time?",
+      "One of the deadliest pandemics, the 'Spanish Flu', killed off what percentage of the human world population at the time?",
     correct_answer: "3 to 6 percent",
     incorrect_answers: [
       "6 to 10 percent",
@@ -13861,14 +13861,14 @@ const questions = [
     question:
       "According to scholarly estimates, what percentage of the world population at the time died due to Tamerlane's conquests?",
     correct_answer: "5%",
-    incorrect_answers: ["1%", "3%", "&lt;1%"]
+    incorrect_answers: ["1%", "3%", "2%"]
   },
   {
     category: "History",
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which infamous European traitor was known as &quot;the last person to enter Parliament with honest intentions&quot;?",
+      "Which infamous European traitor was known as 'the last person to enter Parliament with honest intentions'?",
     correct_answer: "Guy Fawkes",
     incorrect_answers: ["Robert Catesby", "Francis Tresham", "Everard Digby"]
   },
@@ -14143,7 +14143,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What was the aim of the &quot;Umbrella Revolution&quot; in Hong Kong in 2014?",
+      "What was the aim of the 'Umbrella Revolution' in Hong Kong in 2014?",
     correct_answer: "Genuine universal suffrage",
     incorrect_answers: [
       "Gaining Independence",
@@ -14177,7 +14177,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "When was the &quot;Siege of Leningrad&quot; lifted during World War II?",
+      "When was the 'Siege of Leningrad' lifted during World War II?",
     correct_answer: "January 1944",
     incorrect_answers: ["September 1943", "November 1943", "March 1944"]
   },
@@ -14186,7 +14186,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "The main objective of the German operation &quot;Case Blue&quot; during World War II was originally to capture what?",
+      "The main objective of the German operation 'Case Blue' during World War II was originally to capture what?",
     correct_answer: "Caucasus",
     incorrect_answers: ["Stalingrad", "Crimea", "Voronezh"]
   },
@@ -14237,7 +14237,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "With which Greek philosopher would you associate the phrase, &quot;I know that I know nothing&quot;?",
+      "With which Greek philosopher would you associate the phrase, 'I know that I know nothing'?",
     correct_answer: "Socrates",
     incorrect_answers: ["Aristotle", "Plato", "Pythagoras"]
   },
@@ -14290,7 +14290,7 @@ const questions = [
     question:
       "Spain was formed in 1469 with the marriage of Isabella I of Castile and Ferdinand II of what other Iberian kingdom?",
     correct_answer: "Aragon",
-    incorrect_answers: ["Galicia", "Le&oacute;n", "Navarre"]
+    incorrect_answers: ["Galicia", "Leon", "Navarre"]
   },
   {
     category: "History",
@@ -14351,7 +14351,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which country had an &quot;Orange Revolution&quot; between 2004 and 2005?",
+      "Which country had an 'Orange Revolution' between 2004 and 2005?",
     correct_answer: "Ukraine",
     incorrect_answers: ["Belarus", "Latvia", "Lithuania"]
   },
@@ -14377,7 +14377,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which famous world leader is famed for the saying, &quot;Let them eat cake&quot;, yet is rumored that he/she never said it at all?",
+      "Which famous world leader is famed for the saying, 'Let them eat cake', yet is rumored that he/she never said it at all?",
     correct_answer: "Marie Antoinette",
     incorrect_answers: ["Czar Nicholas II", "Elizabeth I", "Henry VIII"]
   },
@@ -14462,7 +14462,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Who invented the &quot;Flying Shuttle&quot; in 1738; one of the key developments in the industrialization of weaving?",
+      "Who invented the 'Flying Shuttle' in 1738; one of the key developments in the industrialization of weaving?",
     correct_answer: "John Kay",
     incorrect_answers: ["James Hargreaves", "Richard Arkwright", "John Deere"]
   },
@@ -14502,7 +14502,7 @@ const questions = [
     difficulty: "medium",
     question:
       "Which of the following snipers has the highest amount of confirmed kills?",
-    correct_answer: "Simo H&auml;yh&auml;",
+    correct_answer: "Simo Hayha",
     incorrect_answers: ["Chris Kyle", "Vasily Zaytsev", "Craig Harrison"]
   },
   {
@@ -14617,7 +14617,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What did the abbreviation &quot;RMS&quot; stand for in the RMS Titanic in 1912?",
+      "What did the abbreviation 'RMS' stand for in the RMS Titanic in 1912?",
     correct_answer: "Royal Mail Ship",
     incorrect_answers: [
       "Royal Majesty Service",
@@ -14639,7 +14639,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In addition to his career as an astrologer and &quot;prophet&quot;, Nostradamus published a 1555 treatise that included a section on what?",
+      "In addition to his career as an astrologer and 'prophet', Nostradamus published a 1555 treatise that included a section on what?",
     correct_answer: "Making jams and jellies",
     incorrect_answers: [
       "Teaching parrots to talk",
@@ -14689,7 +14689,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Pianist Fr&eacute;d&eacute;ric Chopin was a composer of which musical era?",
+      "Pianist Frederic Chopin was a composer of which musical era?",
     correct_answer: "Romantic",
     incorrect_answers: ["Classic", "Baroque", "Renaissance"]
   },
@@ -14885,7 +14885,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "On which day did construction start on &quot;The Pentagon&quot;, the headquarters for the United States Department of Defense?",
+      "On which day did construction start on 'The Pentagon', the headquarters for the United States Department of Defense?",
     correct_answer: "September 11, 1941",
     incorrect_answers: [
       "June 15, 1947",
@@ -15034,8 +15034,8 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question: "What was Genghis Khan's real name?",
-    correct_answer: "Tem&uuml;jin",
-    incorrect_answers: ["M&ouml;ngke", "&Ouml;gedei", "Tem&uuml;r"]
+    correct_answer: "Temujin",
+    incorrect_answers: ["Mongke", "ogedei", "Temur"]
   },
   {
     category: "History",
@@ -15156,7 +15156,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as &quot;Skoal Bandits&quot;?",
+      "What year did Skoal, a smokeless Tobacco company, release their first line of Pouches, known as 'Skoal Bandits'?",
     correct_answer: "1983",
     incorrect_answers: ["1934", "1984", "1822"]
   },
@@ -15302,7 +15302,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "When was &quot;The Gadget&quot;, the first nuclear device to be detonated, tested?",
+      "When was 'The Gadget', the first nuclear device to be detonated, tested?",
     correct_answer: "July 16, 1945",
     incorrect_answers: ["June 22, 1945", "August 6, 1945", "April 5, 1945"]
   },
@@ -15409,7 +15409,7 @@ const questions = [
     correct_answer: "Napoleone di Buonaparte",
     incorrect_answers: [
       "Naapolion van Bonijpaart",
-      "Napole&atilde;o do Boaparte",
+      "Napoleao do Boaparte",
       "Napoleona de Buenoparte"
     ]
   },
@@ -15540,7 +15540,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The &quot;Trail of Tears&quot; was a result of which United States President's Indian Removal Policy?",
+      "The 'Trail of Tears' was a result of which United States President's Indian Removal Policy?",
     correct_answer: "Andrew Jackson",
     incorrect_answers: [
       "Harry S. Truman",
@@ -15604,7 +15604,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which modern country is known as &quot;The Graveyard of Empires&quot;?",
+      "Which modern country is known as 'The Graveyard of Empires'?",
     correct_answer: "Afghanistan",
     incorrect_answers: ["China", "Iraq", "Russia"]
   },
@@ -15720,7 +15720,7 @@ const questions = [
     difficulty: "medium",
     question: "Which city is the capital of Switzerland?",
     correct_answer: "Bern",
-    incorrect_answers: ["Z&uuml;rich", "Frankfurt", "Wien"]
+    incorrect_answers: ["Zurich", "Frankfurt", "Wien"]
   },
   {
     category: "Geography",
@@ -15782,7 +15782,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of the following European languages is classified as a &quot;language isolate?&quot;",
+      "Which of the following European languages is classified as a 'language isolate?'",
     correct_answer: "Basque",
     incorrect_answers: ["Galician", "Maltese", "Hungarian"]
   },
@@ -15802,7 +15802,7 @@ const questions = [
     question:
       "The following Spanish provinces are located in the northern area of Spain except:",
     correct_answer: "Murcia",
-    incorrect_answers: ["Asturias", "Navarre", "Le&oacute;n"]
+    incorrect_answers: ["Asturias", "Navarre", "Leon"]
   },
   {
     category: "Geography",
@@ -15863,7 +15863,7 @@ const questions = [
     question:
       "What name was historically used for the Turkish city currently known as Istanbul?",
     correct_answer: "Constaninople",
-    incorrect_answers: ["H&uuml;davendigar", "S&ouml;ğ&uuml;t", "Adrianople"]
+    incorrect_answers: ["Hudavendigar", "Soğut", "Adrianople"]
   },
   {
     category: "Geography",
@@ -15912,15 +15912,6 @@ const questions = [
   {
     category: "Geography",
     type: "multiple",
-    difficulty: "hard",
-    question:
-      "Llanfair&shy;pwllgwyngyll&shy;gogery&shy;chwyrn&shy;drobwll&shy;llan&shy;tysilio&shy;gogo&shy;goch is located on which Welsh island?",
-    correct_answer: "Anglesey",
-    incorrect_answers: ["Barry", "Bardsey", "Caldey"]
-  },
-  {
-    category: "Geography",
-    type: "multiple",
     difficulty: "easy",
     question: "What is the nickname for the US state Delaware?",
     correct_answer: "The First State",
@@ -15963,7 +15954,7 @@ const questions = [
     category: "Geography",
     type: "multiple",
     difficulty: "medium",
-    question: "Which country has the abbreviation &quot;CH&quot;?",
+    question: "Which country has the abbreviation 'CH'?",
     correct_answer: "Switzerland",
     incorrect_answers: ["China", "Canada", "No Country"]
   },
@@ -16163,7 +16154,7 @@ const questions = [
     difficulty: "medium",
     question: "What is the capital of Chile?",
     correct_answer: "Santiago",
-    incorrect_answers: ["Valpara&iacute;so", "Copiap&oacute;", "Antofagasta"]
+    incorrect_answers: ["Valparaiso", "Copiapo", "Antofagasta"]
   },
   {
     category: "Geography",
@@ -16216,7 +16207,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "The derisive acronym &quot;PIIGS&quot; refers to which of the following European countries and their economic statuses?",
+      "The derisive acronym 'PIIGS' refers to which of the following European countries and their economic statuses?",
     correct_answer: "Portugal, Ireland, Italy, Greece, Spain",
     incorrect_answers: [
       "Poland, Iceland, Italy, Greece, Serbia",
@@ -16263,7 +16254,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "In 2012 the German-speaking microstate &quot;Liechtenstein&quot; in Central Europe had a population of how many inhabitants?",
+      "In 2012 the German-speaking microstate 'Liechtenstein' in Central Europe had a population of how many inhabitants?",
     correct_answer: "36,600",
     incorrect_answers: ["2,400", "90,000", "323,400"]
   },
@@ -16571,7 +16562,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which of these countries is &quot;doubly landlocked&quot; (surrounded entirely by one or more landlocked countries)?",
+      "Which of these countries is 'doubly landlocked' (surrounded entirely by one or more landlocked countries)?",
     correct_answer: "Uzbekistan",
     incorrect_answers: ["Switzerland", "Bolivia", "Ethiopia"]
   },
@@ -16731,7 +16722,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Where is the fast food chain &quot;Panda Express&quot; headquartered?",
+      "Where is the fast food chain 'Panda Express' headquartered?",
     correct_answer: "Rosemead, California",
     incorrect_answers: [
       "Sacremento, California",
@@ -16813,7 +16804,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What North American tourist attraction is served by the &quot;Maid of the Mist&quot; tour company?",
+      "What North American tourist attraction is served by the 'Maid of the Mist' tour company?",
     correct_answer: "Niagara Falls",
     incorrect_answers: [
       "Whistler, British Columbia",
@@ -16882,7 +16873,7 @@ const questions = [
     category: "Geography",
     type: "multiple",
     difficulty: "hard",
-    question: "Which of these cities has a 4&deg; East longitude. ",
+    question: "Which of these cities has a 4° East longitude. ",
     correct_answer: "Amsterdam",
     incorrect_answers: ["Rio de Janero", "Toronto", "Hong Kong"]
   },
@@ -16909,7 +16900,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Colchester Overpass, otherwise known as &quot;Bunny Man Bridge&quot;, is located where?",
+      "Colchester Overpass, otherwise known as 'Bunny Man Bridge', is located where?",
     correct_answer: "Fairfax County, Virginia",
     incorrect_answers: [
       "Medford, Oregon",
@@ -17045,7 +17036,7 @@ const questions = [
       "What is the name of one of the Neo-Aramaic languages spoken by the Jewish population from Northwestern Iraq?",
     correct_answer: "Lishana Deni",
     incorrect_answers: [
-      "Hulaul&aacute;",
+      "Hulaula",
       "Lishan Didan",
       "Chaldean Neo-Aramaic"
     ]
@@ -17161,7 +17152,7 @@ const questions = [
     type: "multiple",
     difficulty: "easy",
     question:
-      "Which of these African countries list &quot;Spanish&quot; as an official language?",
+      "Which of these African countries list 'Spanish' as an official language?",
     correct_answer: "Equatorial Guinea",
     incorrect_answers: ["Guinea", "Cameroon", "Angola"]
   },
@@ -17186,9 +17177,9 @@ const questions = [
     category: "Geography",
     type: "multiple",
     difficulty: "hard",
-    question: "What is the Finnish word for &quot;Finland&quot;?",
+    question: "What is the Finnish word for 'Finland'?",
     correct_answer: "Suomi",
-    incorrect_answers: ["Eesti", "Magyarorsz&aacute;g", "Sverige"]
+    incorrect_answers: ["Eesti", "Magyarorszag", "Sverige"]
   },
   {
     category: "Geography",
@@ -17249,7 +17240,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question: "What was the most populous city in the Americas in 2015?",
-    correct_answer: "S&atilde;o Paulo",
+    correct_answer: "Sao Paulo",
     incorrect_answers: ["New York", "Mexico City", "Los Angeles"]
   },
   {
@@ -17264,7 +17255,7 @@ const questions = [
     category: "Geography",
     type: "multiple",
     difficulty: "medium",
-    question: "Where is the &quot;Sonoran Desert&quot; located?",
+    question: "Where is the 'Sonoran Desert' located?",
     correct_answer: "North America",
     incorrect_answers: ["South America", "Asia", "Africa"]
   },
@@ -17306,7 +17297,7 @@ const questions = [
     category: "Animals",
     type: "multiple",
     difficulty: "medium",
-    question: "What does &quot;hippopotamus&quot; mean and in what langauge?",
+    question: "What does 'hippopotamus' mean and in what langauge?",
     correct_answer: "River Horse (Greek)",
     incorrect_answers: [
       "River Horse (Latin)",
@@ -17337,7 +17328,7 @@ const questions = [
     difficulty: "easy",
     question: "What is the fastest land animal?",
     correct_answer: "Cheetah",
-    incorrect_answers: ["Lion", "Thomson&rsquo;s Gazelle", "Pronghorn Antelope"]
+    incorrect_answers: ["Lion", "Thomson's Gazelle", "Pronghorn Antelope"]
   },
   {
     category: "Animals",
@@ -17379,7 +17370,7 @@ const questions = [
     category: "Animals",
     type: "multiple",
     difficulty: "medium",
-    question: "What is the scientific name for the &quot;Polar Bear&quot;?",
+    question: "What is the scientific name for the 'Polar Bear'?",
     correct_answer: "Ursus Maritimus",
     incorrect_answers: ["Polar Bear", "Ursus Spelaeus", "Ursus Arctos"]
   },
@@ -17427,7 +17418,7 @@ const questions = [
     category: "Animals",
     type: "multiple",
     difficulty: "medium",
-    question: "For what reason would a spotted hyena &quot;laugh&quot;?",
+    question: "For what reason would a spotted hyena 'laugh'?",
     correct_answer: "Nervousness",
     incorrect_answers: ["Excitement", "Aggression", "Exhaustion"]
   },
@@ -17464,7 +17455,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "The now extinct species &quot;Thylacine&quot; was native to where?",
+      "The now extinct species 'Thylacine' was native to where?",
     correct_answer: "Tasmania, Australia",
     incorrect_answers: [
       "Baluchistan, Pakistan",
@@ -17525,7 +17516,7 @@ const questions = [
     category: "Animals",
     type: "multiple",
     difficulty: "hard",
-    question: "Which species is a &quot;mountain chicken&quot;?",
+    question: "Which species is a 'mountain chicken'?",
     correct_answer: "Frog",
     incorrect_answers: ["Chicken", "Horse", "Fly"]
   },
@@ -17550,7 +17541,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "Which of the following is another name for the &quot;Poecilotheria Metallica Tarantula&quot;?",
+      "Which of the following is another name for the 'Poecilotheria Metallica Tarantula'?",
     correct_answer: "Gooty",
     incorrect_answers: ["Hopper", "Silver Stripe", "Woebegone"]
   },
@@ -17681,7 +17672,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question:
-      "What was the religion of famous singer &quot;Freddie Mercury&quot;?",
+      "What was the religion of famous singer 'Freddie Mercury'?",
     correct_answer: "Zoroastrianism",
     incorrect_answers: ["Paganism", "Ashurism", "Judaism"]
   },
@@ -17706,11 +17697,11 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question: "How tall is Tom Cruise?",
-    correct_answer: "5&prime; 7&Prime;",
+    correct_answer: "5ft 7in",
     incorrect_answers: [
-      "5&prime; 9&Prime;",
-      "5&prime; 4&Prime;",
-      "5&prime; 5&Prime;"
+      "5ft; 9in;",
+      "5ft; 4in;",
+      "5ft; 5in;"
     ]
   },
   {
@@ -17806,7 +17797,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Which radio personality calls himself &quot;The King of All Media&quot;?",
+      "Which radio personality calls himself 'The King of All Media'?",
     correct_answer: "Howard Stern",
     incorrect_answers: ["Rush Limbaugh", "Pete Tong", "Ryan Seacrest"]
   },
@@ -17815,7 +17806,7 @@ const questions = [
     type: "multiple",
     difficulty: "medium",
     question:
-      "Nikki Diamond portrayed which Gladiator in the 1992 TV show &quot;Gladiators&quot;?",
+      "Nikki Diamond portrayed which Gladiator in the 1992 TV show 'Gladiators'?",
     correct_answer: "Scorpio",
     incorrect_answers: ["Jet", "Nightshade", "Falcon"]
   },
@@ -17831,7 +17822,7 @@ const questions = [
     category: "Celebrities",
     type: "multiple",
     difficulty: "medium",
-    question: "In what year did &quot;Bob Ross&quot; die?",
+    question: "In what year did 'Bob Ross' die?",
     correct_answer: "1995",
     incorrect_answers: ["1986", "1989", "1997"]
   },
@@ -17881,7 +17872,7 @@ const questions = [
     category: "Celebrities",
     type: "multiple",
     difficulty: "medium",
-    question: "Who is &quot;James Rolfe&quot; better known as?",
+    question: "Who is 'James Rolfe' better known as?",
     correct_answer: "The Angry Video Game Nerd",
     incorrect_answers: ["TotalBiscuit", "PeanutButterGamer", "PewDiePie"]
   },
@@ -17907,7 +17898,7 @@ const questions = [
     type: "multiple",
     difficulty: "hard",
     question: "Who was Donald Trump's first wife?",
-    correct_answer: "Ivana Zeln&iacute;čkov&aacute;",
+    correct_answer: "Ivana Zelničkova",
     incorrect_answers: ["Melania Knauss", "Marla Maples", "Nancy Davis"]
   },
   {
@@ -17997,7 +17988,7 @@ const questions = [
   {
     category: "History",
     difficulty: "hard",
-    question: "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed &quot;the Kingmaker&quot;?",
+    question: "During the Wars of the Roses (1455 - 1487) which Englishman was dubbed 'the Kingmaker'?",
     correct_answer: "Richard Neville",
     incorrect_answers: [
       "Richard III",
