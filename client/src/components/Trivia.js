@@ -81,7 +81,11 @@ class Trivia extends React.Component {
         score: this.state.score + 10,
       }, this.nextQuestion);
     }
+    else {
+      this.nextQuestion()
+    }
   };
+
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
   }
