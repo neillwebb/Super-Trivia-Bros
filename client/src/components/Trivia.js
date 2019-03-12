@@ -4,6 +4,25 @@ import AnswerOption from "../components/AnswerOption";
 import { Link } from "react-router-dom";
 import * as $ from "axios";
 
+function shuffle(arr) {
+  var currentIndex = arr.length,
+    temporaryValue,
+    randomIndex;
+
+  // While there remain elements to shuffle...
+  while (0 !== currentIndex) {
+    // Pick a remaining element...
+    randomIndex = Math.floor(Math.random() * currentIndex);
+    currentIndex -= 1;
+
+    // And swap it with the current element.
+    temporaryValue = arr[currentIndex];
+    arr[currentIndex] = arr[randomIndex];
+    arr[randomIndex] = temporaryValue;
+  }
+  return arr;
+}
+
 class Trivia extends React.Component {
   state = {
     username: '',
@@ -58,34 +77,14 @@ class Trivia extends React.Component {
     return <Question name={this.state.questionList[this.state.count]} />;
   }
   getAnswers() {
-    const answers = this.state.answerList[this.state.count].map((data, i) => (
-      <AnswerOption
-        key={i}
-        id={i}
-        answerHandler={this.answerClick}
-        name={data}
-      />
-    ));
-
-    function shuffle(arr) {
-      var currentIndex = arr.length,
-        temporaryValue,
-        randomIndex;
-
-      // While there remain elements to shuffle...
-      while (0 !== currentIndex) {
-        // Pick a remaining element...
-        randomIndex = Math.floor(Math.random() * currentIndex);
-        currentIndex -= 1;
-
-        // And swap it with the current element.
-        temporaryValue = arr[currentIndex];
-        arr[currentIndex] = arr[randomIndex];
-        arr[randomIndex] = temporaryValue;
+    const options = ["A", "B", "C", "D"];
+    const currentAnswers = this.state.answerList[this.state.count].map(
+      (answer, i) => {
+        const optionText = answer.toString ? answer.toString() : answer;
+        return { option: options[i], text: optionText, id: i };
       }
-      return arr;
-    }
-    return shuffle(answers);
+    );
+    return shuffle(currentAnswers);
   }
 
   nextQuestion() {
@@ -102,11 +101,16 @@ class Trivia extends React.Component {
   };
 
   render() {
+    const shuffledChoices = this.state.difficultySelected
+      ? this.getAnswers()
+      : [];
     return (
       <div>
         {this.state.difficultySelected === false ? (
           <div>
-            <h1>{this.props.location.hash.substring(1)} Trivia </h1>
+            <h1 className="cat_class">
+              {this.props.location.hash.substring(1)} Trivia{" "}
+            </h1>
             <button className="easy" name="Easy" onClick={this.diffcultyClick}>
               Easy
             </button>
@@ -124,7 +128,21 @@ class Trivia extends React.Component {
         ) : this.state.gameFinished === false ? (
           <div>
             {this.getQuestions()}
-            {this.getAnswers()}
+            <div>
+              {shuffledChoices.map(choice => {
+                return (
+                  <AnswerOption
+                    key={choice.id}
+                    id={choice.id}
+                    answerHandler={this.answerClick}
+                    name={choice.text}
+                  />
+                );
+              })}
+            </div>
+            <button name="next" onClick={this.nextQuestion}>
+              Next
+            </button>
           </div>
         ) : (
               <div>
