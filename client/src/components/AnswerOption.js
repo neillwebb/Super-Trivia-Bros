@@ -9,9 +9,9 @@ const AnswerOption = (props) => (
       </p>
     </div>
     <button
-      // className={"ui button" + props.option}
+      className={"ui button" + props.option}
       value={props.id}
-      onClick={props.answerHandler}>{props.id}
+      onClick={props.answerHandler}>
     </button>
   </div>
 );
