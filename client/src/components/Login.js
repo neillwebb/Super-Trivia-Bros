@@ -35,14 +35,17 @@ class Login extends Component {
         event.preventDefault();
         $.post('/api/session', { username: this.state.username, password: this.state.password })
             .then((data) => {
+                // console.log(data)
                 this.setState({
-                    isLoggedin: true,
                     username: this.state.username,
                     password: this.state.password,
-                    allScores: data.data.scores
-                }, () => {
-                    this.props.history.push("/gamewindow")
+                    allScores: data.data.scores,
+                    isLoggedin: true
                 })
+                // () => {
+                //     this.props.history.push("/gamewindow")
+                // })
+                //renders from routing(app) instead of <gamewindow so the state is nonexistent
             }).catch(function (err) {
                 alert("Username or password is incorrect")
             })
@@ -50,17 +53,18 @@ class Login extends Component {
     }
 
     render() {
+        // console.log(this.state.allScores)
         return (
             <div >
-                {this.state.isLoggedin === false ?
+                {this.state.isLoggedin === false
+                    ?
                     <Form onChangeHandler={this.handleChange}
                         regHandler={this.handleRegister}
-                        loginHandler={this.handleLogin} /> :
+                        loginHandler={this.handleLogin} />
+                    :
                     <GameWindow scores={this.state.allScores} />
 
-
                 }
-
             </div>
         );
     }
