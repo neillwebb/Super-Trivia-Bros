@@ -142,7 +142,11 @@ class Trivia extends React.Component {
           </div>
         ) : (
           <div>
-            <div>Your score was: {this.state.score}!</div>
+            <p className="gameOver">GAME OVER!</p>
+            <div className="endScore">
+              Your score was:
+              {this.state.score}
+            </div>
             <Link className="menu" to="/gamewindow">
               Back to Main Menu
             </Link>

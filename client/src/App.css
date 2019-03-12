@@ -251,19 +251,37 @@ a {
     width: 100%;
   }
 } */
+.gameOver {
+  font-size: 140px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+  color: red;
+  font-family: "Press Start 2P";
+}
+
+.endScore {
+  font-size: 50px;
+  position: absolute;
+  top: 50%;
+  left: 26%;
+  color: yellow;
+  font-family: "Press Start 2P";
+}
 
 .menu {
   font-size: 30px;
   position: absolute;
-  top: 50%;
-  left: 13%;
+  top: 70%;
+  left: 36%;
+  color: white;
 }
 
 .answers1 {
   font-family: "Press Start 2P";
   position: absolute;
   top: 42%;
-  left: 38%;
+  left: 32%;
   color: red;
   font-size: 32px;
 }
@@ -272,7 +290,7 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 51%;
-  left: 38%;
+  left: 32%;
   color: yellow;
   font-size: 32px;
 }
@@ -281,7 +299,7 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 61%;
-  left: 38%;
+  left: 32%;
   color: #6dd8e1;
   font-size: 32px;
 }
@@ -290,7 +308,7 @@ a {
   font-family: "Press Start 2P";
   position: absolute;
   top: 70%;
-  left: 38%;
+  left: 32%;
   color: lime;
   font-size: 32px;
 }
