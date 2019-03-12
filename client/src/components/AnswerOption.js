@@ -2,7 +2,12 @@ import React from "react";
 
 const AnswerOption = (props) => (
 
-    <p>{props.name} </p>
+    <button value={props.id}
+        onClick={props.answerHandler}
+    >
+        {props.name}
+
+    </button>
 
 
 )

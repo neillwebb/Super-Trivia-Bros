@@ -1,7 +1,8 @@
 import React from "react";
-import { BrowserRouter, Route, Link, Switch } from "react-router-dom";
+import { BrowserRouter, Route } from "react-router-dom";
 import Login from "../src/components/Login";
 import Trivia from "../src/components/Trivia";
+import PersonalHighScore from "../src/components/PersonalHighScore";
 import GameWindow from "../src/components/GameWindow";
 import "./App.css";
 import image from "../src/Webpage.png";
@@ -14,6 +15,7 @@ const App = () => (
       </header>
       <Route exact path="/" component={Login} />
       <Route exact path="/gamewindow" component={GameWindow} />
+      <Route exact path="/highscore" component={PersonalHighScore} />
       <Route exact path="/trivia" component={Trivia} />
     </div>
   </BrowserRouter>
