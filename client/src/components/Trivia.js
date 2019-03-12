@@ -26,7 +26,7 @@ class Trivia extends React.Component {
   render() {
     return (
       <div>
-        <img class="ui avatar image" src="../src/s-I300.png" />
+        <img class="ui avatar image" src="../../src/image.png" />
         <h1>{this.props.location.hash.substring(1)} Trivia </h1>
         <button className="easy" name="Easy" onClick={this.diffcultyClick}>
           Easy
