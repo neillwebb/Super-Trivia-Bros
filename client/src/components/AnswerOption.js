@@ -10,7 +10,7 @@ const AnswerOption = props => (
       </ul>
     </div>
     <button
-      className={"button" + props.id}
+      className={"ui button" + props.id}
       value={props.id}
       onClick={props.answerHandler}
     />
