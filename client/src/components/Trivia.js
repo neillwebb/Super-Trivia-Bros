@@ -99,5 +99,4 @@ class Trivia extends React.Component {
     }
 }
 
-
 export default Trivia;
