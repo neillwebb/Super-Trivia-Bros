@@ -9,13 +9,11 @@ function shuffle(inputArr) {
   var currentIndex = arr.length,
     temporaryValue,
     randomIndex;
-
   // While there remain elements to shuffle...
   while (0 !== currentIndex) {
     // Pick a remaining element...
     randomIndex = Math.floor(Math.random() * currentIndex);
     currentIndex -= 1;
-
     // And swap it with the current element.
     temporaryValue = arr[currentIndex];
     arr[currentIndex] = arr[randomIndex];
@@ -23,7 +21,6 @@ function shuffle(inputArr) {
   }
   return arr;
 }
-
 class Trivia extends React.Component {
   state = {
     username: "",
@@ -38,22 +35,24 @@ class Trivia extends React.Component {
     categoryScore: 0,
     score: 0
   };
-
   componentDidMount() {
-    const userId = sessionStorage.getItem('userId');
-    $.get(`/api/user/${userId}`).then((data) => {
+    const userId = sessionStorage.getItem("userId");
+    $.get(`/api/user/${userId}`).then(data => {
       this.setState({
         username: data.data.username,
         scoreList: data.data.scores
-      })
-    })
+      });
+    });
   }
-
   diffcultyClick = event => {
     event.preventDefault();
     let temp = event.target.name;
-    const previousScore = this.state.scoreList.length > 0 ? this.state.scoreList.find(item => item.category === this.state.category) : {};
-
+    const previousScore =
+      this.state.scoreList.length > 0
+        ? this.state.scoreList.find(
+          item => item.category === this.state.category
+        )
+        : {};
     $.get(`/api/question/${this.state.category}`).then(data => {
       const tempArray = [];
       const tempQuestions = [];
@@ -75,7 +74,6 @@ class Trivia extends React.Component {
       });
     });
   };
-
   answerClick = event => {
     event.preventDefault();
     if (parseInt(event.target.value) === 3) {
@@ -84,7 +82,6 @@ class Trivia extends React.Component {
       }, this.nextQuestion);
     }
   };
-
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
   }
@@ -96,13 +93,11 @@ class Trivia extends React.Component {
         return { text: optionText, id: i };
       }
     );
-
     let shuffledChoices = shuffle(currentAnswers);
     shuffledChoices.map((answer, i) => {
       answer.option = options[i];
       return answer;
     });
-
     return shuffledChoices;
   }
 
@@ -184,5 +179,4 @@ class Trivia extends React.Component {
     );
   }
 }
-
 export default Trivia;

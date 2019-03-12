@@ -51,7 +51,7 @@ class GameWindow extends React.Component {
           <h2>Choose a category:</h2>
           <h3>
             <Link className="userProfile" to="/highscore">
-              <img className="imageLink" src="../src/image.png" alt="mario" />
+              <img className="imageLink" src="../src/image.png" />
             </Link>
           </h3>
         </header>

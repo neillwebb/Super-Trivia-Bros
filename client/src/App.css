@@ -91,6 +91,7 @@ a {
 
 .highscores {
   left: 12.5%;
+  font-size: 58px;
 }
 
 .scores {
@@ -98,7 +99,7 @@ a {
 }
 
 li {
-  font-size: 10px;
+  font-size: 8px;
   font-family: "Press Start 2P";
   position: absolute;
   color: lime;
@@ -127,37 +128,37 @@ li {
 .Books {
   position: absolute;
   top: 44%;
-  left: 34.5%;
+  left: 31.5%;
 }
 
 .Movies {
   position: absolute;
   top: 50%;
-  left: 33%;
+  left: 30%;
 }
 
 .Sports {
   position: absolute;
   top: 56%;
-  left: 33%;
+  left: 30%;
 }
 
 .Television {
   position: absolute;
   top: 62%;
-  left: 27%;
+  left: 24%;
 }
 
 .Celebrities {
   position: absolute;
   top: 68%;
-  left: 25.5%;
+  left: 22.5%;
 }
 
 .Animals {
   position: absolute;
   top: 74%;
-  left: 31.5%;
+  left: 28.5%;
 }
 
 .Video.Games {
@@ -281,10 +282,10 @@ li {
   }
 } */
 .gameOver {
-  font-size: 140px;
+  font-size: 130px;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 12%;
   color: red;
   font-family: "Press Start 2P";
 }
@@ -311,6 +312,15 @@ li {
   position: absolute;
   top: 35%;
   left: 36%;
+  color: white;
+}
+
+.currentScore {
+  font-family: "Press Start 2P";
+  font-size: 25px;
+  position: absolute;
+  top: 17%;
+  left: 10%;
   color: white;
 }
 
@@ -359,7 +369,6 @@ li {
   opacity: 0.1;
 }
 
-
 .buttonB {
   position: absolute;
   width: 3.5%;
@@ -387,11 +396,62 @@ li {
   opacity: 0.1;
 }
 
+.Play {
+  position: absolute;
+  width: 8%;
+  height: 5%;
+  left: 8%;
+  bottom: 10%;
+  background-color: lime;
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  border-color: lime;
+}
+
+.Pause {
+  position: absolute;
+  width: 8%;
+  height: 5%;
+  left: 18%;
+  bottom: 10%;
+  background-color: rgb(148, 0, 0);
+  font-family: "Press Start 2P";
+  font-size: 12px;
+  border-color: rgb(187, 13, 13);
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .background {
+    transform: rotate(0.75turn);
+    width: 100%;
+  }
+
+  .gameOver {
+    font-size: 25px;
+    transform: rotate(0.75turn);
+  }
+
+  .endScore {
+    font-size: 10px;
+    transform: rotate(0.75turn);
+  }
+
+  .menu2 {
+    font-size: 10px;
+    transform: rotate(0.75turn);
+  }
+
+  .menu {
+    font-size: 10px;
+    transform: rotate(0.75turn);
   }
 }
