@@ -3,6 +3,7 @@ import Question from "../components/Question";
 import AnswerOption from "../components/AnswerOption";
 import { Link } from "react-router-dom";
 import * as $ from "axios";
+
 function shuffle(inputArr) {
   const arr = inputArr.concat();
   var currentIndex = arr.length,
@@ -49,8 +50,8 @@ class Trivia extends React.Component {
     const previousScore =
       this.state.scoreList.length > 0
         ? this.state.scoreList.find(
-            item => item.category === this.state.category
-          )
+          item => item.category === this.state.category
+        )
         : {};
     $.get(`/api/question/${this.state.category}`).then(data => {
       const tempArray = [];
@@ -77,10 +78,9 @@ class Trivia extends React.Component {
     event.preventDefault();
     if (parseInt(event.target.value) === 3) {
       this.setState({
-        score: this.state.score + 10
-      });
+        score: this.state.score + 10,
+      }, this.nextQuestion);
     }
-    this.nextQuestion();
   };
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
@@ -100,29 +100,26 @@ class Trivia extends React.Component {
     });
     return shuffledChoices;
   }
+
   nextQuestion() {
+    console.log(this.state.count)
     if (this.state.count < 9) {
       this.setState({
         count: this.state.count + 1
       });
-    } else {
+    }
+    else if (parseInt(this.state.count) == 9) {
       this.setState({
         gameFinished: true
       });
-    }
-    if (
-      this.state.gameFinished === true &&
-      this.state.score > this.state.categoryScore
-    ) {
-      $.put("/api/user", {
-        username: this.state.username,
-        category: this.state.category,
-        score: this.state.score
-      }).then(data => {
-        console.log(data);
-      });
+      if (this.state.score > this.state.categoryScore) {
+        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score })
+      }
     }
   }
+
+
+
   render() {
     const shuffledChoices = this.state.difficultySelected
       ? this.getAnswers()
@@ -167,17 +164,17 @@ class Trivia extends React.Component {
             </div>
           </div>
         ) : (
-          <div>
-            <p className="gameOver">GAME OVER!</p>
-            <div className="endScore">
-              Your score was:
+              <div>
+                <p className="gameOver">GAME OVER!</p>
+                <div className="endScore">
+                  Your score was:
               {this.state.score}
-            </div>
-            <Link className="menu" to="/gamewindow">
-              Back to Main Menu
+                </div>
+                <Link className="menu" to="/gamewindow">
+                  Back to Main Menu
             </Link>
-          </div>
-        )}
+              </div>
+            )}
       </div>
     );
   }

@@ -364,12 +364,21 @@ li {
   position: absolute;
   width: 3.5%;
   height: 2%;
+  bottom: 7%;
+  right: 19%;
+  opacity: 0.1;
+}
+
+.buttonB {
+  position: absolute;
+  width: 3.5%;
+  height: 2%;
   right: 46%;
   bottom: 13%;
   opacity: 0.1;
 }
 
-.buttonB {
+.buttonC {
   position: absolute;
   width: 3.5%;
   height: 2%;
@@ -378,21 +387,12 @@ li {
   opacity: 0.1;
 }
 
-.buttonC {
+.buttonD {
   position: absolute;
   width: 3.5%;
   height: 2%;
   bottom: 13%;
   right: 29%;
-  opacity: 0.1;
-}
-
-.buttonD {
-  position: absolute;
-  width: 3.5%;
-  height: 2%;
-  bottom: 7%;
-  right: 19%;
   opacity: 0.1;
 }
 
