@@ -5,32 +5,56 @@ import '../App.css'
 import * as $ from 'axios';
 
 class GameWindow extends React.Component {
-    state = {
-        categories: ["Books", "Movies", "Sports", "Television", 'Celebrities', "Animals", "Geography", "History", "Video Games", "Science And Nature", "General Knowledge", "Music"],
-        scoreList: this.props.allScores,
-        score: 0
-    }
+  state = {
+    categories: [
+      "Books",
+      "Movies",
+      "Sports",
+      "Television",
+      'Celebrities',
+      "Animals",
+      "Geography",
+      "History",
+      "Video Games",
+      "Science And Nature",
+      "General Knowledge",
+      "Music"
+    ],
+    scoreList: this.props.allScores,
+    score: 0
+  }
 
-    getCategories() {
-        return this.state.categories.map((data, i) => (
-            <Category key={i}
-                name={data} />
-        ))
-    }
+  getCategories() {
+    return this.state.categories.map((data, i) => (
+      <Category key={i}
+        name={data} />
+    ))
+  }
 
-    render() {
-        return (
-            <div>
-                {this.getCategories()}
-                <header>
-                    <h1>Super Trivia Bros!</h1>
-                    <h2>Choose a category!</h2>
-                </header>
+  render() {
+    return (
+      <div>
+        {this.getCategories()}
+        <header>
+          <h1>Super Trivia Bros!</h1>
+          <h2>Choose a category!</h2>
+        </header>
 
-            </div>
-        )
-    }
+      </div>
+    )
+  }
 
+  render() {
+    return (
+      <div className="categories">
+        <header>
+          <h1>Super Trivia Bros!</h1>
+          <h2>Choose a category!</h2>
+        </header>
+        {this.getCategories()}
+      </div>
+    );
+  }
 }
 
 export default GameWindow;
