@@ -315,7 +315,16 @@ li {
   color: white;
 }
 
-.answers1 {
+.currentScore {
+  font-family: "Press Start 2P";
+  font-size: 25px;
+  position: absolute;
+  top: 17%;
+  left: 10%;
+  color: white;
+}
+
+.answersA {
   font-family: "Press Start 2P";
   position: absolute;
   top: 42%;
@@ -324,7 +333,7 @@ li {
   font-size: 32px;
 }
 
-.answers2 {
+.answersB {
   font-family: "Press Start 2P";
   position: absolute;
   top: 51%;
@@ -333,7 +342,7 @@ li {
   font-size: 32px;
 }
 
-.answers3 {
+.answersC {
   font-family: "Press Start 2P";
   position: absolute;
   top: 61%;
@@ -342,7 +351,7 @@ li {
   font-size: 32px;
 }
 
-.answers0 {
+.answersD {
   font-family: "Press Start 2P";
   position: absolute;
   top: 70%;
@@ -351,7 +360,7 @@ li {
   font-size: 32px;
 }
 
-.button1 {
+.buttonA {
   position: absolute;
   width: 3.5%;
   height: 2%;
@@ -360,7 +369,7 @@ li {
   opacity: 0.1;
 }
 
-.button2 {
+.buttonB {
   position: absolute;
   width: 3.5%;
   height: 2%;
@@ -369,7 +378,7 @@ li {
   opacity: 0.1;
 }
 
-.button3 {
+.buttonC {
   position: absolute;
   width: 3.5%;
   height: 2%;
@@ -378,7 +387,7 @@ li {
   opacity: 0.1;
 }
 
-.button0 {
+.buttonD {
   position: absolute;
   width: 3.5%;
   height: 2%;
@@ -393,5 +402,32 @@ li {
   }
   to {
     transform: rotate(360deg);
+  }
+}
+
+@media screen and (max-width: 414px) {
+  .background {
+    transform: rotate(0.75turn);
+    width: 100%;
+  }
+
+  .gameOver {
+    font-size: 25px;
+    transform: rotate(0.75turn);
+  }
+
+  .endScore {
+    font-size: 10px;
+    transform: rotate(0.75turn);
+  }
+
+  .menu2 {
+    font-size: 10px;
+    transform: rotate(0.75turn);
+  }
+
+  .menu {
+    font-size: 10px;
+    transform: rotate(0.75turn);
   }
 }
