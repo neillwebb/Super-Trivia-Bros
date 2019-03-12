@@ -215,7 +215,7 @@ a {
 .quest_div {
   width: 75%;
   position: absolute;
-  top: 20%;
+  top: 10%;
   height: 40%;
   left: 13%;
   overflow: hidden;
@@ -234,12 +234,13 @@ a {
 }
 
 .answer_div {
-  background-color: red;
+  /* background-color: red; */
   width: 75%;
   /* height: 40%;
   position: absolute; */
-  /* top: 50%;
-  left: 13%; */
+  /* top: 60%;
+  left: 13%;
+  overflow: hidden; */
 }
 
 /* @keyframes typing {
@@ -250,6 +251,73 @@ a {
     width: 100%;
   }
 } */
+
+.menu {
+  font-size: 30px;
+  position: absolute;
+  top: 50%;
+  left: 13%;
+}
+
+.answers1 {
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 42%;
+  left: 38%;
+  color: red;
+  font-size: 32px;
+}
+
+.answers2 {
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 51%;
+  left: 38%;
+  color: yellow;
+  font-size: 32px;
+}
+
+.answers3 {
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 61%;
+  left: 38%;
+  color: #6dd8e1;
+  font-size: 32px;
+}
+
+.answers0 {
+  font-family: "Press Start 2P";
+  position: absolute;
+  top: 70%;
+  left: 38%;
+  color: lime;
+  font-size: 32px;
+}
+
+.button1 {
+  position: absolute;
+  right: 48%;
+  bottom: 14%;
+}
+
+.button2 {
+  position: absolute;
+  bottom: 7%;
+  right: 39%;
+}
+
+.button3 {
+  position: absolute;
+  bottom: 14%;
+  right: 30%;
+}
+
+.button0 {
+  position: absolute;
+  bottom: 7%;
+  right: 20%;
+}
 
 @keyframes App-logo-spin {
   from {
