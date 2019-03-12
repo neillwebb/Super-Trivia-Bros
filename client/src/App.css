@@ -91,6 +91,7 @@ a {
 
 .highscores {
   left: 12.5%;
+  font-size: 58px;
 }
 
 .scores {
@@ -281,10 +282,10 @@ li {
   }
 } */
 .gameOver {
-  font-size: 140px;
+  font-size: 130px;
   position: absolute;
   top: 20%;
-  left: 10%;
+  left: 12%;
   color: red;
   font-family: "Press Start 2P";
 }
