@@ -27,7 +27,7 @@ class PersonalHighScore extends React.Component {
           <h1 className="highscores"> Personal High Scores! </h1>
           <ul className="scores">
             {this.state.scoreList.map((data, i) => (
-              <li className={data.category}>
+              <li className={data.category} key={i}>
                 {data.category}: {data.score}
               </li>
             ))}
