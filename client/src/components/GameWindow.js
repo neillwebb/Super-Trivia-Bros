@@ -23,31 +23,21 @@ class GameWindow extends React.Component {
       "Music"
     ],
     scoreList: [],
-    easterEgg: false,
+    easterEgg: [],
     score: 0
   };
 
   componentDidMount() {
-    const userId = sessionStorage.getItem("userId");
-    $.get(`/api/user/${userId}`).then(data => {
-      console.log(data);
+    const userId = sessionStorage.getItem('userId');
+    $.get(`/api/user/${userId}`).then((data) => {
       this.setState({
         username: data.data.username,
-        scoreList: data.data.scores
-      });
-    });
-  }
+        scoreList: data.data.scores,
+        easterEgg: data.data.easterEgg
+      })
+    })
 
-  // componentWillReceiveProps(prevProps) {
-  //   console.log(this.props)
-  //   console.log(prevProps)
-  //   if (this.props.scores !== prevProps.scores) {
-  //     console.log(this.props.scores)
-  //     this.setState({
-  //       scoreList: this.props.scores
-  //     })
-  //   }
-  // }
+  }
 
   getCategories() {
     return this.state.categories.map((data, i) => (
@@ -56,7 +46,6 @@ class GameWindow extends React.Component {
   }
 
   render() {
-    console.log(this.state.scoreList);
     return (
       <div className="categories">
         <header>

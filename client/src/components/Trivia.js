@@ -1,6 +1,7 @@
 import React from "react";
 import Question from "../components/Question";
 import AnswerOption from "../components/AnswerOption";
+import { Link } from "react-router-dom";
 import * as $ from "axios";
 
 function shuffle(arr) {
@@ -24,6 +25,7 @@ function shuffle(arr) {
 
 class Trivia extends React.Component {
   state = {
+    username: '',
     category: this.props.location.hash.substring(1),
     difficulty: "",
     questionList: [],
@@ -59,9 +61,16 @@ class Trivia extends React.Component {
     });
   };
 
-  answerClick = event => {
+  answerClick = (event) => {
     event.preventDefault();
-    console.log("hello");
+    console.log(event.target.value)
+    if (parseInt(event.target.value) === 3) {
+      this.setState({
+        score: this.state.score + 10
+      })
+    }
+    this.nextQuestion();
+
   };
 
   getQuestions() {
@@ -78,15 +87,15 @@ class Trivia extends React.Component {
     return shuffle(currentAnswers);
   }
 
-  nextQuestion = event => {
-    event.preventDefault();
+  nextQuestion() {
     if (this.state.count < 9) {
       this.setState({
         count: this.state.count + 1
       });
     } else {
       this.setState({
-        gameFinished: true
+        gameFinished: true,
+        score: 0
       });
     }
   };
@@ -136,8 +145,11 @@ class Trivia extends React.Component {
             </button>
           </div>
         ) : (
-          <div>Your score was: </div>
-        )}
+              <div>
+                <div>Your score was: {this.state.score}!</div>
+                <Link to="/gamewindow">Back to Main Menu</Link>
+              </div>
+            )}
       </div>
     );
   }

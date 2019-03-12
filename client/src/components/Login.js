@@ -1,18 +1,13 @@
 import React, { Component } from "react";
 import Form from '../components/Form'
-import GameWindow from '../components/GameWindow';
 import '../App.css'
 import * as $ from 'axios';
 
 class Login extends Component {
     state = {
-        username: '',
-        password: '',
         reguser: '',
         regpw: '',
-        allScores: [],
         isLoggedin: false,
-        easterEgg: false
     }
 
     handleChange = (event) => {
@@ -48,15 +43,9 @@ class Login extends Component {
         // console.log(this.state.allScores)
         return (
             <div >
-                {this.state.isLoggedin === false
-                    ?
-                    <Form onChangeHandler={this.handleChange}
-                        regHandler={this.handleRegister}
-                        loginHandler={this.handleLogin} />
-                    :
-                    <GameWindow scores={this.state.allScores} />
-
-                }
+                <Form onChangeHandler={this.handleChange}
+                    regHandler={this.handleRegister}
+                    loginHandler={this.handleLogin} />
             </div>
         );
     }
