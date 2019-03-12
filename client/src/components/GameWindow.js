@@ -28,15 +28,14 @@ class GameWindow extends React.Component {
   };
 
   componentDidMount() {
-    const userId = sessionStorage.getItem('userId');
-    $.get(`/api/user/${userId}`).then((data) => {
+    const userId = sessionStorage.getItem("userId");
+    $.get(`/api/user/${userId}`).then(data => {
       this.setState({
         username: data.data.username,
         scoreList: data.data.scores,
         easterEgg: data.data.easterEgg
-      })
-    })
-
+      });
+    });
   }
 
   getCategories() {
@@ -52,7 +51,9 @@ class GameWindow extends React.Component {
           <h1>Super Trivia Bros!</h1>
           <h2>Choose a category:</h2>
           <h3>
-            <Link className="userProfile" to="/highscore" />
+            <Link className="userProfile" to="/highscore">
+              <img className="imageLink" src="../src/image.png" />
+            </Link>
           </h3>
         </header>
         {this.getCategories()}

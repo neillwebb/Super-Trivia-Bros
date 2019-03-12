@@ -73,6 +73,35 @@ a {
 
 .userProfile {
   background-image: url("../src/image.png");
+  width: 20%;
+  height: 50%;
+  position: absolute;
+  bottom: 10%;
+  left: 8%;
+  z-index: 3;
+  background-repeat: no-repeat;
+}
+
+.imageLink {
+  opacity: 0.1;
+  position: absolute;
+  height: 20%;
+  width: 10%;
+}
+
+.highscores {
+  left: 12.5%;
+}
+
+.scores {
+  list-style-type: none;
+}
+
+li {
+  font-size: 10px;
+  font-family: "Press Start 2P";
+  position: absolute;
+  color: lime;
 }
 
 .Video.Games,
@@ -273,6 +302,14 @@ a {
   font-size: 30px;
   position: absolute;
   top: 70%;
+  left: 36%;
+  color: white;
+}
+
+.menu2 {
+  font-size: 30px;
+  position: absolute;
+  top: 35%;
   left: 36%;
   color: white;
 }
