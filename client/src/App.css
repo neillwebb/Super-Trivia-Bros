@@ -386,6 +386,22 @@ li {
   opacity: 0.1;
 }
 
+.Play {
+  position: absolute;
+  width: 3.5%;
+  height: 10%;
+  left: 19%;
+  bottom: 10%;
+}
+
+.Pause {
+  position: absolute;
+  width: 3.5%;
+  height: 10%;
+  left: 25%;
+  bottom: 10%;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

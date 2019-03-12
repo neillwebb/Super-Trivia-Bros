@@ -2,7 +2,6 @@ import React from "react";
 import Category from "../components/Category";
 import { Link } from "react-router-dom";
 import "../App.css";
-import PersonalHighScore from "./PersonalHighScore";
 import * as $ from "axios";
 
 class GameWindow extends React.Component {
