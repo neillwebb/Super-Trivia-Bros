@@ -35,7 +35,10 @@ class Trivia extends React.Component {
     gameFinished: false,
     newHighScore: false,
     categoryScore: 0,
-    score: 0
+    answers: [],
+    score: 0,
+    buttonClicked: null,
+    currAnswers: []
   };
 
   componentDidMount() {
@@ -48,7 +51,7 @@ class Trivia extends React.Component {
     });
   }
 
-  diffcultyClick = event => {
+  diffcultyClick = (event) => {
     event.preventDefault();
     let temp = event.target.name;
     const previousScore =
@@ -75,13 +78,17 @@ class Trivia extends React.Component {
         answerList: tempArray,
         questionList: tempQuestions,
         categoryScore: previousScore.score,
-        score: 0
+        score: 0,
+        currAnswers: this.getAnswers(tempArray, this.state.count)
       });
     });
   };
 
-  answerClick = event => {
+  answerClick = (event) => {
     event.preventDefault();
+    this.setState({
+      buttonClicked: event.target.value
+    });
     if (parseInt(event.target.value) === 3) {
       this.setState({
         score: this.state.score + 10,
@@ -95,9 +102,10 @@ class Trivia extends React.Component {
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
   }
-  getAnswers() {
+
+  getAnswers(ansList, counter) {
     const options = ["A", "B", "C", "D"];
-    const currentAnswers = this.state.answerList[this.state.count].map(
+    const currentAnswers = ansList[counter].map(
       (answer, i) => {
         const optionText = answer.toString ? answer.toString() : answer;
         return { text: optionText, id: i };
@@ -108,35 +116,40 @@ class Trivia extends React.Component {
       answer.option = options[i];
       return answer;
     });
+    console.log(shuffledChoices)
     return shuffledChoices;
   }
 
   nextQuestion() {
-    if (this.state.count < 9) {
-      this.setState({
-        count: this.state.count + 1
-      });
-    }
-    else if (parseInt(this.state.count) == 9) {
-      this.setState({
-        gameFinished: true
-      });
-      if (this.state.score > this.state.categoryScore) {
-        $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
-          this.setState({
-            newHighScore: true
-          });
+
+    setTimeout(() => {
+      if (this.state.count < 9) {
+        let tempcount = this.state.count + 1
+        this.setState({
+          count: tempcount,
+          currAnswers: this.getAnswers(this.state.answerList, tempcount)
         });
       }
-    }
+      else if (parseInt(this.state.count) == 9) {
+        this.setState({
+          gameFinished: true
+        });
+        if (this.state.score > this.state.categoryScore) {
+          $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
+            this.setState({
+              newHighScore: true
+            });
+          });
+        }
+      }
+      this.setState({ buttonClicked: null })
+    }, 2000)
   }
 
 
 
   render() {
-    const shuffledChoices = this.state.difficultySelected
-      ? this.getAnswers()
-      : [];
+    const shuffledChoices = this.state.currAnswers
     return (
       <div>
         {this.state.difficultySelected === false ? (
@@ -168,6 +181,7 @@ class Trivia extends React.Component {
                   <AnswerOption
                     key={choice.option}
                     id={choice.id}
+                    clickedButton={this.state.buttonClicked}
                     answerHandler={this.answerClick}
                     option={choice.option}
                     name={choice.text}

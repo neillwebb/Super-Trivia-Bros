@@ -437,6 +437,14 @@ li {
   border-color: rgb(187, 13, 13);
 }
 
+.buttonRight {
+  border: 8px solid green;
+ }
+ 
+ .buttonWrong {
+  border: 8px solid red;
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -471,4 +479,5 @@ li {
     font-size: 10px;
     transform: rotate(0.75turn);
   }
+
 }
