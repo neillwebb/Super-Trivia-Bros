@@ -10,7 +10,6 @@ class AnswerOption extends React.Component {
     else if (parseInt(this.props.clickedButton) === this.props.id) {
       tempClass = " buttonWrong"
     }
-    console.log(this.props.clickedButton)
     return (
       <div className="answer_div">
         <div>

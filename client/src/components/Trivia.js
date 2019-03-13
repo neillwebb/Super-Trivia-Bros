@@ -97,6 +97,10 @@ class Trivia extends React.Component {
   };
 
   answerClick = (event) => {
+    let buttonTarget = event.target;
+    buttonTarget.setAttribute("disabled", true);
+    setTimeout(() => { buttonTarget.removeAttribute("disabled"); }, 2000);
+
     event.preventDefault();
     this.setState({
       buttonClicked: event.target.value
@@ -111,7 +115,7 @@ class Trivia extends React.Component {
         lives: this.state.lives - 1,
       }, this.nextQuestion);
     }
-  };
+  }
 
   getQuestions() {
     return <Question name={this.state.questionList[this.state.count]} />;
@@ -130,13 +134,12 @@ class Trivia extends React.Component {
       answer.option = options[i];
       return answer;
     });
-    console.log(shuffledChoices)
     return shuffledChoices;
   }
 
   nextQuestion() {
     setTimeout(() => {
-      if (this.state.lives === 0) {
+      if (this.state.lives <= 0) {
         this.setState({
           gameFinished: true
         })

@@ -38,12 +38,18 @@ class Music extends React.Component {
   render() {
     return (
       <div>
-        <button positive className="Play" onClick={this.play}>
-          Play
+        {this.state.play === false ?
+          <button positive className="Play" onClick={this.play}>
+            &nbsp;Play <br />🎵
         </button>
-        <button className="Pause" onClick={this.pause}>
+          :
+          <button positive className="Pause" onClick={this.pause}>
+            Pause<br />⏸️
+      </button>
+        }
+        {/* <button className="Pause" onClick={this.pause}>
           Pause
-        </button>
+        </button> */}
       </div>
     );
   }
