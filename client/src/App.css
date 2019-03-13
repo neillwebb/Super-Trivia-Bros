@@ -340,6 +340,7 @@ li {
   left: 32%;
   color: red;
   font-size: 32px;
+  background-color: transparent;
 }
 
 .answersB {
@@ -349,6 +350,7 @@ li {
   left: 32%;
   color: yellow;
   font-size: 32px;
+  background-color: transparent;
 }
 
 .answersC {
@@ -358,6 +360,7 @@ li {
   left: 32%;
   color: #6dd8e1;
   font-size: 32px;
+  background-color: transparent;
 }
 
 .answersD {
@@ -367,6 +370,7 @@ li {
   left: 32%;
   color: lime;
   font-size: 32px;
+  background-color: transparent;
 }
 
 .buttonA {
