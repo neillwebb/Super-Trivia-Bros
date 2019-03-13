@@ -9,8 +9,7 @@ class Music extends React.Component {
       pause: true
     };
 
-    this.url =
-      "https://ericskiff.com/music/Resistor%20Anthems/01%20A%20Night%20Of%20Dizzy%20Spells.mp3";
+    this.url = "https://patrickdearteaga.com/audio/Boss%20Fight.ogg?_=10";
     this.audio = new Audio(this.url);
   }
 
@@ -38,7 +37,7 @@ class Music extends React.Component {
   render() {
     return (
       <div>
-        <button positive className="Play" onClick={this.play}>
+        <button className="" className="Play" onClick={this.play}>
           Play
         </button>
         <button className="Pause" onClick={this.pause}>
@@ -49,3 +48,5 @@ class Music extends React.Component {
   }
 }
 export default Music;
+
+// "https://ericskiff.com/music/Resistor%20Anthems/01%20A%20Night%20Of%20Dizzy%20Spells.mp3"
