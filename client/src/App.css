@@ -328,9 +328,18 @@ li {
   font-family: "Press Start 2P";
   font-size: 25px;
   position: absolute;
-  top: 17%;
-  left: 10%;
+  top: 19%;
+  left: 9%;
   color: white;
+}
+
+.currentLives {
+  font-family: "Press Start 2P";
+  font-size: 25px;
+  position: absolute;
+  top: 25%;
+  left: 9%;
+  color: #eb7482 
 }
 
 .answersA {

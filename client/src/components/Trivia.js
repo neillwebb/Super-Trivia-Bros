@@ -38,7 +38,8 @@ class Trivia extends React.Component {
     answers: [],
     score: 0,
     buttonClicked: null,
-    currAnswers: []
+    currAnswers: [],
+    lives: 5
   };
 
   componentDidMount() {
@@ -54,6 +55,16 @@ class Trivia extends React.Component {
   diffcultyClick = (event) => {
     event.preventDefault();
     let temp = event.target.name;
+    let numLives = 5;
+    if (temp === "Easy") {
+      numLives = 5;
+    }
+    else if (temp === "Medium") {
+      numLives = 3;
+    }
+    else {
+      numLives = 1;
+    }
     const previousScore =
       this.state.scoreList.length > 0
         ? this.state.scoreList.find(
@@ -79,6 +90,7 @@ class Trivia extends React.Component {
         questionList: tempQuestions,
         categoryScore: previousScore.score,
         score: 0,
+        lives: numLives,
         currAnswers: this.getAnswers(tempArray, this.state.count)
       });
     });
@@ -95,7 +107,9 @@ class Trivia extends React.Component {
       }, this.nextQuestion);
     }
     else {
-      this.nextQuestion()
+      this.setState({
+        lives: this.state.lives - 1,
+      }, this.nextQuestion);
     }
   };
 
@@ -121,8 +135,13 @@ class Trivia extends React.Component {
   }
 
   nextQuestion() {
-
     setTimeout(() => {
+      if (this.state.lives === 0) {
+        this.setState({
+          gameFinished: true
+        })
+      }
+
       if (this.state.count < 9) {
         let tempcount = this.state.count + 1
         this.setState({
@@ -130,7 +149,7 @@ class Trivia extends React.Component {
           currAnswers: this.getAnswers(this.state.answerList, tempcount)
         });
       }
-      else if (parseInt(this.state.count) == 9) {
+      else if (parseInt(this.state.count) === 9) {
         this.setState({
           gameFinished: true
         });
@@ -158,17 +177,17 @@ class Trivia extends React.Component {
               {this.props.location.hash.substring(1)} Trivia{" "}
             </h1>
             <button className="easy" name="Easy" onClick={this.diffcultyClick}>
-              Easy
+              &nbsp; Easy: <br /> 💖💖💖💖💖
             </button>
             <button
               className="medium"
               name="Medium"
               onClick={this.diffcultyClick}
             >
-              Medium
+              &nbsp; Medium: <br /> 💖💖💖
             </button>
             <button className="hard" name="Hard" onClick={this.diffcultyClick}>
-              Hard
+              &nbsp; Hard: <br /> 💖
             </button>
           </div>
         ) : this.state.gameFinished === false ? (
@@ -176,6 +195,7 @@ class Trivia extends React.Component {
             {this.getQuestions()}
             <div>
               <div className="currentScore">{this.state.score}</div>
+              <div className="currentLives">{this.state.lives}💖</div>
               {shuffledChoices.map(choice => {
                 return (
                   <AnswerOption
