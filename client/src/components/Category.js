@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
 
-const Category = props => (
+const Category = (props) => (
   <Link
     className={props.name}
     to={{

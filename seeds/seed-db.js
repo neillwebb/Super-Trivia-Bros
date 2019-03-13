@@ -13321,7 +13321,7 @@ const questions = [
     difficulty: "medium",
     question: "What is the Portuguese word for 'Brazil'?",
     correct_answer: "Brasil",
-    incorrect_answers: ["Brazil", "Brasilia", "Brasil"]
+    incorrect_answers: ["Brazil", "Brasilia", "Brasíl"]
   },
   {
     category: "General Knowledge",
