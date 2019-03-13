@@ -140,6 +140,13 @@ class Trivia extends React.Component {
         this.setState({
           gameFinished: true
         })
+        if (this.state.score > this.state.categoryScore) {
+          $.put('/api/user', { username: this.state.username, category: this.state.category, score: this.state.score }).then(data => {
+            this.setState({
+              newHighScore: true
+            });
+          });
+        }
       }
 
       if (this.state.count < 9) {
