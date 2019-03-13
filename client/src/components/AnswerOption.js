@@ -7,7 +7,7 @@ class AnswerOption extends React.Component {
     if (this.props.clickedButton && this.props.id === 3) {
       tempClass = " buttonRight"
     }
-    else if (this.props.clickedButton == this.props.id) {
+    else if (parseInt(this.props.clickedButton) === this.props.id) {
       tempClass = " buttonWrong"
     }
     console.log(this.props.clickedButton)
