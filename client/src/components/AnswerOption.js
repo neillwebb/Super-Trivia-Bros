@@ -1,12 +1,11 @@
 import React from "react";
-const options = ["A", "B", "C", "D"];
 
 const AnswerOption = (props) => (
   <div className="answer_div">
     <div>
-      <p className={"answers" + props.option} value={props.id}>
+      <button className={"answers" + props.option} value={props.id} onClick={props.answerHandler}>
         {props.option}: {props.name}
-      </p>
+      </button>
     </div>
     <button
       className={"ui button" + props.option}
