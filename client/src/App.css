@@ -341,6 +341,7 @@ li {
   color: red;
   font-size: 32px;
   background-color: transparent;
+  border-color: transparent;
 }
 
 .answersB {
@@ -351,6 +352,7 @@ li {
   color: yellow;
   font-size: 32px;
   background-color: transparent;
+  border-color: transparent;
 }
 
 .answersC {
@@ -361,6 +363,7 @@ li {
   color: #6dd8e1;
   font-size: 32px;
   background-color: transparent;
+  border-color: transparent;
 }
 
 .answersD {
@@ -371,6 +374,7 @@ li {
   color: lime;
   font-size: 32px;
   background-color: transparent;
+  border-color: transparent;
 }
 
 .buttonA {
@@ -433,6 +437,14 @@ li {
   border-color: rgb(187, 13, 13);
 }
 
+.buttonRight {
+  border: 8px solid green;
+ }
+ 
+ .buttonWrong {
+  border: 8px solid red;
+  }
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -467,4 +479,5 @@ li {
     font-size: 10px;
     transform: rotate(0.75turn);
   }
+
 }
