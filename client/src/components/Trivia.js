@@ -39,7 +39,8 @@ class Trivia extends React.Component {
     score: 0,
     buttonClicked: null,
     currAnswers: [],
-    lives: 5
+    lives: 5,
+    buttonDisabled: false
   };
 
   componentDidMount() {
@@ -96,16 +97,26 @@ class Trivia extends React.Component {
     });
   };
 
-  answerClick = (event) => {
-    let buttonTarget = event.target;
-    buttonTarget.setAttribute("disabled", true);
-    setTimeout(() => { buttonTarget.removeAttribute("disabled"); }, 2000);
 
+  disableButton = (event) => {
     event.preventDefault();
     this.setState({
+      buttonDisabled: true,
       buttonClicked: event.target.value
-    });
-    if (parseInt(event.target.value) === 3) {
+    }, () => this.answerClick());
+  }
+
+  answerClick = () => {
+    // event.preventDefault();
+    // let buttonTarget = event.target;
+    // buttonTarget.setAttribute("disabled", true);
+    // setTimeout(() => { buttonTarget.removeAttribute("disabled"); }, 2000);
+
+    // this.setState({
+    //   buttonDisabled: true,
+    //   buttonClicked: this.state.buttonClicked
+    // });
+    if (parseInt(this.state.buttonClicked) === 3) {
       this.setState({
         score: this.state.score + 10,
       }, this.nextQuestion);
@@ -135,6 +146,13 @@ class Trivia extends React.Component {
       return answer;
     });
     return shuffledChoices;
+  }
+
+
+  enableButton = () => {
+    this.setState({
+      buttonDisabled: false
+    });
   }
 
   nextQuestion() {
@@ -173,9 +191,8 @@ class Trivia extends React.Component {
       }
       this.setState({ buttonClicked: null })
     }, 2000)
+    setTimeout(this.enableButton, 2000)
   }
-
-
 
   render() {
     const shuffledChoices = this.state.currAnswers
@@ -212,7 +229,8 @@ class Trivia extends React.Component {
                     key={choice.option}
                     id={choice.id}
                     clickedButton={this.state.buttonClicked}
-                    answerHandler={this.answerClick}
+                    answerHandler={this.disableButton}
+                    buttonOnOff={this.state.buttonDisabled}
                     option={choice.option}
                     name={choice.text}
                   />
@@ -250,4 +268,7 @@ class Trivia extends React.Component {
     );
   }
 }
+
+
+
 export default Trivia;
