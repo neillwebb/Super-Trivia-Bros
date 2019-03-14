@@ -13,14 +13,21 @@ class AnswerOption extends React.Component {
     return (
       <div className="answer_div">
         <div>
-          <button className={"answers" + this.props.option + tempClass} value={this.props.id} onClick={this.props.answerHandler}>
+          <button
+            type="submit"
+            className={"answers" + this.props.option + tempClass}
+            value={this.props.id}
+            onClick={this.props.answerHandler}
+            disabled={this.props.buttonOnOff}>
             {this.props.option}: {this.props.name}
           </button>
         </div>
         <button
-          className={"ui button" + this.props.option + tempClass}
+          type="submit"
+          className={"ui button" + this.props.option}
           value={this.props.id}
-          onClick={this.props.answerHandler}>
+          onClick={this.props.answerHandler}
+          disabled={this.props.buttonOnOff}>
         </button>
       </div>
     )
