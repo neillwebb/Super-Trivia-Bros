@@ -73,10 +73,10 @@ class Trivia extends React.Component {
         )
         : {};
     $.get(`/api/question/${this.state.category}`).then(data => {
-      const tempArray = [];
+      const tempAnswers = [];
       const tempQuestions = [];
       for (let i = 0; i < 10; i++) {
-        tempArray[i] = data.data[i].incorrect_answers.concat(
+        tempAnswers[i] = data.data[i].incorrect_answers.concat(
           data.data[i].correct_answer
         );
         tempQuestions[i] = this.state.questionList.concat(
@@ -87,12 +87,12 @@ class Trivia extends React.Component {
         difficulty: temp,
         difficultySelected: true,
         newHighScore: false,
-        answerList: tempArray,
+        answerList: tempAnswers,
         questionList: tempQuestions,
         categoryScore: previousScore.score,
         score: 0,
         lives: numLives,
-        currAnswers: this.getAnswers(tempArray, this.state.count)
+        currAnswers: this.getAnswers(tempAnswers, this.state.count)
       });
     });
   };
