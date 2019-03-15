@@ -73,11 +73,11 @@ a {
 
 .userProfile {
   background-image: url("../src/image.png");
-  width: 20%;
-  height: 50%;
+  width: 15%;
+  height: 35%;
   position: absolute;
-  bottom: 10%;
-  left: 8%;
+  bottom: 33%;
+  left: 7%;
   z-index: 3;
   background-repeat: no-repeat;
 }
@@ -328,7 +328,7 @@ li {
   font-family: "Press Start 2P";
   font-size: 25px;
   position: absolute;
-  top: 19%;
+  top: 20.5%;
   left: 9%;
   color: white;
 }
@@ -499,8 +499,14 @@ li {
   }
 
   .userProfile {
-    left: -140%;
-    width: 63%;
+    left: -122%;
+    width: 31%;
+    background-image: url("../src/image-mobile.png");
+    height: 20%;
+    position: absolute;
+    bottom: 33%;
+    z-index: 3;
+    background-repeat: no-repeat;
   }
 
   .Video.Games,
@@ -515,7 +521,7 @@ li {
   .Television,
   .Celebrities,
   .Animals {
-    font-size: 18px;
+    font-size: 16px;
   }
 
   .Books {
@@ -667,6 +673,12 @@ li {
     left: -100%;
   }
 
+  .newHigh {
+    font-size: 17px;
+    left: 76%;
+    top: 77%;
+  }
+
   .menu {
     left: -80%;
   }
@@ -680,7 +692,7 @@ li {
 
   .menu2 {
     top: 80%;
-    font-size: 18px;
+    font-size: 16px;
     width: 100%;
     left: -50%;
   }
@@ -688,6 +700,11 @@ li {
   .currentScore {
     left: 93%;
     top: 82%;
+  }
+
+  .currentLives {
+    left: 93%;
+    top: 77%;
   }
 
   .login {
@@ -699,4 +716,29 @@ li {
     background-color: white;
   }
 
+  .Play {
+    position: absolute;
+    width: 18%;
+    height: 5%;
+    left: -110%;
+    bottom: 18%;
+    background-color: lime;
+    font-family: "Press Start 2P";
+    font-size: 7px;
+    border-color: lime;
+  }
+  
+  .Pause {
+    position: absolute;
+    width: 18%;
+    height: 5%;
+    left: -110%;
+    bottom: 18%;
+    background-color: rgb(148, 0, 0);
+    font-family: "Press Start 2P";
+    font-size: 10px;
+    border-color: rgb(187, 13, 13);
+  }
+
 }
+

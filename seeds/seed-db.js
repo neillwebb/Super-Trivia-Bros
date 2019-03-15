@@ -6999,19 +6999,6 @@ const questions = [
   {
     category: "Video Games",
     type: "multiple",
-    difficulty: "hard",
-    question:
-      "What was the name of the game created by Masahiro Sakurai and Satoru Iwata that would eventually evolve into 'Super Smash Bros.'?",
-    correct_answer: "Dragon King: The Fighting Game",
-    incorrect_answers: [
-      "Nintendo Legends: Fight!",
-      "Martial Arts: King of the Hill",
-      "Aerial Warriors: Supreme Battle"
-    ]
-  },
-  {
-    category: "Video Games",
-    type: "multiple",
     difficulty: "medium",
     question: "Which of the following is not a real Pokemon?",
     correct_answer: "Luminid",
