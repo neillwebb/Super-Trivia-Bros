@@ -1,6 +1,6 @@
 # Super-Trivia-Bros
 
-[Link to Super Trivia Bros](https://arcane-waters-63843.herokuapp.com/)
+[Link to Super Trivia Bros](https://super-trivia-bros.herokuapp.com/)
 
 Arcade-Style Trivia Game built with React - bringing the new school to the old school
 
